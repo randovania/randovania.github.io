@@ -6,7 +6,6 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    python: '3.9'
     steps:
       - name: Checkout
         uses: actions/checkout@v2
