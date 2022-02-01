@@ -1,1 +1,2 @@
 randovania==4.0.0
+typing_extensions  # TODO: workaround for a broken dependency
