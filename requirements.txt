@@ -1,2 +1,1 @@
-randovania==4.0.1
-typing_extensions  # TODO: workaround for a broken dependency
+randovania==4.1.1
