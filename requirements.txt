@@ -1,1 +1,1 @@
-randovania==4.4.2
+randovania==4.5.0
