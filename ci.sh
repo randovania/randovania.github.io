@@ -3,7 +3,7 @@
 set -e -x
 cd "$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 
-randovania_version=5.6.0
+randovania_version=5.7.0
 
 echo "Installing Requirements"
 python -m pip install randovania==$randovania_version
