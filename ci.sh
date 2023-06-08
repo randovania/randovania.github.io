@@ -6,7 +6,7 @@ cd "$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 randovania_version=5.8.0
 
 echo "Installing Requirements"
-python -m pip install randovania==$randovania_version
+python -m pip install randovania==$randovania_version cryptography
 
 echo "Building html pages"
 rm -rf build
