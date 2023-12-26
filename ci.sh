@@ -3,7 +3,7 @@
 set -e -x
 cd "$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 
-randovania_version=7.1.0
+randovania_version=7.1.1
 
 echo "Installing Requirements"
 python -m pip install randovania==$randovania_version cryptography
