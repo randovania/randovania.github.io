@@ -1,2260 +1,388 @@
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Phendrana Drifts</title>
-        <style type="text/css">
-
-            body{
-                margin:30px auto;max-width:1000px;line-height:1.6;font-size:19px;padding:0 10px
+<!DOCTYPE html><html><head><meta http-equiv=Content-Type content="text/html; charset=UTF-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>Phendrana Drifts</title><style type=text/css>
+            body {
+                font-family: 'Helvetica Neue', sans-serif;
+                background-color: #f5f5f5;
+                color: #333;
+                margin: 30px auto;
+                max-width: 1000px;
+                line-height: 1.6;
+                font-size: 19px;
+                padding: 0 10px;
             }
-            h1,h2,h3{line-height:1.2}
-
+            h2 {
+                font-size: 46px;
+                margin-top: 100px;
+                margin-bottom: 0px;
+            }
+            h3 {
+                margin-top: 46px;
+                margin-bottom: 0;
+            }
+            .header {
+                background-color: #3498db;
+                color: #fff;
+            }
+            a {
+                text-decoration: none;
+                color: #3498db;
+            }
+            p {
+                margin-top: 10px;
+                margin-bottom: 4px;
+            }
             #toc_container {
                 background: #f9f9f9 none repeat scroll 0 0;
                 border: 1px solid #aaa;
                 display: table;
                 font-size: 95%;
                 margin-bottom: 1em;
-                padding: 20px;
-                width: auto;
+                padding: 36px;
+                width: 600px;
             }
-
-            .toc_title {
-                font-weight: 700;
-                text-align: center;
-            }
-
-            #toc_container li, #toc_container ul, #toc_container ul li{
+            #toc_container li, #toc_container ul, #toc_container ul li {
                 list-style: outside none none !important;
             }
-        </style>
-    </head>
-    <body>
-        <h1>Phendrana Drifts</h1>
-        <p><i>File generated on 2024-01-05 by <a href="https://github.com/randovania/randovania">Randovania</a></i></p>
-
-    <div id="toc_container">
-        <ul class="toc_list">
-    
-            <li><strong><a>Chozo Ice Temple</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Temple Entryway -> Front of Bomb Slot">Door to Temple Entryway -> Front of Bomb Slot</a></li>
-
-    
-                <li><a href="#Front of Bomb Slot -> Pickup (Artifact of Sun)">Front of Bomb Slot -> Pickup (Artifact of Sun)</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Control Tower</a></strong>
-                <ul>
-                    
-                <li><a href="#Pickup (Artifact of Elder) -> Room Center">Pickup (Artifact of Elder) -> Room Center</a></li>
-
-    
-                <li><a href="#Room Center -> Event - Tower (From Room Center)">Room Center -> Event - Tower (From Room Center)</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Frost Cave</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Frost Cave Access -> Event - Ice Broken">Door to Frost Cave Access -> Event - Ice Broken</a></li>
-
-    
-                <li><a href="#Frost Cave Floor -> Door to Upper Edge Tunnel">Frost Cave Floor -> Door to Upper Edge Tunnel</a></li>
-
-    
-                <li><a href="#Pickup (Missile) -> Frost Cave Floor">Pickup (Missile) -> Frost Cave Floor</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Frost Cave Access</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Frost Cave -> Door to Frozen Pike">Door to Frost Cave -> Door to Frozen Pike</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Frozen Pike</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Frost Cave Access -> Door to Hunter Cave Access">Door to Frost Cave Access -> Door to Hunter Cave Access</a></li>
-
-    
-                <li><a href="#Door to Frost Cave Access -> Door to Pike Access">Door to Frost Cave Access -> Door to Pike Access</a></li>
-
-    
-                <li><a href="#Door to Hunter Cave Access -> Door to Frost Cave Access">Door to Hunter Cave Access -> Door to Frost Cave Access</a></li>
-
-    
-                <li><a href="#Door to Pike Access -> Door to Transport Access">Door to Pike Access -> Door to Transport Access</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Gravity Chamber</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Chamber Access -> Pickup (Missile)">Door to Chamber Access -> Pickup (Missile)</a></li>
-
-    
-                <li><a href="#EventPickup - Gravity Chamber Item (Lower) + Pickup (Gravity Suit) -> Door to Chamber Access">EventPickup - Gravity Chamber Item (Lower) + Pickup (Gravity Suit) -> Door to Chamber Access</a></li>
-
-    
-                <li><a href="#Pickup (Gravity Suit) -> Door to Chamber Access">Pickup (Gravity Suit) -> Door to Chamber Access</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Hunter Cave</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Hunter Cave Access -> Door to Lower Edge Tunnel">Door to Hunter Cave Access -> Door to Lower Edge Tunnel</a></li>
-
-    
-                <li><a href="#Door to Lake Tunnel -> Door to Chamber Access">Door to Lake Tunnel -> Door to Chamber Access</a></li>
-
-    
-                <li><a href="#Door to Lower Edge Tunnel -> Door to Hunter Cave Access">Door to Lower Edge Tunnel -> Door to Hunter Cave Access</a></li>
-
-    
-                <li><a href="#Door to Lower Edge Tunnel -> Door to Lake Tunnel">Door to Lower Edge Tunnel -> Door to Lake Tunnel</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Ice Ruins East</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Ice Ruins Access -> Pickup (Spider Track Missile Expansion)">Door to Ice Ruins Access -> Pickup (Spider Track Missile Expansion)</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Ice Ruins West</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Ruins Entryway -> Door to Courtyard Entryway">Door to Ruins Entryway -> Door to Courtyard Entryway</a></li>
-
-    
-                <li><a href="#Door to Ruins Entryway -> Middle-Left Rooftop">Door to Ruins Entryway -> Middle-Left Rooftop</a></li>
-
-    
-                <li><a href="#Middle-Left Rooftop -> Door to Courtyard Entryway">Middle-Left Rooftop -> Door to Courtyard Entryway</a></li>
-
-    
-                <li><a href="#Middle-Left Rooftop -> Pickup (Power Bomb)">Middle-Left Rooftop -> Pickup (Power Bomb)</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Observatory</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Observatory Access -> Event - Observatory Activated">Door to Observatory Access -> Event - Observatory Activated</a></li>
-
-    
-                <li><a href="#Door to Save Station D -> Door to West Tower Entrance">Door to Save Station D -> Door to West Tower Entrance</a></li>
-
-    
-                <li><a href="#Door to West Tower Entrance -> Pickup (Super Missile)">Door to West Tower Entrance -> Pickup (Super Missile)</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Phendrana Canyon</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Canyon Entryway -> Pickup (Boost Ball)">Door to Canyon Entryway -> Pickup (Boost Ball)</a></li>
-
-    
-                <li><a href="#Pickup (Boost Ball) -> Door to Canyon Entryway">Pickup (Boost Ball) -> Door to Canyon Entryway</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Phendrana Shorelines</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Ruins Entryway -> Door to Temple Entryway">Door to Ruins Entryway -> Door to Temple Entryway</a></li>
-
-    
-                <li><a href="#Door to Ruins Entryway -> Pickup (Spider Track Missile)">Door to Ruins Entryway -> Pickup (Spider Track Missile)</a></li>
-
-    
-                <li><a href="#Door to Shoreline Entrance -> Door to Temple Entryway">Door to Shoreline Entrance -> Door to Temple Entryway</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Phendrana's Edge</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Lower Edge Tunnel -> Door to Upper Edge Tunnel">Door to Lower Edge Tunnel -> Door to Upper Edge Tunnel</a></li>
-
-    
-                <li><a href="#Door to Upper Edge Tunnel -> Front of Storage Cave">Door to Upper Edge Tunnel -> Front of Storage Cave</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Quarantine Cave</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to North Quarantine Tunnel -> Door to South Quarantine Tunnel">Door to North Quarantine Tunnel -> Door to South Quarantine Tunnel</a></li>
-
-    
-                <li><a href="#Door to North Quarantine Tunnel -> Room Center">Door to North Quarantine Tunnel -> Room Center</a></li>
-
-    
-                <li><a href="#Door to South Quarantine Tunnel -> Door to North Quarantine Tunnel">Door to South Quarantine Tunnel -> Door to North Quarantine Tunnel</a></li>
-
-    
-                <li><a href="#Door to South Quarantine Tunnel -> Morph Ball Door to Quarantine Monitor">Door to South Quarantine Tunnel -> Morph Ball Door to Quarantine Monitor</a></li>
-
-    
-                <li><a href="#Morph Ball Door to Quarantine Monitor -> Door to North Quarantine Tunnel">Morph Ball Door to Quarantine Monitor -> Door to North Quarantine Tunnel</a></li>
-
-    
-                <li><a href="#Room Center -> Door to North Quarantine Tunnel">Room Center -> Door to North Quarantine Tunnel</a></li>
-
-    
-                <li><a href="#Room Center -> Door to South Quarantine Tunnel">Room Center -> Door to South Quarantine Tunnel</a></li>
-
-    
-                <li><a href="#Room Center -> Morph Ball Door to Quarantine Monitor">Room Center -> Morph Ball Door to Quarantine Monitor</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Research Lab Aether</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Research Core Access -> Lab Catwalk">Door to Research Core Access -> Lab Catwalk</a></li>
-
-    
-                <li><a href="#Lab Catwalk -> Door to Aether Lab Entryway">Lab Catwalk -> Door to Aether Lab Entryway</a></li>
-
-    
-                <li><a href="#Lab Catwalk -> Pickup (Missile)">Lab Catwalk -> Pickup (Missile)</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Ruined Courtyard</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Courtyard Entryway -> Door to Specimen Storage">Door to Courtyard Entryway -> Door to Specimen Storage</a></li>
-
-    
-                <li><a href="#Door to Courtyard Entryway -> Front of Tunnel">Door to Courtyard Entryway -> Front of Tunnel</a></li>
-
-    
-                <li><a href="#Door to Courtyard Entryway -> Top Middle Platform">Door to Courtyard Entryway -> Top Middle Platform</a></li>
-
-    
-                <li><a href="#Door to Specimen Storage -> Top Middle Platform">Door to Specimen Storage -> Top Middle Platform</a></li>
-
-    
-                <li><a href="#Front of Tunnel -> Pickup (Energy Tank)">Front of Tunnel -> Pickup (Energy Tank)</a></li>
-
-    
-                <li><a href="#Top Middle Platform -> Door to Specimen Storage">Top Middle Platform -> Door to Specimen Storage</a></li>
-
-    
-                <li><a href="#Top Middle Platform -> Front of Tunnel">Top Middle Platform -> Front of Tunnel</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Transport to Magmoor Caverns South</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to South Quarantine Tunnel -> Door to Transport Access">Door to South Quarantine Tunnel -> Door to Transport Access</a></li>
-
-    
-                </ul>
-            </li>
-    
-        </ul>
-    </div>
-    
-        <strong><h2 id="Chozo Ice Temple">Chozo Ice Temple</h2></strong>
-
-
-        <h4 id="Door to Temple Entryway -> Front of Bomb Slot">Door to Temple Entryway -> Front of Bomb Slot</h4>
-
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/LoMIQJ7KCvM?start=59&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/LoMIQJ7KCvM?start=59&autoplay=1>
-                <img src=https://img.youtube.com/vi/LoMIQJ7KCvM/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Front of Bomb Slot -> Pickup (Artifact of Sun)">Front of Bomb Slot -> Pickup (Artifact of Sun)</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/LoMIQJ7KCvM?start=144&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/LoMIQJ7KCvM?start=144&autoplay=1>
-                <img src=https://img.youtube.com/vi/LoMIQJ7KCvM/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Control Tower">Control Tower</h2></strong>
-
-
-        <h4 id="Pickup (Artifact of Elder) -> Room Center">Pickup (Artifact of Elder) -> Room Center</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/aRTUlWDOl84?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/aRTUlWDOl84?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/aRTUlWDOl84/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Room Center -> Event - Tower (From Room Center)">Room Center -> Event - Tower (From Room Center)</h4>
-
-
-        <strong><h2 id="Frost Cave">Frost Cave</h2></strong>
-
-
-        <h4 id="Door to Frost Cave Access -> Event - Ice Broken">Door to Frost Cave Access -> Event - Ice Broken</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ANylQeC3en4?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/ANylQeC3en4?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/ANylQeC3en4/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Frost Cave Floor -> Door to Upper Edge Tunnel">Frost Cave Floor -> Door to Upper Edge Tunnel</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/8y87p0uGneM?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/8y87p0uGneM?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/8y87p0uGneM/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Pickup (Missile) -> Frost Cave Floor">Pickup (Missile) -> Frost Cave Floor</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/yS2j17CntJQ?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/yS2j17CntJQ?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/yS2j17CntJQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Frost Cave Access">Frost Cave Access</h2></strong>
-
-
-        <h4 id="Door to Frost Cave -> Door to Frozen Pike">Door to Frost Cave -> Door to Frozen Pike</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/1sDazah_y0w?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/1sDazah_y0w?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/1sDazah_y0w/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Frozen Pike">Frozen Pike</h2></strong>
-
-
-        <h4 id="Door to Frost Cave Access -> Door to Hunter Cave Access">Door to Frost Cave Access -> Door to Hunter Cave Access</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/wHFI_ddzWYA?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/wHFI_ddzWYA?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/wHFI_ddzWYA/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Frost Cave Access -> Door to Pike Access">Door to Frost Cave Access -> Door to Pike Access</h4>
-
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/bbYIFF00zYM?start=22984&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/bbYIFF00zYM?start=22984&autoplay=1>
-                <img src=https://img.youtube.com/vi/bbYIFF00zYM/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Hunter Cave Access -> Door to Frost Cave Access">Door to Hunter Cave Access -> Door to Frost Cave Access</h4>
-
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/z_DxqQ66tQY?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/z_DxqQ66tQY?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/z_DxqQ66tQY/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Pike Access -> Door to Transport Access">Door to Pike Access -> Door to Transport Access</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/S4831hWNEfY?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/S4831hWNEfY?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/S4831hWNEfY/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Xul1w1SsPew?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/Xul1w1SsPew?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/Xul1w1SsPew/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/S4831hWNEfY?start=20&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/S4831hWNEfY?start=20&autoplay=1>
-                <img src=https://img.youtube.com/vi/S4831hWNEfY/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Gravity Chamber">Gravity Chamber</h2></strong>
-
-
-        <h4 id="Door to Chamber Access -> Pickup (Missile)">Door to Chamber Access -> Pickup (Missile)</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/1-jXmt9cIzI?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/1-jXmt9cIzI?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/1-jXmt9cIzI/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/6HGs473mXh8?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/6HGs473mXh8?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/6HGs473mXh8/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Hypermode </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/V_CBSW0l8Hs?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/V_CBSW0l8Hs?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/V_CBSW0l8Hs/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Hypermode </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/E65HYxLnOZQ?start=59&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/E65HYxLnOZQ?start=59&autoplay=1>
-                <img src=https://img.youtube.com/vi/E65HYxLnOZQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="EventPickup - Gravity Chamber Item (Lower) + Pickup (Gravity Suit) -> Door to Chamber Access">EventPickup - Gravity Chamber Item (Lower) + Pickup (Gravity Suit) -> Door to Chamber Access</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/zSFCrCKbmYo?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/zSFCrCKbmYo?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/zSFCrCKbmYo/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/k7ylvABQ_Oo?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/k7ylvABQ_Oo?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/k7ylvABQ_Oo/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/QF5LBG-rr6w?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/QF5LBG-rr6w?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/QF5LBG-rr6w/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Pickup (Gravity Suit) -> Door to Chamber Access">Pickup (Gravity Suit) -> Door to Chamber Access</h4>
-
-
-        <strong><h2 id="Hunter Cave">Hunter Cave</h2></strong>
-
-
-        <h4 id="Door to Hunter Cave Access -> Door to Lower Edge Tunnel">Door to Hunter Cave Access -> Door to Lower Edge Tunnel</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/wmwIhBC7OSQ?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/wmwIhBC7OSQ?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/wmwIhBC7OSQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/wmwIhBC7OSQ?start=12&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/wmwIhBC7OSQ?start=12&autoplay=1>
-                <img src=https://img.youtube.com/vi/wmwIhBC7OSQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Lake Tunnel -> Door to Chamber Access">Door to Lake Tunnel -> Door to Chamber Access</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/oPvUjPIBQQo?start=27&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/oPvUjPIBQQo?start=27&autoplay=1>
-                <img src=https://img.youtube.com/vi/oPvUjPIBQQo/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Lower Edge Tunnel -> Door to Hunter Cave Access">Door to Lower Edge Tunnel -> Door to Hunter Cave Access</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/QI_8AWgk6ts?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/QI_8AWgk6ts?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/QI_8AWgk6ts/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/iYX3Bt8Vnnw?start=12&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/iYX3Bt8Vnnw?start=12&autoplay=1>
-                <img src=https://img.youtube.com/vi/iYX3Bt8Vnnw/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/oPvUjPIBQQo?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/oPvUjPIBQQo?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/oPvUjPIBQQo/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/iYX3Bt8Vnnw?start=2&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/iYX3Bt8Vnnw?start=2&autoplay=1>
-                <img src=https://img.youtube.com/vi/iYX3Bt8Vnnw/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Lower Edge Tunnel -> Door to Lake Tunnel">Door to Lower Edge Tunnel -> Door to Lake Tunnel</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Rw8w0ZSjeOc?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/Rw8w0ZSjeOc?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/Rw8w0ZSjeOc/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/eUjS8NryIl8?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/eUjS8NryIl8?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/eUjS8NryIl8/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Ice Ruins East">Ice Ruins East</h2></strong>
-
-
-        <h4 id="Door to Ice Ruins Access -> Pickup (Spider Track Missile Expansion)">Door to Ice Ruins Access -> Pickup (Spider Track Missile Expansion)</h4>
-
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/5LUAYPIwSEA?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/5LUAYPIwSEA?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/5LUAYPIwSEA/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Ice Ruins West">Ice Ruins West</h2></strong>
-
-
-        <h4 id="Door to Ruins Entryway -> Door to Courtyard Entryway">Door to Ruins Entryway -> Door to Courtyard Entryway</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/4CEDjoJf05g?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/4CEDjoJf05g?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/4CEDjoJf05g/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Ruins Entryway -> Middle-Left Rooftop">Door to Ruins Entryway -> Middle-Left Rooftop</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/b__DpiqBClE?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/b__DpiqBClE?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/b__DpiqBClE/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/_tAyGmcRUH0?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/_tAyGmcRUH0?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/_tAyGmcRUH0/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/0welXKqaL84?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/0welXKqaL84?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/0welXKqaL84/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/zmfRbFW7iTs?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/zmfRbFW7iTs?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/zmfRbFW7iTs/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/C34D7YoR89s?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/C34D7YoR89s?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/C34D7YoR89s/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Hypermode </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/aEXs3IcpLY0?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/aEXs3IcpLY0?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/aEXs3IcpLY0/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Middle-Left Rooftop -> Door to Courtyard Entryway">Middle-Left Rooftop -> Door to Courtyard Entryway</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/33NNFgHw8e4?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/33NNFgHw8e4?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/33NNFgHw8e4/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Middle-Left Rooftop -> Pickup (Power Bomb)">Middle-Left Rooftop -> Pickup (Power Bomb)</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/pdTiFz6aaBU?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/pdTiFz6aaBU?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/pdTiFz6aaBU/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/0eT32t8eA7c?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/0eT32t8eA7c?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/0eT32t8eA7c/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Observatory">Observatory</h2></strong>
-
-
-        <h4 id="Door to Observatory Access -> Event - Observatory Activated">Door to Observatory Access -> Event - Observatory Activated</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/irV01RQ3vMo?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/irV01RQ3vMo?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/irV01RQ3vMo/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Save Station D -> Door to West Tower Entrance">Door to Save Station D -> Door to West Tower Entrance</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/38sI_6QMsk0?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/38sI_6QMsk0?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/38sI_6QMsk0/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/RHqNT4sQ8l4?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/RHqNT4sQ8l4?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/RHqNT4sQ8l4/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to West Tower Entrance -> Pickup (Super Missile)">Door to West Tower Entrance -> Pickup (Super Missile)</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/6W7_rc5y8X8?start=18&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/6W7_rc5y8X8?start=18&autoplay=1>
-                <img src=https://img.youtube.com/vi/6W7_rc5y8X8/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/63HHfqC9jFA?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/63HHfqC9jFA?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/63HHfqC9jFA/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Phendrana Canyon">Phendrana Canyon</h2></strong>
-
-
-        <h4 id="Door to Canyon Entryway -> Pickup (Boost Ball)">Door to Canyon Entryway -> Pickup (Boost Ball)</h4>
-
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/MARCa8m6ehQ?start=57&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/MARCa8m6ehQ?start=57&autoplay=1>
-                <img src=https://img.youtube.com/vi/MARCa8m6ehQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Hypermode </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/hMCN5AwtLYw?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/hMCN5AwtLYw?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/hMCN5AwtLYw/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Pickup (Boost Ball) -> Door to Canyon Entryway">Pickup (Boost Ball) -> Door to Canyon Entryway</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/tAOAGwmIt_k?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/tAOAGwmIt_k?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/tAOAGwmIt_k/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Phendrana Shorelines">Phendrana Shorelines</h2></strong>
-
-
-        <h4 id="Door to Ruins Entryway -> Door to Temple Entryway">Door to Ruins Entryway -> Door to Temple Entryway</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/VgXr4JJDIK4?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/VgXr4JJDIK4?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/VgXr4JJDIK4/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/WCAMYqZ0HnU?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/WCAMYqZ0HnU?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/WCAMYqZ0HnU/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/3NCX-z9ZlkE?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/3NCX-z9ZlkE?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/3NCX-z9ZlkE/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Ruins Entryway -> Pickup (Spider Track Missile)">Door to Ruins Entryway -> Pickup (Spider Track Missile)</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/i1CJ_nBioSg?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/i1CJ_nBioSg?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/i1CJ_nBioSg/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Shoreline Entrance -> Door to Temple Entryway">Door to Shoreline Entrance -> Door to Temple Entryway</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/P09IVaDB0qg?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/P09IVaDB0qg?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/P09IVaDB0qg/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Phendrana's Edge">Phendrana's Edge</h2></strong>
-
-
-        <h4 id="Door to Lower Edge Tunnel -> Door to Upper Edge Tunnel">Door to Lower Edge Tunnel -> Door to Upper Edge Tunnel</h4>
-
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/k7ylvABQ_Oo?start=37&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/k7ylvABQ_Oo?start=37&autoplay=1>
-                <img src=https://img.youtube.com/vi/k7ylvABQ_Oo/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Upper Edge Tunnel -> Front of Storage Cave">Door to Upper Edge Tunnel -> Front of Storage Cave</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/xFqiwtdAQ7k?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/xFqiwtdAQ7k?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/xFqiwtdAQ7k/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Quarantine Cave">Quarantine Cave</h2></strong>
-
-
-        <h4 id="Door to North Quarantine Tunnel -> Door to South Quarantine Tunnel">Door to North Quarantine Tunnel -> Door to South Quarantine Tunnel</h4>
-
-
-        <p><i> Hypermode </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/jePin3nMhZk?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/jePin3nMhZk?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/jePin3nMhZk/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to North Quarantine Tunnel -> Room Center">Door to North Quarantine Tunnel -> Room Center</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/nRqjTUYEwIE?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/nRqjTUYEwIE?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/nRqjTUYEwIE/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/YDXOYN2580Y?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/YDXOYN2580Y?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/YDXOYN2580Y/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to South Quarantine Tunnel -> Door to North Quarantine Tunnel">Door to South Quarantine Tunnel -> Door to North Quarantine Tunnel</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/8gjVJtRv0IQ?start=17&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/8gjVJtRv0IQ?start=17&autoplay=1>
-                <img src=https://img.youtube.com/vi/8gjVJtRv0IQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/8gjVJtRv0IQ?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/8gjVJtRv0IQ?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/8gjVJtRv0IQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to South Quarantine Tunnel -> Morph Ball Door to Quarantine Monitor">Door to South Quarantine Tunnel -> Morph Ball Door to Quarantine Monitor</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/zsr_gmeBc-0?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/zsr_gmeBc-0?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/zsr_gmeBc-0/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Morph Ball Door to Quarantine Monitor -> Door to North Quarantine Tunnel">Morph Ball Door to Quarantine Monitor -> Door to North Quarantine Tunnel</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/VYNNHlviYJY?start=30&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/VYNNHlviYJY?start=30&autoplay=1>
-                <img src=https://img.youtube.com/vi/VYNNHlviYJY/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/VYNNHlviYJY?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/VYNNHlviYJY?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/VYNNHlviYJY/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Room Center -> Door to North Quarantine Tunnel">Room Center -> Door to North Quarantine Tunnel</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/vm1iRJSc0mw?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/vm1iRJSc0mw?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/vm1iRJSc0mw/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/O0i-qUDJ-Y0?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/O0i-qUDJ-Y0?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/O0i-qUDJ-Y0/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Hypermode </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/hXvb7HxVP2U?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/hXvb7HxVP2U?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/hXvb7HxVP2U/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Room Center -> Door to South Quarantine Tunnel">Room Center -> Door to South Quarantine Tunnel</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/j1n_eD5X_sU?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/j1n_eD5X_sU?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/j1n_eD5X_sU/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Room Center -> Morph Ball Door to Quarantine Monitor">Room Center -> Morph Ball Door to Quarantine Monitor</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/-Qg-WRKp63Y?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/-Qg-WRKp63Y?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/-Qg-WRKp63Y/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/0V8nQpAi4fM?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/0V8nQpAi4fM?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/0V8nQpAi4fM/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/-Qg-WRKp63Y?start=7&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/-Qg-WRKp63Y?start=7&autoplay=1>
-                <img src=https://img.youtube.com/vi/-Qg-WRKp63Y/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Research Lab Aether">Research Lab Aether</h2></strong>
-
-
-        <h4 id="Door to Research Core Access -> Lab Catwalk">Door to Research Core Access -> Lab Catwalk</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/GMFocTIJ_8Y?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/GMFocTIJ_8Y?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/GMFocTIJ_8Y/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Lab Catwalk -> Door to Aether Lab Entryway">Lab Catwalk -> Door to Aether Lab Entryway</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/GMFocTIJ_8Y?start=26&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/GMFocTIJ_8Y?start=26&autoplay=1>
-                <img src=https://img.youtube.com/vi/GMFocTIJ_8Y/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Lab Catwalk -> Pickup (Missile)">Lab Catwalk -> Pickup (Missile)</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ig_3kiPFlJw?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/ig_3kiPFlJw?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/ig_3kiPFlJw/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Ruined Courtyard">Ruined Courtyard</h2></strong>
-
-
-        <h4 id="Door to Courtyard Entryway -> Door to Specimen Storage">Door to Courtyard Entryway -> Door to Specimen Storage</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/-TyAn6wnWrw?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/-TyAn6wnWrw?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/-TyAn6wnWrw/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Courtyard Entryway -> Front of Tunnel">Door to Courtyard Entryway -> Front of Tunnel</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ECz9JOIU_m0?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/ECz9JOIU_m0?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/ECz9JOIU_m0/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/yd36sVzpFuY?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/yd36sVzpFuY?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/yd36sVzpFuY/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Courtyard Entryway -> Top Middle Platform">Door to Courtyard Entryway -> Top Middle Platform</h4>
-
-
-        <h4 id="Door to Specimen Storage -> Top Middle Platform">Door to Specimen Storage -> Top Middle Platform</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/yAZtvzGa3jM?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/yAZtvzGa3jM?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/yAZtvzGa3jM/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Front of Tunnel -> Pickup (Energy Tank)">Front of Tunnel -> Pickup (Energy Tank)</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/jUuK_MgVrZQ?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/jUuK_MgVrZQ?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/jUuK_MgVrZQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Top Middle Platform -> Door to Specimen Storage">Top Middle Platform -> Door to Specimen Storage</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/yAZtvzGa3jM?start=7&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/yAZtvzGa3jM?start=7&autoplay=1>
-                <img src=https://img.youtube.com/vi/yAZtvzGa3jM/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Top Middle Platform -> Front of Tunnel">Top Middle Platform -> Front of Tunnel</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/yu8HqtvPWFs?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/yu8HqtvPWFs?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/yu8HqtvPWFs/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Transport to Magmoor Caverns South">Transport to Magmoor Caverns South</h2></strong>
-
-
-        <h4 id="Door to South Quarantine Tunnel -> Door to Transport Access">Door to South Quarantine Tunnel -> Door to Transport Access</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/1eYUaaC5aPE?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/1eYUaaC5aPE?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/1eYUaaC5aPE/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/APHumwVABLE?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/APHumwVABLE?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/APHumwVABLE/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/kpbBzBjYxJk?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/kpbBzBjYxJk?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/kpbBzBjYxJk/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-    </body>
-</html>
+            #toc_container ul {
+                margin-bottom: 40px;
+            }
+            ul, ol {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            ul {
+                font-size: 16px;
+            }
+        </style></head><body><h1>Phendrana Drifts</h1><p><i>File generated on 2024-01-05 by <a href=https://github.com/randovania/randovania>Randovania</a></i></p><div id=toc_container><ul class=toc_list><li><strong>Chozo Ice Temple</strong><ul><li><a href="#Door to Temple Entryway -> Front of Bomb Slot">Door to Temple Entryway -> Front of Bomb Slot</a></li><li><a href="#Front of Bomb Slot -> Pickup (Artifact of Sun)">Front of Bomb Slot -> Pickup (Artifact of Sun)</a></li></ul></li><li><strong>Control Tower</strong><ul><li><a href="#Pickup (Artifact of Elder) -> Room Center">Pickup (Artifact of Elder) -> Room Center</a></li></ul></li><li><strong>Frost Cave</strong><ul><li><a href="#Door to Frost Cave Access -> Event - Ice Broken">Door to Frost Cave Access -> Event - Ice Broken</a></li><li><a href="#Frost Cave Floor -> Door to Upper Edge Tunnel">Frost Cave Floor -> Door to Upper Edge Tunnel</a></li><li><a href="#Pickup (Missile) -> Frost Cave Floor">Pickup (Missile) -> Frost Cave Floor</a></li></ul></li><li><strong>Frost Cave Access</strong><ul><li><a href="#Door to Frost Cave -> Door to Frozen Pike">Door to Frost Cave -> Door to Frozen Pike</a></li></ul></li><li><strong>Frozen Pike</strong><ul><li><a href="#Door to Frost Cave Access -> Door to Hunter Cave Access">Door to Frost Cave Access -> Door to Hunter Cave Access</a></li><li><a href="#Door to Frost Cave Access -> Door to Pike Access">Door to Frost Cave Access -> Door to Pike Access</a></li><li><a href="#Door to Hunter Cave Access -> Door to Frost Cave Access">Door to Hunter Cave Access -> Door to Frost Cave Access</a></li><li><a href="#Door to Pike Access -> Door to Transport Access">Door to Pike Access -> Door to Transport Access</a></li></ul></li><li><strong>Gravity Chamber</strong><ul><li><a href="#Door to Chamber Access -> Pickup (Missile)">Door to Chamber Access -> Pickup (Missile)</a></li><li><a href="#EventPickup - Gravity Chamber Item (Lower) + Pickup (Gravity Suit) -> Door to Chamber Access">EventPickup - Gravity Chamber Item (Lower) + Pickup (Gravity Suit) -> Door to Chamber Access</a></li></ul></li><li><strong>Hunter Cave</strong><ul><li><a href="#Door to Hunter Cave Access -> Door to Lower Edge Tunnel">Door to Hunter Cave Access -> Door to Lower Edge Tunnel</a></li><li><a href="#Door to Lake Tunnel -> Door to Chamber Access">Door to Lake Tunnel -> Door to Chamber Access</a></li><li><a href="#Door to Lower Edge Tunnel -> Door to Hunter Cave Access">Door to Lower Edge Tunnel -> Door to Hunter Cave Access</a></li><li><a href="#Door to Lower Edge Tunnel -> Door to Lake Tunnel">Door to Lower Edge Tunnel -> Door to Lake Tunnel</a></li></ul></li><li><strong>Ice Ruins East</strong><ul><li><a href="#Door to Ice Ruins Access -> Pickup (Spider Track Missile Expansion)">Door to Ice Ruins Access -> Pickup (Spider Track Missile Expansion)</a></li></ul></li><li><strong>Ice Ruins West</strong><ul><li><a href="#Door to Ruins Entryway -> Door to Courtyard Entryway">Door to Ruins Entryway -> Door to Courtyard Entryway</a></li><li><a href="#Door to Ruins Entryway -> Middle-Left Rooftop">Door to Ruins Entryway -> Middle-Left Rooftop</a></li><li><a href="#Middle-Left Rooftop -> Door to Courtyard Entryway">Middle-Left Rooftop -> Door to Courtyard Entryway</a></li><li><a href="#Middle-Left Rooftop -> Pickup (Power Bomb)">Middle-Left Rooftop -> Pickup (Power Bomb)</a></li></ul></li><li><strong>Observatory</strong><ul><li><a href="#Door to Observatory Access -> Event - Observatory Activated">Door to Observatory Access -> Event - Observatory Activated</a></li><li><a href="#Door to Save Station D -> Door to West Tower Entrance">Door to Save Station D -> Door to West Tower Entrance</a></li><li><a href="#Door to West Tower Entrance -> Pickup (Super Missile)">Door to West Tower Entrance -> Pickup (Super Missile)</a></li></ul></li><li><strong>Phendrana Canyon</strong><ul><li><a href="#Door to Canyon Entryway -> Pickup (Boost Ball)">Door to Canyon Entryway -> Pickup (Boost Ball)</a></li><li><a href="#Pickup (Boost Ball) -> Door to Canyon Entryway">Pickup (Boost Ball) -> Door to Canyon Entryway</a></li></ul></li><li><strong>Phendrana Shorelines</strong><ul><li><a href="#Door to Ruins Entryway -> Door to Temple Entryway">Door to Ruins Entryway -> Door to Temple Entryway</a></li><li><a href="#Door to Ruins Entryway -> Pickup (Spider Track Missile)">Door to Ruins Entryway -> Pickup (Spider Track Missile)</a></li><li><a href="#Door to Shoreline Entrance -> Door to Temple Entryway">Door to Shoreline Entrance -> Door to Temple Entryway</a></li></ul></li><li><strong>Phendrana's Edge</strong><ul><li><a href="#Door to Lower Edge Tunnel -> Door to Upper Edge Tunnel">Door to Lower Edge Tunnel -> Door to Upper Edge Tunnel</a></li><li><a href="#Door to Upper Edge Tunnel -> Front of Storage Cave">Door to Upper Edge Tunnel -> Front of Storage Cave</a></li></ul></li><li><strong>Quarantine Cave</strong><ul><li><a href="#Door to North Quarantine Tunnel -> Door to South Quarantine Tunnel">Door to North Quarantine Tunnel -> Door to South Quarantine Tunnel</a></li><li><a href="#Door to North Quarantine Tunnel -> Room Center">Door to North Quarantine Tunnel -> Room Center</a></li><li><a href="#Door to South Quarantine Tunnel -> Door to North Quarantine Tunnel">Door to South Quarantine Tunnel -> Door to North Quarantine Tunnel</a></li><li><a href="#Door to South Quarantine Tunnel -> Morph Ball Door to Quarantine Monitor">Door to South Quarantine Tunnel -> Morph Ball Door to Quarantine Monitor</a></li><li><a href="#Morph Ball Door to Quarantine Monitor -> Door to North Quarantine Tunnel">Morph Ball Door to Quarantine Monitor -> Door to North Quarantine Tunnel</a></li><li><a href="#Room Center -> Door to North Quarantine Tunnel">Room Center -> Door to North Quarantine Tunnel</a></li><li><a href="#Room Center -> Door to South Quarantine Tunnel">Room Center -> Door to South Quarantine Tunnel</a></li><li><a href="#Room Center -> Morph Ball Door to Quarantine Monitor">Room Center -> Morph Ball Door to Quarantine Monitor</a></li></ul></li><li><strong>Research Lab Aether</strong><ul><li><a href="#Door to Research Core Access -> Lab Catwalk">Door to Research Core Access -> Lab Catwalk</a></li><li><a href="#Lab Catwalk -> Door to Aether Lab Entryway">Lab Catwalk -> Door to Aether Lab Entryway</a></li><li><a href="#Lab Catwalk -> Pickup (Missile)">Lab Catwalk -> Pickup (Missile)</a></li></ul></li><li><strong>Ruined Courtyard</strong><ul><li><a href="#Door to Courtyard Entryway -> Door to Specimen Storage">Door to Courtyard Entryway -> Door to Specimen Storage</a></li><li><a href="#Door to Courtyard Entryway -> Front of Tunnel">Door to Courtyard Entryway -> Front of Tunnel</a></li><li><a href="#Door to Specimen Storage -> Top Middle Platform">Door to Specimen Storage -> Top Middle Platform</a></li><li><a href="#Front of Tunnel -> Pickup (Energy Tank)">Front of Tunnel -> Pickup (Energy Tank)</a></li><li><a href="#Top Middle Platform -> Door to Specimen Storage">Top Middle Platform -> Door to Specimen Storage</a></li><li><a href="#Top Middle Platform -> Front of Tunnel">Top Middle Platform -> Front of Tunnel</a></li></ul></li><li><strong>Transport to Magmoor Caverns South</strong><ul><li><a href="#Door to South Quarantine Tunnel -> Door to Transport Access">Door to South Quarantine Tunnel -> Door to Transport Access</a></li></ul></li></ul></div><h2 id="Chozo Ice Temple">Chozo Ice Temple</h2><h3 id="Door to Temple Entryway -> Front of Bomb Slot">Door to Temple Entryway -> Front of Bomb Slot</h3><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/LoMIQJ7KCvM?start=59&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/LoMIQJ7KCvM?start=59&autoplay=1>
+<img src=https://img.youtube.com/vi/LoMIQJ7KCvM/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Front of Bomb Slot -> Pickup (Artifact of Sun)">Front of Bomb Slot -> Pickup (Artifact of Sun)</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/LoMIQJ7KCvM?start=144&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/LoMIQJ7KCvM?start=144&autoplay=1>
+<img src=https://img.youtube.com/vi/LoMIQJ7KCvM/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Control Tower">Control Tower</h2><h3 id="Pickup (Artifact of Elder) -> Room Center">Pickup (Artifact of Elder) -> Room Center</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/aRTUlWDOl84?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/aRTUlWDOl84?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/aRTUlWDOl84/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Frost Cave">Frost Cave</h2><h3 id="Door to Frost Cave Access -> Event - Ice Broken">Door to Frost Cave Access -> Event - Ice Broken</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/ANylQeC3en4?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/ANylQeC3en4?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/ANylQeC3en4/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Frost Cave Floor -> Door to Upper Edge Tunnel">Frost Cave Floor -> Door to Upper Edge Tunnel</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/8y87p0uGneM?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/8y87p0uGneM?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/8y87p0uGneM/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Pickup (Missile) -> Frost Cave Floor">Pickup (Missile) -> Frost Cave Floor</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/yS2j17CntJQ?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/yS2j17CntJQ?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/yS2j17CntJQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Frost Cave Access">Frost Cave Access</h2><h3 id="Door to Frost Cave -> Door to Frozen Pike">Door to Frost Cave -> Door to Frozen Pike</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/1sDazah_y0w?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/1sDazah_y0w?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/1sDazah_y0w/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Frozen Pike">Frozen Pike</h2><h3 id="Door to Frost Cave Access -> Door to Hunter Cave Access">Door to Frost Cave Access -> Door to Hunter Cave Access</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/wHFI_ddzWYA?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/wHFI_ddzWYA?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/wHFI_ddzWYA/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Frost Cave Access -> Door to Pike Access">Door to Frost Cave Access -> Door to Pike Access</h3><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/bbYIFF00zYM?start=22984&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/bbYIFF00zYM?start=22984&autoplay=1>
+<img src=https://img.youtube.com/vi/bbYIFF00zYM/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Hunter Cave Access -> Door to Frost Cave Access">Door to Hunter Cave Access -> Door to Frost Cave Access</h3><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/z_DxqQ66tQY?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/z_DxqQ66tQY?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/z_DxqQ66tQY/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Pike Access -> Door to Transport Access">Door to Pike Access -> Door to Transport Access</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/S4831hWNEfY?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/S4831hWNEfY?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/S4831hWNEfY/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/Xul1w1SsPew?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/Xul1w1SsPew?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/Xul1w1SsPew/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/S4831hWNEfY?start=20&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/S4831hWNEfY?start=20&autoplay=1>
+<img src=https://img.youtube.com/vi/S4831hWNEfY/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Gravity Chamber">Gravity Chamber</h2><h3 id="Door to Chamber Access -> Pickup (Missile)">Door to Chamber Access -> Pickup (Missile)</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/1-jXmt9cIzI?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/1-jXmt9cIzI?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/1-jXmt9cIzI/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/6HGs473mXh8?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/6HGs473mXh8?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/6HGs473mXh8/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Hypermode </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/V_CBSW0l8Hs?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/V_CBSW0l8Hs?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/V_CBSW0l8Hs/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Hypermode </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/E65HYxLnOZQ?start=59&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/E65HYxLnOZQ?start=59&autoplay=1>
+<img src=https://img.youtube.com/vi/E65HYxLnOZQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="EventPickup - Gravity Chamber Item (Lower) + Pickup (Gravity Suit) -> Door to Chamber Access">EventPickup - Gravity Chamber Item (Lower) + Pickup (Gravity Suit) -> Door to Chamber Access</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/zSFCrCKbmYo?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/zSFCrCKbmYo?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/zSFCrCKbmYo/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/k7ylvABQ_Oo?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/k7ylvABQ_Oo?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/k7ylvABQ_Oo/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/QF5LBG-rr6w?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/QF5LBG-rr6w?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/QF5LBG-rr6w/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Hunter Cave">Hunter Cave</h2><h3 id="Door to Hunter Cave Access -> Door to Lower Edge Tunnel">Door to Hunter Cave Access -> Door to Lower Edge Tunnel</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/wmwIhBC7OSQ?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/wmwIhBC7OSQ?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/wmwIhBC7OSQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/wmwIhBC7OSQ?start=12&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/wmwIhBC7OSQ?start=12&autoplay=1>
+<img src=https://img.youtube.com/vi/wmwIhBC7OSQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Lake Tunnel -> Door to Chamber Access">Door to Lake Tunnel -> Door to Chamber Access</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/oPvUjPIBQQo?start=27&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/oPvUjPIBQQo?start=27&autoplay=1>
+<img src=https://img.youtube.com/vi/oPvUjPIBQQo/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Lower Edge Tunnel -> Door to Hunter Cave Access">Door to Lower Edge Tunnel -> Door to Hunter Cave Access</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/QI_8AWgk6ts?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/QI_8AWgk6ts?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/QI_8AWgk6ts/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/iYX3Bt8Vnnw?start=12&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/iYX3Bt8Vnnw?start=12&autoplay=1>
+<img src=https://img.youtube.com/vi/iYX3Bt8Vnnw/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/oPvUjPIBQQo?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/oPvUjPIBQQo?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/oPvUjPIBQQo/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/iYX3Bt8Vnnw?start=2&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/iYX3Bt8Vnnw?start=2&autoplay=1>
+<img src=https://img.youtube.com/vi/iYX3Bt8Vnnw/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Lower Edge Tunnel -> Door to Lake Tunnel">Door to Lower Edge Tunnel -> Door to Lake Tunnel</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/Rw8w0ZSjeOc?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/Rw8w0ZSjeOc?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/Rw8w0ZSjeOc/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/eUjS8NryIl8?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/eUjS8NryIl8?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/eUjS8NryIl8/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Ice Ruins East">Ice Ruins East</h2><h3 id="Door to Ice Ruins Access -> Pickup (Spider Track Missile Expansion)">Door to Ice Ruins Access -> Pickup (Spider Track Missile Expansion)</h3><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/5LUAYPIwSEA?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/5LUAYPIwSEA?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/5LUAYPIwSEA/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Ice Ruins West">Ice Ruins West</h2><h3 id="Door to Ruins Entryway -> Door to Courtyard Entryway">Door to Ruins Entryway -> Door to Courtyard Entryway</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/4CEDjoJf05g?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/4CEDjoJf05g?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/4CEDjoJf05g/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Ruins Entryway -> Middle-Left Rooftop">Door to Ruins Entryway -> Middle-Left Rooftop</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/b__DpiqBClE?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/b__DpiqBClE?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/b__DpiqBClE/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/_tAyGmcRUH0?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/_tAyGmcRUH0?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/_tAyGmcRUH0/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/0welXKqaL84?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/0welXKqaL84?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/0welXKqaL84/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/zmfRbFW7iTs?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/zmfRbFW7iTs?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/zmfRbFW7iTs/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/C34D7YoR89s?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/C34D7YoR89s?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/C34D7YoR89s/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Hypermode </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/aEXs3IcpLY0?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/aEXs3IcpLY0?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/aEXs3IcpLY0/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Middle-Left Rooftop -> Door to Courtyard Entryway">Middle-Left Rooftop -> Door to Courtyard Entryway</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/33NNFgHw8e4?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/33NNFgHw8e4?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/33NNFgHw8e4/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Middle-Left Rooftop -> Pickup (Power Bomb)">Middle-Left Rooftop -> Pickup (Power Bomb)</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/pdTiFz6aaBU?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/pdTiFz6aaBU?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/pdTiFz6aaBU/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/0eT32t8eA7c?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/0eT32t8eA7c?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/0eT32t8eA7c/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id=Observatory>Observatory</h2><h3 id="Door to Observatory Access -> Event - Observatory Activated">Door to Observatory Access -> Event - Observatory Activated</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/irV01RQ3vMo?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/irV01RQ3vMo?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/irV01RQ3vMo/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Save Station D -> Door to West Tower Entrance">Door to Save Station D -> Door to West Tower Entrance</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/38sI_6QMsk0?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/38sI_6QMsk0?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/38sI_6QMsk0/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/RHqNT4sQ8l4?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/RHqNT4sQ8l4?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/RHqNT4sQ8l4/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to West Tower Entrance -> Pickup (Super Missile)">Door to West Tower Entrance -> Pickup (Super Missile)</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/6W7_rc5y8X8?start=18&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/6W7_rc5y8X8?start=18&autoplay=1>
+<img src=https://img.youtube.com/vi/6W7_rc5y8X8/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/63HHfqC9jFA?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/63HHfqC9jFA?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/63HHfqC9jFA/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Phendrana Canyon">Phendrana Canyon</h2><h3 id="Door to Canyon Entryway -> Pickup (Boost Ball)">Door to Canyon Entryway -> Pickup (Boost Ball)</h3><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/MARCa8m6ehQ?start=57&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/MARCa8m6ehQ?start=57&autoplay=1>
+<img src=https://img.youtube.com/vi/MARCa8m6ehQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Hypermode </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/hMCN5AwtLYw?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/hMCN5AwtLYw?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/hMCN5AwtLYw/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Pickup (Boost Ball) -> Door to Canyon Entryway">Pickup (Boost Ball) -> Door to Canyon Entryway</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/tAOAGwmIt_k?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/tAOAGwmIt_k?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/tAOAGwmIt_k/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Phendrana Shorelines">Phendrana Shorelines</h2><h3 id="Door to Ruins Entryway -> Door to Temple Entryway">Door to Ruins Entryway -> Door to Temple Entryway</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/VgXr4JJDIK4?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/VgXr4JJDIK4?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/VgXr4JJDIK4/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/WCAMYqZ0HnU?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/WCAMYqZ0HnU?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/WCAMYqZ0HnU/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/3NCX-z9ZlkE?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/3NCX-z9ZlkE?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/3NCX-z9ZlkE/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Ruins Entryway -> Pickup (Spider Track Missile)">Door to Ruins Entryway -> Pickup (Spider Track Missile)</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/i1CJ_nBioSg?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/i1CJ_nBioSg?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/i1CJ_nBioSg/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Shoreline Entrance -> Door to Temple Entryway">Door to Shoreline Entrance -> Door to Temple Entryway</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/P09IVaDB0qg?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/P09IVaDB0qg?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/P09IVaDB0qg/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Phendrana's Edge">Phendrana's Edge</h2><h3 id="Door to Lower Edge Tunnel -> Door to Upper Edge Tunnel">Door to Lower Edge Tunnel -> Door to Upper Edge Tunnel</h3><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/k7ylvABQ_Oo?start=37&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/k7ylvABQ_Oo?start=37&autoplay=1>
+<img src=https://img.youtube.com/vi/k7ylvABQ_Oo/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Upper Edge Tunnel -> Front of Storage Cave">Door to Upper Edge Tunnel -> Front of Storage Cave</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/xFqiwtdAQ7k?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/xFqiwtdAQ7k?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/xFqiwtdAQ7k/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Quarantine Cave">Quarantine Cave</h2><h3 id="Door to North Quarantine Tunnel -> Door to South Quarantine Tunnel">Door to North Quarantine Tunnel -> Door to South Quarantine Tunnel</h3><p><i> Hypermode </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/jePin3nMhZk?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/jePin3nMhZk?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/jePin3nMhZk/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to North Quarantine Tunnel -> Room Center">Door to North Quarantine Tunnel -> Room Center</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/nRqjTUYEwIE?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/nRqjTUYEwIE?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/nRqjTUYEwIE/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/YDXOYN2580Y?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/YDXOYN2580Y?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/YDXOYN2580Y/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to South Quarantine Tunnel -> Door to North Quarantine Tunnel">Door to South Quarantine Tunnel -> Door to North Quarantine Tunnel</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/8gjVJtRv0IQ?start=17&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/8gjVJtRv0IQ?start=17&autoplay=1>
+<img src=https://img.youtube.com/vi/8gjVJtRv0IQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/8gjVJtRv0IQ?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/8gjVJtRv0IQ?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/8gjVJtRv0IQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to South Quarantine Tunnel -> Morph Ball Door to Quarantine Monitor">Door to South Quarantine Tunnel -> Morph Ball Door to Quarantine Monitor</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/zsr_gmeBc-0?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/zsr_gmeBc-0?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/zsr_gmeBc-0/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Morph Ball Door to Quarantine Monitor -> Door to North Quarantine Tunnel">Morph Ball Door to Quarantine Monitor -> Door to North Quarantine Tunnel</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/VYNNHlviYJY?start=30&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/VYNNHlviYJY?start=30&autoplay=1>
+<img src=https://img.youtube.com/vi/VYNNHlviYJY/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/VYNNHlviYJY?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/VYNNHlviYJY?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/VYNNHlviYJY/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Room Center -> Door to North Quarantine Tunnel">Room Center -> Door to North Quarantine Tunnel</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/vm1iRJSc0mw?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/vm1iRJSc0mw?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/vm1iRJSc0mw/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/O0i-qUDJ-Y0?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/O0i-qUDJ-Y0?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/O0i-qUDJ-Y0/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Hypermode </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/hXvb7HxVP2U?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/hXvb7HxVP2U?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/hXvb7HxVP2U/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Room Center -> Door to South Quarantine Tunnel">Room Center -> Door to South Quarantine Tunnel</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/j1n_eD5X_sU?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/j1n_eD5X_sU?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/j1n_eD5X_sU/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Room Center -> Morph Ball Door to Quarantine Monitor">Room Center -> Morph Ball Door to Quarantine Monitor</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/-Qg-WRKp63Y?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/-Qg-WRKp63Y?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/-Qg-WRKp63Y/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/0V8nQpAi4fM?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/0V8nQpAi4fM?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/0V8nQpAi4fM/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/-Qg-WRKp63Y?start=7&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/-Qg-WRKp63Y?start=7&autoplay=1>
+<img src=https://img.youtube.com/vi/-Qg-WRKp63Y/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Research Lab Aether">Research Lab Aether</h2><h3 id="Door to Research Core Access -> Lab Catwalk">Door to Research Core Access -> Lab Catwalk</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/GMFocTIJ_8Y?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/GMFocTIJ_8Y?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/GMFocTIJ_8Y/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Lab Catwalk -> Door to Aether Lab Entryway">Lab Catwalk -> Door to Aether Lab Entryway</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/GMFocTIJ_8Y?start=26&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/GMFocTIJ_8Y?start=26&autoplay=1>
+<img src=https://img.youtube.com/vi/GMFocTIJ_8Y/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Lab Catwalk -> Pickup (Missile)">Lab Catwalk -> Pickup (Missile)</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/ig_3kiPFlJw?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/ig_3kiPFlJw?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/ig_3kiPFlJw/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Ruined Courtyard">Ruined Courtyard</h2><h3 id="Door to Courtyard Entryway -> Door to Specimen Storage">Door to Courtyard Entryway -> Door to Specimen Storage</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/-TyAn6wnWrw?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/-TyAn6wnWrw?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/-TyAn6wnWrw/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Courtyard Entryway -> Front of Tunnel">Door to Courtyard Entryway -> Front of Tunnel</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/ECz9JOIU_m0?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/ECz9JOIU_m0?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/ECz9JOIU_m0/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/yd36sVzpFuY?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/yd36sVzpFuY?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/yd36sVzpFuY/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Specimen Storage -> Top Middle Platform">Door to Specimen Storage -> Top Middle Platform</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/yAZtvzGa3jM?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/yAZtvzGa3jM?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/yAZtvzGa3jM/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Front of Tunnel -> Pickup (Energy Tank)">Front of Tunnel -> Pickup (Energy Tank)</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/jUuK_MgVrZQ?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/jUuK_MgVrZQ?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/jUuK_MgVrZQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Top Middle Platform -> Door to Specimen Storage">Top Middle Platform -> Door to Specimen Storage</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/yAZtvzGa3jM?start=7&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/yAZtvzGa3jM?start=7&autoplay=1>
+<img src=https://img.youtube.com/vi/yAZtvzGa3jM/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Top Middle Platform -> Front of Tunnel">Top Middle Platform -> Front of Tunnel</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/yu8HqtvPWFs?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/yu8HqtvPWFs?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/yu8HqtvPWFs/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Transport to Magmoor Caverns South">Transport to Magmoor Caverns South</h2><h3 id="Door to South Quarantine Tunnel -> Door to Transport Access">Door to South Quarantine Tunnel -> Door to Transport Access</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/1eYUaaC5aPE?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/1eYUaaC5aPE?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/1eYUaaC5aPE/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/APHumwVABLE?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/APHumwVABLE?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/APHumwVABLE/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/kpbBzBjYxJk?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/kpbBzBjYxJk?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/kpbBzBjYxJk/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe></body></html>

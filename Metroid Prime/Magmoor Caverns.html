@@ -1,1186 +1,224 @@
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Magmoor Caverns</title>
-        <style type="text/css">
-
-            body{
-                margin:30px auto;max-width:1000px;line-height:1.6;font-size:19px;padding:0 10px
+<!DOCTYPE html><html><head><meta http-equiv=Content-Type content="text/html; charset=UTF-8"><meta name=viewport content="width=device-width, initial-scale=1"><title>Magmoor Caverns</title><style type=text/css>
+            body {
+                font-family: 'Helvetica Neue', sans-serif;
+                background-color: #f5f5f5;
+                color: #333;
+                margin: 30px auto;
+                max-width: 1000px;
+                line-height: 1.6;
+                font-size: 19px;
+                padding: 0 10px;
             }
-            h1,h2,h3{line-height:1.2}
-
+            h2 {
+                font-size: 46px;
+                margin-top: 100px;
+                margin-bottom: 0px;
+            }
+            h3 {
+                margin-top: 46px;
+                margin-bottom: 0;
+            }
+            .header {
+                background-color: #3498db;
+                color: #fff;
+            }
+            a {
+                text-decoration: none;
+                color: #3498db;
+            }
+            p {
+                margin-top: 10px;
+                margin-bottom: 4px;
+            }
             #toc_container {
                 background: #f9f9f9 none repeat scroll 0 0;
                 border: 1px solid #aaa;
                 display: table;
                 font-size: 95%;
                 margin-bottom: 1em;
-                padding: 20px;
-                width: auto;
+                padding: 36px;
+                width: 600px;
             }
-
-            .toc_title {
-                font-weight: 700;
-                text-align: center;
-            }
-
-            #toc_container li, #toc_container ul, #toc_container ul li{
+            #toc_container li, #toc_container ul, #toc_container ul li {
                 list-style: outside none none !important;
             }
-        </style>
-    </head>
-    <body>
-        <h1>Magmoor Caverns</h1>
-        <p><i>File generated on 2024-01-05 by <a href="https://github.com/randovania/randovania">Randovania</a></i></p>
-
-    <div id="toc_container">
-        <ul class="toc_list">
-    
-            <li><strong><a>Fiery Shores</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Transport Tunnel B -> Pickup (Missile)">Door to Transport Tunnel B -> Pickup (Missile)</a></li>
-
-    
-                <li><a href="#Pickup (Power Bomb) -> Below Upper Item Exit Tunnel">Pickup (Power Bomb) -> Below Upper Item Exit Tunnel</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Geothermal Core</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to North Core Tunnel -> First Spinner">Door to North Core Tunnel -> First Spinner</a></li>
-
-    
-                <li><a href="#Door to Plasma Processing -> Door to North Core Tunnel">Door to Plasma Processing -> Door to North Core Tunnel</a></li>
-
-    
-                <li><a href="#Door to South Core Tunnel -> First Spinner">Door to South Core Tunnel -> First Spinner</a></li>
-
-    
-                <li><a href="#Event - Geothermal Core Opened -> Door to Plasma Processing">Event - Geothermal Core Opened -> Door to Plasma Processing</a></li>
-
-    
-                <li><a href="#First Spinner -> Event - Geothermal Core Opened">First Spinner -> Event - Geothermal Core Opened</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Lava Lake</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Lake Tunnel -> Pickup (Artifact of Nature)">Door to Lake Tunnel -> Pickup (Artifact of Nature)</a></li>
-
-    
-                <li><a href="#Next to Crates -> Pickup (Artifact of Nature)">Next to Crates -> Pickup (Artifact of Nature)</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Magmoor Workstation</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to South Core Tunnel -> Door to Transport Tunnel C">Door to South Core Tunnel -> Door to Transport Tunnel C</a></li>
-
-    
-                <li><a href="#Door to South Core Tunnel -> Door to Workstation Tunnel">Door to South Core Tunnel -> Door to Workstation Tunnel</a></li>
-
-    
-                <li><a href="#Door to Transport Tunnel C -> Door to Workstation Tunnel">Door to Transport Tunnel C -> Door to Workstation Tunnel</a></li>
-
-    
-                <li><a href="#Door to Workstation Tunnel -> Door to Transport Tunnel C">Door to Workstation Tunnel -> Door to Transport Tunnel C</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Monitor Station</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Monitor Tunnel -> Door to Transport Tunnel A">Door to Monitor Tunnel -> Door to Transport Tunnel A</a></li>
-
-    
-                <li><a href="#Door to Monitor Tunnel -> Door to Warrior Shrine">Door to Monitor Tunnel -> Door to Warrior Shrine</a></li>
-
-    
-                <li><a href="#Door to Monitor Tunnel -> Middle Level">Door to Monitor Tunnel -> Middle Level</a></li>
-
-    
-                <li><a href="#Door to Shore Tunnel -> Middle Level">Door to Shore Tunnel -> Middle Level</a></li>
-
-    
-                <li><a href="#Door to Transport Tunnel A -> Door to Warrior Shrine">Door to Transport Tunnel A -> Door to Warrior Shrine</a></li>
-
-    
-                <li><a href="#Middle Level -> Door to Warrior Shrine">Middle Level -> Door to Warrior Shrine</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>North Core Tunnel</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Geothermal Core -> Door to Twin Fires">Door to Geothermal Core -> Door to Twin Fires</a></li>
-
-    
-                <li><a href="#Door to Twin Fires -> Door to Geothermal Core">Door to Twin Fires -> Door to Geothermal Core</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Shore Tunnel</a></strong>
-                <ul>
-                    
-                <li><a href="#Pickup (Ice Spreader) -> Room Center">Pickup (Ice Spreader) -> Room Center</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Transport Tunnel A</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Monitor Station -> Door to Transport to Phendrana Drifts North">Door to Monitor Station -> Door to Transport to Phendrana Drifts North</a></li>
-
-    
-                <li><a href="#Door to Transport to Phendrana Drifts North -> Door to Monitor Station">Door to Transport to Phendrana Drifts North -> Door to Monitor Station</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Triclops Pit</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Monitor Tunnel -> Pickup (Missile Expansion)">Door to Monitor Tunnel -> Pickup (Missile Expansion)</a></li>
-
-    
-                <li><a href="#Door to Pit Tunnel -> Pickup (Missile Expansion)">Door to Pit Tunnel -> Pickup (Missile Expansion)</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Twin Fires</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to North Core Tunnel -> Door to Twin Fires Tunnel">Door to North Core Tunnel -> Door to Twin Fires Tunnel</a></li>
-
-    
-                <li><a href="#Door to Twin Fires Tunnel -> Door to North Core Tunnel">Door to Twin Fires Tunnel -> Door to North Core Tunnel</a></li>
-
-    
-                </ul>
-            </li>
-    
-            <li><strong><a>Twin Fires Tunnel</a></strong>
-                <ul>
-                    
-                <li><a href="#Door to Transport to Tallon Overworld West -> Door to Twin Fires">Door to Transport to Tallon Overworld West -> Door to Twin Fires</a></li>
-
-    
-                <li><a href="#Door to Twin Fires -> Door to Transport to Tallon Overworld West">Door to Twin Fires -> Door to Transport to Tallon Overworld West</a></li>
-
-    
-                </ul>
-            </li>
-    
-        </ul>
-    </div>
-    
-        <strong><h2 id="Fiery Shores">Fiery Shores</h2></strong>
-
-
-        <h4 id="Door to Transport Tunnel B -> Pickup (Missile)">Door to Transport Tunnel B -> Pickup (Missile)</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/sbwLymFj43s?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/sbwLymFj43s?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/sbwLymFj43s/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/nWCD5bVO1QA?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/nWCD5bVO1QA?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/nWCD5bVO1QA/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Pickup (Power Bomb) -> Below Upper Item Exit Tunnel">Pickup (Power Bomb) -> Below Upper Item Exit Tunnel</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ZCiHkUyTMm8?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/ZCiHkUyTMm8?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/ZCiHkUyTMm8/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Geothermal Core">Geothermal Core</h2></strong>
-
-
-        <h4 id="Door to North Core Tunnel -> First Spinner">Door to North Core Tunnel -> First Spinner</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/4uV36UbD2b4?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/4uV36UbD2b4?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/4uV36UbD2b4/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Plasma Processing -> Door to North Core Tunnel">Door to Plasma Processing -> Door to North Core Tunnel</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Edzhf9hl0w8?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/Edzhf9hl0w8?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/Edzhf9hl0w8/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to South Core Tunnel -> First Spinner">Door to South Core Tunnel -> First Spinner</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/svpG1lg1ahw?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/svpG1lg1ahw?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/svpG1lg1ahw/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Event - Geothermal Core Opened -> Door to Plasma Processing">Event - Geothermal Core Opened -> Door to Plasma Processing</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/OwsVX5HEGVQ?start=7&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/OwsVX5HEGVQ?start=7&autoplay=1>
-                <img src=https://img.youtube.com/vi/OwsVX5HEGVQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="First Spinner -> Event - Geothermal Core Opened">First Spinner -> Event - Geothermal Core Opened</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/OwsVX5HEGVQ?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/OwsVX5HEGVQ?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/OwsVX5HEGVQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Lava Lake">Lava Lake</h2></strong>
-
-
-        <h4 id="Door to Lake Tunnel -> Pickup (Artifact of Nature)">Door to Lake Tunnel -> Pickup (Artifact of Nature)</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/TjoCnZ4e8LU?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/TjoCnZ4e8LU?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/TjoCnZ4e8LU/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/DnktNBI_DQI?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/DnktNBI_DQI?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/DnktNBI_DQI/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Next to Crates -> Pickup (Artifact of Nature)">Next to Crates -> Pickup (Artifact of Nature)</h4>
-
-
-        <strong><h2 id="Magmoor Workstation">Magmoor Workstation</h2></strong>
-
-
-        <h4 id="Door to South Core Tunnel -> Door to Transport Tunnel C">Door to South Core Tunnel -> Door to Transport Tunnel C</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/3N7BMPBBHsI?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/3N7BMPBBHsI?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/3N7BMPBBHsI/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to South Core Tunnel -> Door to Workstation Tunnel">Door to South Core Tunnel -> Door to Workstation Tunnel</h4>
-
-
-        <h4 id="Door to Transport Tunnel C -> Door to Workstation Tunnel">Door to Transport Tunnel C -> Door to Workstation Tunnel</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/qnOw1NJdHDg?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/qnOw1NJdHDg?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/qnOw1NJdHDg/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Workstation Tunnel -> Door to Transport Tunnel C">Door to Workstation Tunnel -> Door to Transport Tunnel C</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/qnOw1NJdHDg?start=17&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/qnOw1NJdHDg?start=17&autoplay=1>
-                <img src=https://img.youtube.com/vi/qnOw1NJdHDg/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Monitor Station">Monitor Station</h2></strong>
-
-
-        <h4 id="Door to Monitor Tunnel -> Door to Transport Tunnel A">Door to Monitor Tunnel -> Door to Transport Tunnel A</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/8Xzak1I7Fx8?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/8Xzak1I7Fx8?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/8Xzak1I7Fx8/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/KuvfXDG6Wt8?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/KuvfXDG6Wt8?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/KuvfXDG6Wt8/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Monitor Tunnel -> Door to Warrior Shrine">Door to Monitor Tunnel -> Door to Warrior Shrine</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Gg96zB6NmI8?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/Gg96zB6NmI8?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/Gg96zB6NmI8/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Monitor Tunnel -> Middle Level">Door to Monitor Tunnel -> Middle Level</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/G71ZZKcC7wU?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/G71ZZKcC7wU?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/G71ZZKcC7wU/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Shore Tunnel -> Middle Level">Door to Shore Tunnel -> Middle Level</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/SxJp9io5Gds?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/SxJp9io5Gds?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/SxJp9io5Gds/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Transport Tunnel A -> Door to Warrior Shrine">Door to Transport Tunnel A -> Door to Warrior Shrine</h4>
-
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/YD4FKuH406E?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/YD4FKuH406E?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/YD4FKuH406E/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Middle Level -> Door to Warrior Shrine">Middle Level -> Door to Warrior Shrine</h4>
-
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Hdr0jzVoMnc?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/Hdr0jzVoMnc?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/Hdr0jzVoMnc/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/0hJhOR1YmAs?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/0hJhOR1YmAs?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/0hJhOR1YmAs/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="North Core Tunnel">North Core Tunnel</h2></strong>
-
-
-        <h4 id="Door to Geothermal Core -> Door to Twin Fires">Door to Geothermal Core -> Door to Twin Fires</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/v2uQH10pPco?start=31&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/v2uQH10pPco?start=31&autoplay=1>
-                <img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/v2uQH10pPco?start=49&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/v2uQH10pPco?start=49&autoplay=1>
-                <img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/v2uQH10pPco?start=14&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/v2uQH10pPco?start=14&autoplay=1>
-                <img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Twin Fires -> Door to Geothermal Core">Door to Twin Fires -> Door to Geothermal Core</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/v2uQH10pPco?start=24&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/v2uQH10pPco?start=24&autoplay=1>
-                <img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/v2uQH10pPco?start=40&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/v2uQH10pPco?start=40&autoplay=1>
-                <img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/v2uQH10pPco?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/v2uQH10pPco?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Shore Tunnel">Shore Tunnel</h2></strong>
-
-
-        <h4 id="Pickup (Ice Spreader) -> Room Center">Pickup (Ice Spreader) -> Room Center</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/QX7J-L3B0Hs?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/QX7J-L3B0Hs?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/QX7J-L3B0Hs/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Ym7dbJ0o8VQ?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/Ym7dbJ0o8VQ?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/Ym7dbJ0o8VQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Transport Tunnel A">Transport Tunnel A</h2></strong>
-
-
-        <h4 id="Door to Monitor Station -> Door to Transport to Phendrana Drifts North">Door to Monitor Station -> Door to Transport to Phendrana Drifts North</h4>
-
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/uowYhKwb4B0?start=45&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/uowYhKwb4B0?start=45&autoplay=1>
-                <img src=https://img.youtube.com/vi/uowYhKwb4B0/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Transport to Phendrana Drifts North -> Door to Monitor Station">Door to Transport to Phendrana Drifts North -> Door to Monitor Station</h4>
-
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/uowYhKwb4B0?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/uowYhKwb4B0?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/uowYhKwb4B0/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Triclops Pit">Triclops Pit</h2></strong>
-
-
-        <h4 id="Door to Monitor Tunnel -> Pickup (Missile Expansion)">Door to Monitor Tunnel -> Pickup (Missile Expansion)</h4>
-
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/puEX6Ofl_5k?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/puEX6Ofl_5k?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/puEX6Ofl_5k/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/C7caSCXbLFc?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/C7caSCXbLFc?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/C7caSCXbLFc/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Intermediate </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/DWJhZjuiMKY?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/DWJhZjuiMKY?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/DWJhZjuiMKY/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Auy_WagsHf4?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/Auy_WagsHf4?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/Auy_WagsHf4/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Pit Tunnel -> Pickup (Missile Expansion)">Door to Pit Tunnel -> Pickup (Missile Expansion)</h4>
-
-
-        <strong><h2 id="Twin Fires">Twin Fires</h2></strong>
-
-
-        <h4 id="Door to North Core Tunnel -> Door to Twin Fires Tunnel">Door to North Core Tunnel -> Door to Twin Fires Tunnel</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/6tAv_ivVvAQ?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/6tAv_ivVvAQ?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/6tAv_ivVvAQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Twin Fires Tunnel -> Door to North Core Tunnel">Door to Twin Fires Tunnel -> Door to North Core Tunnel</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/6tAv_ivVvAQ?start=37&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/6tAv_ivVvAQ?start=37&autoplay=1>
-                <img src=https://img.youtube.com/vi/6tAv_ivVvAQ/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <strong><h2 id="Twin Fires Tunnel">Twin Fires Tunnel</h2></strong>
-
-
-        <h4 id="Door to Transport to Tallon Overworld West -> Door to Twin Fires">Door to Transport to Tallon Overworld West -> Door to Twin Fires</h4>
-
-
-        <p><i> Beginner </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/TleaFWdVhUg?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/TleaFWdVhUg?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/TleaFWdVhUg/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Advanced </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/OK3lSWvTKKU?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/OK3lSWvTKKU?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/OK3lSWvTKKU/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/Ue9T-9SY0o4?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/Ue9T-9SY0o4?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/Ue9T-9SY0o4/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-        <h4 id="Door to Twin Fires -> Door to Transport to Tallon Overworld West">Door to Twin Fires -> Door to Transport to Tallon Overworld West</h4>
-
-
-        <p><i> Expert </i></p>
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/9jk5s2W6yhY?start=0&autoplay=1"
-        srcdoc="<style>
-            *{padding:0;margin:0;overflow:hidden}
-            html,body{height:100%}
-            img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
-            span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
-            </style>
-            <a href=https://www.youtube.com/embed/9jk5s2W6yhY?start=0&autoplay=1>
-                <img src=https://img.youtube.com/vi/9jk5s2W6yhY/hqdefault.jpg alt='YouTube video player'>
-                <span>▶️</span>
-            </a>"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        title="YouTube video player"
-        ></iframe>
-
-    </body>
-</html>
+            #toc_container ul {
+                margin-bottom: 40px;
+            }
+            ul, ol {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            ul {
+                font-size: 16px;
+            }
+        </style></head><body><h1>Magmoor Caverns</h1><p><i>File generated on 2024-01-05 by <a href=https://github.com/randovania/randovania>Randovania</a></i></p><div id=toc_container><ul class=toc_list><li><strong>Fiery Shores</strong><ul><li><a href="#Door to Transport Tunnel B -> Pickup (Missile)">Door to Transport Tunnel B -> Pickup (Missile)</a></li><li><a href="#Pickup (Power Bomb) -> Below Upper Item Exit Tunnel">Pickup (Power Bomb) -> Below Upper Item Exit Tunnel</a></li></ul></li><li><strong>Geothermal Core</strong><ul><li><a href="#Door to North Core Tunnel -> First Spinner">Door to North Core Tunnel -> First Spinner</a></li><li><a href="#Door to Plasma Processing -> Door to North Core Tunnel">Door to Plasma Processing -> Door to North Core Tunnel</a></li><li><a href="#Door to South Core Tunnel -> First Spinner">Door to South Core Tunnel -> First Spinner</a></li><li><a href="#Event - Geothermal Core Opened -> Door to Plasma Processing">Event - Geothermal Core Opened -> Door to Plasma Processing</a></li><li><a href="#First Spinner -> Event - Geothermal Core Opened">First Spinner -> Event - Geothermal Core Opened</a></li></ul></li><li><strong>Lava Lake</strong><ul><li><a href="#Door to Lake Tunnel -> Pickup (Artifact of Nature)">Door to Lake Tunnel -> Pickup (Artifact of Nature)</a></li></ul></li><li><strong>Magmoor Workstation</strong><ul><li><a href="#Door to South Core Tunnel -> Door to Transport Tunnel C">Door to South Core Tunnel -> Door to Transport Tunnel C</a></li><li><a href="#Door to Transport Tunnel C -> Door to Workstation Tunnel">Door to Transport Tunnel C -> Door to Workstation Tunnel</a></li><li><a href="#Door to Workstation Tunnel -> Door to Transport Tunnel C">Door to Workstation Tunnel -> Door to Transport Tunnel C</a></li></ul></li><li><strong>Monitor Station</strong><ul><li><a href="#Door to Monitor Tunnel -> Door to Transport Tunnel A">Door to Monitor Tunnel -> Door to Transport Tunnel A</a></li><li><a href="#Door to Monitor Tunnel -> Door to Warrior Shrine">Door to Monitor Tunnel -> Door to Warrior Shrine</a></li><li><a href="#Door to Monitor Tunnel -> Middle Level">Door to Monitor Tunnel -> Middle Level</a></li><li><a href="#Door to Shore Tunnel -> Middle Level">Door to Shore Tunnel -> Middle Level</a></li><li><a href="#Door to Transport Tunnel A -> Door to Warrior Shrine">Door to Transport Tunnel A -> Door to Warrior Shrine</a></li><li><a href="#Middle Level -> Door to Warrior Shrine">Middle Level -> Door to Warrior Shrine</a></li></ul></li><li><strong>North Core Tunnel</strong><ul><li><a href="#Door to Geothermal Core -> Door to Twin Fires">Door to Geothermal Core -> Door to Twin Fires</a></li><li><a href="#Door to Twin Fires -> Door to Geothermal Core">Door to Twin Fires -> Door to Geothermal Core</a></li></ul></li><li><strong>Shore Tunnel</strong><ul><li><a href="#Pickup (Ice Spreader) -> Room Center">Pickup (Ice Spreader) -> Room Center</a></li></ul></li><li><strong>Transport Tunnel A</strong><ul><li><a href="#Door to Monitor Station -> Door to Transport to Phendrana Drifts North">Door to Monitor Station -> Door to Transport to Phendrana Drifts North</a></li><li><a href="#Door to Transport to Phendrana Drifts North -> Door to Monitor Station">Door to Transport to Phendrana Drifts North -> Door to Monitor Station</a></li></ul></li><li><strong>Triclops Pit</strong><ul><li><a href="#Door to Monitor Tunnel -> Pickup (Missile Expansion)">Door to Monitor Tunnel -> Pickup (Missile Expansion)</a></li></ul></li><li><strong>Twin Fires</strong><ul><li><a href="#Door to North Core Tunnel -> Door to Twin Fires Tunnel">Door to North Core Tunnel -> Door to Twin Fires Tunnel</a></li><li><a href="#Door to Twin Fires Tunnel -> Door to North Core Tunnel">Door to Twin Fires Tunnel -> Door to North Core Tunnel</a></li></ul></li><li><strong>Twin Fires Tunnel</strong><ul><li><a href="#Door to Transport to Tallon Overworld West -> Door to Twin Fires">Door to Transport to Tallon Overworld West -> Door to Twin Fires</a></li><li><a href="#Door to Twin Fires -> Door to Transport to Tallon Overworld West">Door to Twin Fires -> Door to Transport to Tallon Overworld West</a></li></ul></li></ul></div><h2 id="Fiery Shores">Fiery Shores</h2><h3 id="Door to Transport Tunnel B -> Pickup (Missile)">Door to Transport Tunnel B -> Pickup (Missile)</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/sbwLymFj43s?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/sbwLymFj43s?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/sbwLymFj43s/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/nWCD5bVO1QA?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/nWCD5bVO1QA?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/nWCD5bVO1QA/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Pickup (Power Bomb) -> Below Upper Item Exit Tunnel">Pickup (Power Bomb) -> Below Upper Item Exit Tunnel</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/ZCiHkUyTMm8?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/ZCiHkUyTMm8?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/ZCiHkUyTMm8/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Geothermal Core">Geothermal Core</h2><h3 id="Door to North Core Tunnel -> First Spinner">Door to North Core Tunnel -> First Spinner</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/4uV36UbD2b4?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/4uV36UbD2b4?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/4uV36UbD2b4/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Plasma Processing -> Door to North Core Tunnel">Door to Plasma Processing -> Door to North Core Tunnel</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/Edzhf9hl0w8?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/Edzhf9hl0w8?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/Edzhf9hl0w8/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to South Core Tunnel -> First Spinner">Door to South Core Tunnel -> First Spinner</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/svpG1lg1ahw?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/svpG1lg1ahw?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/svpG1lg1ahw/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Event - Geothermal Core Opened -> Door to Plasma Processing">Event - Geothermal Core Opened -> Door to Plasma Processing</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/OwsVX5HEGVQ?start=7&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/OwsVX5HEGVQ?start=7&autoplay=1>
+<img src=https://img.youtube.com/vi/OwsVX5HEGVQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="First Spinner -> Event - Geothermal Core Opened">First Spinner -> Event - Geothermal Core Opened</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/OwsVX5HEGVQ?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/OwsVX5HEGVQ?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/OwsVX5HEGVQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Lava Lake">Lava Lake</h2><h3 id="Door to Lake Tunnel -> Pickup (Artifact of Nature)">Door to Lake Tunnel -> Pickup (Artifact of Nature)</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/TjoCnZ4e8LU?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/TjoCnZ4e8LU?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/TjoCnZ4e8LU/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/DnktNBI_DQI?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/DnktNBI_DQI?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/DnktNBI_DQI/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Magmoor Workstation">Magmoor Workstation</h2><h3 id="Door to South Core Tunnel -> Door to Transport Tunnel C">Door to South Core Tunnel -> Door to Transport Tunnel C</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/3N7BMPBBHsI?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/3N7BMPBBHsI?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/3N7BMPBBHsI/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Transport Tunnel C -> Door to Workstation Tunnel">Door to Transport Tunnel C -> Door to Workstation Tunnel</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/qnOw1NJdHDg?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/qnOw1NJdHDg?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/qnOw1NJdHDg/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Workstation Tunnel -> Door to Transport Tunnel C">Door to Workstation Tunnel -> Door to Transport Tunnel C</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/qnOw1NJdHDg?start=17&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/qnOw1NJdHDg?start=17&autoplay=1>
+<img src=https://img.youtube.com/vi/qnOw1NJdHDg/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Monitor Station">Monitor Station</h2><h3 id="Door to Monitor Tunnel -> Door to Transport Tunnel A">Door to Monitor Tunnel -> Door to Transport Tunnel A</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/8Xzak1I7Fx8?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/8Xzak1I7Fx8?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/8Xzak1I7Fx8/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/KuvfXDG6Wt8?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/KuvfXDG6Wt8?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/KuvfXDG6Wt8/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Monitor Tunnel -> Door to Warrior Shrine">Door to Monitor Tunnel -> Door to Warrior Shrine</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/Gg96zB6NmI8?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/Gg96zB6NmI8?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/Gg96zB6NmI8/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Monitor Tunnel -> Middle Level">Door to Monitor Tunnel -> Middle Level</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/G71ZZKcC7wU?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/G71ZZKcC7wU?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/G71ZZKcC7wU/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/G71ZZKcC7wU?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/G71ZZKcC7wU?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/G71ZZKcC7wU/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Shore Tunnel -> Middle Level">Door to Shore Tunnel -> Middle Level</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/SxJp9io5Gds?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/SxJp9io5Gds?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/SxJp9io5Gds/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Transport Tunnel A -> Door to Warrior Shrine">Door to Transport Tunnel A -> Door to Warrior Shrine</h3><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/YD4FKuH406E?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/YD4FKuH406E?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/YD4FKuH406E/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Middle Level -> Door to Warrior Shrine">Middle Level -> Door to Warrior Shrine</h3><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/Hdr0jzVoMnc?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/Hdr0jzVoMnc?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/Hdr0jzVoMnc/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/0hJhOR1YmAs?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/0hJhOR1YmAs?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/0hJhOR1YmAs/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="North Core Tunnel">North Core Tunnel</h2><h3 id="Door to Geothermal Core -> Door to Twin Fires">Door to Geothermal Core -> Door to Twin Fires</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/v2uQH10pPco?start=31&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/v2uQH10pPco?start=31&autoplay=1>
+<img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/v2uQH10pPco?start=49&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/v2uQH10pPco?start=49&autoplay=1>
+<img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/v2uQH10pPco?start=14&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/v2uQH10pPco?start=14&autoplay=1>
+<img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Twin Fires -> Door to Geothermal Core">Door to Twin Fires -> Door to Geothermal Core</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/v2uQH10pPco?start=24&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/v2uQH10pPco?start=24&autoplay=1>
+<img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/v2uQH10pPco?start=40&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/v2uQH10pPco?start=40&autoplay=1>
+<img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/v2uQH10pPco?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/v2uQH10pPco?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/v2uQH10pPco/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Shore Tunnel">Shore Tunnel</h2><h3 id="Pickup (Ice Spreader) -> Room Center">Pickup (Ice Spreader) -> Room Center</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/QX7J-L3B0Hs?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/QX7J-L3B0Hs?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/QX7J-L3B0Hs/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/Ym7dbJ0o8VQ?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/Ym7dbJ0o8VQ?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/Ym7dbJ0o8VQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Transport Tunnel A">Transport Tunnel A</h2><h3 id="Door to Monitor Station -> Door to Transport to Phendrana Drifts North">Door to Monitor Station -> Door to Transport to Phendrana Drifts North</h3><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/uowYhKwb4B0?start=45&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/uowYhKwb4B0?start=45&autoplay=1>
+<img src=https://img.youtube.com/vi/uowYhKwb4B0/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Transport to Phendrana Drifts North -> Door to Monitor Station">Door to Transport to Phendrana Drifts North -> Door to Monitor Station</h3><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/uowYhKwb4B0?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/uowYhKwb4B0?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/uowYhKwb4B0/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Triclops Pit">Triclops Pit</h2><h3 id="Door to Monitor Tunnel -> Pickup (Missile Expansion)">Door to Monitor Tunnel -> Pickup (Missile Expansion)</h3><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/puEX6Ofl_5k?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/puEX6Ofl_5k?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/puEX6Ofl_5k/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/C7caSCXbLFc?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/C7caSCXbLFc?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/C7caSCXbLFc/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Intermediate </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/DWJhZjuiMKY?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/DWJhZjuiMKY?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/DWJhZjuiMKY/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/Auy_WagsHf4?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/Auy_WagsHf4?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/Auy_WagsHf4/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Twin Fires">Twin Fires</h2><h3 id="Door to North Core Tunnel -> Door to Twin Fires Tunnel">Door to North Core Tunnel -> Door to Twin Fires Tunnel</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/6tAv_ivVvAQ?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/6tAv_ivVvAQ?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/6tAv_ivVvAQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Twin Fires Tunnel -> Door to North Core Tunnel">Door to Twin Fires Tunnel -> Door to North Core Tunnel</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/6tAv_ivVvAQ?start=37&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/6tAv_ivVvAQ?start=37&autoplay=1>
+<img src=https://img.youtube.com/vi/6tAv_ivVvAQ/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h2 id="Twin Fires Tunnel">Twin Fires Tunnel</h2><h3 id="Door to Transport to Tallon Overworld West -> Door to Twin Fires">Door to Transport to Tallon Overworld West -> Door to Twin Fires</h3><p><i> Beginner </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/TleaFWdVhUg?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/TleaFWdVhUg?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/TleaFWdVhUg/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Advanced </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/OK3lSWvTKKU?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/OK3lSWvTKKU?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/OK3lSWvTKKU/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/Ue9T-9SY0o4?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/Ue9T-9SY0o4?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/Ue9T-9SY0o4/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe><h3 id="Door to Twin Fires -> Door to Transport to Tallon Overworld West">Door to Twin Fires -> Door to Transport to Tallon Overworld West</h3><p><i> Expert </i></p><iframe width=728 height=410 src="https://www.youtube.com/embed/9jk5s2W6yhY?start=0&autoplay=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}
+img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+</style><a href=https://www.youtube.com/embed/9jk5s2W6yhY?start=0&autoplay=1>
+<img src=https://img.youtube.com/vi/9jk5s2W6yhY/hqdefault.jpg alt='vid'><span>▶️</span></a>" frameborder=0 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title=vid></iframe></body></html>
