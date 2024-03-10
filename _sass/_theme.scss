@@ -60,6 +60,7 @@ $sun-icon: "\f185";
 
   --bs-link-color: var(--rdv-themed-primary);
   --bs-link-color-rgb: var(--rdv-themed-primary-rgb);
+  --bs-secondary-color: #6c757d;
 }
 
 :root {
@@ -67,4 +68,8 @@ $sun-icon: "\f185";
   --bs-primary-rgb: var(--rdv-themed-primary-rgb);
   --bs-link-hover-color: var(--bs-link-color);
   --bs-link-hover-color-rgb: var(--bs-link-color-rgb);
+}
+
+.text-muted[data-theme="dark"] {
+  color: #6c757d;
 }

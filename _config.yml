@@ -29,7 +29,7 @@ social:
 
 
 ### Posts ###
-permalink: /blog/:title
+permalink: /guides/:title
 
 
 ### Collections ###

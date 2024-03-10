@@ -6,19 +6,43 @@ https://github.com/randovania/randovania/releases/download/v{{ rdv.version }}
 <div class="container text-center">
   <h1>Randovania Client</h1>
   <h2>Latest version: {{ rdv.version }}</h2>
+  <h3>Primary downloads</h3>
   <div class="row align-items-center justify-content-center gy-4">
-    <div class="d-grid col-md-6 col-12">
-      <a class="btn btn-rdv btn-lg" href="{{ url_prefix }}/Randovania.{{ rdv.version }}.Installer.exe">Windows Installer</a>
+    <div class="d-grid col-md col-12">
+      <a class="btn btn-rdv btn-lg" href="{{ url_prefix }}/Randovania.{{ rdv.version }}.Installer.exe">
+        <i class="fa fa-windows fa-lg"></i>
+        &nbsp; Windows Installer
+      </a>
     </div>
+    <div class="d-grid col-md col-12">
+      <a class="btn btn-rdv btn-lg" href="{{ url_prefix }}/randovania-{{ rdv.version }}-macos.tar.gz">
+        <i class="fa fa-apple fa-lg"></i>
+        &nbsp;MacOS Executable
+      </a>
+    </div>
+    <div class="d-grid col-md col-12">
+      <a class="btn btn-rdv btn-lg" href="https://flathub.org/apps/io.github.randovania.Randovania">
+        <i class="fa fa-linux fa-lg"></i>
+        &nbsp;Linux Flatpak
+      </a>
+    </div>
+  </div>
+  <br/>
+  <h3>Alternative downloads</h3>
+  <div class="row align-items-center justify-content-center gy-4">
     <div class="w-100 d-none d-md-block gy-0"></div>
-    <div class="d-grid col-md col-12">
-      <a class="btn btn-rdv btn-lg" href="{{ url_prefix }}/randovania-{{ rdv.version }}-windows.zip">Windows Executable</a>
+    <div class="d-grid col-md-4 col-12">
+      <a class="btn btn-rdv" href="{{ url_prefix }}/randovania-{{ rdv.version }}-windows.zip">
+        <i class="fa fa-windows fa-lg"></i>
+        &nbsp; Windows Executable
+      </a>
     </div>
-    <div class="d-grid col-md col-12">
-      <a class="btn btn-rdv btn-lg" href="{{ url_prefix }}/randovania-{{ rdv.version }}-macos.tar.gz">MacOS Executable</a>
-    </div>
-    <div class="d-grid col-md col-12">
-      <a class="btn btn-rdv btn-lg" href="{{ url_prefix }}/randovania-{{ rdv.version }}-linux.tar.gz">Linux Executable</a>
+
+    <div class="d-grid col-md-4 col-12">
+      <a class="btn btn-rdv" href="{{ url_prefix }}/randovania-{{ rdv.version }}-linux.tar.gz">
+        <i class="fa fa-linux fa-lg"></i>
+        &nbsp;Linux Tarball
+      </a>
     </div>
   </div>
   <br/>
@@ -26,9 +50,9 @@ https://github.com/randovania/randovania/releases/download/v{{ rdv.version }}
     We always recommend playing on the latest version, to ensure the best play experience.
   </p>
   <p>
-    If you intend to use Multiworld functionality, you will also need
+    If you intend to use Multiworld functionality, you will also need a
     <a href="https://discord.gg">Discord</a>
-    installed.
+    account.
   </p>
   <h2>Previous versions</h2>
   <p>
