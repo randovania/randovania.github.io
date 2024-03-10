@@ -7,6 +7,8 @@ $danger:    #dc3545;
 $light:     #f8f9fa;
 $dark:      #343a40;
 
+$blue: #0d6efd;
+
 $text-black: #343a40;
 $text-white: rgba(white, .9);
 
@@ -18,10 +20,11 @@ $dark-600: #242526;
 $dark-900: #17191a;
 
 $light-100: $light;
-$light-300: #e3e4e6;
+$light-300: #dadce0;
 
 $rdv-dark:  #0b0d2a;
 $rdv-light: #90f6df;
 
 $rdv-dark-hover: scale-color($rdv-dark, $lightness: 10%);
+$rdv-light-hover: scale-color($rdv-light, $lightness: -35%);
 

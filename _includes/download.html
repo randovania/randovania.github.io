@@ -1,0 +1,43 @@
+{% assign rdv = site.data.rdv %}
+{% capture url_prefix %}
+https://github.com/randovania/randovania/releases/download/v{{ rdv.version }}
+{% endcapture %}
+
+<div class="container text-center">
+  <h1>Randovania Client</h1>
+  <h2>Latest version: {{ rdv.version }}</h2>
+  <div class="row align-items-center justify-content-center gy-4">
+    <div class="d-grid col-md-6 col-12">
+      <a class="btn btn-rdv btn-lg" href="{{ url_prefix }}/Randovania.{{ rdv.version }}.Installer.exe">Windows Installer</a>
+    </div>
+    <div class="w-100 d-none d-md-block gy-0"></div>
+    <div class="d-grid col-md col-12">
+      <a class="btn btn-rdv btn-lg" href="{{ url_prefix }}/randovania-{{ rdv.version }}-windows.zip">Windows Executable</a>
+    </div>
+    <div class="d-grid col-md col-12">
+      <a class="btn btn-rdv btn-lg" href="{{ url_prefix }}/randovania-{{ rdv.version }}-macos.tar.gz">MacOS Executable</a>
+    </div>
+    <div class="d-grid col-md col-12">
+      <a class="btn btn-rdv btn-lg" href="{{ url_prefix }}/randovania-{{ rdv.version }}-linux.tar.gz">Linux Executable</a>
+    </div>
+  </div>
+  <br/>
+  <p>
+    We always recommend playing on the latest version, to ensure the best play experience.
+  </p>
+  <p>
+    If you intend to use Multiworld functionality, you will also need
+    <a href="https://discord.gg">Discord</a>
+    installed.
+  </p>
+  <h2>Previous versions</h2>
+  <p>
+    To download previous versions, please visit the
+    <a href="https://github.com/randovania/randovania/releases">releases page</a>
+    on GitHub.
+  </p>
+  <p>
+    <span class="text-danger">Please note:</span>
+    Multiworld functionality is only supported on the latest version.
+  </p>
+</div>

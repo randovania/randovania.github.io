@@ -3,7 +3,7 @@ venv/*
 build/*
 
 # Generated data
-_includes/_readme/*
+# _includes/_readme/*
 
 # Local Site Directories
 _site/

@@ -5,6 +5,7 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables",
+        "theme",
         "404",
         "base",
         "blog",
@@ -15,5 +16,4 @@
         "projects",
         "timeline",
         "autumn",
-        "theme",
         "theme-dark";

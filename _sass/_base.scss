@@ -27,18 +27,18 @@ body {
 }
 
 .btn-rdv {
-  --bs-btn-bg: #{$rdv-dark};
-  --bs-btn-color: #{$rdv-light};
-  --bs-btn-border-color: #{$rdv-dark};
-  --bs-btn-hover-color: #{$rdv-light};
-  --bs-btn-hover-bg: #{$rdv-dark-hover};
-  --bs-btn-hover-border-color: #{$rdv-dark-hover};
+  --bs-btn-bg: #{var(--rdv-themed-secondary)};
+  --bs-btn-color: #{var(--rdv-themed-primary)};
+  --bs-btn-border-color: #{var(--rdv-themed-secondary)};
+  --bs-btn-hover-color: #{var(--rdv-themed-primary)};
+  --bs-btn-hover-bg: #{var(--rdv-themed-secondary-hover)};
+  --bs-btn-hover-border-color: #{var(--rdv-themed-secondary-hover)};
   --bs-btn-focus-shadow-rgb: 49,132,253;
-  --bs-btn-active-color: #{$rdv-light};
-  --bs-btn-active-bg: #{$rdv-dark-hover};
-  --bs-btn-active-border-color: #{$rdv-dark-hover};
+  --bs-btn-active-color: #{var(--rdv-themed-primary)};
+  --bs-btn-active-bg: #{var(--rdv-themed-secondary-hover)};
+  --bs-btn-active-border-color: #{var(--rdv-themed-secondary-hover)};
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #{$rdv-light};
-  --bs-btn-disabled-bg: #{$rdv-dark};
-  --bs-btn-disabled-border-color: #{$rdv-dark};
+  --bs-btn-disabled-color: #{var(--rdv-themed-primary)};
+  --bs-btn-disabled-bg: #{var(--rdv-themed-secondary)};
+  --bs-btn-disabled-border-color: #{var(--rdv-themed-secondary)};
 }

@@ -2,7 +2,7 @@
   content: "";
   display: block;
   height: 0.15em;
-  background: $primary;
+  background: var(--bs-link-hover-color);
 }
 
 .nav-link,

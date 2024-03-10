@@ -34,9 +34,8 @@ permalink: /blog/:title
 
 ### Collections ###
 collections:
-  projects:
+  games:
     output: true
-    permalink: /projects/:name
 
 
 ### Analytics ###
@@ -50,9 +49,9 @@ analytics:
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "games"
     values:
-      layout: "page"
+      layout: "game"
   - scope:
       path: ""
       type: "posts"
