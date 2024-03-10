@@ -1,0 +1,27 @@
+$primary:   #90f6df;
+$secondary: #6c757d;
+$success:   #28a745;
+$info:      #17a2b8;
+$warning:   #ffc107;
+$danger:    #dc3545;
+$light:     #f8f9fa;
+$dark:      #343a40;
+
+$text-black: #343a40;
+$text-white: rgba(white, .9);
+
+$rounded-borders: 15px;
+
+$dark-100: $dark;
+$dark-300: #2c3032;
+$dark-600: #242526;
+$dark-900: #17191a;
+
+$light-100: $light;
+$light-300: #e3e4e6;
+
+$rdv-dark:  #0b0d2a;
+$rdv-light: #90f6df;
+
+$rdv-dark-hover: scale-color($rdv-dark, $lightness: 10%);
+

@@ -1,0 +1,20 @@
+<footer class="mt-auto py-3 text-center">
+  <div class="row container-fluid justify-content-center">
+    <div class="col-lg-1 col-0"></div>
+    {%- assign unfocused_color = "6c757d" -%} {% for account in site.social %} {%- assign service_name = account[0] -%}
+    {%- assign service_data = site.data.social-media[service_name] -%} {%- if service_data -%}
+    <a
+      class="col-lg-2 col-12 my-2 social"
+      href="{{ service_data.url }}{{ account[1] }}"
+      style="color: #{{ unfocused_color }}"
+      onMouseOver="this.style.color='#{{ service_data.color }}'"
+      onMouseOut="this.style.color='#{{ unfocused_color }}'"
+      title="{{ service_data.alt }}"
+    >
+      <i class="{{ service_data.icon }} fa-3x mx-1 align-middle"></i>
+      {{ service_data.alt }}
+    </a>
+    {%- endif -%} {% endfor %}
+    <div class="col-lg-1 col-0"></div>
+  </div>
+</footer>

@@ -1,0 +1,20 @@
+# Get Icons  from : https://fontawesome.com/icons
+# Get Colors from : https://brandcolors.net/
+
+discord:
+  url   : https://discord.gg/
+  icon  : fa fa-discord
+  color : 5865f2
+  alt   : Join our Discord server!
+
+github:
+  url   : https://www.github.com/
+  icon  : fa fa-github
+  color : ADBAC7
+  alt   : Find us on Github!
+
+open-collective:
+  url   : https://opencollective.com/
+  icon  : fa fa-open-collective
+  color : 7fadf2
+  alt   : Support us on Open Collective!
