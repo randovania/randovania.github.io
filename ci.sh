@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -e -x
+shopt -s extglob
 cd "$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 
 randovania_version=7.4.0
@@ -11,8 +12,8 @@ python -m pip install randovania==$randovania_version cryptography
 echo "Copying Jekyll source"
 echo "version: $randovania_version" >> _data/rdv.yml
 rm -rf build
-cp -ar ./ build/
-
+mkdir build
+cp -ar !(build) build
 echo "Building video database pages"
 mkdir videos
 python -m randovania database export-videos --output-dir videos
@@ -32,5 +33,6 @@ for i in "${!games[@]}"
 do
     long="$i"
     short="${games[$i]}"
-    cp "videos/$long" "build/games/$short/videos"
+    mkdir -p "build/games/$short/videos"
+    cp -ar "videos/$long/." "build/games/$short/videos"
 done
