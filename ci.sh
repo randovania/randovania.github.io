@@ -18,7 +18,7 @@ echo "Building video database pages"
 mkdir videos
 python -m randovania database export-videos --output-dir videos
 
-# insanely ugly hack!!! refactor ASAP!!!
+# FIXME: insanely ugly hack!!! refactor ASAP!!!
 declare -A games
 games["Another Metroid 2 Remake"]=am2r
 games["Cave Story"]=cave_story
