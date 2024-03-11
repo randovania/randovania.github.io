@@ -1,0 +1,51 @@
+.link-after {
+  content: "";
+  display: block;
+  height: 0.15em;
+  background: var(--bs-link-hover-color);
+}
+
+.nav-link,
+.navbar-brand {
+  &::after {
+    @extend .link-after;
+    width: 0;
+    transition: width 0.35s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.nav-item.active {
+  font-weight: bold;
+
+  &::after {
+    @extend .link-after;
+    width: 100% !important;
+  }
+}
+
+.navbar-brand {
+  margin-bottom: -14px;
+  &::after {
+    margin-top: -0.25em;
+  }
+}
+
+.navbar {
+  border-radius: $rounded-borders;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	scroll-margin-top: 100px;
+}
+
+.navbar-logo {
+  width: 75px;
+  height: 75px;
+  background: transparent url("/assets/randovania.png") center top no-repeat;
+  background-size: 100%;
+  image-rendering: crisp-edges;
+}

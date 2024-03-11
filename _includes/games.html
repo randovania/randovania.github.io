@@ -1,0 +1,11 @@
+<div class="container text-center">
+  <div class="row align-items-center justify-content-center">
+    {% for game in site.games %}
+      <div class="col-lg col-12">
+        <a href="{{ game.url }}" title="{{ game.long-name }}">
+          <img src="/assets/games/{{ game.short-name }}.png" />
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

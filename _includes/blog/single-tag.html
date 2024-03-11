@@ -1,0 +1,30 @@
+{% assign tag = include.tag %}
+
+<div class="py-3">
+  {% if include.show-header == true %}
+    {% assign tag-name = tag | capitalize %}
+    {% for game in site.games %}
+      {% if game.short-name == tag %}
+        {% assign tag-name = game.long-name %}
+      {% endif %}
+    {% endfor %}
+    <h4 id="{{ tag | slugify }}">{{ tag-name }}</h4>
+  {% endif %}
+  <ul>
+    {% for post in site.posts %}
+      {%- if post.tags contains tag -%}
+        {%- if post.external_url -%}
+          {%- assign url = post.external_url -%}
+        {%- else -%}
+          {%- assign url = post.url | relative_url -%}
+        {%- endif -%}
+        <a href="{{ url }}">
+          <li>{{ post.title }}</li>
+        </a>
+        <small class="text-muted">
+          - {{ post.date | date_to_long_string }}</small>
+        <br/>
+      {%- endif -%}
+    {% endfor %}
+  </ul>
+</div>
