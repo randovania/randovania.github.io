@@ -1,0 +1,15 @@
+---
+layout: null
+---
+{% capture new-url %}{{ site.url }}{{ page.new-path }}{% endcapture %}
+<html>
+  <head>
+    <title>{{ site.title }}</title>
+    <meta http-equiv="Refresh" content="0; url='{{ new-url }}'" />
+  </head>
+  <body>
+    <p>This page has been moved to
+      <a href="{{ new-url }}">{{ new-url }}.</a>
+    </p>
+  </body>
+</html>
