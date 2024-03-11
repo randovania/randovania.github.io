@@ -1,0 +1,75 @@
+@mixin themed($property, $light-value, $dark-value) {
+  [data-theme="light"] & {
+    #{$property}: $light-value;
+  }
+
+  [data-theme="dark"] & {
+    #{$property}: $dark-value;
+  }
+}
+
+@function get-rgb($color) {
+  @return red($color), green($color), blue($color);
+}
+
+$moon-icon: "\f186";
+$sun-icon: "\f185";
+
+#theme-toggler:before {
+  @include themed(content, $moon-icon, $sun-icon);
+}
+
+.navbar-themed {
+  .navbar-brand,
+  .navbar-nav .nav-link.active {
+    @include themed(color, $text-black, $text-white);
+  }
+
+  .navbar-nav .nav-link {
+    @include themed(color, rgba($text-black, 0.5), rgba($text-white, 0.5));
+  }
+
+  @include themed(background-color, $light-300, $dark-300);
+}
+
+.text-themed {
+  @include themed(color, $text-black, $text-white);
+}
+
+.bg-themed {
+  @include themed(background-color, $light, $dark);
+}
+
+:root[data-theme="light"] {
+  --rdv-themed-primary: #{$rdv-dark};
+  --rdv-themed-primary-rgb: #{get-rgb($rdv-dark)};
+  --rdv-themed-secondary: #{$rdv-light};
+  --rdv-themed-secondary-rgb: #{get-rgb($rdv-light)};
+  --rdv-themed-secondary-hover: #{$rdv-light-hover};
+
+  --bs-link-color: var(--bs-blue);
+  --bs-link-color-rgb: #{get-rgb($blue)};
+}
+
+:root[data-theme="dark"] {
+  --rdv-themed-primary: #{$rdv-light};
+  --rdv-themed-primary-rgb: #{get-rgb($rdv-light)};
+  --rdv-themed-secondary: #{$rdv-dark};
+  --rdv-themed-secondary-rgb: #{get-rgb($rdv-dark)};
+  --rdv-themed-secondary-hover: #{$rdv-dark-hover};
+
+  --bs-link-color: var(--rdv-themed-primary);
+  --bs-link-color-rgb: var(--rdv-themed-primary-rgb);
+  --bs-secondary-color: #6c757d;
+}
+
+:root {
+  --bs-primary: var(--rdv-themed-primary);
+  --bs-primary-rgb: var(--rdv-themed-primary-rgb);
+  --bs-link-hover-color: var(--bs-link-color);
+  --bs-link-hover-color-rgb: var(--bs-link-color-rgb);
+}
+
+.text-muted[data-theme="dark"] {
+  color: #6c757d;
+}

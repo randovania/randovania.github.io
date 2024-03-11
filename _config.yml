@@ -1,1 +1,70 @@
-theme: jekyll-theme-cayman
+### Site Settings ###
+title               : Randovania
+description         : A randomizer platform for a multitude of games.
+baseurl             : ""
+repository          : randovania/randovania.github.io
+open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+domain              : randovania.org
+url                 : "https://randovania.org"
+logo                : /assets/randovania.png
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Social Media Info ###
+social:
+  discord           : M23gCxj6fw
+  github            : randovania
+  open-collective   : randovania
+
+
+### Posts ###
+permalink: /guides/:title
+
+
+### Collections ###
+collections:
+  games:
+    output: true
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "game"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
+  - ci.sh
+  - Gemfile
+  - Gemfile.lock
