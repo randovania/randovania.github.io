@@ -1,10 +1,12 @@
 {% assign tag = include.tag %}
 
+{% assign any-posts = false %}
+
 <div class="py-3">
   {% if include.show-header == true %}
     {% assign tag-name = tag | capitalize %}
     {% for game in site.games %}
-      {% if game.short-name == tag %}
+      {% if game.game-id == tag %}
         {% assign tag-name = game.long-name %}
       {% endif %}
     {% endfor %}
@@ -13,6 +15,7 @@
   <ul>
     {% for post in site.posts %}
       {%- if post.tags contains tag -%}
+        {%- assign any-posts = true -%}
         {%- if post.external_url -%}
           {%- assign url = post.external_url -%}
         {%- else -%}
@@ -26,5 +29,8 @@
         <br/>
       {%- endif -%}
     {% endfor %}
+    {% if any-posts == false %}
+      <li>No guides for this game</li>
+    {% endif %}
   </ul>
 </div>

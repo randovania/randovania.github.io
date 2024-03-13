@@ -1,0 +1,60 @@
+---
+layout: page
+---
+
+{% if page.regions == blank %}
+  <p>This game has no videos. Perhaps you could
+    <a href="https://github.com/randovania/randovania/blob/main/docs/Database%20Editor.md">contribute some</a>?</p>
+{% else %}
+  <nav>
+    <div
+      class="nav nav-tabs my-2"
+      id="nav-region-tab"
+      role="tablist">
+      {% for region in page.regions %}
+        {% if forloop.first %}
+          {% assign tab-class = "nav-link active" %}
+          {% assign aria-selected = "true" %}
+        {% else %}
+          {% assign tab-class = "nav-link" %}
+          {% assign aria-selected = "false" %}
+        {% endif %}
+
+        {%- capture tab-id -%}
+          nav-{{ region.key | slugify }}
+        {%- endcapture -%}
+
+        <button
+          class="{{ tab-class }}"
+          id="{{ tab-id }}-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#{{ tab-id }}"
+          type="button"
+          role="tab"
+          aria-controls="{{ tab-id }}"
+          aria-selected="{{ aria-selected }}">{{ region.key }}</button>
+      {% endfor %}
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-region-tabContent">
+    {% for region in page.regions %}
+      {% if forloop.first %}
+        {% assign tab-class = "tab-pane fade show active" %}
+      {% else %}
+        {% assign tab-class = "tab-pane fade" %}
+      {% endif %}
+
+      {%- capture tab-id -%}
+        nav-{{ region.key | slugify }}
+      {%- endcapture -%}
+      <div
+        class="{{ tab-class }}"
+        id="{{ tab-id }}"
+        role="tabpanel"
+        aria-labelledby="{{ tab-id }}-tab"
+        tabindex="0">
+        {% include videos/region.html region=region %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

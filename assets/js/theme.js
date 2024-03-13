@@ -43,4 +43,5 @@ function getTheme() {
 
 function setTheme(value) {
   document.documentElement.setAttribute(THEME_ATTR, value);
+  document.documentElement.setAttribute('data-bs-theme', value);
 }

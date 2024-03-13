@@ -7,28 +7,59 @@ layout: page
   <h1>{{ game.long-name }}</h1>
   <div class="row align-items-start justify-content-center">
     <div class="d-grid col-md-3 col-12">
-      <img src="/assets/games/{{ game.short-name }}.png" />
+      <img
+        src="/assets/games/{{ game.game-id }}.png"
+        width="264"
+        height="352" />
     </div>
     <div class="d-grid col-md-auto col-12 text-md-start">
       <h2>What can be randomized?</h2>
       <div class="text-start">
-        {{ game.randomize | markdownify }}
+        <ul>
+          {% for entry in game.randomize %}
+            <li>{{ entry }}</li>
+          {% else %}
+            <li>Undefined</li>
+          {% endfor %}
+        </ul>
       </div>
 
       <h2>What do I need to play?</h2>
       <div class="text-start">
-        {{ game.need-to-play | markdownify }}
+        {% for entry in game.need-to-play %}
+          <li>{{ entry }}</li>
+        {% else %}
+          <li>Undefined</li>
+        {% endfor %}
       </div>
     </div>
   </div>
   <br/>
-  <a href="/games/{{ game.short-name }}/videos">
+  <a href="/games/{{ game.game-id }}/videos">
     Click here to view this game's video database.
   </a>
   <h2>Related guides</h2>
   <div class="row align-items-center justify-content-center">
     <div class="d-grid col-auto text-start">
-      {% include blog/single-tag.html tag=game.short-name %}
+      {% include blog/single-tag.html tag=game.game-id %}
     </div>
   </div>
+  {% if game.faq != empty %}
+    <h2>Frequently asked questions</h2>
+    <div class="text-start">
+      {% for faq in game.faq %}
+        <div class="card my-4">
+          <div class="card-header pt-3">
+            <a class="float-end" href="#{{ faq.question | slugify }}">
+              <i class="fa fa-bottom fa-link"></i>
+            </a>
+            <h3 class="card-title" id="{{ faq.question | slugify }}">{{ faq.question }}</h3>
+          </div>
+          <div class="faq-card card-body card-text">
+            {{ faq.answer | newline_to_br | markdownify }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>

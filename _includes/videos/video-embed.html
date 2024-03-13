@@ -1,0 +1,63 @@
+{%- capture vid-src -%}
+  https://www.youtube.com/embed/{{ include.yt-id }}?start={{ include.start-time | 0 }}&autoplay=1
+{%- endcapture -%}
+
+{%- capture vid-srcdoc -%}
+  <style>
+    * {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    }
+    body, html {
+      height: 100%;
+      text-align: center;
+      position: relative;
+    }
+    figure {
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      overflow: hidden;
+      padding-top: 56.25%;
+    }
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+    }
+    figcaption {
+      font-size: 500%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+      transition: all 250ms ease-in-out;
+    }
+    body:hover figcaption {
+      filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+      transform: translate(-50%, -50%) scale(1.2);
+    }
+  </style>
+  <a href='{{ vid-src }}'>
+    <figure>
+      <img loading='lazy' src='https://img.youtube.com/vi/{{ include.yt-id }}/hqdefault.jpg' alt='{{ include.title | 'video' }}'>
+      <figcaption>▶️</figcaption>
+    </figure>
+  </a>
+{%- endcapture -%}
+
+<div class="ratio ratio-16x9">
+  <iframe
+    src="{{ vid-src }}"
+    srcdoc="{{ vid-srcdoc }}"
+    frameborder="0"
+    loading="lazy"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    title="{{ include.title | 'video' }}"></iframe>
+</div>
