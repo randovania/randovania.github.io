@@ -42,3 +42,11 @@ body {
   --bs-btn-disabled-bg: #{var(--rdv-themed-secondary)};
   --bs-btn-disabled-border-color: #{var(--rdv-themed-secondary)};
 }
+
+.fa-bottom {
+  vertical-align: text-bottom;
+}
+
+.faq-card p {
+  margin-bottom: 0;
+}
