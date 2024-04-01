@@ -7,7 +7,12 @@ cd "$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 randovania_version=7.5.0
 
 echo "Installing Requirements"
-python -m pip install randovania[website]==$randovania_version cryptography 
+
+# python -m pip install randovania[website]==$randovania_version
+# FIXME: hack for missing README
+python -m pip download randovania==$randovania_version --no-deps --no-binary randovania
+tar xf randovania-$randovania_version.tar.gz
+python -m pip install -e ./randovania-$randovania_version
 
 echo "Building video database pages"
 rm -rf _videos
