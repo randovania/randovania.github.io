@@ -1,0 +1,46 @@
+{% assign region = include.region %}
+
+<!-- table of contents -->
+<div class="card">
+  <h3 class="card-header" id="toc">Table of Contents</h3>
+  <div class="card-body card-text">
+    {% for area in region.value %}
+      <strong>{{ area.key }}</strong>
+      <ul style="list-style: none;">
+        {% for node in area.value %}
+          {% for connection in node.value %}
+            {%- capture connection-name -%}
+              {{ node.key }} &rarr; {{ connection.key }}
+            {%- endcapture -%}
+            <li>
+              <a href="#{{ connection-name | slugify }}">
+                {{ connection-name }}
+              </a>
+            </li>
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</div>
+
+{% for area in region.value %}
+  <div class="card my-2">
+    <h3 class="card-header">{{ area.key }}</h3>
+    <div class="card-body card-text">
+      {% for node in area.value %}
+        {% for connection in node.value %}
+          {%- capture connection-name -%}
+            {{ node.key }} &rarr; {{ connection.key }}
+          {%- endcapture -%}
+          <h5 class="card-title" id="{{ connection-name | slugify }}">{{ connection-name }}</h4>
+          {% for video in connection.value %}
+            <p class="fst-italic">{{ video.difficulty }}</p>
+            {% include videos/video-embed.html yt-id=video.video_id start-time=video.start_time %}
+            <p class="fst-italic"><a href="#top">Back to top</a></p>
+          {% endfor %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

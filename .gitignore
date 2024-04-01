@@ -3,7 +3,11 @@ venv/*
 build/*
 
 # Generated data
-# _includes/_readme/*
+_videos/
+_includes/_readme/
+_data/rdv.yml
+_games/
+assets/games
 
 # Local Site Directories
 _site/
