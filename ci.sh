@@ -4,7 +4,7 @@ set -e -x
 shopt -s extglob
 cd "$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 
-randovania_version=7.4.0
+randovania_version=7.5.0
 
 echo "Installing Requirements"
 python -m pip install randovania==$randovania_version cryptography
