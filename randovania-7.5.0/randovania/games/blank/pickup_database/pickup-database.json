@@ -1,0 +1,76 @@
+{
+    "schema_version": 8,
+    "pickup_categories": {
+        "gear": {
+            "long_name": "Gear",
+            "hint_details": [
+                "some ",
+                "gear"
+            ],
+            "hinted_as_major": true
+        }
+    },
+    "standard_pickups": {
+        "Weapon": {
+            "pickup_category": "gear",
+            "broad_category": "gear",
+            "model_name": "Weapon",
+            "offworld_models": {},
+            "progression": [
+                "Weapon"
+            ],
+            "preferred_location_category": "major",
+            "expected_case_for_describer": "shuffled",
+            "ammo": [
+                "Ammo"
+            ],
+            "unlocks_ammo": true
+        },
+        "Explosive": {
+            "pickup_category": "gear",
+            "broad_category": "gear",
+            "model_name": "Explosive",
+            "offworld_models": {},
+            "progression": [
+                "Explosive"
+            ],
+            "preferred_location_category": "major",
+            "expected_case_for_describer": "shuffled"
+        },
+        "Blue Key": {
+            "pickup_category": "gear",
+            "broad_category": "gear",
+            "model_name": "Blue Key",
+            "offworld_models": {},
+            "progression": [
+                "BlueKey"
+            ],
+            "preferred_location_category": "major",
+            "expected_case_for_describer": "shuffled"
+        },
+        "Health": {
+            "pickup_category": "gear",
+            "broad_category": "gear",
+            "model_name": "Health",
+            "offworld_models": {},
+            "progression": [
+                "Health"
+            ],
+            "preferred_location_category": "minor",
+            "expected_case_for_describer": "shuffled"
+        }
+    },
+    "ammo_pickups": {
+        "Missile Expansion": {
+            "broad_category": "gear",
+            "model_name": "Missile",
+            "offworld_models": {},
+            "items": [
+                "Ammo"
+            ],
+            "preferred_location_category": "minor"
+        }
+    },
+    "default_pickups": {},
+    "default_offworld_model": ""
+}

@@ -1,0 +1,138 @@
+====================
+Templates
+
+* Use Screw Attack (Space Jump):
+      Space Jump Boots and Morph Ball and Screw Attack
+
+* Use Screw Attack (No Space Jump):
+      Morph Ball and Screw Attack
+
+* Shoot Phazite (X-Ray and Nova):
+      Nova Beam and X-Ray Visor
+
+* Melt Objects (Plasma or Nova):
+      Nova Beam or Plasma Beam
+
+* Use Grapple Voltage (Lasso and Voltage):
+      Grapple Lasso and Grapple Voltage
+
+* Bomb Jump/Spring Space Jump (Beginner):
+      All of the following:
+          Morph Ball
+          Any of the following:
+              Bomb/Spring Space Jump (Beginner)
+              Morph Ball Bomb and Bomb Jump (Beginner)
+
+* Use Ship Missile (Command Visor and Ship Missile):
+      Command Visor and Ship Missile
+
+* Use Ship Grapple (Command Visor and Ship Grapple):
+      Command Visor and Ship Grapple
+
+* Enter Hypermode:
+      Energy Tank and HyperModeTank
+
+* Hazard Shield:
+      Suit Type
+
+====================
+Dock Weaknesses
+
+> Door
+  * Normal Door
+      Open:
+          Trivial
+      No lock
+
+
+  * Plasma Door
+      Open:
+          Plasma Beam
+      No lock
+
+
+  * Nova Door
+      Open:
+          Nova Beam
+      No lock
+
+
+  * Missile Blast Shield
+      Open:
+          Trivial
+      Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
+          Missile
+
+
+  * Ice Missile Blast Shield
+      Open:
+          Trivial
+      Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
+          Ice Missile and Missile
+
+
+  * Seeker Missiles Blast Shield
+      Open:
+          Trivial
+      Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
+          Missile ≥ 5 and Seeker Missile
+
+
+  * Grapple Lasso Blast Shield
+      Open:
+          Trivial
+      Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
+          Grapple Lasso
+
+
+  * Permanently Locked
+      Open:
+          Impossible
+      No lock
+
+
+  * Ice Missile Blast Shield (Vulnerable to Missiles)
+      Open:
+          Trivial
+      Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
+          All of the following:
+              Missile
+              Ice Missile or Knowledge (Beginner)
+
+  > Dock Rando: Disabled
+
+
+> Morph Ball Door
+  * Morph Ball Door
+      Open:
+          Morph Ball
+      No lock
+
+  > Dock Rando: Disabled
+
+
+> Dock
+  * Open Passage
+      Open:
+          Trivial
+      No lock
+
+
+  * Not Determined
+      Open:
+          Impossible
+      No lock
+
+  > Dock Rando: Disabled
+
+
+> Teleporter
+* Extra - is_teleporter: True
+* Extra - ignore_for_hints: True
+  * Teleporter
+      Open:
+          Trivial
+      No lock
+
+  > Dock Rando: Disabled
+

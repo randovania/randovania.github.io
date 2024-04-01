@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>599</width>
+    <height>582</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Randovania</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="root_layout">
+    <item>
+     <widget class="QTabWidget" name="main_tab_widget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_welcome">
+       <attribute name="title">
+        <string>Welcome</string>
+       </attribute>
+       <layout class="QGridLayout" name="welcome_layout">
+        <property name="leftMargin">
+         <number>4</number>
+        </property>
+        <property name="topMargin">
+         <number>4</number>
+        </property>
+        <property name="rightMargin">
+         <number>4</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="intro_play_solo_button">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Play a new solo game</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="3">
+         <widget class="QLabel" name="intro_welcome_label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::MarkdownText</enum>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="3">
+         <widget class="QLabel" name="intro_label">
+          <property name="text">
+           <string>Welcome to Randovania {version}, a randomizer for a multitude of games.</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::MarkdownText</enum>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+          <property name="margin">
+           <number>7</number>
+          </property>
+          <property name="indent">
+           <number>-1</number>
+          </property>
+          <property name="openExternalLinks">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <spacer name="intro_vertical_spacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>30</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0" colspan="3">
+         <layout class="QHBoxLayout" name="intro_games_layout">
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <property name="sizeConstraint">
+           <enum>QLayout::SetMaximumSize</enum>
+          </property>
+          <item>
+           <widget class="QLabel" name="games_supported_label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Supported</string>
+            </property>
+            <property name="textFormat">
+             <enum>Qt::MarkdownText</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="games_experimental_label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Experimental</string>
+            </property>
+            <property name="textFormat">
+             <enum>Qt::MarkdownText</enum>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="intro_play_existing_button">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Import a game</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <spacer name="intro_top_spacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>30</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="4" column="2">
+         <widget class="QPushButton" name="intro_play_multiworld_button">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Play a multiworld</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QScrollArea" name="tab_game_list">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <attribute name="title">
+        <string>Games</string>
+       </attribute>
+       <widget class="QWidget" name="game_list_contents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>581</width>
+          <height>474</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="GamesHelpWidget" name="tab_game_details">
+       <attribute name="title">
+        <string>Games</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_play_existing">
+       <attribute name="title">
+        <string>Import Game</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="play_existing_layout">
+        <item>
+         <widget class="QLabel" name="import_permalink_label">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you playing with others?&lt;/p&gt;&lt;p&gt;Ask them for a permalink and import it here. You'll create the same game as them.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="import_permalink_button">
+          <property name="text">
+           <string>Import permalink</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="browse_racetime_label">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you joining a race hosted in &lt;a href=&quot;https://racetime.gg/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;racetime.gg&lt;/span&gt;&lt;/a&gt;?&lt;/p&gt;&lt;p&gt;Select the race from Randovania and automatically import the permalink!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+          <property name="openExternalLinks">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="browse_racetime_button">
+          <property name="text">
+           <string>Browse races in racetime.gg</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="import_game_file_label">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If they've shared a spoiler file instead, you can import it directly. This skips the generation step. You can also drag and drop the file into Randovania.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="import_game_file_button">
+          <property name="text">
+           <string>Import game file</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_multiworld">
+       <attribute name="title">
+        <string>Multiworld</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="multiworld_intro_label">
+          <property name="text">
+           <string>Multiworld is a game mode for the randomizer where multiple games and/or multiple players can come together to create a larger experience.
+
+For more information, check [Randovania Help](help://tab_multiworld)!</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::MarkdownText</enum>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="Line" name="multiworld_line">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="browse_sessions_label">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Joining a multiworld that someone else created? Browse all existing sessions here!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="browse_sessions_button">
+          <property name="text">
+           <string>Browse for a multiworld session</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="host_new_game_label">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Want to play multiworld?&lt;/p&gt;&lt;p&gt;Host a new online session and invite people!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="host_new_game_button">
+          <property name="text">
+           <string>Host new multiworld session</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="Line" name="game_connection_line">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="game_connection_label">
+          <property name="text">
+           <string>Connect Randovania to the many games it support, enabling multiworld or maybe just an automatic tracker.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="game_connection_button">
+          <property name="text">
+           <string>Connect to games</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="progress_box">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="title">
+       <string>Progress</string>
+      </property>
+      <layout class="QGridLayout" name="progress_box_layout">
+       <property name="leftMargin">
+        <number>2</number>
+       </property>
+       <property name="topMargin">
+        <number>4</number>
+       </property>
+       <property name="rightMargin">
+        <number>2</number>
+       </property>
+       <property name="bottomMargin">
+        <number>4</number>
+       </property>
+       <item row="0" column="3">
+        <widget class="QPushButton" name="stop_background_process_button">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>75</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Stop</string>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QProgressBar" name="progress_bar">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="value">
+          <number>0</number>
+         </property>
+         <property name="textVisible">
+          <bool>false</bool>
+         </property>
+         <property name="invertedAppearance">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="progress_label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>7</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menu_bar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>599</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_open">
+    <property name="title">
+     <string>Open</string>
+    </property>
+    <addaction name="menu_action_previously_generated_games"/>
+    <addaction name="menu_action_log_files_directory"/>
+    <addaction name="separator"/>
+    <addaction name="menu_action_login_window"/>
+    <addaction name="menu_action_open_auto_tracker"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_edit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <widget class="QMenu" name="menu_database">
+     <property name="title">
+      <string>Database</string>
+     </property>
+     <widget class="QMenu" name="menu_internal">
+      <property name="title">
+       <string>Internal</string>
+      </property>
+     </widget>
+     <addaction name="menu_internal"/>
+     <addaction name="menu_action_edit_existing_database"/>
+    </widget>
+    <addaction name="menu_database"/>
+   </widget>
+   <widget class="QMenu" name="menu_preferences">
+    <property name="title">
+     <string>Preferences</string>
+    </property>
+    <widget class="QMenu" name="menu_advanced">
+     <property name="title">
+      <string>Advanced</string>
+     </property>
+     <addaction name="menu_action_validate_seed_after"/>
+     <addaction name="menu_action_timeout_generation_after_a_time_limit"/>
+     <addaction name="menu_action_generate_in_another_process"/>
+    </widget>
+    <addaction name="menu_action_dark_mode"/>
+    <addaction name="menu_action_show_multiworld_banner"/>
+    <addaction name="menu_action_experimental_settings"/>
+    <addaction name="menu_action_automatic_reporting"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="menu_advanced"/>
+   </widget>
+   <widget class="QMenu" name="menu_help">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="menu_action_help"/>
+    <addaction name="menu_action_changelog"/>
+    <addaction name="menu_action_verify_installation"/>
+    <addaction name="separator"/>
+    <addaction name="menu_action_dependencies"/>
+    <addaction name="menu_action_about"/>
+   </widget>
+   <addaction name="menu_open"/>
+   <addaction name="menu_edit"/>
+   <addaction name="menu_preferences"/>
+   <addaction name="menu_help"/>
+  </widget>
+  <action name="menu_action_edit_existing_database">
+   <property name="text">
+    <string>External file</string>
+   </property>
+  </action>
+  <action name="menu_action_validate_seed_after">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Validate if a game is possible after generation</string>
+   </property>
+  </action>
+  <action name="menu_action_timeout_generation_after_a_time_limit">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Timeout generation after a time limit</string>
+   </property>
+  </action>
+  <action name="menu_action_open_auto_tracker">
+   <property name="text">
+    <string>Automatic Item Tracker</string>
+   </property>
+  </action>
+  <action name="menu_action_login_window">
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </action>
+  <action name="menu_action_dark_mode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Dark Mode</string>
+   </property>
+  </action>
+  <action name="menu_action_show_multiworld_banner">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Multiworld Banner</string>
+   </property>
+  </action>
+  <action name="menu_action_previously_generated_games">
+   <property name="text">
+    <string>Previously generated games</string>
+   </property>
+  </action>
+  <action name="menu_action_layout_editor">
+   <property name="text">
+    <string>Corruption Layout Editor</string>
+   </property>
+  </action>
+  <action name="menu_action_log_files_directory">
+   <property name="text">
+    <string>Log files folder</string>
+   </property>
+  </action>
+  <action name="menu_action_help">
+   <property name="text">
+    <string>Randovania Help</string>
+   </property>
+  </action>
+  <action name="menu_action_changelog">
+   <property name="text">
+    <string>Change Log</string>
+   </property>
+  </action>
+  <action name="menu_action_about">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="menu_action_dependencies">
+   <property name="text">
+    <string>Dependencies</string>
+   </property>
+  </action>
+  <action name="menu_action_experimental_settings">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Experimental Settings</string>
+   </property>
+  </action>
+  <action name="menu_action_automatic_reporting">
+   <property name="text">
+    <string>Automatic Data Collection and Reporting</string>
+   </property>
+  </action>
+  <action name="menu_action_generate_in_another_process">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Generate games in another process</string>
+   </property>
+  </action>
+  <action name="menu_action_verify_installation">
+   <property name="text">
+    <string>Verify installation</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>GamesHelpWidget</class>
+   <extends>QTabWidget</extends>
+   <header>randovania/gui/widgets/games_help_widget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

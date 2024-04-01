@@ -1,0 +1,28 @@
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+
+from PySide6 import QtWidgets
+
+from randovania.gui.lib import common_qt_lib
+
+if TYPE_CHECKING:
+    import asyncio
+
+
+async def cancellable_wait(parent: QtWidgets.QWidget | None, task: asyncio.Task, title: str, message: str):
+    message_box = QtWidgets.QMessageBox(
+        QtWidgets.QMessageBox.Icon.NoIcon,
+        title,
+        message,
+        QtWidgets.QMessageBox.StandardButton.Cancel,
+        parent,
+    )
+    common_qt_lib.set_default_window_icon(message_box)
+
+    message_box.rejected.connect(task.cancel)
+    message_box.show()
+    try:
+        return await task
+    finally:
+        message_box.close()

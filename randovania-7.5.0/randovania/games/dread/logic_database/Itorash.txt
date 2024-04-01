@@ -1,0 +1,224 @@
+----------------
+Save Station
+Extra - total_boundings: {'x1': 1400.0, 'x2': 3500.0, 'y1': -4600.0, 'y2': -3500.0}
+Extra - polygon: [[3500.0, -3500.0], [1400.0, -3500.0], [1400.0, -4600.0], [3500.0, -4600.0]]
+Extra - asset_id: collision_camera_000
+> Door to Transport to Hanubia; Heals? False
+  * Layers: default
+  * Power Beam Door to Transport to Hanubia/Door to Save Station; Excluded from Dock Lock Rando
+  * Extra - actor_name: doorpowerpower_000
+  * Extra - actor_def: actordef:actors/props/doorpowerpower/charclasses/doorpowerpower.bmsad
+  * Extra - left_shield_entity: {EMPTY}
+  * Extra - left_shield_def: None
+  * Extra - right_shield_entity: {EMPTY}
+  * Extra - right_shield_def: None
+  > Save Station
+      Trivial
+
+> Door to Elevator to Raven Beak; Heals? False
+  * Layers: default
+  * Power Beam Door to Elevator to Raven Beak/Door to Save Station; Excluded from Dock Lock Rando
+  * Extra - actor_name: doorpowerpower_001
+  * Extra - actor_def: actordef:actors/props/doorpowerpower/charclasses/doorpowerpower.bmsad
+  * Extra - left_shield_entity: {EMPTY}
+  * Extra - left_shield_def: None
+  * Extra - right_shield_entity: {EMPTY}
+  * Extra - right_shield_def: None
+  > Save Station
+      Trivial
+
+> Save Station; Heals? False; Default Node
+  * Layers: default
+  * Extra - actor_name: savestation_000
+  * Extra - actor_def: actordef:actors/props/savestation/charclasses/savestation.bmsad
+  * Extra - start_point_actor_name: savestation_000_platform
+  * Extra - start_point_actor_def: actordef:actors/props/weightactivatedplatform_save/charclasses/weightactivatedplatform_save.bmsad
+  > Door to Transport to Hanubia
+      Trivial
+  > Door to Elevator to Raven Beak
+      Trivial
+
+----------------
+Transport to Hanubia
+Extra - total_boundings: {'x1': -5900.0, 'x2': 1500.0, 'y1': -4800.0, 'y2': -1100.0}
+Extra - polygon: [[1500.0, -1100.0], [-5900.0, -1100.0], [-5900.0, -4800.0], [1500.0, -4800.0]]
+Extra - asset_id: collision_camera_001
+> Door to Save Station; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station/Door to Transport to Hanubia; Excluded from Dock Lock Rando
+  * Extra - actor_name: doorpowerpower_000
+  * Extra - actor_def: actordef:actors/props/doorpowerpower/charclasses/doorpowerpower.bmsad
+  * Extra - left_shield_entity: {EMPTY}
+  * Extra - left_shield_def: None
+  * Extra - right_shield_entity: {EMPTY}
+  * Extra - right_shield_def: None
+  > Total Recharge
+      Trivial
+
+> Start Point; Heals? False
+  * Layers: default
+  * Extra - start_point_actor_name: StartPoint0
+  * Extra - start_point_actor_def: actordef:actors/logic/startpoint/charclasses/startpoint.bmsad
+  > Elevator to Hanubia
+      Trivial
+
+> Total Recharge; Heals? True
+  * Layers: default
+  * Extra - actor_name: totalrechargestation_000
+  * Extra - actor_def: actordef:actors/props/totalrechargestation/charclasses/totalrechargestation.bmsad
+  * Extra - start_point_actor_name: weightactivatedplatform_total_000
+  * Extra - start_point_actor_def: actordef:actors/props/weightactivatedplatform_total/charclasses/weightactivatedplatform_total.bmsad
+  > Door to Save Station
+      Metroid DNA 1 and Metroid DNA 10 and Metroid DNA 11 and Metroid DNA 12 and Metroid DNA 2 and Metroid DNA 3 and Metroid DNA 4 and Metroid DNA 5 and Metroid DNA 6 and Metroid DNA 7 and Metroid DNA 8 and Metroid DNA 9
+  > Artifact Gate
+      Any of the following:
+          Speed Booster or Simple IBJ or Use Spin Boost
+          Flash Shift and Wall Jump (Beginner)
+          Morph Ball and Single-wall Wall Jump (Intermediate)
+
+> Elevator to Hanubia; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  * Elevator to Transport to Itorash/Elevator to Itorash
+  * Extra - actor_name: capsuleelevatorskybase_000
+  * Extra - actor_def: actordef:actors/props/capsuleelevatorskybase/charclasses/capsuleelevatorskybase.bmsad
+  * Extra - elevator_component: CCapsuleUsableComponent
+  * Extra - target_spawn_point: elevator_skybase_000_platform
+  * Extra - start_point_actor_name: elevator_shipyard_000_platform
+  * Extra - start_point_actor_def: actordef:actors/props/weightactivatedplatform_elevator/charclasses/weightactivatedplatform_elevator.bmsad
+  * Extra - transporter_name: Itorash
+  > Start Point
+      Trivial
+  > Artifact Gate
+      Any of the following:
+          Speed Booster or Simple IBJ or Use Spin Boost
+          Flash Shift and Wall Jump (Beginner)
+          Morph Ball and Single-wall Wall Jump (Intermediate)
+
+> Artifact Gate; Heals? False
+  * Layers: default
+  > Total Recharge
+      Trivial
+  > Elevator to Hanubia
+      Trivial
+
+----------------
+Elevator to Raven Beak
+Extra - total_boundings: {'x1': 3400.0, 'x2': 6700.0, 'y1': -4600.0, 'y2': -2400.0}
+Extra - polygon: [[6700.0, -2400.0], [3400.0, -2400.0], [3400.0, -4600.0], [6700.0, -4600.0]]
+Extra - asset_id: collision_camera_002
+> Door to Save Station; Heals? False
+  * Layers: default
+  * Power Beam Door to Save Station/Door to Elevator to Raven Beak; Excluded from Dock Lock Rando
+  * Extra - actor_name: doorpowerpower_001
+  * Extra - actor_def: actordef:actors/props/doorpowerpower/charclasses/doorpowerpower.bmsad
+  * Extra - left_shield_entity: {EMPTY}
+  * Extra - left_shield_def: None
+  * Extra - right_shield_entity: {EMPTY}
+  * Extra - right_shield_def: None
+  > Event - Destroy Generator
+      Lay Power Bomb
+  > Dock to Raven Beak Arena
+      All of the following:
+          After Itorash - Destroy Generator
+          Any of the following:
+              Space Jump or Speed Booster or Simple IBJ
+              Spin Boost and Wall Jump (Beginner)
+              Flash Shift and Wall Jump (Advanced)
+
+> Event - Destroy Generator; Heals? False
+  * Layers: default
+  * Event Itorash - Destroy Generator
+  * Extra - actor_name: block_pbcolumn_000
+  * Extra - actor_def: actordef:actors/props/block_pbcolumn/charclasses/block_pbcolumn.bmsad
+  > Door to Save Station
+      Trivial
+
+> Start Point; Heals? False; Default Node
+  * Layers: default
+  * Extra - start_point_actor_name: SP_Checkpoint_Commander
+  * Extra - start_point_actor_def: actordef:actors/logic/startpoint/charclasses/startpoint.bmsad
+  > Dock to Raven Beak Arena
+      Trivial
+
+> Dock to Raven Beak Arena; Heals? False
+  * Layers: default
+  * Open Passage to Raven Beak Arena/Before Fight
+  * Extra - actor_name: commander_elevator
+  * Extra - actor_def: actordef:actors/props/commander_elevator/charclasses/commander_elevator.bmsad
+  * Extra - start_point_actor_name: weightactivatedplatform_commanderelevator_000
+  * Extra - start_point_actor_def: actordef:actors/props/wplatform_cm_elevator/charclasses/weightactivatedplatform_commanderelevator.bmsad
+  > Door to Save Station
+      Trivial
+  > Start Point
+      Trivial
+
+----------------
+Elevator Cutscene
+Extra - total_boundings: {'x1': 3400.0, 'x2': 6700.0, 'y1': -2500.0, 'y2': 1900.0}
+Extra - polygon: [[6700.0, 1900.0], [3400.0, 1900.0], [3400.0, -2500.0], [6700.0, -2500.0]]
+Extra - asset_id: collision_camera_003
+> Placeholder; Heals? False
+  * Layers: default
+
+----------------
+Raven Beak Arena
+Extra - total_boundings: {'x1': 3000.0, 'x2': 7100.0, 'y1': 1800.0, 'y2': 4000.0}
+Extra - polygon: [[7100.0, 4000.0], [3000.0, 4000.0], [3000.0, 1800.0], [7100.0, 1800.0]]
+Extra - asset_id: collision_camera_004
+> Before Fight; Heals? False; Default Node
+  * Layers: default
+  > Boss - Raven Beak
+      All of the following:
+          # TODO: flesh out phase 2 and 3 fight requirements. phase 1 should more or less get the job done for now though
+          Any of the following:
+              # Energy Requirements
+              Combat (Advanced) or Normal Damage ≥ 799
+              Combat (Beginner) and Normal Damage ≥ 549
+              Combat (Intermediate) and Normal Damage ≥ 299
+          All of the following:
+              # Methods of dodging
+              # Phase 1 and 3
+              Flash Shift or Combat (Beginner)
+              # Phase 2
+              Space Jump or Combat (Intermediate)
+          All of the following:
+              # Methods of fighting
+              Any of the following:
+                  # Phase 1
+                  # 52 wide + plasma + wave shots
+                  Beam Damage 240
+                  # 83 wide + plasma shots or 105 wide + wave shots
+                  Combat (Beginner) and Beam Damage 120
+                  # 167 wide shots or 157 plasma + wave shots
+                  Combat (Advanced) and Beam Damage 75
+                  # 500 power beam shots or 250 plasma shots or 313 wave shots
+                  Combat (Hypermode) and Shoot Beam
+                  Missiles ≥ 34 and Shoot Super Ice Missile
+                  Missiles ≥ 45 and Combat (Intermediate) and Shoot Super Missile
+                  Missiles ≥ 134 and Combat (Expert) and Shoot Missile
+
+> Boss - Raven Beak; Heals? False
+  * Layers: default
+  > Event - Escape Sequence
+      All of the following:
+          Lay Power Bomb
+          Any of the following:
+              Space Jump or Simple IBJ
+              All of the following:
+                  Speed Booster and Spin Boost
+                  Movement (Intermediate) or Speed Booster Conservation (Beginner)
+                  Single-wall Wall Jump (Intermediate) or Wall Jump (Beginner)
+
+> Event - Escape Sequence; Heals? True
+  * Layers: default
+  * Event Ship
+  * End of the game
+  * Extra - start_point_actor_name: SP_Checkpoint_Endgame
+  * Extra - start_point_actor_def: actordef:actors/logic/startpoint/charclasses/startpoint.bmsad
+  > Dock to Elevator to Raven Beak
+      Trivial
+
+> Dock to Elevator to Raven Beak; Heals? False
+  * Layers: default
+  * Open Passage to Elevator to Raven Beak/Start Point
+

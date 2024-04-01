@@ -1,0 +1,100 @@
+====================
+Templates
+
+* Has Flight:
+      Any of the following:
+          Booster 0.8 or Booster 2.0
+          Machine Gun and After Level Up Machine Gun
+
+* Can Break Blocks:
+      Blade or Machine Gun or Nemesis or Polar Star or Spur
+
+* Can Kill Bosses:
+      Blade or Bubbler or Fireball or Machine Gun or Nemesis or Polar Star or Snake or Spur
+
+* Has Weapon:
+      Blade or Bubbler or Fireball or Machine Gun or Missile Launcher or Nemesis or Polar Star or Snake or Spur or Super Missile Launcher
+
+* Remove Points of No Return:
+      Disabled Points of No Return and Disabled Entrance Randomizer
+
+* Reset Iframes:
+      Map System or Freeware
+
+* Traverse Labyrinth W:
+      Any of the following:
+          Pacifist Strats (Expert) or Has Weapon
+          Nemesis and Pacifist Strats (Intermediate)
+          Pacifist Strats (Advanced) and Normal Damage ≥ 5
+
+====================
+Dock Weaknesses
+
+> Door
+  * Door
+      Open:
+          Trivial
+      No lock
+
+  > Dock Rando: Disabled
+
+
+> H/V Trigger
+  * H/V Trigger
+      Open:
+          Trivial
+      No lock
+
+  > Dock Rando: Disabled
+
+
+> Entrance
+  * Entrance
+      Open:
+          Impossible
+      No lock
+
+  > Dock Rando: Disabled
+
+
+> Exit
+  * Exit
+      Open:
+          Trivial
+      No lock
+
+  > Dock Rando: Disabled
+
+
+> Teleporter
+  * Teleporter
+      Open:
+          Trivial
+      No lock
+
+  > Dock Rando: Disabled
+
+
+> Debug Cat
+  * Debug Cat
+      Open:
+          Trivial
+      No lock
+
+  > Dock Rando: Disabled
+
+
+> Other
+  * Open Passage
+      Open:
+          Trivial
+      No lock
+
+
+  * Not Determined
+      Open:
+          Impossible
+      No lock
+
+  > Dock Rando: Disabled
+

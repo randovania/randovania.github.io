@@ -1,0 +1,56 @@
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
+from unittest.mock import MagicMock
+
+from randovania.cli.commands import batch_distribute
+from randovania.layout.generator_parameters import GeneratorParameters
+
+if TYPE_CHECKING:
+    import pytest_mock
+
+
+def test_batch_distribute_helper(mocker: pytest_mock.MockerFixture):
+    # Setup
+    mock_run = mocker.patch("asyncio.run")
+
+    description = mock_run.return_value
+    mock_generate_description = mocker.patch(
+        "randovania.generator.generator.generate_and_validate_description",
+        new_callable=MagicMock,
+    )
+    mock_perf_counter = mocker.patch("time.perf_counter", autospec=False)  # TODO: pytest-qt bug
+
+    base_permalink = MagicMock(spec=GeneratorParameters)
+    base_permalink.presets = [MagicMock()]
+    seed_number = 5000
+    validate = MagicMock()
+    output_dir = MagicMock()
+    timeout = 67
+    description.file_extension.return_value = "rdvgame"
+
+    expected_permalink = GeneratorParameters(
+        seed_number=seed_number,
+        spoiler=True,
+        presets=base_permalink.presets,
+        development=base_permalink.development,
+    )
+
+    mock_perf_counter.side_effect = [1000, 5000]
+
+    # Run
+    delta_time = batch_distribute.batch_distribute_helper(base_permalink, seed_number, timeout, validate, output_dir)
+
+    # Assert
+    mock_generate_description.assert_called_once_with(
+        generator_params=expected_permalink,
+        status_update=None,
+        validate_after_generation=validate,
+        timeout=timeout,
+        attempts=0,
+    )
+    mock_run.assert_called_once_with(mock_generate_description.return_value)
+
+    assert delta_time == 4000
+    output_dir.joinpath.assert_called_once_with(f"{seed_number}.rdvgame")
+    description.save_to_file.assert_called_once_with(output_dir.joinpath.return_value)

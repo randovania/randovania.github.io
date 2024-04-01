@@ -1,9 +1,16 @@
 <div class="container text-center">
-  <div class="row align-items-center justify-content-center">
+  <div class="row align-items-center justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
     {% for game in site.games %}
-      <div class="col-lg col-12">
+
+      {% unless game.development-state == "stable" or include.show-experimental %}
+        {% continue %}
+      {% endunless %}
+      <div class="col">
         <a href="{{ game.url }}" title="{{ game.long-name }}">
-          <img src="/assets/games/{{ game.short-name }}.png" />
+          <img
+            src="/assets/games/{{ game.game-id }}.png"
+            width="264"
+            height="352" />
         </a>
       </div>
     {% endfor %}

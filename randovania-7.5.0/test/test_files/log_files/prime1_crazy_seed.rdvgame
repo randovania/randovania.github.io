@@ -1,0 +1,1808 @@
+{
+    "schema_version": 13,
+    "info": {
+        "randovania_version": "5.1.0.dev90",
+        "randovania_version_git": "dc7fa003",
+        "permalink": "DdA6Zyt98Nx_oANCcU6KHP09hVK-Cl6qtbPkwEBOOWQyczjg5WaihBWgMICS5CtGwbpWZe063bhe75-7QMMwQlD0sITiIHbD-mHmH55uACB6",
+        "has_spoiler": true,
+        "seed": 903043981,
+        "hash": "HJTSW7PQ",
+        "word_hash": "Zoomer Puffer Chozo",
+        "presets": [
+            {
+                "schema_version": 40,
+                "base_preset_uuid": null,
+                "name": "TestPreset",
+                "uuid": "43c530a6-2e63-4de9-bac2-eab217d1693d",
+                "description": "A preset that was customized.",
+                "game": "prime1",
+                "configuration": {
+                    "trick_level": {
+                        "minimal_logic": false,
+                        "specific_levels": {
+                            "BJ": "advanced",
+                            "BSJ": "advanced",
+                            "BoostlessSpiner": "intermediate",
+                            "CBJ": "intermediate",
+                            "ClipThruObjects": "expert",
+                            "Combat": "advanced",
+                            "Dash": "expert",
+                            "HeatRun": "advanced",
+                            "IS": "intermediate",
+                            "InvisibleObjects": "advanced",
+                            "Knowledge": "advanced",
+                            "LJump": "expert",
+                            "Movement": "expert",
+                            "RJump": "expert",
+                            "SJump": "expert",
+                            "StandEnemies": "expert",
+                            "Standable": "expert",
+                            "UnderwaterMovement": "advanced",
+                            "WallBoost": "advanced"
+                        }
+                    },
+                    "starting_location": [
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Antechamber"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Arboretum"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Arboretum Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Burn Dome"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Burn Dome Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Crossway"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Crossway Access South"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Crossway Access West"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Dynamo"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Dynamo Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "East Atrium"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "East Furnace Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Elder Hall Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Energy Core"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Energy Core Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Eyon Tunnel"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Furnace"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Gathering Hall"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Gathering Hall Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Hall of the Elders"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Hive Totem"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Magma Pool"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Main Plaza"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Map Station"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Meditation Fountain"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "North Atrium"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Nursery Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Piston Tunnel"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Plaza Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Reflecting Pool"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Reflecting Pool Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Ruined Fountain"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Ruined Fountain Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Ruined Gallery"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Ruined Nursery"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Ruined Shrine"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Ruined Shrine Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Ruins Entrance"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Save Station 1"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Save Station 2"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Save Station 3"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Sun Tower"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Sun Tower Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Sunchamber"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Sunchamber Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Sunchamber Lobby"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Totem Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Tower Chamber"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Tower of Light"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Tower of Light Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Training Chamber"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Training Chamber Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Transport Access North"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Transport Access South"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Transport to Magmoor Caverns North"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Transport to Tallon Overworld East"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Transport to Tallon Overworld North"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Transport to Tallon Overworld South"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Vault"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Vault Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Watery Hall"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "Watery Hall Access"
+                        },
+                        {
+                            "world_name": "Chozo Ruins",
+                            "area_name": "West Furnace Access"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Air Lock"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Biohazard Containment"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Biotech Research Area 1"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Biotech Research Area 2"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Cargo Freight Lift to Deck Gamma"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Connection Elevator to Deck Alpha"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Connection Elevator to Deck Beta"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Connection Elevator to Deck Beta (2)"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Deck Alpha Access Hall"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Deck Alpha Mech Shaft"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Deck Alpha Umbilical Hall"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Deck Beta Conduit Hall"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Deck Beta Security Hall"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Deck Beta Transit Hall"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Deck Gamma Monitor Hall"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Emergency Evacuation Area"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Exterior Docking Hangar"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Main Ventilation Shaft Section A"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Main Ventilation Shaft Section B"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Main Ventilation Shaft Section C"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Main Ventilation Shaft Section D"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Main Ventilation Shaft Section E"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Main Ventilation Shaft Section F"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Map Facility"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Reactor Core"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Reactor Core Entrance"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Subventilation Shaft Section A"
+                        },
+                        {
+                            "world_name": "Frigate Orpheon",
+                            "area_name": "Subventilation Shaft Section B"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Burning Trail"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Fiery Shores"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Geothermal Core"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Lake Tunnel"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Lava Lake"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Magmoor Workstation"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Monitor Station"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Monitor Tunnel"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "North Core Tunnel"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Pit Tunnel"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Plasma Processing"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Save Station Magmoor A"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Save Station Magmoor B"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Shore Tunnel"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "South Core Tunnel"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Storage Cavern"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Transport Tunnel A"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Transport Tunnel B"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Transport Tunnel C"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Transport to Chozo Ruins North"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Transport to Phazon Mines West"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Transport to Phendrana Drifts North"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Transport to Phendrana Drifts South"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Transport to Tallon Overworld West"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Triclops Pit"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Twin Fires"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Twin Fires Tunnel"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Warrior Shrine"
+                        },
+                        {
+                            "world_name": "Magmoor Caverns",
+                            "area_name": "Workstation Tunnel"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Central Dynamo"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Dynamo Access"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Elevator A"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Elevator Access A"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Elevator Access B"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Elevator B"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Elite Control"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Elite Control Access"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Elite Quarters"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Elite Quarters Access"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Elite Research"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Fungal Hall A"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Fungal Hall Access"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Fungal Hall B"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Main Quarry"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Maintenance Tunnel"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Map Station Mines"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Metroid Quarantine A"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Metroid Quarantine B"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Mine Security Station"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Missile Station Mines"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Omega Research"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Ore Processing"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Phazon Mining Tunnel"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Phazon Processing Center"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Processing Center Access"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Quarantine Access A"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Quarantine Access B"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Quarry Access"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Research Access"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Save Station Mines B"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Save Station Mines C"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Security Access A"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Security Access B"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Storage Depot A"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Storage Depot B"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Transport Access"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Transport to Magmoor Caverns South"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Transport to Tallon Overworld South"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Ventilation Shaft"
+                        },
+                        {
+                            "world_name": "Phazon Mines",
+                            "area_name": "Waste Disposal"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Aether Lab Entryway"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Canyon Entryway"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Chamber Access"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Chapel Tunnel"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Chapel of the Elders"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Chozo Ice Temple"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Control Tower"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Courtyard Entryway"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "East Tower"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Frost Cave"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Frost Cave Access"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Frozen Pike"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Gravity Chamber"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Hunter Cave"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Hunter Cave Access"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Hydra Lab Entryway"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Ice Ruins Access"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Ice Ruins East"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Ice Ruins West"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Lake Tunnel"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Lower Edge Tunnel"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Map Station"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "North Quarantine Tunnel"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Observatory"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Observatory Access"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Phendrana Canyon"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Phendrana Shorelines"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Phendrana's Edge"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Pike Access"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Plaza Walkway"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Quarantine Access"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Quarantine Cave"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Quarantine Monitor"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Research Core"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Research Core Access"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Research Entrance"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Research Lab Aether"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Research Lab Hydra"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Ruined Courtyard"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Ruins Entryway"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Save Station A"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Save Station B"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Save Station C"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Save Station D"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Security Cave"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Shoreline Entrance"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "South Quarantine Tunnel"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Specimen Storage"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Storage Cave"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Temple Entryway"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Transport Access"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Transport to Magmoor Caverns South"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Transport to Magmoor Caverns West"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "Upper Edge Tunnel"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "West Tower"
+                        },
+                        {
+                            "world_name": "Phendrana Drifts",
+                            "area_name": "West Tower Entrance"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Alcove"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Arbor Chamber"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Artifact Temple"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Biohazard Containment"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Biotech Research Area 1"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Canyon Cavern"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Cargo Freight Lift to Deck Gamma"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Connection Elevator to Deck Beta"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Deck Beta Conduit Hall"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Deck Beta Security Hall"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Deck Beta Transit Hall"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Frigate Access Tunnel"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Frigate Crash Site"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Great Tree Chamber"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Great Tree Hall"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Gully"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Hydro Access Tunnel"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Landing Site"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Life Grove"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Life Grove Tunnel"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Main Ventilation Shaft Section A"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Main Ventilation Shaft Section B"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Main Ventilation Shaft Section C"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Overgrown Cavern"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Reactor Access"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Reactor Core"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Root Cave"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Root Tunnel"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Savestation"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Tallon Canyon"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Temple Hall"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Temple Lobby"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Temple Security Station"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Transport Tunnel A"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Transport Tunnel B"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Transport Tunnel C"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Transport Tunnel D"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Transport Tunnel E"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Transport to Chozo Ruins East"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Transport to Chozo Ruins South"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Transport to Chozo Ruins West"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Transport to Magmoor Caverns East"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Transport to Phazon Mines East"
+                        },
+                        {
+                            "world_name": "Tallon Overworld",
+                            "area_name": "Waterfall Cavern"
+                        }
+                    ],
+                    "available_locations": {
+                        "randomization_mode": "full",
+                        "excluded_indices": []
+                    },
+                    "major_items_configuration": {
+                        "items_state": {
+                            "Charge Beam": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Power Beam": {
+                                "num_included_in_starting_items": 1
+                            },
+                            "Wave Beam": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Ice Beam": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Plasma Beam": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Missile Launcher": {
+                                "num_shuffled_pickups": 1,
+                                "included_ammo": [
+                                    5
+                                ]
+                            },
+                            "Grapple Beam": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Combat Visor": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Scan Visor": {
+                                "num_included_in_starting_items": 1
+                            },
+                            "Thermal Visor": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "X-Ray Visor": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Space Jump Boots": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Energy Tank": {
+                                "num_shuffled_pickups": 14
+                            },
+                            "Morph Ball": {
+                                "num_included_in_starting_items": 1
+                            },
+                            "Morph Ball Bomb": {
+                                "num_included_in_starting_items": 1
+                            },
+                            "Boost Ball": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Spider Ball": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Power Bomb": {
+                                "num_shuffled_pickups": 1,
+                                "included_ammo": [
+                                    8
+                                ]
+                            },
+                            "Power Suit": {
+                                "num_included_in_starting_items": 1
+                            },
+                            "Varia Suit": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Gravity Suit": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Phazon Suit": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Super Missile": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Wavebuster": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Ice Spreader": {
+                                "num_shuffled_pickups": 1
+                            },
+                            "Flamethrower": {
+                                "num_shuffled_pickups": 1
+                            }
+                        },
+                        "default_items": {},
+                        "minimum_random_starting_items": 0,
+                        "maximum_random_starting_items": 2
+                    },
+                    "ammo_configuration": {
+                        "items_state": {
+                            "Missile Expansion": {
+                                "ammo_count": [
+                                    5
+                                ],
+                                "pickup_count": 49,
+                                "requires_major_item": false
+                            },
+                            "Power Bomb Expansion": {
+                                "ammo_count": [
+                                    0
+                                ],
+                                "pickup_count": 4,
+                                "requires_major_item": false
+                            }
+                        }
+                    },
+                    "damage_strictness": 1.0,
+                    "pickup_model_style": "all-visible",
+                    "pickup_model_data_source": "etm",
+                    "logical_resource_action": "randomly",
+                    "first_progression_must_be_local": false,
+                    "minimum_available_locations_for_hint_placement": 0,
+                    "minimum_location_weight_for_hint_placement": 0.0,
+                    "dock_rando": {
+                        "mode": "vanilla",
+                        "types_state": {
+                            "door": {
+                                "can_change_from": [
+                                    "Ice Door",
+                                    "Missile Blast Shield",
+                                    "Normal Door",
+                                    "Plasma Door",
+                                    "Wave Door"
+                                ],
+                                "can_change_to": [
+                                    "Bomb Door",
+                                    "Charge Beam Door",
+                                    "Flamethrower Blast Shield",
+                                    "Ice Door",
+                                    "Ice Spreader Blast Shield",
+                                    "Missile Blast Shield (randomprime)",
+                                    "Normal Door",
+                                    "Permanently Locked",
+                                    "Plasma Door",
+                                    "Power Bomb Blast Shield",
+                                    "Super Missile Blast Shield",
+                                    "Wave Door",
+                                    "Wavebuster Blast Shield"
+                                ]
+                            },
+                            "morph_ball": {
+                                "can_change_from": [],
+                                "can_change_to": []
+                            },
+                            "other": {
+                                "can_change_from": [],
+                                "can_change_to": []
+                            }
+                        }
+                    },
+                    "elevators": {
+                        "mode": "one-way-anything",
+                        "excluded_teleporters": [
+                            {
+                                "world_name": "Tallon Overworld",
+                                "area_name": "Artifact Temple",
+                                "node_name": "Teleport to Impact Crater - Crater Impact Point"
+                            }
+                        ],
+                        "excluded_targets": [],
+                        "skip_final_bosses": true,
+                        "allow_unvisited_room_names": true
+                    },
+                    "hints": {
+                        "artifacts": "precise",
+                        "phazon_suit": "precise"
+                    },
+                    "energy_per_tank": 78,
+                    "artifact_target": 9,
+                    "artifact_minimum_progression": 6,
+                    "heat_damage": 15.0,
+                    "warp_to_start": true,
+                    "heat_protection_only_varia": true,
+                    "progressive_damage_reduction": false,
+                    "allow_underwater_movement_without_gravity": true,
+                    "small_samus": true,
+                    "large_samus": false,
+                    "shuffle_item_pos": true,
+                    "items_every_room": true,
+                    "random_boss_sizes": true,
+                    "no_doors": true,
+                    "superheated_probability": 531,
+                    "submerged_probability": 287,
+                    "room_rando": "Two-way",
+                    "spring_ball": true,
+                    "deterministic_idrone": true,
+                    "deterministic_maze": true,
+                    "main_plaza_door": true,
+                    "blue_save_doors": true,
+                    "backwards_frigate": false,
+                    "backwards_labs": true,
+                    "backwards_upper_mines": true,
+                    "backwards_lower_mines": true,
+                    "phazon_elite_without_dynamo": false,
+                    "qol_game_breaking": true,
+                    "qol_pickup_scans": true,
+                    "qol_cutscenes": "major",
+                    "enemy_attributes": {
+                        "enemy_rando_range_scale_low": 0.25,
+                        "enemy_rando_range_scale_high": 5.25,
+                        "enemy_rando_range_health_low": 2.25,
+                        "enemy_rando_range_health_high": 8.23,
+                        "enemy_rando_range_speed_low": 0.15,
+                        "enemy_rando_range_speed_high": 7.25,
+                        "enemy_rando_range_damage_low": 1.25,
+                        "enemy_rando_range_damage_high": 100.25,
+                        "enemy_rando_range_knockback_low": 15.5,
+                        "enemy_rando_range_knockback_high": 200.35,
+                        "enemy_rando_diff_xyz": true
+                    }
+                }
+            }
+        ]
+    },
+    "game_modifications": [
+        {
+            "game": "prime1",
+            "starting_location": "Magmoor Caverns/Shore Tunnel",
+            "starting_items": {
+                "Power Beam": 1,
+                "Scan Visor": 1,
+                "Morph Ball": 1,
+                "Morph Ball Bomb": 1,
+                "Power Suit": 1,
+                "Artifact of World": 1,
+                "Artifact of Spirit": 1,
+                "Artifact of Newborn": 1,
+                "Varia Suit": 1
+            },
+            "teleporters": {
+                "Impact Crater/Crater Entry Point/Teleport to Artifact Temple": "Frigate Orpheon/Main Ventilation Shaft Section C",
+                "Impact Crater/Metroid Prime Lair/Teleporter to Credits": "Chozo Ruins/North Atrium",
+                "Phendrana Drifts/Transport to Magmoor Caverns West/Elevator - Transport to Phendrana Drifts North": "Impact Crater/Phazon Infusion Chamber",
+                "Phendrana Drifts/Transport to Magmoor Caverns South/Elevator - Transport to Phendrana Drifts South": "Chozo Ruins/Dynamo Access",
+                "Frigate Orpheon/Exterior Docking Hangar/Teleport to Landing Site": "Impact Crater/Crater Tunnel B",
+                "Magmoor Caverns/Transport to Chozo Ruins North/Elevator to Chozo Ruins - Transport to Magmoor Caverns North": "Phazon Mines/Elevator Access B",
+                "Magmoor Caverns/Transport to Phendrana Drifts North/Elevator - Transport to Magmoor Caverns West": "Frigate Orpheon/Connection Elevator to Deck Beta",
+                "Magmoor Caverns/Transport to Tallon Overworld West/Elevator to Tallon Overworld - Transport to Magmoor Caverns East": "Frigate Orpheon/Air Lock",
+                "Magmoor Caverns/Transport to Phazon Mines West/Elevator - Transport to Magmoor Caverns South": "Phendrana Drifts/Frozen Pike",
+                "Magmoor Caverns/Transport to Phendrana Drifts South/Elevator - Transport to Magmoor Caverns South": "Phendrana Drifts/Control Tower",
+                "Phazon Mines/Transport to Tallon Overworld South/Elevator to Tallon Overworld - Transport to Phazon Mines East": "Magmoor Caverns/Lava Lake",
+                "Phazon Mines/Transport to Magmoor Caverns South/Elevator - Transport to Phazon Mines West": "Tallon Overworld/Frigate Access Tunnel",
+                "Tallon Overworld/Transport to Chozo Ruins West/Elevator to Chozo Ruins - Transport to Tallon Overworld North": "Tallon Overworld/Life Grove",
+                "Tallon Overworld/Artifact Temple/Teleport to Impact Crater - Crater Impact Point": "End of Game/Credits",
+                "Tallon Overworld/Transport to Chozo Ruins East/Elevator to Chozo Ruins - Transport to Tallon Overworld East": "Phazon Mines/Quarantine Access B",
+                "Tallon Overworld/Transport to Magmoor Caverns East/Elevator to Magmoor Caverns - Transport to Tallon Overworld West": "Phazon Mines/Elevator B",
+                "Tallon Overworld/Transport to Chozo Ruins South/Elevator to Chozo Ruins - Transport to Tallon Overworld South": "Tallon Overworld/Connection Elevator to Deck Beta",
+                "Tallon Overworld/Transport to Phazon Mines East/Elevator to Phazon Mines - Transport to Tallon Overworld South": "Phendrana Drifts/Plaza Walkway",
+                "Chozo Ruins/Transport to Tallon Overworld North/Elevator to Tallon Overworld - Transport to Chozo Ruins West": "Chozo Ruins/Transport to Tallon Overworld South",
+                "Chozo Ruins/Transport to Magmoor Caverns North/Elevator to Magmoor Caverns - Transport to Chozo Ruins North": "Phendrana Drifts/Shoreline Entrance",
+                "Chozo Ruins/Transport to Tallon Overworld East/Elevator to Tallon Overworld - Transport to Chozo Ruins East": "Chozo Ruins/Crossway Access West",
+                "Chozo Ruins/Transport to Tallon Overworld South/Elevator to Tallon Overworld - Transport to Chozo Ruins South": "Magmoor Caverns/Plasma Processing"
+            },
+            "dock_weakness": {
+                "Phendrana Drifts/Phendrana Shorelines/Door to Save Station B": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phendrana Drifts/Save Station B/Door to Phendrana Shorelines": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phendrana Drifts/Ruined Courtyard/Door to Save Station A": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phendrana Drifts/Save Station A/Door to Ruined Courtyard": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phendrana Drifts/Observatory/Door to Save Station D": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phendrana Drifts/Save Station D/Door to Observatory": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phendrana Drifts/Frost Cave/Door to Save Station C": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phendrana Drifts/Save Station C/Door to Frost Cave": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Magmoor Caverns/Burning Trail/Door to Save Station Magmoor A": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Magmoor Caverns/Save Station Magmoor A/Door to Burning Trail": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Magmoor Caverns/Transport to Phendrana Drifts South/Door to Save Station Magmoor B": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Magmoor Caverns/Save Station Magmoor B/Door to Transport to Phendrana Drifts South": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phazon Mines/Main Quarry/Door to Save Station Mines A": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phazon Mines/Save Station Mines A/Door to Main Quarry": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phazon Mines/Central Dynamo/Door to Save Station Mines B": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phazon Mines/Save Station Mines B/Door to Central Dynamo": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phazon Mines/Metroid Quarantine B/Door to Save Station Mines C": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Phazon Mines/Save Station Mines C/Door to Metroid Quarantine B": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Tallon Overworld/Reactor Access/Door to Savestation": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Tallon Overworld/Savestation/Door to Reactor Access": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Chozo Ruins/Main Plaza/Door from Plaza Access": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Chozo Ruins/Ruined Nursery/Door to Save Station 1": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Chozo Ruins/Save Station 1/Door to Ruined Nursery": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Chozo Ruins/Gathering Hall/Door to Save Station 2": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Chozo Ruins/Save Station 2/Door to Gathering Hall": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Chozo Ruins/Reflecting Pool/Door to Save Station 3": {
+                    "type": "door",
+                    "name": "Normal Door"
+                },
+                "Chozo Ruins/Save Station 3/Door to Reflecting Pool": {
+                    "type": "door",
+                    "name": "Normal Door"
+                }
+            },
+            "configurable_nodes": {},
+            "locations": {
+                "Chozo Ruins": {
+                    "Antechamber/Pickup (Ice Beam)": "Super Missile",
+                    "Arboretum Access/Pickup (Items Every Room)": "Missile Expansion",
+                    "Arboretum/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Burn Dome Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Burn Dome/Pickup (Missile Expansion)": "Power Bomb Expansion",
+                    "Burn Dome/Pickup (Morph Ball Bombs)": "Energy Transfer Module",
+                    "Crossway Access South/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Crossway Access West/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Crossway/Pickup (Missile Expansion)": "Missile Expansion",
+                    "Dynamo Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Dynamo/Pickup (Missile Expansion 2)": "Charge Beam",
+                    "Dynamo/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "East Atrium/Pickup (Items Every Room)": "Missile Expansion",
+                    "East Furnace Access/Pickup (Items Every Room)": "Missile Expansion",
+                    "Elder Chamber/Pickup (Artifact of World)": "Missile Expansion",
+                    "Elder Hall Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Energy Core Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Energy Core/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Eyon Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Furnace/Pickup (Energy Tank)": "Energy Transfer Module",
+                    "Furnace/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Gathering Hall Access/Pickup (Items Every Room)": "Power Bomb Expansion",
+                    "Gathering Hall/Pickup (Missile Expansion)": "Energy Tank",
+                    "Hall of the Elders/Pickup (Energy Tank)": "Missile Expansion",
+                    "Hive Totem/Pickup (Missile Launcher)": "Missile Expansion",
+                    "Magma Pool/Pickup (Power Bomb Expansion)": "Energy Transfer Module",
+                    "Main Plaza/Pickup (Energy Tank)": "Energy Transfer Module",
+                    "Main Plaza/Pickup (Missile Expansion Grapple Ledge)": "Missile Expansion",
+                    "Main Plaza/Pickup (Missile Expansion Half Pipe)": "Energy Transfer Module",
+                    "Main Plaza/Pickup (Missile Expansion Tree)": "Power Bomb",
+                    "Map Station/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Meditation Fountain/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "North Atrium/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Nursery Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Piston Tunnel/Pickup (Items Every Room)": "Missile Expansion",
+                    "Plaza Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Reflecting Pool Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Reflecting Pool/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Ruined Fountain Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Ruined Fountain/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Ruined Gallery/Pickup (Missile Expansion 2)": "Energy Transfer Module",
+                    "Ruined Gallery/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Ruined Nursery/Pickup (Missile Expansion)": "Gravity Suit",
+                    "Ruined Shrine Access/Pickup (Items Every Room)": "Missile Expansion",
+                    "Ruined Shrine/Pickup (Missile Expansion Bomb Wall)": "Energy Transfer Module",
+                    "Ruined Shrine/Pickup (Missile Expansion Half Pipe)": "Energy Transfer Module",
+                    "Ruined Shrine/Pickup (Morph Ball)": "Energy Tank",
+                    "Ruins Entrance/Pickup (Items Every Room)": "Missile Expansion",
+                    "Save Station 1/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Save Station 2/Pickup (Items Every Room)": "Missile Expansion",
+                    "Save Station 3/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Sun Tower Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Sun Tower/Pickup (Items Every Room)": "Missile Expansion",
+                    "Sunchamber Access/Pickup (Items Every Room)": "Missile Expansion",
+                    "Sunchamber Lobby/Pickup (Items Every Room)": "Missile Expansion",
+                    "Sunchamber/Pickup (Artifact of Wild)": "Missile Expansion",
+                    "Sunchamber/Pickup (Varia Suit)": "Energy Transfer Module",
+                    "Totem Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Tower Chamber/Pickup (Artifact of Lifegiver)": "Missile Expansion",
+                    "Tower of Light Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Tower of Light/Pickup (Wavebuster)": "Energy Transfer Module",
+                    "Training Chamber Access/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Training Chamber/Pickup (Energy Tank)": "Energy Transfer Module",
+                    "Transport Access North/Pickup (Energy Tank)": "Missile Expansion",
+                    "Transport Access South/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Magmoor Caverns North/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Tallon Overworld East/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Tallon Overworld North/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Tallon Overworld South/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Vault Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Vault/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Watery Hall Access/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Watery Hall/Pickup (Charge Beam)": "Energy Transfer Module",
+                    "Watery Hall/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "West Furnace Access/Pickup (Items Every Room)": "Energy Transfer Module"
+                },
+                "Frigate Orpheon": {
+                    "Air Lock/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Biohazard Containment/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Biotech Research Area 1/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Biotech Research Area 2/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Cargo Freight Lift to Deck Gamma/Pickup (Items Every Room)": "Power Bomb Expansion",
+                    "Connection Elevator to Deck Alpha/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Connection Elevator to Deck Beta (2)/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Connection Elevator to Deck Beta/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Deck Alpha Access Hall/Pickup (Items Every Room)": "Missile Expansion",
+                    "Deck Alpha Mech Shaft/Pickup (Items Every Room)": "Energy Tank",
+                    "Deck Alpha Umbilical Hall/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Deck Beta Conduit Hall/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Deck Beta Security Hall/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Deck Beta Transit Hall/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Deck Gamma Monitor Hall/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Emergency Evacuation Area/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Exterior Docking Hangar/Pickup (Items Every Room)": "Missile Expansion",
+                    "Main Ventilation Shaft Section A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Main Ventilation Shaft Section B/Pickup (Items Every Room)": "Missile Expansion",
+                    "Main Ventilation Shaft Section C/Pickup (Items Every Room)": "Missile Expansion",
+                    "Main Ventilation Shaft Section D/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Main Ventilation Shaft Section E/Pickup (Items Every Room)": "Missile Expansion",
+                    "Main Ventilation Shaft Section F/Pickup (Items Every Room)": "Missile Expansion",
+                    "Map Facility/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Reactor Core Entrance/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Reactor Core/Pickup (Items Every Room)": "Missile Expansion",
+                    "Subventilation Shaft Section A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Subventilation Shaft Section B/Pickup (Items Every Room)": "Energy Transfer Module"
+                },
+                "Impact Crater": {
+                    "Crater Entry Point/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Crater Missile Station/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Crater Tunnel A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Crater Tunnel B/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Metroid Prime Lair/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Phazon Core/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Phazon Infusion Chamber/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Subchamber Five/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Subchamber Four/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Subchamber One/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Subchamber Three/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Subchamber Two/Pickup (Items Every Room)": "Energy Transfer Module"
+                },
+                "Magmoor Caverns": {
+                    "Burning Trail/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Fiery Shores/Pickup (Missile)": "Grapple Beam",
+                    "Fiery Shores/Pickup (Power Bomb)": "Energy Transfer Module",
+                    "Geothermal Core/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Lake Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Lava Lake/Pickup (Artifact of Nature)": "Wave Beam",
+                    "Magmoor Workstation/Pickup (Energy Tank)": "Energy Transfer Module",
+                    "Monitor Station/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Monitor Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "North Core Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Pit Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Plasma Processing/Pickup (Plasma Beam)": "Energy Transfer Module",
+                    "Save Station Magmoor A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Save Station Magmoor B/Pickup (Items Every Room)": "Missile Expansion",
+                    "Shore Tunnel/Pickup (Ice Spreader)": "Energy Transfer Module",
+                    "South Core Tunnel/Pickup (Items Every Room)": "Energy Tank",
+                    "Storage Cavern/Pickup (Missile)": "X-Ray Visor",
+                    "Transport Tunnel A/Pickup (Energy Tank)": "Missile Launcher",
+                    "Transport Tunnel B/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport Tunnel C/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Chozo Ruins North/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Phazon Mines West/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Phendrana Drifts North/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Phendrana Drifts South/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Tallon Overworld West/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Triclops Pit/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Twin Fires Tunnel/Pickup (Items Every Room)": "Power Bomb Expansion",
+                    "Twin Fires/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Warrior Shrine/Pickup (Artifact of Strength)": "Energy Transfer Module",
+                    "Workstation Tunnel/Pickup (Items Every Room)": "Energy Transfer Module"
+                },
+                "Phazon Mines": {
+                    "Central Dynamo/Pickup (Main Power Bombs)": "Energy Transfer Module",
+                    "Dynamo Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Elevator A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Elevator Access A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Elevator Access B/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Elevator B/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Elite Control Access/Pickup (Missile)": "Missile Expansion",
+                    "Elite Control/Pickup (Items Every Room)": "Missile Expansion",
+                    "Elite Quarters Access/Pickup (Items Every Room)": "Missile Expansion",
+                    "Elite Quarters/Pickup (Phazon Suit)": "Energy Transfer Module",
+                    "Elite Research/Pickup (Artifact of Warrior)": "Energy Transfer Module",
+                    "Elite Research/Pickup (Missile)": "Spider Ball",
+                    "Fungal Hall A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Fungal Hall Access/Pickup (Missile)": "Missile Expansion",
+                    "Fungal Hall B/Pickup (Missile)": "Energy Transfer Module",
+                    "Main Quarry/Pickup (Missile)": "Missile Expansion",
+                    "Maintenance Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Map Station Mines/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Metroid Quarantine A/Pickup (Missile)": "Artifact of Truth",
+                    "Metroid Quarantine B/Pickup (Missile)": "Energy Tank",
+                    "Mine Security Station/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Missile Station Mines/Pickup (Items Every Room)": "Missile Expansion",
+                    "Omega Research/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Ore Processing/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Phazon Mining Tunnel/Pickup (Artifact of Newborn)": "Energy Transfer Module",
+                    "Phazon Processing Center/Pickup (Missile)": "Energy Transfer Module",
+                    "Processing Center Access/Pickup (Energy Tank)": "Energy Transfer Module",
+                    "Quarantine Access A/Pickup (Items Every Room)": "Energy Tank",
+                    "Quarantine Access B/Pickup (Items Every Room)": "Missile Expansion",
+                    "Quarry Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Research Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Save Station Mines A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Save Station Mines B/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Save Station Mines C/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Security Access A/Pickup (Missile)": "Energy Transfer Module",
+                    "Security Access B/Pickup (Items Every Room)": "Ice Spreader",
+                    "Storage Depot A/Pickup (Flamethrower)": "Artifact of Wild",
+                    "Storage Depot B/Pickup (Grapple Beam)": "Thermal Visor",
+                    "Transport Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Magmoor Caverns South/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Tallon Overworld South/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Ventilation Shaft/Pickup (Energy Tank)": "Artifact of Sun",
+                    "Waste Disposal/Pickup (Items Every Room)": "Missile Expansion"
+                },
+                "Phendrana Drifts": {
+                    "Aether Lab Entryway/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Canyon Entryway/Pickup (Items Every Room)": "Missile Expansion",
+                    "Chamber Access/Pickup (Items Every Room)": "Missile Expansion",
+                    "Chapel Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Chapel of the Elders/Pickup (Wave Beam)": "Energy Transfer Module",
+                    "Chozo Ice Temple/Pickup (Artifact of Sun)": "Energy Transfer Module",
+                    "Control Tower/Pickup (Artifact of Elder)": "Combat Visor",
+                    "Courtyard Entryway/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "East Tower/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Frost Cave Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Frost Cave/Pickup (Missile)": "Energy Tank",
+                    "Frozen Pike/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Gravity Chamber/Pickup (Gravity Suit)": "Phazon Suit",
+                    "Gravity Chamber/Pickup (Missile)": "Space Jump Boots",
+                    "Hunter Cave Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Hunter Cave/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Hydra Lab Entryway/Pickup (Items Every Room)": "Wavebuster",
+                    "Ice Ruins Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Ice Ruins East/Pickup (Missile Expansion Behind Ice)": "Energy Transfer Module",
+                    "Ice Ruins East/Pickup (Spider Track Missile Expansion)": "Energy Transfer Module",
+                    "Ice Ruins West/Pickup (Power Bomb)": "Energy Tank",
+                    "Lake Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Lower Edge Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Map Station/Pickup (Items Every Room)": "Missile Expansion",
+                    "North Quarantine Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Observatory Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Observatory/Pickup (Super Missile)": "Energy Tank",
+                    "Phendrana Canyon/Pickup (Boost Ball)": "Energy Tank",
+                    "Phendrana Shorelines/Pickup (Missile Behind Ice)": "Energy Transfer Module",
+                    "Phendrana Shorelines/Pickup (Spider Track Missile)": "Energy Transfer Module",
+                    "Phendrana's Edge/Pickup (Items Every Room)": "Flamethrower",
+                    "Pike Access/Pickup (Items Every Room)": "Missile Expansion",
+                    "Plaza Walkway/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Quarantine Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Quarantine Cave/Pickup (Spider Ball)": "Energy Tank",
+                    "Quarantine Monitor/Pickup (Missile)": "Energy Transfer Module",
+                    "Research Core Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Research Core/Pickup (Thermal Visor)": "Ice Beam",
+                    "Research Entrance/Pickup (Items Every Room)": "Missile Expansion",
+                    "Research Lab Aether/Pickup (Energy Tank)": "Boost Ball",
+                    "Research Lab Aether/Pickup (Missile)": "Plasma Beam",
+                    "Research Lab Hydra/Pickup (Missile)": "Energy Transfer Module",
+                    "Ruined Courtyard/Pickup (Energy Tank)": "Missile Expansion",
+                    "Ruins Entryway/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Save Station A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Save Station B/Pickup (Items Every Room)": "Missile Expansion",
+                    "Save Station C/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Save Station D/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Security Cave/Pickup (Power Bomb)": "Energy Tank",
+                    "Shoreline Entrance/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "South Quarantine Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Specimen Storage/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Storage Cave/Pickup (Artifact of Spirit)": "Energy Transfer Module",
+                    "Temple Entryway/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport Access/Pickup (Energy Tank)": "Energy Transfer Module",
+                    "Transport to Magmoor Caverns South/Pickup (Items Every Room)": "Missile Expansion",
+                    "Transport to Magmoor Caverns West/Pickup (Items Every Room)": "Missile Expansion",
+                    "Upper Edge Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "West Tower Entrance/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "West Tower/Pickup (Items Every Room)": "Energy Transfer Module"
+                },
+                "Tallon Overworld": {
+                    "Alcove/Pickup (Space Jump Boots)": "Energy Transfer Module",
+                    "Arbor Chamber/Pickup (Missile Expansion)": "Artifact of Lifegiver",
+                    "Artifact Temple/Pickup (Artifact of Truth)": "Energy Transfer Module",
+                    "Biohazard Containment/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Biotech Research Area 1/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Canyon Cavern/Pickup (Items Every Room)": "Missile Expansion",
+                    "Cargo Freight Lift to Deck Gamma/Pickup (Energy Tank)": "Artifact of Warrior",
+                    "Connection Elevator to Deck Beta/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Deck Beta Conduit Hall/Pickup (Items Every Room)": "Energy Tank",
+                    "Deck Beta Security Hall/Pickup (Items Every Room)": "Missile Expansion",
+                    "Deck Beta Transit Hall/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Frigate Access Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Frigate Crash Site/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Great Tree Chamber/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Great Tree Hall/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Gully/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Hydro Access Tunnel/Pickup (Energy Tank)": "Energy Transfer Module",
+                    "Landing Site/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Life Grove Tunnel/Pickup (Missile Expansion)": "Artifact of Elder",
+                    "Life Grove/Pickup (Artifact of Chozo)": "Energy Transfer Module",
+                    "Life Grove/Pickup (X-Ray Visor)": "Artifact of Chozo",
+                    "Main Ventilation Shaft Section A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Main Ventilation Shaft Section B/Pickup (Items Every Room)": "Energy Tank",
+                    "Main Ventilation Shaft Section C/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Overgrown Cavern/Pickup (Missile Expansion)": "Artifact of Strength",
+                    "Reactor Access/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Reactor Core/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Root Cave/Pickup (Missile Expansion)": "Energy Transfer Module",
+                    "Root Tunnel/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Savestation/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Tallon Canyon/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Temple Hall/Pickup (Items Every Room)": "Missile Expansion",
+                    "Temple Lobby/Pickup (Items Every Room)": "Missile Expansion",
+                    "Temple Security Station/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport Tunnel A/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport Tunnel B/Pickup (Missile Expansion)": "Artifact of Nature",
+                    "Transport Tunnel C/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport Tunnel D/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport Tunnel E/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Chozo Ruins East/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Chozo Ruins South/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Chozo Ruins West/Pickup (Items Every Room)": "Energy Transfer Module",
+                    "Transport to Magmoor Caverns East/Pickup (Items Every Room)": "Missile Expansion",
+                    "Transport to Phazon Mines East/Pickup (Items Every Room)": "Missile Expansion",
+                    "Waterfall Cavern/Pickup (Items Every Room)": "Energy Transfer Module"
+                }
+            },
+            "hints": {}
+        }
+    ],
+    "item_order": [
+        "Varia Suit as starting item",
+        "Missile Launcher at Magmoor Caverns/Transport Tunnel A/Pickup (Energy Tank)",
+        "Grapple Beam at Magmoor Caverns/Fiery Shores/Pickup (Missile)",
+        "X-Ray Visor at Magmoor Caverns/Storage Cavern/Pickup (Missile)",
+        "Wave Beam at Magmoor Caverns/Lava Lake/Pickup (Artifact of Nature)",
+        "Plasma Beam at Phendrana Drifts/Research Lab Aether/Pickup (Missile)",
+        "Combat Visor at Phendrana Drifts/Control Tower/Pickup (Artifact of Elder)",
+        "Ice Beam at Phendrana Drifts/Research Core/Pickup (Thermal Visor)",
+        "Boost Ball at Phendrana Drifts/Research Lab Aether/Pickup (Energy Tank)",
+        "Space Jump Boots at Phendrana Drifts/Gravity Chamber/Pickup (Missile)",
+        "Energy Tank at Phendrana Drifts/Ice Ruins West/Pickup (Power Bomb)",
+        "Energy Tank at Phendrana Drifts/Observatory/Pickup (Super Missile)",
+        "Energy Tank at Phendrana Drifts/Phendrana Canyon/Pickup (Boost Ball)",
+        "Energy Tank at Phendrana Drifts/Frost Cave/Pickup (Missile)",
+        "Energy Tank at Phendrana Drifts/Security Cave/Pickup (Power Bomb)",
+        "Energy Tank at Phendrana Drifts/Quarantine Cave/Pickup (Spider Ball)",
+        "Phazon Suit at Phendrana Drifts/Gravity Chamber/Pickup (Gravity Suit)",
+        "Energy Tank at Chozo Ruins/Gathering Hall/Pickup (Missile Expansion)",
+        "Energy Tank at Chozo Ruins/Ruined Shrine/Pickup (Morph Ball)",
+        "Spider Ball at Phazon Mines/Elite Research/Pickup (Missile)",
+        "Super Missile at Chozo Ruins/Antechamber/Pickup (Ice Beam)",
+        "Thermal Visor at Phazon Mines/Storage Depot B/Pickup (Grapple Beam)",
+        "Charge Beam at Chozo Ruins/Dynamo/Pickup (Missile Expansion 2)",
+        "Power Bomb at Chozo Ruins/Main Plaza/Pickup (Missile Expansion Tree)",
+        "Artifact of Wild at Phazon Mines/Storage Depot A/Pickup (Flamethrower)",
+        "Artifact of Elder at Tallon Overworld/Life Grove Tunnel/Pickup (Missile Expansion)",
+        "Artifact of Chozo at Tallon Overworld/Life Grove/Pickup (X-Ray Visor)",
+        "Artifact of Sun at Phazon Mines/Ventilation Shaft/Pickup (Energy Tank)",
+        "Artifact of Truth at Phazon Mines/Metroid Quarantine A/Pickup (Missile)",
+        "Artifact of Nature at Tallon Overworld/Transport Tunnel B/Pickup (Missile Expansion)",
+        "Artifact of Strength at Tallon Overworld/Overgrown Cavern/Pickup (Missile Expansion)",
+        "Artifact of Lifegiver at Tallon Overworld/Arbor Chamber/Pickup (Missile Expansion)",
+        "Artifact of Warrior at Tallon Overworld/Cargo Freight Lift to Deck Gamma/Pickup (Energy Tank)"
+    ]
+}

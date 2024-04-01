@@ -1,3 +1,4 @@
+
 # Credits
 
 GUI and logic written by [Henrique Gemignani](https://github.com/henriquegemignani/), with contributions
@@ -54,7 +55,7 @@ Linux Flatpak build contributed by [Ethan Lee](https://flibitijibibo.com/).
   * [KirbymastaH](https://www.twitch.tv/kirbymastah)
   * [Dyceron](https://www.twitch.tv/dyceron)
   * [XenoWars](https://www.twitch.tv/xenowars1)
-  * [Mayberry](https://github.com/Isachu)
+  * [Mayberry](https://github.com/MayberryZoom)
   * [Hugoshido](https://twitch.tv/hugoshido)
   * [Tyranisaur](https://github.com/Tyranisaur)
 
@@ -100,3 +101,4 @@ The "unplug" icon is by tezar tantular from [Noun Project](https://thenounprojec
 
 ### Another Metroid 2 Remake
 Integration written by [Miepee](https://github.com/Miepee). Offworld sprites are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) and are made by [AbyssalCreature](https://github.com/AbyssalCreature), ShirtyScarab554 and [many others](https://github.com/randovania/YAMS/blob/main/YAMS-LIB/sprites/Attribution.md).
+

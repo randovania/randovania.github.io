@@ -1,15 +1,18 @@
-Here you will be able to randomize many aspects of either game, while still being ensured it's possible to
-finish without any trick or glitch! What can be randomized?
 
-* Randomize what can be found in each pickup location, including major upgrades, expansions, keys and artifacts.
+Randovania can randomize many aspects of its supported games, all while still ensuring they're completable 
+without using any glitches or exploits. Its features include:
 
-* Play with multiple people, via multiworld sessions. Your pickups will be shuffled among the games of
-everyone involved, no matter what game they're playing!
+* Randomizing what can be found in each item location. Weapons, keys, and more can end up in
+  completely new places.
 
-* Randomize where each teleporter goes, or what you need to unlock a translator gate. In either case,
-there's advanced options for how they're shuffled.
+* Use Multiworld sessions to shuffle items between multiple separate games, alone or with friends.
+  All Multiworld games are compatible with each other - mix and match as you like!
 
-* The location you start the game in as well as the items you start with. If you're feeling brave,
-you can even shuffle items you normally start with, like the Power Beam and Scan Visor.
+* Randomize how areas connect to one another, or what resources are required to travel between areas.
+  These options are highly customizable, letting you limit or unleash the chaos.
 
-So have fun and start randomizing.
+* Randomize your starting equipment and location. Feeling brave? You can even shuffle items
+  you normally start with.
+
+Have fun and start randomizing!
+

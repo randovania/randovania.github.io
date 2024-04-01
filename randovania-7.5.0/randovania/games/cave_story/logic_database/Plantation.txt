@@ -1,0 +1,436 @@
+----------------
+Plantation
+Extra - map_name: Cent
+Extra - starting_script: <TRA0056:0090:0118:0083
+> Door to Rest Area; Heals? False
+  * Layers: default
+  * Door to Rest Area/Door to Plantation
+  > Middle Level
+      Trivial
+
+> Door to Teleporter; Heals? False
+  * Layers: default
+  * Door to Teleporter/Door to Plantation
+  > Lower Level
+      Trivial
+
+> Door to Storehouse; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  * Door to Storehouse/Door to Plantation
+  > Middle Level
+      Trivial
+
+> Door to Jail No. 1 (Lower); Heals? False
+  * Layers: default
+  * Door to Jail No. 1/Door to Plantation (Lower)
+  > Upper Level
+      Trivial
+
+> Door to Jail No. 1 (Upper); Heals? False
+  * Layers: default
+  * Door to Jail No. 1/Door to Plantation (Upper)
+  > Upper Level
+      Trivial
+
+> Door to Jail No. 2; Heals? False
+  * Layers: default
+  * Door to Jail No. 2/Door to Plantation
+  > Upper Level
+      Trivial
+
+> Door to Last Cave (Hidden); Heals? False
+  * Layers: default
+  * Door to Last Cave (Hidden)/Door to Plantation
+  > Top Level
+      Trivial
+
+> Door to Passage?; Heals? False
+  * Layers: default
+  * Door to Passage?/Door to Plantation
+  > Middle Level
+      Trivial
+
+> Door to Hideout; Heals? False
+  * Layers: default
+  * Door to Hideout/Door to Plantation
+  > Middle Level
+      Trivial
+
+> Lower Level; Heals? False
+  * Layers: default
+  > Door to Teleporter
+      Teleporter Room Key
+  > Middle Level
+      Trivial
+  > Pickup (Kanpachi's Bucket)
+      Trivial
+  > Pickup (Jammed it into Curly's mouth)
+      Ma Pignon and After Saved Curly
+  > Hint - Cthulhu
+      Trivial
+  > Event - Level MG
+      Machine Gun
+
+> Middle Level; Heals? False
+  * Layers: default
+  > Door to Rest Area
+      Trivial
+  > Door to Storehouse
+      Trivial
+  > Door to Passage?
+      Trivial
+  > Door to Hideout
+      Sue's Letter
+  > Lower Level
+      Trivial
+  > Pickup (Broken Sprinker)
+      Mimiga Mask
+  > Upper Level
+      Trivial
+  > Top Level
+      After Built Rocket
+
+> Pickup (Kanpachi's Bucket); Heals? False
+  * Layers: default
+  * Pickup 44; Category? Minor
+  * Extra - event: 0268
+  > Lower Level
+      Trivial
+
+> Pickup (Jammed it into Curly's mouth); Heals? False
+  * Layers: default
+  * Pickup 45; Category? Minor
+  * Extra - event: 0324
+  > Lower Level
+      Trivial
+
+> Pickup (Broken Sprinker); Heals? False
+  * Layers: default
+  * Pickup 46; Category? Minor
+  * Extra - event: 0417
+  > Middle Level
+      Trivial
+
+> Pickup (Plantation Platforming Spot); Heals? False
+  * Layers: default
+  * Pickup 47; Category? Minor
+  * Extra - event: 0501
+  > Upper Level
+      Trivial
+
+> Pickup (Plantation Puppy); Heals? False
+  * Layers: default
+  * Pickup 48; Category? Minor
+  * Extra - event: 0452
+  > Upper Level
+      Trivial
+
+> Upper Level; Heals? False
+  * Layers: default
+  > Door to Jail No. 1 (Lower)
+      Trivial
+  > Door to Jail No. 1 (Upper)
+      Has Flight
+  > Door to Jail No. 2
+      Trivial
+  > Middle Level
+      Trivial
+  > Pickup (Plantation Platforming Spot)
+      Any of the following:
+          Has Flight
+          # Flightless Plantation Chest - https://www.youtube.com/watch?v=R-IqKdzsf4M
+          Damage Boosting (Advanced) and Invincibility Frame Reset (Beginner) and Normal Damage ≥ 10 and Reset Iframes
+  > Pickup (Plantation Puppy)
+      After Built Rocket
+  > Top Level
+      Any of the following:
+          # Rocket Skip
+          # https://www.youtube.com/watch?v=qWp-qmW6xb0
+          Booster 2.0 and Machine Gun and Damage Boosting (Expert) and Normal Damage ≥ 2
+          Booster 2.0 and Damage Boosting (Hypermode)
+
+> Door to Final Cave; Heals? False
+  * Layers: default
+  * Door to Final Cave/Door to Plantation
+  > Top Level
+      Trivial
+
+> Top Level; Heals? False
+  * Layers: default
+  > Door to Last Cave (Hidden)
+      Booster 2.0 and After Built Rocket
+  > Upper Level
+      Trivial
+  > Door to Final Cave
+      No Booster 2.0 and After Built Rocket
+
+> Hint - Cthulhu; Heals? False
+  * Layers: default
+  * Hint
+  * Extra - event: 0310
+  * Extra - string_asset_id: 6
+  > Lower Level
+      Trivial
+
+> Event - Level MG; Heals? False
+  * Layers: default
+  * Event Level Up Machine Gun
+  > Lower Level
+      Trivial
+
+----------------
+Storehouse
+Extra - map_name: Itoh
+Extra - starting_script: <TRA0055:0094:0017:0008
+> Door to Plantation; Heals? False
+  * Layers: default
+  * Door to Plantation/Door to Storehouse
+  > Door to Outer Wall
+      Trivial
+
+> Door to Outer Wall; Heals? False
+  * Layers: default
+  * Door to Outer Wall/Door to Storehouse
+  > Door to Plantation
+      Trivial
+  > Pickup (Itoh)
+      Sue's Letter
+  > Save Point
+      Trivial
+
+> Pickup (Itoh); Heals? False
+  * Layers: default
+  * Pickup 49; Category? Minor
+  * Extra - event: 0405
+  > Door to Plantation
+      Trivial
+
+> Save Point; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  > Door to Outer Wall
+      Trivial
+
+----------------
+Passage?
+Extra - map_name: Hell4
+Extra - starting_script: <TRA0084:0092:0001:0021
+> Door to Plantation; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  * Door to Plantation/Door to Passage?
+  > Door to Statue Chamber
+      Trivial
+
+> Door to Statue Chamber; Heals? False
+  * Layers: default
+  * Door to Statue Chamber/Door to Passage?
+  > Door to Plantation
+      Before Defeated Undead Core
+  > Door to Corridor
+      After Entered Passage? from above
+
+> Door to Corridor; Heals? False
+  * Layers: default
+  * Door to Corridor/Door to Passage?
+  > Door to Statue Chamber
+      After Entered Passage? from above and Has Flight
+
+> Entrance from Sacred Grounds - B3; Heals? False
+  * Layers: default
+  * Entrance to Sacred Grounds - B3/Exit to Passage?
+  > Event - Entered Passage from Above
+      Trivial
+
+> Event - Entered Passage from Above; Heals? False
+  * Layers: default
+  * Event Entered Passage? from above
+  > Door to Corridor
+      Trivial
+
+----------------
+Statue Chamber
+Extra - map_name: Statue
+Extra - starting_script: <TRA0086:0092:0002:0010
+> Door to Passage?; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  * Door to Passage?/Door to Statue Chamber
+  > Hint - Numahachi 1
+      Trivial
+
+> Hint - Numahachi 1; Heals? False
+  * Layers: default
+  * Hint
+  * Extra - event: 0301
+  * Extra - ending: <CLR<EVE0302
+  * Extra - hint_index: 30
+  * Extra - string_asset_id: 12
+  > Hint - Numahachi 2
+      Trivial
+
+> Hint - Numahachi 2; Heals? False
+  * Layers: default
+  * Hint
+  * Extra - event: 0302
+  * Extra - ending: <CLR<EVE0303
+  * Extra - hint_index: 31
+  * Extra - string_asset_id: 13
+  > Door to Passage?
+      Trivial
+
+----------------
+Rest Area
+Extra - map_name: Lounge
+Extra - starting_script: <TRA0059:0090:0026:0008
+> Door to Plantation; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  * Door to Plantation/Door to Rest Area
+  > Pickup (Megane)
+      Broken Sprinkler and Mimiga Mask
+  > Bed
+      After Built Rocket
+
+> Pickup (Megane); Heals? False
+  * Layers: default
+  * Pickup 50; Category? Minor
+  * Extra - event: 0204
+  > Door to Plantation
+      Trivial
+
+> Bed; Heals? True
+  * Layers: default
+  > Door to Plantation
+      Trivial
+
+----------------
+Teleporter
+Extra - map_name: CentW
+Extra - starting_script: <TRA0060:0099:0009:0009
+> Door to Plantation; Heals? False
+  * Layers: default
+  * Door to Plantation/Door to Teleporter
+  > Room Hub
+      Trivial
+
+> Event - Droll Attack; Heals? False
+  * Layers: default
+  * Event Droll Attack
+  > Exit to Jail No. 1
+      Trivial
+
+> Room Hub; Heals? False
+  * Layers: default
+  > Door to Plantation
+      Teleporter Room Key
+  > Event - Droll Attack
+      Teleporter Room Key
+  > Teleporter to Arthur's House
+      No Teleporter Room Key or After Droll Attack
+  > Exit to Jail No. 1
+      After Droll Attack
+
+> Teleporter to Arthur's House; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  * Teleporter to Arthur's House/Teleporter to Teleporter
+  > Room Hub
+      Trivial
+
+> Exit to Jail No. 1; Heals? False
+  * Layers: default
+  * Exit to Jail No. 1/Entrance from Teleporter
+
+----------------
+Jail No. 1
+Extra - map_name: Jail1
+Extra - starting_script: <TRA0057:0220:0011:0014
+> Door to Plantation (Upper); Heals? False
+  * Layers: default
+  * Door to Plantation/Door to Jail No. 1 (Upper)
+
+> Entrance from Teleporter; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  * Entrance to Teleporter/Exit to Jail No. 1
+  > Door to Plantation (Upper)
+      Trivial
+  > Pickup (Jail No. 1)
+      Trivial
+  > Save Point
+      Trivial
+
+> Door to Plantation (Lower); Heals? False
+  * Layers: default
+  * Door to Plantation/Door to Jail No. 1 (Lower)
+
+> Pickup (Jail No. 1); Heals? False
+  * Layers: default
+  * Pickup 51; Category? Minor
+  * Extra - event: 0301
+  > Entrance from Teleporter
+      Trivial
+
+> Save Point; Heals? False
+  * Layers: default
+  > Entrance from Teleporter
+      Trivial
+
+----------------
+Jail No. 2
+Extra - map_name: Jail2
+Extra - starting_script: <TRA0061:0099:0007:0013
+> Door to Plantation; Heals? False
+  * Layers: default
+  * Door to Plantation/Door to Jail No. 2
+  > Teleporter to Shelter
+      Any of the following:
+          Can Break Blocks
+          Bubbler and Break blocks with Bubbler (Beginner)
+          Missile Launcher and Break blocks with Missiles (Beginner)
+
+> Teleporter to Shelter; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  * Teleporter to Shelter/Teleporter to Jail No. 2
+  > Door to Plantation
+      Any of the following:
+          Can Break Blocks
+          Bubbler and Break blocks with Bubbler (Beginner)
+          Missile Launcher and Break blocks with Missiles (Beginner)
+
+----------------
+Hideout
+Extra - map_name: Momo
+Extra - starting_script: <TRA0058:0093:0009:0004
+> Door to Plantation; Heals? False; Spawn Point; Default Node
+  * Layers: default
+  * Door to Plantation/Door to Hideout
+  > Pickup (Chivalry Sakamoto's Wife)
+      Booster 0.8
+  > Event - Built Rocket
+      All of the following:
+          Controller and Sprinkler
+          Booster 0.8 or Booster 2.0
+  > Bed
+      Trivial
+
+> Pickup (Chivalry Sakamoto's Wife); Heals? False
+  * Layers: default
+  * Pickup 52; Category? Minor
+  * Extra - event: 0201
+  > Door to Plantation
+      Trivial
+
+> Event - Built Rocket; Heals? False
+  * Layers: default
+  * Event Built Rocket
+  > Door to Plantation
+      Trivial
+
+> Bed; Heals? False
+  * Layers: default
+  > Door to Plantation
+      Trivial
+  > Save Point
+      Trivial
+
+> Save Point; Heals? False
+  * Layers: default
+  > Bed
+      Trivial
+

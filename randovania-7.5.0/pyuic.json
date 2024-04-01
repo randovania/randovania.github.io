@@ -1,0 +1,13 @@
+{
+    "files": [
+        [
+            "randovania/gui/ui_files/*.ui",
+            "randovania/gui/generated"
+        ]
+    ],
+    "hooks": [],
+    "pyrcc": "pyside6-rcc",
+    "pyrcc_options": "",
+    "pyuic": "pyside6-uic",
+    "pyuic_options": "--star-imports"
+}

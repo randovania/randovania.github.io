@@ -1,0 +1,92 @@
+from __future__ import annotations
+
+from unittest.mock import MagicMock
+
+import pytest
+
+from randovania.game_description.db.node_identifier import NodeIdentifier
+from randovania.game_description.db.pickup_node import PickupNode
+from randovania.game_description.resources.location_category import LocationCategory
+from randovania.game_description.resources.pickup_index import PickupIndex
+from randovania.gui.preset_settings.location_pool_row_widget import LocationPoolRowWidget
+from randovania.gui.preset_settings.location_pool_tab import PresetLocationPool
+from randovania.interface_common.preset_editor import PresetEditor
+
+
+@pytest.fixture()
+def pickup_node():
+    return PickupNode(
+        identifier=NodeIdentifier.create("W", "A", "Pickup (Ultra Beam)"),
+        node_index=0,
+        heal=False,
+        location=None,
+        layers=("default",),
+        description="",
+        extra={},
+        valid_starting_location=False,
+        pickup_index=PickupIndex(1),
+        location_category=LocationCategory.MAJOR,
+    )
+
+
+def test_location_pool_row_initial_state(pickup_node, skip_qtbot):
+    # Setup & Run
+    widget = LocationPoolRowWidget(pickup_node, "Fancy name for a pickup")
+    skip_qtbot.addWidget(widget)
+
+    # Assert
+    assert widget.label_location_name.text() == "Fancy name for a pickup"
+
+
+def test_location_pool_row_actions(pickup_node, skip_qtbot):
+    # Setup
+    widget = LocationPoolRowWidget(pickup_node, "Fancy name for a pickup")
+    skip_qtbot.addWidget(widget)
+
+    signal_received = False
+
+    def edit_closure():
+        nonlocal signal_received
+        signal_received = True
+
+    widget.changed.connect(edit_closure)
+
+    # Run & Assert
+    assert not signal_received
+    widget.set_can_have_progression(True)
+    assert signal_received
+    assert widget.radio_shuffled.isChecked()
+
+
+def test_location_pool_row_disabled_on_major_minor_split(customized_preset, echoes_game_description, skip_qtbot):
+    # Setup
+    options = MagicMock()
+    preset_editor = PresetEditor(customized_preset, options)
+
+    location_pool_tab = PresetLocationPool(preset_editor, echoes_game_description, MagicMock())
+
+    # Get the first major location in the list, and the first non-major one
+    # Then, put it in a state which will have to be changed in the case where
+    # major/minor split is enabled.
+    first_major: LocationPoolRowWidget = None
+    first_non_major: LocationPoolRowWidget = None
+    for row_widget in location_pool_tab._row_widget_for_node.values():
+        if first_major is None and row_widget.node.location_category == LocationCategory.MAJOR:
+            first_major = row_widget
+        elif first_non_major is None and row_widget.node.location_category == LocationCategory.MINOR:
+            first_non_major = row_widget
+        if first_major is not None and first_non_major is not None:
+            break
+    first_major.radio_shuffled_no_progression.setChecked(True)
+
+    # Run & Assert
+    assert first_major.isEnabled()
+    assert first_non_major.isEnabled()
+    assert not first_major.radio_shuffled.isChecked()
+
+    location_pool_tab._major_minor = True
+    location_pool_tab._on_update_randomization_mode()
+
+    assert first_major.isEnabled()
+    assert not first_non_major.isEnabled()
+    assert first_major.radio_shuffled.isChecked()

@@ -1,0 +1,18 @@
+/Randomizer.zip
+/.env
+/letsencrypt
+exported_db_videos/*
+
+/requirements/requirements-setuptools.in
+
+# Reports
+/seed-reports
+
+# Dev server
+/*configuration.json
+/test.db
+/data.db
+
+# Advanced Installer
+Randovania Installer-SetupFiles/
+Randovania Installer-cache/
