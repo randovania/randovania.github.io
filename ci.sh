@@ -4,10 +4,10 @@ set -e -x
 shopt -s extglob
 cd "$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 
-randovania_version=7.4.0
+randovania_version=7.5.0
 
 echo "Installing Requirements"
-python -m pip install randovania==$randovania_version cryptography
+python -m pip install randovania[website]==$randovania_version cryptography
 
 echo "Copying Jekyll source"
 echo "version: $randovania_version" >> _data/rdv.yml
