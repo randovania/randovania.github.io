@@ -12,7 +12,7 @@ echo "Installing Requirements"
 # FIXME: hack for missing README
 python -m pip download randovania==$randovania_version --no-deps --no-binary randovania
 tar xf randovania-$randovania_version.tar.gz
-python -m pip install -e ./randovania-$randovania_version
+python -m pip install -e ./randovania-$randovania_version[website]
 
 echo "Building video database pages"
 rm -rf _videos
