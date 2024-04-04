@@ -34,7 +34,7 @@ mkdir _games
 python -m randovania development extract-game-data --games-dir _games --covers-dir assets/games
 
 # Remove the extracted randovania so we don't accidentally deploy it
-rm -rf ./randovania-$randovania_version[website]
+rm -rf ./randovania-$randovania_version ./randovania-$randovania_version.tar.gz 
 
 echo "Copying Jekyll source"
 echo "version: $randovania_version" > _data/rdv.yml
