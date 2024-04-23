@@ -3,7 +3,7 @@ layout: post
 title: "Enable Game Patching in Luma3DS"
 tags: samus_returns
 ---
-You should already have Luma3DS installed on your SD Card, but if not, you can download the latest release here: https://github.com/LumaTeam/Luma3DS/releases
+You should already have Luma3DS installed on your SD Card, but if not, you can download the latest release here: <https://github.com/LumaTeam/Luma3DS/releases>
 
 Once you have the randomizer files and Luma3DS on your SD Card in the proper folders, open Luma3DS by holding SELECT when turning on your 3DS. Check **Enable game patching** to apply the mod.
 
