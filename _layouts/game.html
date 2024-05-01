@@ -26,11 +26,13 @@ layout: page
 
       <h2>What do I need to play?</h2>
       <div class="text-start">
-        {% for entry in game.need-to-play %}
-          <li>{{ entry }}</li>
-        {% else %}
-          <li>Undefined</li>
-        {% endfor %}
+        <ul>
+          {% for entry in game.need-to-play %}
+            <li>{{ entry }}</li>
+          {% else %}
+            <li>Undefined</li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
