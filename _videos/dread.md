@@ -163,6 +163,11 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: eS4UULex4Vk}
         - {difficulty: Intermediate, start_time: 0, video_id: q4yodUPmfQU}
+    - key: Door to Artaria Transport Access
+      value:
+      - key: Event - East Blob, left
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: KmNlKuIYpvU}
     - key: Upper-Left Room
       value:
       - key: Tunnel to Double Obsydomithon Room

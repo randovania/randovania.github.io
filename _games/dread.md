@@ -50,8 +50,4 @@ faq:
     doesn't work!
   answer: Reload from checkpoint immediately to fix the issue. Your checkpoint was
     saved after killing the E.M.M.I., so you will not lose progress.
-- question: Why are items, hints, and the seed hash not displaying properly in my
-    game?
-  answer: "Currently, English is the only officially supported language.\n\nYou must
-    set your language to English to see all the text the randomizer changes."
 ---

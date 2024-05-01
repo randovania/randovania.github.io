@@ -93,6 +93,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: -dcePWj-7jI}
         - {difficulty: Advanced, start_time: 0, video_id: mQahK4kIL3w}
+        - {difficulty: Hypermode, start_time: 0, video_id: qX1PhEM63N8}
   - key: Speedboosting Challenge
     value:
     - key: Door to Breeding Grounds Entrance

@@ -30,6 +30,12 @@ regions:
         - {difficulty: Intermediate, start_time: 5, video_id: r2NzrPS3zw0}
   - key: Inner Temple West Hall
     value:
+    - key: Dock to Bomb Chamber Access
+      value:
+      - key: Tunnel to Metroid Caverns Hub
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: iX0QRKS296M}
+        - {difficulty: Advanced, start_time: 10, video_id: iX0QRKS296M}
     - key: Door to Inner Temple Teleporter Access
       value:
       - key: Dock to Inner Temple Save Station
@@ -62,8 +68,9 @@ regions:
     value:
     - key: Save Station
       value:
-      - key: Dock to Water Maze (OoB)
+      - key: Tunnel to Water Maze
         value:
+        - {difficulty: Expert, start_time: 9, video_id: quVim9n0C80}
         - {difficulty: Expert, start_time: 0, video_id: quVim9n0C80}
   - key: Spider Ball Chamber
     value:
@@ -88,12 +95,12 @@ regions:
     value:
     - key: Chozo Seal
       value:
-      - key: Elevator to Area 2 - Dam Entryway
+      - key: Elevator to Area 2 Dam Entryway
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: KKtoy5mbY64}
         - {difficulty: Intermediate, start_time: 0, video_id: NzXfFnGwZkc}
         - {difficulty: Advanced, start_time: 0, video_id: eVkMBrWB0Wk}
-    - key: Elevator to Area 2 - Dam Entryway
+    - key: Elevator to Area 2 Dam Entryway
       value:
       - key: Chozo Seal
         value:
@@ -110,7 +117,21 @@ regions:
         - {difficulty: Intermediate, start_time: 43, video_id: GHRfKKATcNU}
         - {difficulty: Intermediate, start_time: 27, video_id: GHRfKKATcNU}
         - {difficulty: Advanced, start_time: 0, video_id: 2uAFWMA8Vco}
-- key: Area 2 - Dam Exterior
+- key: Area 2 Dam Entryway
+  value:
+  - key: Lightning Armor & Transport to Dam Exterior East
+    value:
+    - key: Next to Pickup
+      value:
+      - key: Elevator to Area 2 Dam Exterior
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: 3VLe-42BmeE}
+    - key: Right Spawnpoint
+      value:
+      - key: Pickup (Lightning Armor)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: nlu3akHbJew}
+- key: Area 2 Dam Exterior
   value:
   - key: Critter Playground
     value:
@@ -118,9 +139,10 @@ regions:
       value:
       - key: Door to Rock Icicle Corridor
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: TjVwz2ZOIg4}
+        - {difficulty: Intermediate, start_time: 0, video_id: TjVwz2ZOIg4}
       - key: Pickup (Missile Tank)
         value:
+        - {difficulty: Beginner, start_time: 0, video_id: TjVwz2ZOIg4}
         - {difficulty: Intermediate, start_time: 0, video_id: fcLnCxG4DRo}
     - key: Tunnel to Dam Exterior
       value:
@@ -172,8 +194,8 @@ regions:
       value:
       - key: Pickup (Aeion Tank)
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: rfZa-HK-3mE}
-- key: Area 2 - Dam Interior
+        - {difficulty: Expert, start_time: 0, video_id: rfZa-HK-3mE}
+- key: Area 2 Dam Interior
   value:
   - key: Crumble Cavern
     value:
@@ -225,10 +247,10 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: m5HGLIJHLl8}
         - {difficulty: Advanced, start_time: 0, video_id: zuGivFAN4HI}
-      - key: Elevator to Area 2 - Dam Exterior
+      - key: Elevator to Area 2 Dam Exterior
         value:
         - {difficulty: Advanced, start_time: 0, video_id: ZxJmPtS7qm0}
-- key: Area 3 - Factory Exterior
+- key: Area 3 Factory Exterior
   value:
   - key: Beam Burst Chamber & Tsumuri Station
     value:
@@ -241,7 +263,7 @@ regions:
     value:
     - key: Pickup (Power Bomb Tank)
       value:
-      - key: Dock to Factory Exterior
+      - key: Tunnel to Factory Exterior (Bottom)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: NciAGjkvQMM}
   - key: Factory Exterior Access
@@ -279,7 +301,7 @@ regions:
       - key: Pickup (Missile Tank)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: j_W2WiQ7XK4}
-- key: Area 3 - Factory Interior
+- key: Area 3 Factory Interior
   value:
   - key: Alpha Arena Access
     value:
@@ -295,7 +317,7 @@ regions:
       value:
       - key: Ammo Recharge Station
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: vF1NJPSiTRE}
+        - {difficulty: Beginner, start_time: 0, video_id: vF1NJPSiTRE}
     - key: Inside Arena
       value:
       - key: Save Station
@@ -322,7 +344,7 @@ regions:
       - key: Door to Fan Control
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: RyHEb6OY2sM}
-- key: Area 3 - Metroid Caverns
+- key: Area 3 Metroid Caverns
   value:
   - key: Caverns Teleporter East
     value:
@@ -352,7 +374,7 @@ regions:
       value:
       - key: Tunnel to Lonely Loop
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: KHAZvT3Q-t0}
+        - {difficulty: Advanced, start_time: 0, video_id: KHAZvT3Q-t0}
   - key: Ramulken Rollway
     value:
     - key: Door to Caverns Teleporter East
@@ -371,10 +393,10 @@ regions:
     value:
     - key: Door to Quarry Shaft
       value:
-      - key: Elevator to Area 3 - Factory Interior
+      - key: Elevator to Area 3 Factory Interior
         value:
         - {difficulty: Advanced, start_time: 0, video_id: RJkXLo_UohI}
-- key: Area 4 - Central Caves
+- key: Area 4 Central Caves
   value:
   - key: Transport to Area 3 and Crystal Mines
     value:
@@ -387,7 +409,7 @@ regions:
     value:
     - key: Next to Grapple Block
       value:
-      - key: Elevator to Area 5 - Tower Lobby
+      - key: Elevator to Area 5 Tower Lobby
         value:
         - {difficulty: Advanced, start_time: 0, video_id: m85VNBCp2L4}
   - key: Venomous Pond
@@ -397,7 +419,7 @@ regions:
       - key: Door to Transport to Area 5
         value:
         - {difficulty: Hypermode, start_time: 3988, video_id: rNv9nWRIwP8}
-- key: Area 4 - Crystal Mines
+- key: Area 4 Crystal Mines
   value:
   - key: Gemstone Gorge
     value:
@@ -415,7 +437,7 @@ regions:
       value:
       - key: Door to Mines Teleporter
         value:
-        - {difficulty: Intermediate, start_time: 10, video_id: r47HNUC9HEY}
+        - {difficulty: Disabled, start_time: 10, video_id: r47HNUC9HEY}
     - key: Door to Tsumuri Tunnel
       value:
       - key: Above Aeion Refill
@@ -425,7 +447,7 @@ regions:
       value:
       - key: Pickup (Super Missile Tank Top)
         value:
-        - {difficulty: Expert, start_time: 0, video_id: v6T3tlUezFk}
+        - {difficulty: Advanced, start_time: 0, video_id: v6T3tlUezFk}
   - key: Pink Crystal Preserve
     value:
     - key: Dock to Gemstone Gorge
@@ -456,7 +478,7 @@ regions:
       - key: Pickup (Missile Tank)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: UJD_mURPVjE}
-- key: Area 5 - Tower Exterior
+- key: Area 5 Tower Exterior
   value:
   - key: Gamma Arena
     value:
@@ -525,7 +547,7 @@ regions:
       - key: Door to Transport to Tower Interior West
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: JE_9y06JTk4}
-- key: Area 5 - Tower Interior
+- key: Area 5 Tower Interior
   value:
   - key: Autrack Acropolis
     value:
@@ -533,7 +555,7 @@ regions:
       value:
       - key: Tunnel to Transport to Tower Exterior West
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: dvVoKN_oOas}
+        - {difficulty: Advanced, start_time: 0, video_id: dvVoKN_oOas}
     - key: Door to Interior Teleporter
       value:
       - key: Above Crumble Blocks
@@ -561,6 +583,11 @@ regions:
       - key: Above Pickup
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: eI3DtHqx5dU}
+        - {difficulty: Intermediate, start_time: 28, video_id: eI3DtHqx5dU}
+        - {difficulty: Intermediate, start_time: 21, video_id: eI3DtHqx5dU}
+        - {difficulty: Intermediate, start_time: 7, video_id: eI3DtHqx5dU}
+        - {difficulty: Intermediate, start_time: 37, video_id: eI3DtHqx5dU}
+        - {difficulty: Expert, start_time: 43, video_id: eI3DtHqx5dU}
   - key: Gravity Suit Chamber Access
     value:
     - key: Door to Gravity Suit Chamber (Bottom)
@@ -579,7 +606,7 @@ regions:
         - {difficulty: Advanced, start_time: 26, video_id: -OWGlSMT9FM}
       - key: Tunnel to Gamma+ Arena Access
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: FD9VDKqt-MY}
+        - {difficulty: Intermediate, start_time: 0, video_id: FD9VDKqt-MY}
         - {difficulty: Intermediate, start_time: 10, video_id: FD9VDKqt-MY}
         - {difficulty: Intermediate, start_time: 19, video_id: FD9VDKqt-MY}
     - key: Right of Grapple Tunnel
@@ -629,7 +656,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 4, video_id: K-nJIU_6zso}
         - {difficulty: Expert, start_time: 6, video_id: GSkWApWH4wY}
-- key: Area 5 - Tower Lobby
+- key: Area 5 Tower Lobby
   value:
   - key: Lobby Save Station
     value:
@@ -760,9 +787,9 @@ regions:
         - {difficulty: Advanced, start_time: 17, video_id: ApnRcZo_vxQ}
   - key: Diggernaut Arena
     value:
-    - key: Door from Transport to Area 7
+    - key: Room Center
       value:
-      - key: Before Diggernaut
+      - key: Event - Diggernaut
         value:
         - {difficulty: Expert, start_time: 8960, video_id: XenOF4TceeY}
         - {difficulty: Expert, start_time: 9632, video_id: rNv9nWRIwP8}
@@ -791,7 +818,7 @@ regions:
         - {difficulty: Advanced, start_time: 17, video_id: TGxXJAqewB4}
   - key: Transport to Area 5
     value:
-    - key: Elevator to Area 5 - Tower Lobby
+    - key: Elevator to Area 5 Tower Lobby
       value:
       - key: Save Station
         value:
@@ -801,7 +828,7 @@ regions:
         - {difficulty: Advanced, start_time: 91, video_id: an6MvaYq9_o}
     - key: Save Station
       value:
-      - key: Elevator to Area 5 - Tower Lobby
+      - key: Elevator to Area 5 Tower Lobby
         value:
         - {difficulty: Advanced, start_time: 113, video_id: an6MvaYq9_o}
         - {difficulty: Advanced, start_time: 157, video_id: an6MvaYq9_o}
@@ -859,7 +886,7 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: hz94J_xv4cc}
   - key: Transport to Area 6
     value:
-    - key: Below West Pickup
+    - key: Below Left Pickup
       value:
       - key: Chozo Seal
         value:
@@ -920,7 +947,12 @@ regions:
       - key: Ammo Recharge Station
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: wHbiXozTtg0}
-- key: Surface - East
+    - key: Ammo Recharge Station
+      value:
+      - key: Pickup (Super Missile Tank)
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: duncqz0RrAQ}
+- key: Surface East
   value:
   - key: Cavern Cavity
     value:
@@ -958,7 +990,7 @@ regions:
       - key: Inside Statue (OoB)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: Wgw4WEGnvCQ}
-- key: Surface - West
+- key: Surface West
   value:
   - key: Transport to Area 8
     value:

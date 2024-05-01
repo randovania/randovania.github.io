@@ -33,9 +33,16 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: IP4zjb-1kP4}
         - {difficulty: Expert, start_time: 0, video_id: WsY4pSmBAyo}
+  - key: Charge Core Arena
+    value:
+    - key: Arena
+      value:
+      - key: Pickup (Energy Tank)
+        value:
+        - {difficulty: Hypermode, start_time: 0, video_id: BsW39UKOYVw}
   - key: Lava Lake
     value:
-    - key: Door to Zebesian Tower
+    - key: Door to Zebesian Zig
       value:
       - key: Pickup (Missile Tank on Cliffside)
         value:
@@ -65,13 +72,42 @@ regions:
       - key: Event - Bomb Block
         value:
         - {difficulty: Advanced, start_time: 0, video_id: JaTjNuOdVlY}
+    - key: Door to Data Save Room
+      value:
+      - key: Event - Bomb Block
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: Fs10I7_LjRY}
+  - key: Level 1 Security Room
+    value:
+    - key: Door to Security Access (Lower)
+      value:
+      - key: Door to Crumble City
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: pEP-Sys6cJI}
+        - {difficulty: Expert, start_time: 0, video_id: A0e_o5otNC4}
+  - key: Zoro Zig-Zag
+    value:
+    - key: Door to Maintenance Annex
+      value:
+      - key: Event - Break Bomb Blocks
+        value:
+        - {difficulty: Hypermode, start_time: 0, video_id: Cqf5mZg1NZc}
 - key: Sector 3 (PYR)
   value:
   - key: Deserted Runway
     value:
     - key: Door to Alcove
       value:
-      - key: Door to Connection to Sector 1 (SRX)
+      - key: Door to Glass Tube to Sector 1 (SRX)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 7dIXfR4dkTA}
+- key: Sector 5 (ARC)
+  value:
+  - key: Nightmare Nook
+    value:
+    - key: Door to Nightmare Hub East
+      value:
+      - key: Pickup (Energy Tank)
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: uUAoOZGU9HI}
 ---

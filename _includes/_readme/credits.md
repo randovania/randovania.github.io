@@ -79,6 +79,19 @@ Linux Flatpak build contributed by [Ethan Lee](https://flibitijibibo.com/).
   * Power Grip and the Shiny Nothing Orb were made by ShirtyScarab554, used under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), modified by [AbyssalCreature](https://github.com/AbyssalCreature) and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
   * New door sprites and other AM2R item sprites were made by [AbyssalCreature](https://github.com/AbyssalCreature) licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
+### Metroid: Samus Returns
+* Game Patching by:
+  * [Dyceron](https://www.twitch.tv/dyceron)
+  * [Thanatos](https://github.com/ThanatosGit)
+  * [Henrique "Darkszero" Gemignani](https://github.com/henriquegemignani/)
+  * [duncathan_salt](https://twitter.com/duncathan_salt)
+  * Merikatt
+
+* Logic Database by:
+  * [Dyceron](https://www.twitch.tv/dyceron)
+  * [Miepee](https://github.com/Miepee)
+  * [Haxaplax](https://github.com/haxaplax)
+
 ## Auto Tracker
 * Game theme assets were provided by [MaskedTAS](https://twitter.com/MaskedTAS).
 * Pixel theme assets were provided by [Uncle Reggie](https://www.twitch.tv/unclereggie).

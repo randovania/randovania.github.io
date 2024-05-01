@@ -136,7 +136,7 @@ regions:
       - key: Grapple Ledge
         value:
         - {difficulty: Beginner, start_time: 0, video_id: 7y7ZLBz3B1s}
-        - {difficulty: Intermediate, start_time: 0, video_id: vk-C7kDPk10}
+        - {difficulty: Beginner, start_time: 0, video_id: vk-C7kDPk10}
         - {difficulty: Intermediate, start_time: 0, video_id: ivVhW1cxIz8}
         - {difficulty: Hypermode, start_time: 0, video_id: kuaxthAhm54}
     - key: Door to Ruins Entrance
@@ -284,6 +284,13 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: Jla-gYSErGc}
 - key: Frigate Orpheon
   value:
+  - key: Biotech Research Area 2
+    value:
+    - key: Door from Main Ventilation Shaft Section F
+      value:
+      - key: Door to Connection Elevator to Deck Alpha
+        value:
+        - {difficulty: Hypermode, start_time: 0, video_id: 2eKsJHddYYo}
   - key: Reactor Core
     value:
     - key: Door from Reactor Core Entrance
@@ -344,6 +351,7 @@ regions:
       - key: Door to Plasma Processing
         value:
         - {difficulty: Intermediate, start_time: 7, video_id: OwsVX5HEGVQ}
+        - {difficulty: Advanced, start_time: 0, video_id: bgamFwfCPSk}
     - key: First Spinner
       value:
       - key: Event - Geothermal Core Opened

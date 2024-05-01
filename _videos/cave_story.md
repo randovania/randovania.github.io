@@ -13,9 +13,14 @@ regions:
   value:
   - key: Grasstown
     value:
+    - key: Door to Chaco's House
+      value:
+      - key: Above Chaco's House
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: Zamb3TjF60M}
     - key: East Side
       value:
-      - key: Area Centre
+      - key: Beyond First Mannan
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: rmtwHNrxU5Q}
         - {difficulty: Advanced, start_time: 0, video_id: WiA3lsW5gec}
@@ -24,9 +29,6 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: Lf_Hguu-tqw}
     - key: West Side
       value:
-      - key: Area Centre
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: Zamb3TjF60M}
       - key: Pickup (West Grasstown Ceiling)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: e2Y-j0IV1Fs}
@@ -42,6 +44,7 @@ regions:
       - key: Top Level
         value:
         - {difficulty: Expert, start_time: 0, video_id: qWp-qmW6xb0}
+        - {difficulty: Hypermode, start_time: 0, video_id: StXuozoLRe4}
 - key: Ruined Egg Corridor
   value:
   - key: Egg Observation Room?
@@ -57,5 +60,5 @@ regions:
       value:
       - key: Room Top
         value:
-        - {difficulty: Expert, start_time: 0, video_id: -hZwtVL18l0}
+        - {difficulty: Intermediate, start_time: 0, video_id: -hZwtVL18l0}
 ---

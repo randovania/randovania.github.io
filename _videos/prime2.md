@@ -36,15 +36,20 @@ regions:
         - {difficulty: Hypermode, start_time: 0, video_id: _HOE7J2Vt1o&list=PLevfta9o_QKWuQNXAnmBXtzW4nmU5VLyN&index=6}
   - key: Central Mining Station
     value:
-    - key: Door to Central Station Access
+    - key: Center Platforms
       value:
       - key: Door to Command Center Access (Top)
         value:
+        - {difficulty: Intermediate, start_time: 0, video_id: BDJ_Fk1VBgQ}
+    - key: Door to Central Station Access
+      value:
+      - key: Center Platforms
+        value:
         - {difficulty: Beginner, start_time: 0, video_id: mprL_DAECUI}
-        - {difficulty: Expert, start_time: 0, video_id: 'qvaGUSk41g8?list=PLx6vT1x-80zuA1vUepQUSqYOQeHiRNbt5&t=22'}
+        - {difficulty: Expert, start_time: 0, video_id: qJQwGw-SuQI}
     - key: Door to Command Center Access (Top)
       value:
-      - key: Next to Pickup
+      - key: Center Platforms
         value:
         - {difficulty: Advanced, start_time: 0, video_id: BUgMb5tSmhE}
         - {difficulty: Advanced, start_time: 0, video_id: vF4o7gumWNQ}
@@ -270,9 +275,12 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: OOliuV6E6s4}
       - key: Door to Transit Station
         value:
+        - {difficulty: Intermediate, start_time: 0, video_id: LUCs9Pn194o}
+        - {difficulty: Intermediate, start_time: 33, video_id: Dlrx1e4oE6c}
         - {difficulty: Advanced, start_time: 0, video_id: G6Sq--yB5UY}
+        - {difficulty: Advanced, start_time: 17, video_id: Dlrx1e4oE6c}
         - {difficulty: Advanced, start_time: 0, video_id: -Midfbv_BMU}
-        - {difficulty: Expert, start_time: 0, video_id: aNdF-X_OUH8&list=PLevfta9o_QKWuQNXAnmBXtzW4nmU5VLyN&index=44}
+        - {difficulty: Expert, start_time: 0, video_id: aNdF-X_OUH8}
       - key: Portal to Trial Grounds
         value:
         - {difficulty: Expert, start_time: 0, video_id: SCqO5QVJHfE}
