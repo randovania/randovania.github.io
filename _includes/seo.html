@@ -1,0 +1,58 @@
+{%- comment -%} A bunch of nonsense to get a good looking title on each page {%- endcomment -%}
+{%- if page.title == nil or page.title == site.title -%}
+  {%- capture full-title -%}{{ site.title }} | {{ site.tagline | default: site.description }}{%- endcapture -%}
+{%- else -%}
+  {%- comment -%} Default {%- endcomment -%}
+  {%- assign title = page.title -%}
+
+  {%- comment -%} Game pages {%- endcomment -%}
+  {%- if page.long-name and page.collection == 'games' -%}
+    {%- assign title = page.long-name -%}
+  {%- endif -%}
+
+  {%- comment -%} Video DBs {%- endcomment -%}
+  {%- if page.collection == 'videos' -%}
+    {%- for game in site.games -%}
+      {%- if game.title == page.title -%}
+        {%- capture title -%}{{ game.long-name }} Video Database{%- endcapture -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- comment -%} Full title {%- endcomment -%}
+  {%- capture full-title -%}{{ title }} | {{ site.title }}{%- endcapture -%}
+{%- endif -%}
+
+{%- assign description = page.description | default: site.description | strip_html | strip_newlines | truncate: 160 -%}
+{%- assign image = page.image | default: site.logo -%}
+
+{%- capture canonical-url -%}{{ site.url }}{{ page.url }}{%- endcapture -%}
+
+<!-- Begin SEO tags -->
+<title>{{ full-title | strip_html }}</title>
+<meta name="description" content="{{ description }}" />
+<link rel="canonical" href="{{ canonical-url }}" />
+
+<!-- OpenGraph -->
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:description" content="{{ description }}" />
+<meta property="og:url" content="{{ canonical-url }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:image" content="{{ image }}" />
+
+{%- if page.collection == 'posts' %}
+  <meta property="og:type" content="article" />
+  <meta property="article:pubished_time" content="{{ page.date | date_to_xmlschema }}" />
+  {% for tag in page.tags -%}
+    <meta property="article:tag" content="{{ tag }}" />
+  {% endfor %}
+{%- else %}
+  <meta property="og:type" content="website" />
+{%- endif %}
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End SEO tags -->
