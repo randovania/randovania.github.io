@@ -60,6 +60,7 @@ defaults:
       type: "games"
     values:
       layout: "game"
+      uses-game-image: true
   - scope:
       path: ""
       type: "redirects"
@@ -70,6 +71,7 @@ defaults:
       type: "videos"
     values:
       layout: "video_db"
+      uses-game-image: true
   - scope:
       path: ""
       type: "posts"
