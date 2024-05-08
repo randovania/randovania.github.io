@@ -12,7 +12,6 @@ logo                : /assets/randovania.png
 ### Plugins ###
 plugins:
   - jemoji
-  - jekyll-seo-tag
 
 
 ### Navbar Settings ###
