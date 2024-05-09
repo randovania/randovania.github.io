@@ -3,6 +3,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  {%- if page.noindex or page.collection == 'games' and page.development-state != stable -%}
+    <meta name="robots" content="noindex" />
+  {%- endif -%}
+
   {% include seo.html %}
 
   <link
