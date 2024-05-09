@@ -2,36 +2,46 @@
 layout: page
 ---
 
-<h1><b>{{ page.title }}</b></h1>
+<div itemscope itemtype="https://schema.org/Article">
+  <h1 itemprop="headline">
+    <b>{{ page.title }}</b>
+  </h1>
 
-<p class="post-metadata text-muted">
-  {{ page.date | date_to_long_string }} -  
-  <b>
-  {%- assign words = content | number_of_words -%}
-  {%- if words < 360 -%}
-    less than 1 min read time
-  {%- else -%}
-    {{ words | divided_by: 180 }} mins read time
-  {%- endif -%}
-  </b>
+  <p class="post-metadata text-muted">
+    <span itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</span>
+    -
+    <b>
+      {%- assign words = content | number_of_words -%}
+      {%- if words < 360 -%}
+        less than 1 min read time
+      {%- else -%}
+        {{ words | divided_by: 180 }} mins read time
+      {%- endif -%}
+    </b>
 
-  <br>
+    <meta itemprop="wordCount" content="{{ words }}" />
+    <link rel="author" href="{{ site.url }}/about" />
 
-  {%- if page.tags != empty -%}
-    Tags: 
-    {% for tag in page.tags %}
-    <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
-      <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
-    </a>
-    {% endfor %}
-  {%- endif -%}
+    <br>
 
-</p>
+    {%- if page.tags != empty -%}
+      Tags:
+      {% for tag in page.tags %}
+        <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
+          <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
+        </a>
+      {% endfor %}
+    {%- endif -%}
 
-{{ content }}
+  </p>
 
-{% if page.comments %}
-<div class="pt-5">
-  {% include blog/disqus.html %}
+  <div itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {% if page.comments %}
+    <div class="pt-5">
+      {% include blog/disqus.html %}
+    </div>
+  {% endif %}
 </div>
-{% endif %}
