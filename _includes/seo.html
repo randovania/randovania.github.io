@@ -1,51 +1,113 @@
-{%- comment -%} A bunch of nonsense to get a good looking title on each page {%- endcomment -%}
-{%- if page.title == nil or page.title == site.title -%}
-  {%- capture full-title -%}{{ site.title }} | {{ site.tagline | default: site.description }}{%- endcapture -%}
-{%- else -%}
-  {%- comment -%} Default {%- endcomment -%}
-  {%- assign title = page.title -%}
+{% comment %} Store game name for later, if relevant {% endcomment %}
+{%- if true -%}
+  {%- assign games == false -%}
+  {%- assign videos == false -%}
 
-  {%- comment -%} Game pages {%- endcomment -%}
-  {%- if page.long-name and page.collection == 'games' -%}
-    {%- assign title = page.long-name -%}
-  {%- endif -%}
+  {%- if page.collection == 'games' -%}
 
-  {%- comment -%} Video DBs {%- endcomment -%}
-  {%- if page.collection == 'videos' -%}
+    {%- assign games = true -%}
+    {%- assign game-name = page.long-name -%}
+
+  {%- elsif page.collection == 'videos' -%}
+
     {%- for game in site.games -%}
       {%- if game.title == page.title -%}
-        {%- capture title -%}{{ game.long-name }} Video Database{%- endcapture -%}
+        {%- assign videos = true -%}
+        {%- assign game-name = game.long-name -%}
         {%- break -%}
       {%- endif -%}
     {%- endfor -%}
+
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%} Page Title {%- endcomment -%}
+{%- if true -%}
+  {% comment %} Game pages/Video DBs {% endcomment %}
+  {%- if games -%}
+    {%- assign title = game-name -%}
+  {%- elsif videos -%}
+    {%- capture title -%}
+      Video Database | {{ game-name }}
+    {%- endcapture -%}
   {%- endif -%}
 
-  {%- comment -%} Full title {%- endcomment -%}
-  {%- capture full-title -%}{{ title }} | {{ site.title }}{%- endcapture -%}
+  {%- comment -%} Default {%- endcomment -%}
+  {%- if title == nil -%}
+    {%- assign title = page.title | default: site.title -%}
+  {%- endif -%}
+
+  {% comment %} Full title {% endcomment %}
+  {%- if title == site.title -%}
+    {% comment %} Main page {% endcomment %}
+    {%- capture full-title -%}
+      {{ site.title }} | {{ site.tagline | default: site.description }}
+    {%- endcapture -%}
+  {%- else -%}
+    {% comment %} Standard pages {% endcomment %}
+    {%- capture full-title -%}
+      {{ title }} | {{ site.title }}
+    {%- endcapture -%}
+  {%- endif -%}
 {%- endif -%}
 
-{%- assign description = page.description | default: site.description | strip_html | strip_newlines | truncate: 160 -%}
-{%- assign image = page.image | default: site.logo -%}
-{%- assign game-image = page.uses-game-image | default: false %}
-{%- if game-image -%}
-    {%- capture image -%}/assets/games/{{ page.slug }}.png{%- endcapture -%}
+{% comment %} Page Description {% endcomment %}
+{%- if true -%}
+  {%- assign description = page.description | default: site.description -%}
+  
+  {% comment %} Game pages {% endcomment %}
+  {%- if games -%}
+    {%- capture description -%}
+      A randomizer for {{ game-name }} and many other games.
+    {%- endcapture -%}
+  {%- endif -%}
+
+  {% comment %} Video DBs {% endcomment %}
+  {%- if videos -%}
+    {%- capture description -%}
+      A collection of videos detailing tricks for Randovania's {{ game-name }} randomizer.
+    {%- endcapture -%}
+  {%- endif -%}
+
+  {%- assign description = description | strip_html | strip_newlines | truncate: 160 -%}
 {%- endif -%}
 
-{%- capture image-url -%}{{ site.url }}{{ image }}{%- endcapture -%}
+{% comment %} Page Image {% endcomment %}
+{%- if true -%}
+  {%- assign image = page.image | default: site.logo -%}
+  {%- assign image-alt = page.image-alt -%}
+  {%- if image == site.logo and image-alt == nil -%}
+    {%- assign image-alt = "Randovania's Logo" -%}
+  {%- endif -%}
+
+  {% comment %} Game pages and video DBs {% endcomment %}
+  {%- if page.uses-game-image -%}
+      {%- capture image -%}/assets/games/{{ page.slug }}.png{%- endcapture -%}
+      {%- if game-name != nil -%}
+        {%- capture image-alt -%}Cover art for {{ game-name }}{%- endcapture -%}
+      {%- endif -%}
+  {%- endif -%}
+
+  {%- capture image-url -%}{{ site.url }}{{ image }}{%- endcapture -%}
+{%- endif -%}
+
+{% comment %} Canonical URL {% endcomment %}
 {%- capture canonical-url -%}{{ site.url }}{{ page.url }}{%- endcapture -%}
 
 <!-- Begin SEO tags -->
 <title>{{ full-title | strip_html }}</title>
 <meta name="description" content="{{ description }}" />
 <link rel="canonical" href="{{ canonical-url }}" />
+<link rel="author" href="{{ site.url }}/about" />
 
 <!-- OpenGraph -->
-<meta property="og:title" content="{{ title }}" />
+<meta property="og:title" content="{{ title | strip_html }}" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:description" content="{{ description }}" />
 <meta property="og:url" content="{{ canonical-url }}" />
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:image" content="{{ image-url }}" />
+<meta property="og:image:alt" content="{{ image-alt }}" />
 
 {% if page.collection == 'posts' -%}
   <meta property="og:type" content="article" />
@@ -58,6 +120,6 @@
 {%- endif %}
 
 <!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:card" content="summary" />
 
 <!-- End SEO tags -->
