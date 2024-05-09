@@ -1,5 +1,6 @@
 ### Site Settings ###
 title               : Randovania
+tagline             : A randomizer platform for a multitude of games
 description         : A randomizer platform for a multitude of games.
 baseurl             : ""
 repository          : randovania/randovania.github.io
@@ -60,6 +61,7 @@ defaults:
     values:
       layout: "game"
       uses-game-image: true
+      itemtype: "https://schema.org/FAQPage"
   - scope:
       path: ""
       type: "redirects"
@@ -71,11 +73,18 @@ defaults:
     values:
       layout: "video_db"
       uses-game-image: true
+      itemtype: "https://schema.org/VideoGallery"
   - scope:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: false # Set to true to enable disqus comments
+      itemtype: "https://schema.org/WebPage"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      itemtype: "https://schema.org/WebPage"
 
 
 ### Exclude from processing ###

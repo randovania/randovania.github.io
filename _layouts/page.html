@@ -3,5 +3,8 @@ layout: default
 ---
 
 <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  {%- if page.hide-crumbs != true -%}
+    {% include breadcrumbs.html %}
+  {%- endif -%}
   {{ content }}
 </div>
