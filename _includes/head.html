@@ -3,9 +3,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  {%- if page.noindex or page.collection == 'games' and page.development-state != stable -%}
+  {%- assign dev-state = 'stable' -%}
+  {%- if page.collection == 'games' -%}
+    {%- assign dev-state = page.development-state -%}
+  {%- elsif page.collection == 'videos' -%}
+    {%- for game in site.games -%}
+      {%- if game.slug == page.slug -%}
+        {%- assign dev-state = game.development-state -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif %}
+
+  {% if page.noindex or dev-state != "stable" -%}
     <meta name="robots" content="noindex" />
-  {%- endif -%}
+  {%- endif %}
 
   {% include seo.html %}
 
