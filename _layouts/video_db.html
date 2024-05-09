@@ -1,11 +1,20 @@
 ---
 layout: page
 ---
-
+{%- for game in site.games -%}
+  {%- if game.slug == page.slug -%}
+    {%- assign game-name = game.long-name -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+<h1>{{ game-name }} Trick Video Database</h1>
 {% if page.regions == blank %}
   <p>This game has no videos. Perhaps you could
     <a href="https://github.com/randovania/randovania/blob/main/docs/Database%20Editor.md">contribute some</a>?</p>
 {% else %}
+  <p>This page contains every video linked in {{ game-name }}'s logic database.</p>
+  <p>Not seeing a video for a particular trick? Feel free to
+    <a href="https://github.com/randovania/randovania/blob/main/docs/Database%20Editor.md">contribute one</a>!</p>
   <nav>
     <div
       class="nav nav-tabs my-2"

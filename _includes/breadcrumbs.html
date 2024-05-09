@@ -1,0 +1,54 @@
+{% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
+<nav aria-label="breadcrumb">
+  <ol
+    class="breadcrumb"
+    itemscope
+    itemtype="https://schema.org/BreadcrumbList">
+    {% for crumb in crumbs %}
+      {%- if forloop.first -%}
+        {%- assign crumb_name = "Home" -%}
+      {%- else -%}
+        {%- assign crumb_name = crumb | replace: '-', ' ' | remove: '.html' | capitalize -%}
+      {%- endif -%}
+
+      {%- for game in site.games -%}
+        {%- if game.slug == crumb -%}
+          {%- assign crumb_name = game.long-name -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if forloop.last -%}
+        {%- if page.collection == 'posts' -%}
+          {%- assign crumb_name = page.title | default: crumb_name -%}
+        {%- endif -%}
+        {%- capture crumb_props -%}
+                    class="breadcrumb-item active" aria-current="page"
+                {%- endcapture -%}
+        {%- assign open_wrapper = "" -%}
+        {%- assign close_wrapper = "" -%}
+      {%- else -%}
+        {%- assign crumb_limit = forloop.index -%}
+        {%- capture crumb_props -%}class="breadcrumb-item"{%- endcapture -%}
+        {%- capture href -%}
+                    {%- for inner_crumb in crumbs limit: crumb_limit %}{{ inner_crumb | append: '/' }}{%- endfor -%}
+                {%- endcapture -%}
+        {%- capture open_wrapper -%}
+                    <a itemprop="item" href="{{ href }}">
+                {%- endcapture -%}
+        {%- assign close_wrapper = "</a>" -%}
+      {%- endif -%}
+
+      <li
+        {{ crumb_props }}
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem">
+        {{ open_wrapper }}<span itemprop="name">{{ crumb_name }}</span>
+        {{ close_wrapper }}
+        <meta itemprop="position" content="{{ forloop.index }}" />
+      </li>
+
+    {%- endfor -%}
+  </ol>
+</nav>
