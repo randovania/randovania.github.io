@@ -7,6 +7,6 @@ You should already have Luma3DS installed on your SD Card, but if not, you can d
 
 Once you have the randomizer files and Luma3DS on your SD Card in the proper folders, open Luma3DS by holding SELECT when turning on your 3DS. Check **Enable game patching** to apply the mod.
 
-![Enable Game Patching in Luma3DS](/assets/guides/luma3ds/luma3ds.png)
+{% include blog/figure.html src="/assets/guides/luma3ds/luma3ds.png" caption="Enable Game Patching in Luma3DS" %}
 
 Once it is enabled, save and return to the Home Menu, then launch the game. To disable the mod, re-enter the Luma3DS menu and uncheck the option.
