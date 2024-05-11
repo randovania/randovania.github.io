@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-themed">
   <div class="container-fluid">
-    <a class="navbar-logo me-2 d-inline-block" href="{{ site.baseurl }}/"> </a>
+    <a class="navbar-logo me-2 d-inline-block" href="{{ site.baseurl }}/"></a>
 
     <a class="navbar-brand mb-0 h1" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
@@ -18,12 +18,10 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
         {%- assign html_pages = site.html_pages | sort: 'weight' -%} {%- assign filtered_pages = "" | split: "" -%}
-        {%-
-          for html_page in html_pages -%}
+        {%- for html_page in html_pages -%}
           {%- assign exclude = false -%}
           {%- for exclude_path in site.nav_exclude -%}
-            {%-
-              if exclude_path == html_page.path -%}
+            {%- if exclude_path == html_page.path -%}
               {%- assign exclude = true -%} {%- break -%}
             {%- elsif exclude_path contains '**' -%}
               {%- assign match = exclude_path | remove: '**' -%}
@@ -58,11 +56,13 @@
 
         {% endfor %}
 
-        <span
-          id="theme-toggler"
-          class="nav-item nav-link fa"
-          role="button"
-          onclick="toggleTheme()"></span>
+        <div class="nav-item nav-link">
+          <span
+            id="theme-toggler"
+            class="fa"
+            role="button"
+            onclick="toggleTheme()"></span>
+        </div>
       </div>
     </div>
   </div>
