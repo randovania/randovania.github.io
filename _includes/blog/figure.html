@@ -1,0 +1,15 @@
+{% assign alt = include.alt | default: include.caption %}
+
+<div class="container">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-12 col-md-11 col-lg-10">
+      <figure class="figure text-center d-block mx-auto">
+        <img
+          class="figure-img img-fluid rounded"
+          src="{{ include.src }}"
+          alt="{{ alt | xml_escape }}">
+        <figcaption class="figure-caption">{{ include.caption | markdownify }}</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
