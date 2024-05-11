@@ -39,12 +39,13 @@ permalink: /guides/:title
 collections:
   games:
     output: true
+    permalink: /games/:path/
   redirects:
     output: true
     permalink: /:path
   videos:
     output: true
-    permalink: /games/:path/videos
+    permalink: /games/:path/videos/
 
 
 ### Analytics ###

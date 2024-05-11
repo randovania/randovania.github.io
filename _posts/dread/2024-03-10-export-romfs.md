@@ -9,13 +9,13 @@ First, download and setup Ryujinx. Make sure you follow their start-up guide aft
 
 Once you've set it up, navigate to **Options -> Settings** to add the directory with your game image. Your game should be shown in Ryujinx now.
 
-![](/assets/guides/romfs/ryujinx1.png)
+![Ryujinx main screen](/assets/guides/romfs/ryujinx1.png)
 
 If you wish to use version 2.1.0, right click on the game in Ryujinx and select Manage Title Updates. Then apply the update .nsp.
 
 Finally, right click on the game and select **Extract Data -> RomFS**.
 
-![](/assets/guides/romfs/ryujinx2.png)
+![Ryujinx main screen, showing the right-click context menus to extract the RomFS](/assets/guides/romfs/ryujinx2.png)
 
 Be sure to use the same version of RomFS as you intend to play the game with! If your RomFS dump does not match your game, it can cause problems with the randomizer.
 
