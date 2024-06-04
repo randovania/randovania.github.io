@@ -1,5 +1,5 @@
 
-Randovania can randomize many aspects of its supported games, all while still ensuring they're completable 
+Randovania can randomize many aspects of its supported games, all while still ensuring they're completable
 without using any glitches or exploits. Its features include:
 
 * Randomizing what can be found in each item location. Weapons, keys, and more can end up in

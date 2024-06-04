@@ -5,6 +5,8 @@ long-name: 'Metroid: Samus Returns'
 randomize:
 - All items, including ones normally locked behind amiibo
 - Starting locations
+- Door locks
+- Elevator destinations
 - A new goal has been added (DNA Hunt)
 need-to-play:
 - A modded 3DS with Luma3DS, or Citra

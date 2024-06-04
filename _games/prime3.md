@@ -5,7 +5,7 @@ long-name: 'Metroid Prime 3: Corruption'
 randomize: []
 need-to-play: []
 multiworld: false
-development-state: experimental
+development-state: development
 faq:
 - question: What causes the Hypermode vines in Corrupted Pool to disappear?
   answer: Collecting the ship item in Hangar Bay removes the vines.

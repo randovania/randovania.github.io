@@ -102,6 +102,9 @@ regions:
       value:
       - key: Pickup (Missile Tank)
         value:
+        - {difficulty: Beginner, start_time: 0, video_id: NQOTzIFON6U}
+        - {difficulty: Beginner, start_time: 0, video_id: IOwxRysaYv0}
+        - {difficulty: Intermediate, start_time: 0, video_id: mi0fCntpGcM}
         - {difficulty: Advanced, start_time: 0, video_id: 0CXWDqGRId8}
   - key: Teleport to Ferenia
     value:
@@ -185,6 +188,16 @@ regions:
       - key: Pickup (Energy Part)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: P_LWT9EYwdI}
+- key: Dairon
+  value:
+  - key: Big Hub
+    value:
+    - key: Dock to Yellow EMMI Introduction
+      value:
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: Bt-sri9j5h8}
+        - {difficulty: Beginner, start_time: 0, video_id: BLyFQ2vkVoM}
 - key: Ferenia
   value:
   - key: EMMI Zone Exit East
@@ -202,6 +215,13 @@ regions:
       - key: Dock to Teleport to Burenia (Cyan)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: qIanrM7cc3I}
+  - key: Pitfall Puzzle Room
+    value:
+    - key: Tunnel to Space Jump Room (Upper)
+      value:
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: mw12gft21hc}
   - key: Purple EMMI Arena
     value:
     - key: Tunnel to Wave Beam Tutorial
@@ -235,6 +255,13 @@ regions:
       - key: Dock to Transport to Ghavoran
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: SUxSv6YFK3Y}
+  - key: Speedboost Slopes Maze
+    value:
+    - key: Bottom
+      value:
+      - key: Ledge above Slope
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: 8vhRInAoWoM}
 - key: Ghavoran
   value:
   - key: Blue EMMI Introduction

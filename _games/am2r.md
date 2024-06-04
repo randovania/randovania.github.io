@@ -6,9 +6,10 @@ randomize:
 - All items
 - Starting locations
 - Door locks
+- Transport Pipe destinations
 - A new goal has been added (DNA Hunt)
 need-to-play:
-- AM2R version 1.5.5
+- AM2R version 1.5.5 for either Windows, Linux or macOS
 multiworld: true
 development-state: stable
 faq:

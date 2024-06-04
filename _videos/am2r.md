@@ -23,18 +23,27 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: QH3I73ZMQ3c}
         - {difficulty: Advanced, start_time: 0, video_id: s6e1hOW8UTI}
         - {difficulty: Advanced, start_time: 0, video_id: JlwkUM2KHCE}
+- key: Genetics Laboratory
+  value:
+  - key: Waterfalls Exterior
+    value:
+    - key: Horizontal Dock to Waterfall Ravine North East
+      value:
+      - key: Vertical Dock to Laboratory Save Station Access
+        value:
+        - {difficulty: Hypermode, start_time: 0, video_id: pek-zZsYFec}
 - key: Golden Temple
   value:
   - key: 1-Orb Hallway
     value:
-    - key: Horizontal Dock to Inner Temple East Hall
+    - key: Door to Inner Temple East Hall
       value:
       - key: Event - 1-Orb
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: Q-LUdoIx0yQ}
   - key: Armory
     value:
-    - key: Horizontal Dock to Inner Temple East Hall
+    - key: Door to Inner Temple East Hall
       value:
       - key: Pickup (Top Missile Tank)
         value:
@@ -50,6 +59,13 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: qiadG_Nmux4}
         - {difficulty: Intermediate, start_time: 0, video_id: g0kWLHM0p1Y}
+  - key: Golden Temple Exterior
+    value:
+    - key: Horizontal Dock to Outer Temple Save Station
+      value:
+      - key: Horizontal Dock to Exterior Alpha Nest
+        value:
+        - {difficulty: Hypermode, start_time: 0, video_id: FZI6scXiurM}
   - key: Guardian Arena
     value:
     - key: Horizontal Dock to Needler Nation
@@ -69,7 +85,7 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: f-OY6Ic-H9w}
   - key: Inner Temple West Hall
     value:
-    - key: Horizontal Dock to Bomb Chamber Access
+    - key: Door to Bomb Chamber Access
       value:
       - key: Middle
         value:
@@ -87,7 +103,7 @@ regions:
   value:
   - key: Inner Alpha Nest South
     value:
-    - key: Horizontal Dock to Water Turbine Station
+    - key: Door to Water Turbine Station
       value:
       - key: Pickup (Missile Tank)
         value:

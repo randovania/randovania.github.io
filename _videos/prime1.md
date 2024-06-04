@@ -488,11 +488,6 @@ regions:
   value:
   - key: Central Dynamo
     value:
-    - key: Door to Quarantine Access A
-      value:
-      - key: Pickup (Main Power Bombs)
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: LRmJn2BAYwc}
     - key: Fight Trigger
       value:
       - key: Event - Security Drone
@@ -1258,9 +1253,11 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: UVXjHNV3dWU}
     - key: Door to Root Tunnel
       value:
+      - key: Out of Bounds (Skywalk)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: imhkxmwiU9o}
       - key: Pickup (Missile Expansion)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: x2zjlvSy0Og}
         - {difficulty: Intermediate, start_time: 0, video_id: i2J6z6wrLGw}
-        - {difficulty: Expert, start_time: 0, video_id: imhkxmwiU9o}
 ---

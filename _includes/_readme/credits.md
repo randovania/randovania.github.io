@@ -26,16 +26,6 @@ Linux Flatpak build contributed by [Ethan Lee](https://flibitijibibo.com/).
 [Menu Mod README](https://www.dropbox.com/s/yhqqafaxfo3l4vn/Echoes%20Menu.7z?file_subpath=%2FEchoes+Menu%2Freadme.txt).
 * Converting Metroid Prime models by [Migs](https://www.twitch.tv/migslive).
 
-### Metroid Prime 3: Corruption
-* Game patching written by [gollop](https://github.com/gollop).
-* Room data collected by [Dyceron](https://www.twitch.tv/dyceron) and [KirbymastaH](https://www.twitch.tv/kirbymastah).
-
-### Super Metroid
-* Game Patching and Logic Database by [SolventMercury](https://github.com/SolventMercury).
-* Custom Item PLMs patch by [Kazuto](https://github.com/Kazuto88).
-* Skip Intro Saves patch by [PHOSPHOTiDYL](https://metroidconstruction.com/resource.php?id=265).
-* Other individual patches by [Total](https://github.com/tewtal), Foosda, Leodox, and others.
-
 ### Cave Story
 * Patcher and logic written by [duncathan_salt](https://twitter.com/duncathan_salt).
 * Based on the [original randomizer](https://shru.itch.io/cave-story-randomizer) by shru.

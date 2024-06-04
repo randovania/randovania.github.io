@@ -5,7 +5,7 @@ long-name: Super Metroid
 randomize: []
 need-to-play: []
 multiworld: false
-development-state: experimental
+development-state: development
 faq:
 - question: What glitches are accounted for in logic?
   answer: Mostly none at the moment. There are a few, but this is a work in progress.

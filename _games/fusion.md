@@ -5,7 +5,7 @@ long-name: Metroid Fusion
 randomize: []
 need-to-play: []
 multiworld: false
-development-state: experimental
+development-state: development
 faq:
 - question: What patcher does Randovania use?
   answer: Randovania supports the open source patcher MARS (Metroid Advance Randomizer

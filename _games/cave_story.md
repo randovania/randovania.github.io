@@ -6,7 +6,8 @@ randomize:
 - All items
 - Starting locations
 need-to-play:
-- Windows, Linux, or Wine. The game is included with Randovania
+- The game is included with Randovania. Windows or Wine is needed to play Freeware.Windows
+  or Linux is needed to play Cave Story Tweaked
 multiworld: true
 development-state: stable
 faq: []

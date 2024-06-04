@@ -9,7 +9,7 @@ randomize:
 - Door locks
 - Translator gate requirements
 need-to-play:
-- An ISO of any NTSC-U or PAL Gamecube release of the game
+- An ISO of any NTSC-U or PAL GameCube release of the game
 - A modded Wii, or Dolphin Emulator
 multiworld: true
 development-state: stable

@@ -353,6 +353,13 @@ regions:
       - key: Door to Ramulken Rollway
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 6knVhkzcL9Q}
+    - key: Door to Ramulken Rollway
+      value:
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Intermediate, start_time: 9, video_id: uM1DHyPmGiM}
+        - {difficulty: Intermediate, start_time: 0, video_id: uM1DHyPmGiM}
+        - {difficulty: Advanced, start_time: 14, video_id: uM1DHyPmGiM}
   - key: Gamma Arena South
     value:
     - key: Left of Fan

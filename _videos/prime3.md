@@ -123,6 +123,11 @@ regions:
       - key: Door to Repair Bay
         value:
         - {difficulty: Advanced, start_time: 0, video_id: l8ICCVjhcq0}
+    - key: Door to Repair Bay
+      value:
+      - key: Door to Docking Bay 5
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: l8ICCVjhcq0}
   - key: Repair Bay
     value:
     - key: Door to Hangar A Access
