@@ -17,7 +17,7 @@ Next, navigate to **TMD file options... -> Mount CXI/NDA to drive**, then press 
 
 Highlight the **extheader.bin** file, and press A while holding R to open another menu. From here, select **Copy to 0:/gm9/out**. Copy the extracted extheader.bin file from this directory on the SD Card to some place on your computer.
 
-{% include blog/figure.html src="/assets/guides/godmode9/godmode9-exheader-sd.png" caption="Menu to extract RomFS to output folder on SD Card" %}
+{% include blog/figure.html src="/assets/guides/godmode9/godmode9-exheader-sd.png" caption="Menu to extract ExHeader to output folder on SD Card" %}
 
 ### Game Cartridge
 
@@ -31,4 +31,4 @@ Next, navigate to **NCSD image options... -> Mount image to drive**, then press 
 
 Press A to enter the **content0.game** directory. Highlight the **extheader.bin** file, and press A while holding R to open another menu. From here, select **Copy to 0:/gm9/out**. Copy the extracted extheader.bin file from this directory on the SD Card to some place on your computer.
 
-{% include blog/figure.html src="/assets/guides/godmode9/godmode9-exheader-cart.png" caption="Menu to extract RomFS to output folder on SD Card" %}
+{% include blog/figure.html src="/assets/guides/godmode9/godmode9-exheader-cart.png" caption="Menu to extract ExHeader to output folder on SD Card" %}
