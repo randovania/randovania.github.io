@@ -3,7 +3,7 @@ layout: post
 title: "How to extract your Metroid: Samus Returns ExHeader"
 tags: samus_returns
 ---
-You can either extract your ExHeader using Godmode9 from your 3DS, or using [ctrtool](https://github.com/3DSGuy/Project_CTR/releases/tag/ctrtool-v1.2.0) or [pyctr](https://github.com/ihaveamac/pyctr). We'll show you how to do it using Godmode9.
+You can either extract your ExHeader using Godmode9 from your 3DS, or by using [ctrtool](https://github.com/3DSGuy/Project_CTR/releases/tag/ctrtool-v1.2.0) or [pyctr](https://github.com/ihaveamac/pyctr) on your computer. We'll show you how to do it using Godmode9.
 
 ## Game Installed on SD Card
 
