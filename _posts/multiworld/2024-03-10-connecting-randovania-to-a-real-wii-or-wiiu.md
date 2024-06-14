@@ -17,7 +17,7 @@ Using a real Wii and Wii U console may be favorable if your computer does not ru
   * **The Homebrew Channel**  
     * [Installation Guide](https://wii.hacks.guide/get-started)  
       (Patched/cIOSes are not needed.)  
-  * **A Network Connectikon**  
+  * **A Network Connection**  
     * **ℹ️ NOTE** It is strongly recommended to use a wired Ethernet connection for the console instead of the console's built-in Wi-Fi if possible. Using Wi-Fi may be more unstable.  
       * Third-party adapters Ethernet using the ASIX AX88772 or AX88772A chipsets can work too, such as [this one](https://www.amazon.com/gp/product/B00MYT47EA/).  
   * **A Supported Controller**  
@@ -71,13 +71,16 @@ This adds a permanent Nintendont Multiworld entry to the Homebrew Channel withou
 * Copy the extracted Nintendont-v5-multiworld to your storage device's `apps` folder  
     For example, on Windows: `S:\apps\Nintendont-v5-multiworld`  
 * Insert the storage into your console, launch the Homebrew Channel, and start *Nintendont (Multiworld)*
+  * In the Homebrew Channel, you can switch between apps on your USB device and SD card by pressning **1** or **X**.
 
 ## Troubleshooting #  
   
 * **After selecting the game in Nintendont Multiworld, the screen remains black and the game does not start.**  
   * This may indicate that Randovania is failing to connnect to Nintendont Multiworld.  
-  * You could try repeating the steps until it works, checking your console's Internet settings, or switching to a wired Ethernet connection.  
+  * Try repeating the steps until it works and checking your console's Internet settings.  
+  * If you are using Wi-Fi, try switching to a wired Ethernet connection.  
 * **I've started Nintendont Multiworld but Randovania stills says "Disconnected".**  
   * The connection doesn't begin until the game itself is started. Randovania should display "Connected" after the game has been started.  
 * **I'm already in the playable game, but but Randovania stills says "Disconnected".**  
-  * You could try repeating the steps until it works, checking your console's Internet settings, or switching to a wired Ethernet connection.  
+  * Try repeating the steps until it works and checking your console's Internet settings.
+  * If you are using Wi-Fi, try switching to a wired Ethernet connection.  
