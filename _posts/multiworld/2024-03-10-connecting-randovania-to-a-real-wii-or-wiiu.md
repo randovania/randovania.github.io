@@ -3,7 +3,6 @@ layout: post
 title: "Connecting Randovania to a Real Wii or Wii U"
 tags: multiworld prime1 prime2
 ---
-# Connecting Randovania to a Real Wii or Wii U  
 
 While playing Metroid Prime or Metroid Prime 2: Echoes Multiworld Randomizer on Dolphin Emulator is the most popular method, you can also play it on a real Wii or Wii U Wii Mode ("vWii") with a [custom fork of Nintendont](https://github.com/randovania/Nintendont/) with support for networked multiworld and automatic item tracking.  
 Using a real Wii and Wii U console may be favorable if your computer does not run emulated GameCube games well.  
