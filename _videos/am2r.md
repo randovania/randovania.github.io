@@ -83,6 +83,7 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: t42hj6u94cI}
         - {difficulty: Intermediate, start_time: 0, video_id: BYGrFjVOOXQ}
         - {difficulty: Intermediate, start_time: 0, video_id: f-OY6Ic-H9w}
+        - {difficulty: Expert, start_time: 0, video_id: uY0Nx4CTbEg}
   - key: Inner Temple West Hall
     value:
     - key: Door to Bomb Chamber Access
@@ -101,6 +102,35 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: BHjwXtE4i44}
 - key: Hydro Station
   value:
+  - key: Autoad Playground
+    value:
+    - key: Door to Wallfire Venue
+      value:
+      - key: Pickup (Top Missile Tank)
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: OjJ5JGlTv_8}
+  - key: Breeding Grounds Entrance
+    value:
+    - key: Horizontal Dock to Hydro Station Exterior (Bottom)
+      value:
+      - key: Tunnel to Breeding Grounds Save Station
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: nw1Zhw0xxzM}
+        - {difficulty: Hypermode, start_time: 0, video_id: rQav7323XNk}
+  - key: Hydro Station Basement
+    value:
+    - key: Tunnel to Hi-Jump Chamber
+      value:
+      - key: Pickup (Right Missile Tank)
+        value:
+        - {difficulty: Hypermode, start_time: 0, video_id: djxanKz5hi0}
+  - key: Hydro Station Exterior
+    value:
+    - key: Middle Left
+      value:
+      - key: Vertical Dock to Arachnus Save Station
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: Dk761p7pP78}
   - key: Inner Alpha Nest South
     value:
     - key: Door to Water Turbine Station
@@ -119,6 +149,13 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: VLu8ujljuGg}
 - key: Industrial Complex
   value:
+  - key: Breeding Grounds Fly Stadium
+    value:
+    - key: Top Near Pinchers
+      value:
+      - key: Pickup (Super Missile Tank)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: gsjS_J5Li0U}
   - key: Industrial Complex Exterior
     value:
     - key: Vertical Dock to Upper Factory Save Station
@@ -126,8 +163,34 @@ regions:
       - key: Above torizo
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 'youtube:'}
+  - key: Lower Factory Hub
+    value:
+    - key: Door to Lower Factory Save Station
+      value:
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: oJ5kWaU0IKI}
 - key: Main Caves
   value:
+  - key: Drivel Drive
+    value:
+    - key: Horizontal Dock to The Depths
+      value:
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: gPyE7qZ4GpY}
+  - key: Skreek Street
+    value:
+    - key: Door to The Descent
+      value:
+      - key: Near hidden wall
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: 4Fmq3-tIOLU&t=21}
+    - key: Near hidden wall
+      value:
+      - key: Door to The Descent
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: 4Fmq3-tIOLU}
   - key: Surface Hi-Jump Challenge
     value:
     - key: Near Spikes
@@ -143,8 +206,31 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: oH23Z6N2OSA}
         - {difficulty: Advanced, start_time: 0, video_id: 8dNToB3scAQ}
+        - {difficulty: Hypermode, start_time: 0, video_id: nbg7n5g1X8c}
+  - key: The Pit
+    value:
+    - key: Horizontal Dock to Fat Crocomire Room
+      value:
+      - key: Horizontal Dock to Snaky Skorp Cavern
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: 1LWLu7JxS1k}
+        - {difficulty: Hypermode, start_time: 0, video_id: TrW9CmBHJSg}
+  - key: Tsumuri Tunnel
+    value:
+    - key: Vertical Dock to Cavern Crossroads
+      value:
+      - key: Horizontal Dock to Hornoad Hallway
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: uFXTtaebs48}
 - key: The Depths
   value:
+  - key: Bubble Lair Shinespark Cave
+    value:
+    - key: Horizontal Dock to Bubble Lair Shinespark Cave West
+      value:
+      - key: Horizontal Dock to Bubble Lair Hub
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: Gq5wq0yHvCY}
   - key: Hideout Omega Nest
     value:
     - key: Horizontal Dock to Hideout Omega Nest Access

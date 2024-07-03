@@ -210,6 +210,13 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: FrUzVLqiAYw}
         - {difficulty: Advanced, start_time: 0, video_id: v1LYdDNu6fA}
+  - key: Proving Grounds
+    value:
+    - key: Room Center
+      value:
+      - key: Event - Gandrayda
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: SdK5OJxzfHs}
   - key: Scrapvault
     value:
     - key: Room Center

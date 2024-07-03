@@ -11,7 +11,7 @@ randomize:
 need-to-play:
 - A modded 3DS with Luma3DS, or Citra
 - A dumped RomFS of your original game. Any region works.
-multiworld: false
+multiworld: true
 development-state: stable
 faq:
 - question: What are the icons on the bottom of the HUD?

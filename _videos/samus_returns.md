@@ -4,7 +4,7 @@ regions:
   value:
   - key: Inner Temple East Hall
     value:
-    - key: Dock to Inner Temple Teleporter
+    - key: Door to Inner Temple Teleporter
       value:
       - key: Door to Temple Exterior
         value:
@@ -30,7 +30,7 @@ regions:
         - {difficulty: Intermediate, start_time: 5, video_id: r2NzrPS3zw0}
   - key: Inner Temple West Hall
     value:
-    - key: Dock to Bomb Chamber Access
+    - key: Door to Bomb Chamber Access
       value:
       - key: Tunnel to Metroid Caverns Hub
         value:
@@ -38,7 +38,7 @@ regions:
         - {difficulty: Advanced, start_time: 10, video_id: iX0QRKS296M}
     - key: Door to Inner Temple Teleporter Access
       value:
-      - key: Dock to Inner Temple Save Station
+      - key: Door to Inner Temple Save Station
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 365gGTEEtYg}
         - {difficulty: Intermediate, start_time: 0, video_id: U2rVU-4bxUA}
@@ -52,7 +52,7 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: 41wPJZOtWfg}
   - key: Metroid Caverns Alpha Arena South West Access
     value:
-    - key: Dock to Metroid Caverns Lobby
+    - key: Door to Metroid Caverns Lobby
       value:
       - key: Left Pillar
         value:
@@ -107,7 +107,7 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: HdZfUSnqxrE}
   - key: Water Maze
     value:
-    - key: Door to Gullugg Gangway
+    - key: Door to Gullugg Gangway (Bottom)
       value:
       - key: Next to Pickup
         value:
@@ -151,7 +151,7 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: FVdiaUALOvw}
   - key: Metroid Caverns Alpha Arena East Access
     value:
-    - key: Dock to Metroid Caverns Save Station
+    - key: Door to Metroid Caverns Save Station
       value:
       - key: Tunnel to Metroid Caverns Alpha Arena East
         value:
@@ -977,7 +977,7 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: UJFVyaOImNQ}
   - key: Hornoad Hallway
     value:
-    - key: Dock to Landing Site
+    - key: Door to Landing Site
       value:
       - key: Past First Missile Block
         value:
