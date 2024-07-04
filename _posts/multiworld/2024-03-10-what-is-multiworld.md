@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is Multiworld?"
-tags: multiworld am2r cave_story dread prime1 prime2
+tags: multiworld am2r cave_story dread prime1 prime2 samus_returns
 ---
 
 ## Multiworld
