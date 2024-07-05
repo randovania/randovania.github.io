@@ -4,7 +4,7 @@ set -e -x
 shopt -s extglob
 cd "$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 
-randovania_version=8.2.0
+randovania_version=8.2.1
 
 echo "Installing Requirements"
 
