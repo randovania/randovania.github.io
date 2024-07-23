@@ -3,9 +3,11 @@ layout: post
 title: "How to extract your Metroid: Samus Returns ExHeader"
 tags: samus_returns
 ---
-You can either extract your ExHeader using Godmode9 from your 3DS, or by using [ctrtool](https://github.com/3DSGuy/Project_CTR/releases/tag/ctrtool-v1.2.0) or [pyctr](https://github.com/ihaveamac/pyctr) on your computer. We'll show you how to do it using Godmode9.
+You can either extract your ExHeader using Godmode9 from your 3DS, or by using [CTRTool](https://github.com/3DSGuy/Project_CTR/releases/tag/ctrtool-v1.2.0) or [pyctr](https://github.com/ihaveamac/pyctr) on your computer. We'll show you how to do it using Godmode9 and CTRTool.
 
-## Game Installed on SD Card
+## Godmode9
+
+### Game Installed on SD Card
 
 If you're using the NTSC version, navigate to **[A:] SYSNAND SD -> title -> 00040000 -> 001bb200 -> content -> 00000000.tmd**.
 
@@ -32,3 +34,15 @@ Next, navigate to **NCSD image options... -> Mount image to drive**, then press 
 Press A to enter the **content0.game** directory. Highlight the **extheader.bin** file, and press A while holding R to open another menu. From here, select **Copy to 0:/gm9/out**. Copy the extracted extheader.bin file from this directory on the SD Card to some place on your computer.
 
 {% include blog/figure.html src="/assets/guides/godmode9/godmode9-exheader-cart.png" caption="Menu to extract ExHeader to output folder on SD Card" %}
+
+## CTRTool
+
+First, Download CTRTool and extract it. Open the folder with the ctrtool.exe.
+
+Hold Shift, right click into the explorer window and select Open PowerShell here.
+
+Type in `.\ctrtool.exe --exheader=exheader.bin`  with a space at the end and then Drag & Drop your Metroid: Samus Returns 3DS file into the PowerShell window. It should say something like `.\ctrtool.exe --exheader=exheader.bin C:\ctrtool\MSR.3ds`.
+
+Hit enter and in the folder it should have created a file called exheader.bin. Select this file while exporting to enable multiworld and automatic item tracker support.
+
+{% include blog/figure.html src="/assets/guides/ctrtool/ctrtool-exheader.mp4" caption="Using CTRTool to extract ExHeader" %}
