@@ -57,7 +57,7 @@ Enter the IP address noted from the console earlier.
 {% include blog/figure.html src="/assets/guides/nintendont_multiworld/rdv_enterwiiip.png" caption="Entering the console's IP address" %}
 
 Find the newly created Nintendont entry, then click the `⋯` button next to it to reveal a menu.  
-Then, click `Upload to Nintentdont to Homebrew Channel`.  
+Then, click `Upload Nintendont to Homebrew Channel`.  
 This will upload the app the Homebrew Channel and launch it automatically.  
 {% include blog/figure.html src="/assets/guides/nintendont_multiworld/rdv_gameconnections_uploadhbc.png" caption="Uploading Nintendont Multiworld to the Homebrew Channel" %}
 
