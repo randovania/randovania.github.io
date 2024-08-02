@@ -40,7 +40,7 @@ regions:
     value:
     - key: Door to Elevator to Crew Quarters
       value:
-      - key: Before Operations Room
+      - key: Beside Operations Room Hatch
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: GX6K70StdeY}
   - key: Operations Maintenance Shaft

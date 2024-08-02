@@ -50,6 +50,11 @@ regions:
   value:
   - key: Gravity Suit Tower
     value:
+    - key: Breakable Floor
+      value:
+      - key: Event - Early Gravity Blob through Wall
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: G0jjmpuke-o}
     - key: Door to Navigation Station South
       value:
       - key: Blob Alcove

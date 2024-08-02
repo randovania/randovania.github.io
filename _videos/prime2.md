@@ -1061,6 +1061,9 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: YnD0pFScq1g&t=17s}
         - {difficulty: Expert, start_time: 0, video_id: soERaCLQYhs}
+      - key: Pickup (Sunburst)
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: _Cs-JtpIuNE}
     - key: Door to Windchamber Tunnel
       value:
       - key: Door to Windchamber Gateway

@@ -195,6 +195,7 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: 93RLiYdob9Q}
         - {difficulty: Advanced, start_time: 0, video_id: lkdoZR7aZ5s}
         - {difficulty: Advanced, start_time: 35, video_id: lkdoZR7aZ5s}
+        - {difficulty: Expert, start_time: 0, video_id: 2YM21Ql50P0}
       - key: Event - Ruined Shrine Item (Morph Ball)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 3lkjUSO9tN4}

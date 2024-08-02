@@ -41,4 +41,7 @@ faq:
 - question: Why can't I cross the door between Underground Transport and Torvus Temple?
   answer: The energy gate that disappears after the pirate fight in Torvus Temple
     blocks this door.
+- question: Why can't I use the Kinetic Orb Cannon in Sanctuary Entrance?
+  answer: The morph cannon will only be active once the scan post has been scanned
+    and the room has been reloaded.
 ---

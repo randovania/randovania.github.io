@@ -2,6 +2,13 @@
 regions:
 - key: Area 1
   value:
+  - key: Destroyed Armory
+    value:
+    - key: Door to Inner Temple East Hall
+      value:
+      - key: Pickup (Aeion Tank)
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: BuWKJuJszxk}
   - key: Inner Temple East Hall
     value:
     - key: Door to Inner Temple Teleporter
@@ -86,11 +93,30 @@ regions:
         - {difficulty: Advanced, start_time: 80, video_id: QmXq9hl-oB4}
   - key: Temple Exterior
     value:
+    - key: Door to Exterior Alpha Arena
+      value:
+      - key: Right Side Wall
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: IgpHUuAi3q0}
+        - {difficulty: Intermediate, start_time: 27, video_id: IgpHUuAi3q0}
+        - {difficulty: Intermediate, start_time: 13, video_id: IgpHUuAi3q0}
+        - {difficulty: Intermediate, start_time: 0, video_id: ScFsxUqNXns}
+    - key: Right Side Wall
+      value:
+      - key: Above Wall
+        value:
+        - {difficulty: Advanced, start_time: 19, video_id: IgpHUuAi3q0}
+        - {difficulty: Advanced, start_time: 13, video_id: boCImRu4y2E}
+        - {difficulty: Advanced, start_time: 3, video_id: ScFsxUqNXns}
+      - key: Tunnel to Exterior Alpha Arena
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: eFYeU_gh6gU}
     - key: Save Station
       value:
       - key: Door to Exterior Alpha Arena
         value:
         - {difficulty: Expert, start_time: 0, video_id: r8Pb-3bIPGc}
+        - {difficulty: Hypermode, start_time: 0, video_id: boCImRu4y2E}
   - key: Transport to Surface and Area 2
     value:
     - key: Chozo Seal
@@ -405,6 +431,13 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: RJkXLo_UohI}
 - key: Area 4 Central Caves
   value:
+  - key: Amethyst Altars
+    value:
+    - key: Below Pickup
+      value:
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: 1JuscAlYNIY}
   - key: Transport to Area 3 and Crystal Mines
     value:
     - key: Door to Caves Intersection Terminal (Bottom)
@@ -531,6 +564,12 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: olF7Zn1G8xU}
         - {difficulty: Advanced, start_time: 0, video_id: Ngh3cBoy3e8}
+    - key: Ammo Recharge Station
+      value:
+      - key: Door to Zeta Arena Access
+        value:
+        - {difficulty: Intermediate, start_time: 6, video_id: kPH_NBSq230}
+        - {difficulty: Intermediate, start_time: 0, video_id: kPH_NBSq230}
     - key: Door to Overgrown Maze
       value:
       - key: Next to Teleporter
@@ -539,6 +578,11 @@ regions:
       - key: Pickup (Super Missile Tank Top)
         value:
         - {difficulty: Expert, start_time: 0, video_id: uze9OiibjUM}
+    - key: Door to Red Plant Maze
+      value:
+      - key: Top of Tower Right Side
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: -a1YMwCXM2M}
     - key: Door to Transport to Tower Interior West
       value:
       - key: Tunnel to Overgrown Maze
@@ -549,6 +593,13 @@ regions:
       - key: Pickup (Missile Tank Bottom)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: f7SZju61ZlI}
+    - key: Top of Tower Right Side
+      value:
+      - key: Upper Right Ledge
+        value:
+        - {difficulty: Intermediate, start_time: 15, video_id: d0Qmb4p2wts}
+        - {difficulty: Intermediate, start_time: 0, video_id: d0Qmb4p2wts}
+        - {difficulty: Advanced, start_time: 8, video_id: d0Qmb4p2wts}
     - key: Underwater
       value:
       - key: Door to Transport to Tower Interior West
@@ -891,6 +942,13 @@ regions:
       - key: Door to Omega Arena North
         value:
         - {difficulty: Advanced, start_time: 0, video_id: hz94J_xv4cc}
+  - key: Omega Arena South Access
+    value:
+    - key: Above Pickup
+      value:
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: ODIIfviIrRI}
   - key: Transport to Area 6
     value:
     - key: Below Left Pickup
