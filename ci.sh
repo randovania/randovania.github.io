@@ -4,8 +4,7 @@ set -e -x
 shopt -s extglob
 cd "$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 
-randovania_version=8.2.1
-
+randovania_version=8.3.0
 echo "Installing Requirements"
 
 # python -m pip install randovania[website]==$randovania_version
