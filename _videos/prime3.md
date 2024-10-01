@@ -40,6 +40,11 @@ regions:
       - key: Door to Gel Refinery Site
         value:
         - {difficulty: Beginner, start_time: 0, video_id: 9FQFcMIH1vQ}
+    - key: Front of Lasso Walls
+      value:
+      - key: Pickup (Missile Expansion)
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: Z-XICpMJWoE}
   - key: Temple of Bryyo
     value:
     - key: Above Ground
@@ -62,7 +67,7 @@ regions:
       value:
       - key: G.F.S. Theseus Upper Ledge
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: eHJKUTiMgO8&t=75}
+        - {difficulty: Beginner, start_time: 0, video_id: inJ7_pTqlg0}
   - key: Gateway
     value:
     - key: Front of Gate
@@ -80,6 +85,7 @@ regions:
       value:
       - key: Bridge
         value:
+        - {difficulty: Intermediate, start_time: 0, video_id: gEu-XdXFx8M}
         - {difficulty: Advanced, start_time: 0, video_id: 5E81JfTtv7k}
   - key: Grand Court
     value:
@@ -114,8 +120,32 @@ regions:
       - key: Door to Burrow
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 0h-6eP6M7tY}
+      - key: Door to Hidden Court Hall
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: bFFKq-oSBJg}
+  - key: Jungle Generator
+    value:
+    - key: Room Center
+      value:
+      - key: Event - Leviathan Shield
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: I5LtCOvlR80}
+  - key: Ruined Shrine
+    value:
+    - key: Door to Hidden Court
+      value:
+      - key: Door to Hangar Bay
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: LW0nbio3u78}
 - key: G.F.S. Valhalla
   value:
+  - key: Aurora Chamber
+    value:
+    - key: Door to Aurora Access
+      value:
+      - key: Door to Control Room Access
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: qY6QMWgiXoI}
   - key: Hangar A Access
     value:
     - key: Door to Docking Bay 5
@@ -142,7 +172,7 @@ regions:
       - key: Door to Weapons Cache
         value:
         - {difficulty: Beginner, start_time: 5, video_id: p3LKN-9NaTk}
-        - {difficulty: Beginner, start_time: 0, video_id: 6G8jyu4bkJ4}
+        - {difficulty: Beginner, start_time: 0, video_id: nd6HL1_2GfA}
 - key: Norion
   value:
   - key: Docking Hub Alpha

@@ -991,7 +991,7 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: j76i95WqpZ4}
   - key: Queen Arena
     value:
-    - key: Dock to Hatchling Room
+    - key: Room Center
       value:
       - key: Tunnel to Queen Arena Access
         value:

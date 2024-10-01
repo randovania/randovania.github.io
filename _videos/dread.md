@@ -18,6 +18,16 @@ regions:
       - key: Door to Wide Beam Block Room (Upper)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: bDwcjN4JTYQ}
+  - key: EMMI Zone Spinner
+    value:
+    - key: Tunnel to White EMMI Arena
+      value:
+      - key: Door to White EMMI Arena (Top)
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: vlhzedSfhEA}
+        - {difficulty: Intermediate, start_time: 0, video_id: OFHELQQbO4w}
+        - {difficulty: Advanced, start_time: 0, video_id: RUvZaIl5vts}
+        - {difficulty: Advanced, start_time: 0, video_id: otd7WX_dU_s}
   - key: Melee Tutorial Room
     value:
     - key: Tunnel to Melee Tutorial West
@@ -176,6 +186,11 @@ regions:
       - key: Event - East Blob, left
         value:
         - {difficulty: Beginner, start_time: 0, video_id: KmNlKuIYpvU}
+    - key: Right Room
+      value:
+      - key: Event - East Blob, above
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: IbM7yzxysSk}
     - key: Upper-Left Room
       value:
       - key: Tunnel to Double Obsydomithon Room
