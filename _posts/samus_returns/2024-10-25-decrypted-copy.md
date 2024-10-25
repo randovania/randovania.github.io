@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "How to dump a decrptyed copy of Metroid: Samus Returns"
+title: "How to dump a decrypted copy of Metroid: Samus Returns"
 tags: samus_returns
 ---
-Using Godmode9 from your 3DS, you can dump a decrypted copy of the game. The end result will provide you with one of the following files: .3ds, .cia, .app, .cxi.
+Using Godmode9 from your 3DS, you can dump a decrypted copy of the game. The end result will provide you with one of the following files: .3ds, .cia, .app, or .cxi.
 
 ## Game Cartridge
 
@@ -13,7 +13,7 @@ If you're using the PAL version, navigate to **[C:] GAMECART -> 00040000001BFB00
 
 {% include blog/figure.html src="/assets/guides/godmode9/godmode9-cart-1.png" caption="Godmode9 screen for game cartridge" %}
 
-### 3DS File
+### 3DS File (Recommended)
 
 Navigate to **NCSD image options... -> Decrypt file (0:/gm9/out)**, then press A to confirm. 
 
@@ -37,7 +37,7 @@ If you're using the PAL version, navigate to **[A:] SYSNAND SD -> title -> 00040
 
 {% include blog/figure.html src="/assets/guides/godmode9/godmode9-sd-1.png" caption="Godmode9 screen for installed game path for CIA/CXI files" %}
 
-### CIA File
+### CIA File (Recommended)
 
 Navigate to **00000000.tmd -> TMD file options... -> Build CIA (standard)**, then press A to confirm.
 
