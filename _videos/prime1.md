@@ -58,6 +58,8 @@ regions:
       value:
       - key: Next to Half-Pipe
         value:
+        - {difficulty: Advanced, start_time: 0, video_id: Dmr-ZAKVIgU}
+        - {difficulty: Advanced, start_time: 0, video_id: M90MnyPhqLs}
         - {difficulty: Advanced, start_time: 33, video_id: ydDwBXvsHjs}
       - key: Pickup (Energy Tank)
         value:
@@ -768,6 +770,7 @@ regions:
       - key: Room Center
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: aRTUlWDOl84}
+        - {difficulty: Intermediate, start_time: 0, video_id: NTcnaEYU9Ts}
     - key: Room Center
       value:
       - key: Event - Tower (From Room Center)
@@ -1019,10 +1022,10 @@ regions:
     value:
     - key: Door to Research Core Access
       value:
-      - key: Lab Catwalk
+      - key: Middle Level
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: GMFocTIJ_8Y}
-    - key: Lab Catwalk
+    - key: Middle Level
       value:
       - key: Door to Aether Lab Entryway
         value:
@@ -1171,6 +1174,13 @@ regions:
       - key: Next to Spinner
         value:
         - {difficulty: Hypermode, start_time: 0, video_id: QhCdABOjjhg}
+  - key: Gully
+    value:
+    - key: Door to Landing Site
+      value:
+      - key: Door to Tallon Canyon
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: l2AT1V-oNEU}
   - key: Hydro Access Tunnel
     value:
     - key: Door to Connection Elevator to Deck Beta
@@ -1261,4 +1271,20 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: x2zjlvSy0Og}
         - {difficulty: Intermediate, start_time: 0, video_id: i2J6z6wrLGw}
+  - key: Tallon Canyon
+    value:
+    - key: Door to Gully
+      value:
+      - key: Half Pipe
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: F9JWFUuYiE4}
+    - key: Half Pipe
+      value:
+      - key: Door to Gully
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: X-pKDXxZh6s}
+        - {difficulty: Intermediate, start_time: 0, video_id: lN6aTh05TgA}
+        - {difficulty: Intermediate, start_time: 0, video_id: K2hpJEYeIeg}
+        - {difficulty: Intermediate, start_time: 0, video_id: 8vOt8EzSssk}
+        - {difficulty: Advanced, start_time: 0, video_id: IHV-S_1WM9s}
 ---

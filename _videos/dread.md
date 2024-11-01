@@ -235,6 +235,14 @@ regions:
       - key: Dock to Teleport to Burenia (Cyan)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: qIanrM7cc3I}
+  - key: Energy Recharge Station (Gate)
+    value:
+    - key: Bomb Ledge
+      value:
+      - key: Event - Recharge Station Secret Grapple Block
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: VgEtgnUCvQE}
+        - {difficulty: Advanced, start_time: 0, video_id: t9WtdoZ9oOA}
   - key: Pitfall Puzzle Room
     value:
     - key: Tunnel to Space Jump Room (Upper)

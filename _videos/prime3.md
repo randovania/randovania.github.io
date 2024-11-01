@@ -123,6 +123,13 @@ regions:
       - key: Door to Hidden Court Hall
         value:
         - {difficulty: Beginner, start_time: 0, video_id: bFFKq-oSBJg}
+  - key: Hillside Vista
+    value:
+    - key: Front of Statue
+      value:
+      - key: Door to Grand Court
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: vYt0nqk75I4}
   - key: Jungle Generator
     value:
     - key: Room Center
