@@ -112,7 +112,7 @@ regions:
       value:
       - key: Event - Hangar Ceiling
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: o9PQ8dNb8sw}
+        - {difficulty: Beginner, start_time: 0, video_id: o9PQ8dNb8sw}
   - key: Hidden Court
     value:
     - key: Bottom Floor

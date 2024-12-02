@@ -1155,9 +1155,6 @@ regions:
     value:
     - key: Door to Phazon Pit
       value:
-      - key: Door to Reliquary Access
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: cqF7NN7d5h0}
       - key: Pickup (Missile)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: cUb73XA_w-A}
@@ -1176,13 +1173,6 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: FMIh3Dww4uw}
         - {difficulty: Intermediate, start_time: 0, video_id: qfyPVFJU3fI}
         - {difficulty: Expert, start_time: 0, video_id: zdUCjMKDNUo}
-  - key: Plain of Dark Worship
-    value:
-    - key: Portal to Temple Assembly Site
-      value:
-      - key: Door to Lake Access
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: kkEVvbdof8U}
   - key: Profane Path
     value:
     - key: Safe Zone (Front of Echo Gate)
@@ -1196,13 +1186,7 @@ regions:
       value:
       - key: Door to Reliquary Grounds
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: RfWnxL7HI1Y&list=PLx6vT1x-80zuA1vUepQUSqYOQeHiRNbt5&index=24}
-    - key: Door to Reliquary Grounds
-      value:
-      - key: Door to Phazon Grounds
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: RfWnxL7HI1Y}
-        - {difficulty: Expert, start_time: 0, video_id: L0ULmh5YmFg}
+        - {difficulty: Advanced, start_time: 0, video_id: RfWnxL7HI1Y}
   - key: Reliquary Grounds
     value:
     - key: Door to Reliquary Access
@@ -1260,13 +1244,6 @@ regions:
       - key: Morph Ball Door to Meeting Grounds
         value:
         - {difficulty: Advanced, start_time: 0, video_id: EwI7g7_i2qI&t=14s}
-  - key: Shrine Access
-    value:
-    - key: Safe Zone
-      value:
-      - key: Door to Gateway Access
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: 4eNjVcIpQHA}
   - key: Temple Assembly Site
     value:
     - key: Portal to Plain of Dark Worship

@@ -82,11 +82,21 @@ regions:
       - key: Inside Tunnel
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: yb_tJYnFFIw}
+    - key: Alcove Across Grapple Block
+      value:
+      - key: Door to Energy Recharge South
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: YkDT2IZG9p8}
     - key: Door to Storm Missile Gate Room
       value:
       - key: Inside Tunnel
         value:
         - {difficulty: Advanced, start_time: 0, video_id: yb_tJYnFFIw}
+    - key: Water Space Jump Platform
+      value:
+      - key: Alcove Across Grapple Block
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: AvjIcMK_N0U}
   - key: Main Hub Tower Middle
     value:
     - key: Door to Teleport to Ghavoran (Charge)
@@ -220,6 +230,13 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: BLyFQ2vkVoM}
 - key: Ferenia
   value:
+  - key: Cold Room (Storm Missile Gate)
+    value:
+    - key: Room Center
+      value:
+      - key: Dock to Wave Beam Tutorial
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: RMmofIi1N3k}
   - key: EMMI Zone Exit East
     value:
     - key: Door to EMMI Zone Exit East Access (Upper)

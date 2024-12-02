@@ -9,7 +9,7 @@ regions:
       - key: Event - Arachnus
         value:
         - {difficulty: Beginner, start_time: 17, video_id: WCQdKVWgcXo}
-    - key: Other to Maintenance Corridor
+    - key: Other to Concourse Ventilation
       value:
       - key: Beside Door
         value:
@@ -89,13 +89,6 @@ regions:
       - key: Event - Upper Maintainance Geron
         value:
         - {difficulty: Advanced, start_time: 0, video_id: Y3k5lGKTX4Y}
-  - key: Quarantine Access
-    value:
-    - key: Door to Western Hub
-      value:
-      - key: Door to Main Elevator Access
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: QcD2-t9UDrg}
   - key: Restricted Airlock
     value:
     - key: Pickup (Power Bomb Tank)
@@ -103,6 +96,13 @@ regions:
       - key: Door to Restricted Corridor
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: u3xzqtz6Gro}
+  - key: Ruined Stairwell
+    value:
+    - key: Door to Western Hub
+      value:
+      - key: Door to Main Elevator Access
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: QcD2-t9UDrg}
   - key: Scaffolding Access
     value:
     - key: Beside Pickup
@@ -462,7 +462,7 @@ regions:
       value:
       - key: Door to Cultivation Station
         value:
-        - {difficulty: Beginner, start_time: 31, video_id: efHh9Hd00RQ}
+        - {difficulty: Intermediate, start_time: 31, video_id: efHh9Hd00RQ}
         - {difficulty: Expert, start_time: 0, video_id: xwUXVRBf3_4}
     - key: Door to Cultivation Station
       value:
@@ -691,7 +691,7 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: ID3TOSUmCa8}
       - key: Room Center
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: pKQF2grjqDw}
+        - {difficulty: Intermediate, start_time: 0, video_id: pKQF2grjqDw}
   - key: Aquarium Speedway
     value:
     - key: Door to Powamp Shaft
