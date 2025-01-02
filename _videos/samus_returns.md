@@ -216,6 +216,11 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: J1Ah6rkxmlA}
   - key: Spike Ravine
     value:
+    - key: Tunnel to Metroid Caverns Entrance (Bottom)
+      value:
+      - key: Pickup (Aeion Tank)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: UxgWgzcCDxk}
     - key: Tunnel to Metroid Caverns Entrance (Top)
       value:
       - key: Pickup (Aeion Tank)
