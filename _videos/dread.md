@@ -49,6 +49,13 @@ regions:
       - key: Door to Cold Introduction
         value:
         - {difficulty: Disabled, start_time: 0, video_id: r7pZrdDgi9Q}
+  - key: White EMMI Introduction
+    value:
+    - key: Door to Teleport to Dairon (Lower)
+      value:
+      - key: Door to Teleport to Dairon (Thermal)
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: DygpVK2XWJM}
   - key: Wide Beam Block Room
     value:
     - key: Door to EMMI Zone Hub (Lower)

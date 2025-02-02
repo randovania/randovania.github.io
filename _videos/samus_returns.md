@@ -445,6 +445,11 @@ regions:
         - {difficulty: Expert, start_time: 0, video_id: 1JuscAlYNIY}
   - key: Transport to Area 3 and Crystal Mines
     value:
+    - key: Chozo Seal Bottom
+      value:
+      - key: Elevator to Area 4 Crystal Mines
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: YLPIWNV-5Fc}
     - key: Door to Caves Intersection Terminal (Bottom)
       value:
       - key: Door to Caves Intersection Terminal (Top)
@@ -593,6 +598,11 @@ regions:
       - key: Tunnel to Overgrown Maze
         value:
         - {difficulty: Advanced, start_time: 0, video_id: jYFppXh1m5w}
+    - key: Next to Teleporter
+      value:
+      - key: Pickup (Super Missile Tank Bottom)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: ivMAaSUWJkk}
     - key: Save Station Left
       value:
       - key: Pickup (Missile Tank Bottom)

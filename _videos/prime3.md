@@ -155,19 +155,19 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: qY6QMWgiXoI}
   - key: Hangar A Access
     value:
-    - key: Door to Docking Bay 5
+    - key: Dock to Docking Bay 5
       value:
-      - key: Door to Repair Bay
+      - key: Dock to Repair Bay
         value:
         - {difficulty: Advanced, start_time: 0, video_id: l8ICCVjhcq0}
-    - key: Door to Repair Bay
+    - key: Dock to Repair Bay
       value:
-      - key: Door to Docking Bay 5
+      - key: Dock to Docking Bay 5
         value:
         - {difficulty: Expert, start_time: 0, video_id: l8ICCVjhcq0}
   - key: Repair Bay
     value:
-    - key: Door to Hangar A Access
+    - key: Dock to Hangar A Access
       value:
       - key: Door to Security Station
         value:

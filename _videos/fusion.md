@@ -72,6 +72,11 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: 7T5fVhUYQ4g}
   - key: Operations Deck
     value:
+    - key: Beside Operations Room Hatch
+      value:
+      - key: Event - SA-X
+        value:
+        - {difficulty: Hypermode, start_time: 0, video_id: W5S4xK5cV-Q}
     - key: Door to Elevator to Crew Quarters
       value:
       - key: Beside Operations Room Hatch
@@ -109,7 +114,7 @@ regions:
       value:
       - key: Door to Central Reactor Core
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: u8_gclW4-gQ}
+        - {difficulty: Beginner, start_time: 0, video_id: u8_gclW4-gQ}
     - key: Door to Central Reactor Core
       value:
       - key: Beside Pickup
@@ -152,6 +157,7 @@ regions:
       value:
       - key: Event - Stabilizer 5 Online
         value:
+        - {difficulty: Intermediate, start_time: 0, video_id: EYzjWUclb_0}
         - {difficulty: Intermediate, start_time: 0, video_id: Mp9YwFW3dLM}
   - key: Atmospheric Stabilizer Northeast
     value:
@@ -248,8 +254,9 @@ regions:
       value:
       - key: Door to Moto Manor
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: T_aded4xYeU}
+        - {difficulty: Intermediate, start_time: 0, video_id: Hfmrj3rurOY}
         - {difficulty: Advanced, start_time: 0, video_id: 6ha7hZ0iW1I}
+        - {difficulty: Advanced, start_time: 0, video_id: T_aded4xYeU}
         - {difficulty: Expert, start_time: 0, video_id: o91JwaZoFTg}
         - {difficulty: Hypermode, start_time: 0, video_id: rpQG_ZFJ2Wg}
         - {difficulty: Hypermode, start_time: 0, video_id: A4Zw5Rt28kI}
@@ -259,6 +266,7 @@ regions:
       value:
       - key: Door to Tourian Shaft East
         value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 2HZNcwNVLH0}
         - {difficulty: Advanced, start_time: 0, video_id: 3gxkQTbymVQ}
     - key: Door to Tourian Shaft East
       value:
@@ -282,6 +290,7 @@ regions:
         - {difficulty: Disabled, start_time: 0, video_id: _PmmHN9YvKw}
         - {difficulty: Beginner, start_time: 0, video_id: rsQZgb4xF6Y}
         - {difficulty: Intermediate, start_time: 0, video_id: Lh9D7Ye3rw8}
+        - {difficulty: Intermediate, start_time: 0, video_id: cqHI8tNmNVw}
     - key: Door to Checkpoint Intersection
       value:
       - key: Door to Atmospheric Stabilizer Southeast
@@ -318,6 +327,12 @@ regions:
         value:
         - {difficulty: Expert, start_time: 0, video_id: CzN5mAyRkLc}
         - {difficulty: Expert, start_time: 0, video_id: nQ6gOgd2lrY}
+    - key: Inside Puzzle
+      value:
+      - key: Door to Level 1 Security Room
+        value:
+        - {difficulty: Beginner, start_time: 12, video_id: g_jse1Z8TUE}
+        - {difficulty: Beginner, start_time: 0, video_id: g_jse1Z8TUE}
   - key: Cultivation Station
     value:
     - key: Door to Puyo Corridor
@@ -337,15 +352,6 @@ regions:
       - key: Event - Bomb Block
         value:
         - {difficulty: Advanced, start_time: 0, video_id: Fs10I7_LjRY}
-  - key: Eastern Shaft
-    value:
-    - key: Door to Nettori Save Room
-      value:
-      - key: Door to Kihunter Hallway
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: sQdvfgu3fKA}
-        - {difficulty: Intermediate, start_time: 0, video_id: sQdvfgu3fKA}
-        - {difficulty: Intermediate, start_time: 0, video_id: roSeFDbWr1s}
   - key: Entrance Lobby Underside
     value:
     - key: Door to Reo Room
@@ -361,6 +367,7 @@ regions:
       value:
       - key: Door to Entrance Lobby
         value:
+        - {difficulty: Beginner, start_time: 0, video_id: 2_3yWlyZrYQ}
         - {difficulty: Intermediate, start_time: 9, video_id: MC8EAAKgN-c}
         - {difficulty: Advanced, start_time: 0, video_id: cbgXDxu9rmU}
     - key: Door to Entrance Lobby
@@ -456,6 +463,13 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: wMkvuz92ZwE}
         - {difficulty: Intermediate, start_time: 0, video_id: Zdyr1CPJCr4}
+  - key: Owtch Cache A
+    value:
+    - key: Door to Entrance Lobby
+      value:
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: G5mbopU8V3o}
   - key: Puyo Corridor
     value:
     - key: Door to Central Shaft
@@ -479,6 +493,12 @@ regions:
       - key: Pickup (Power Bomb Tank)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: yEFbN8WOEBU}
+    - key: Pickup (Power Bomb Tank)
+      value:
+      - key: Door to Nettori Save Room
+        value:
+        - {difficulty: Intermediate, start_time: 26, video_id: PQwCkP1QNC4}
+        - {difficulty: Advanced, start_time: 0, video_id: bmge53Vxg5w}
   - key: Ripper Tower
     value:
     - key: Door to Central Shaft
@@ -494,6 +514,9 @@ regions:
       - key: Door to Zazabi Speedway
         value:
         - {difficulty: Advanced, start_time: 0, video_id: GxPt-v_Kj_U}
+      - key: Event - Zazabi
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: uv-K3rSjiC8}
   - key: Zoro Zig-Zag
     value:
     - key: Door to Data Hub
@@ -560,6 +583,18 @@ regions:
       - key: Other to Namihe's Lair
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 3sm2XhRsRRI}
+  - key: Chute Access
+    value:
+    - key: Door to Garbage Chute
+      value:
+      - key: Other to Deserted Runway
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: _3o2ESgGXjg}
+    - key: Other to Deserted Runway
+      value:
+      - key: Door to Garbage Chute
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: cYxWd3P7R5c}
   - key: Deserted Runway
     value:
     - key: Door to Alcove
@@ -567,9 +602,17 @@ regions:
       - key: Door to Glass Tube to Sector 1 (SRX)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 7dIXfR4dkTA}
+      - key: Other to B.O.X. Arena
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: Uh3011dLFT4}
       - key: Pickup (Missile Tank)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 4bupElY6Mjg}
+    - key: Other to B.O.X. Arena
+      value:
+      - key: Door to Alcove
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: hTpd4NYrqiA}
   - key: Entrance Lobby
     value:
     - key: Door to Entrance Recharge Room
@@ -659,6 +702,7 @@ regions:
       - key: Door to Pyrochamber
         value:
         - {difficulty: Beginner, start_time: 0, video_id: vxQS1_ohmS4}
+        - {difficulty: Expert, start_time: 0, video_id: oIyLsGRcNj4}
   - key: Security Access
     value:
     - key: Behind Wall
@@ -716,6 +760,13 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: Ed5b1Yl4c68}
         - {difficulty: Advanced, start_time: 0, video_id: 4Msq5vtRTzw}
+  - key: Broken Bridge
+    value:
+    - key: Door to Serris Arena
+      value:
+      - key: Door to Breeding Tank
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: CWyXKT_3JBE}
   - key: Cargo Hold to Sector 5 (ARC)
     value:
     - key: Small Nook

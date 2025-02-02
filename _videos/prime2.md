@@ -281,6 +281,9 @@ regions:
         - {difficulty: Advanced, start_time: 17, video_id: Dlrx1e4oE6c}
         - {difficulty: Advanced, start_time: 0, video_id: -Midfbv_BMU}
         - {difficulty: Expert, start_time: 0, video_id: aNdF-X_OUH8}
+      - key: Event - Mining Station B Portal Opened
+        value:
+        - {difficulty: Hypermode, start_time: 0, video_id: CvU0QLIgzms}
       - key: Portal to Trial Grounds
         value:
         - {difficulty: Expert, start_time: 0, video_id: SCqO5QVJHfE}
@@ -562,7 +565,8 @@ regions:
       - key: Event - Grand Abyss (Watch Station Side)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: KSEnyKhKPfs&t=13s}
-        - {difficulty: Hypermode, start_time: 0, video_id: j4zqFghBcfM&list=PLZkUEWCHwYRyXIU-to88js2M6mEOBoHUy&index=31}
+        - {difficulty: Expert, start_time: 0, video_id: 4mjY6vPZHyE}
+        - {difficulty: Hypermode, start_time: 0, video_id: j4zqFghBcfM}
     - key: Event - Grand Abyss (Watch Station Side)
       value:
       - key: Event - Grand Abyss (Vault Side)
@@ -625,12 +629,22 @@ regions:
       - key: Pickup (Sky Temple Key 6)
         value:
         - {difficulty: Expert, start_time: 0, video_id: KULUv9Ml7ws&t=16s}
+      - key: Safe Zone (Below Seeker Targets)
+        value:
+        - {difficulty: Advanced, start_time: 119, video_id: 9N3PB7M4lzc}
+    - key: Safe Zone (Below Seeker Targets)
+      value:
+      - key: Door to Hive Dynamo Access
+        value:
+        - {difficulty: Expert, start_time: 98, video_id: 9N3PB7M4lzc}
   - key: Hive Entrance
     value:
     - key: Door to Entrance Defense Hall
       value:
       - key: Pickup (Sky Temple Key 5)
         value:
+        - {difficulty: Expert, start_time: 0, video_id: UFJToddgAMQ}
+        - {difficulty: Expert, start_time: 0, video_id: 5318bW_bopY}
         - {difficulty: Hypermode, start_time: 0, video_id: NUbKATjYJDc}
   - key: Hive Gyro Chamber
     value:
@@ -842,6 +856,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 2c9fDMqBWy8}
         - {difficulty: Advanced, start_time: 0, video_id: oWT_41KIE0E}
+        - {difficulty: Expert, start_time: 0, video_id: sGIG5aaPkNM}
   - key: Transit Station
     value:
     - key: Pickup (Power Bomb)
@@ -978,6 +993,7 @@ regions:
       - key: Door to Sanctuary Temple
         value:
         - {difficulty: Intermediate, start_time: 14, video_id: _OKEYHWQQr0}
+        - {difficulty: Advanced, start_time: 0, video_id: 5zsYbZsSTPA}
     - key: Door to Sanctuary Temple
       value:
       - key: Door to Dynamo Works
@@ -1516,6 +1532,7 @@ regions:
       - key: Door to Temple Access (Top)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: cHJX27JZYso}
+        - {difficulty: Advanced, start_time: 0, video_id: nSHgMLE9k8o}
       - key: Door to Torvus Map Station
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: uykOfFn5E_E}
@@ -1553,6 +1570,7 @@ regions:
       - key: Next to Pickup
         value:
         - {difficulty: Advanced, start_time: 0, video_id: OdntNzXbtug}
+        - {difficulty: Expert, start_time: 0, video_id: EB_tvB6dOd8}
     - key: Door to Torvus Lagoon
       value:
       - key: Next to Pickup
@@ -1631,6 +1649,14 @@ regions:
       - key: Door to Torvus Temple (Bottom)
         value:
         - {difficulty: Expert, start_time: 0, video_id: SOcGkOu7xlE}
+  - key: Torvus Grove
+    value:
+    - key: Door to Underground Tunnel
+      value:
+      - key: Door to Grove Access
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: JTfbOmmyfZ8}
+        - {difficulty: Expert, start_time: 0, video_id: pXscSB2QLcQ}
   - key: Torvus Lagoon
     value:
     - key: Door to Temple Transport Access
@@ -1652,6 +1678,7 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: e12VkXSQqyw}
         - {difficulty: Advanced, start_time: 0, video_id: dBQG2WX27ms}
+        - {difficulty: Expert, start_time: 0, video_id: pUYX81KhsGg}
     - key: Pickup (Energy Tank)
       value:
       - key: Door to Plaza Access
