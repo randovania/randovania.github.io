@@ -23,11 +23,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Create venv
-        run: uv venv
-
       - name: Install and Build
-        run: source .venv/bin/activate && ./ci.sh
+        run: ./ci.sh
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.6.1
