@@ -24,7 +24,7 @@ mkdir _games
 uv run randovania development extract-game-data --games-dir _games --covers-dir assets/games
 
 echo "Copying Jekyll source"
-echo "version: $(uv run randovania --version)" > _data/rdv.yml
+echo "version: $(uv run -q python -c "import randovania; print(randovania.VERSION)")" > _data/rdv.yml
 rm -rf build
 mkdir build
 cp -ar !(build) build
