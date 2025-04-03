@@ -9,7 +9,7 @@ randomize:
 need-to-play:
 - A copy of the game from Steam or Factorio.com
 multiworld: false
-development-state: experimental
+development-state: stable
 faq:
 - question: What versions of the game is supported?
   answer: Only Factorio 2.0 is supported.
@@ -18,6 +18,6 @@ faq:
 - question: Are other mods supported?
   answer: Only mods that don't add new researches are compatible.
 - question: Is multiplayer supported?
-  answer: Yes. Since the generated randomizer mod file isn't in the mod portal, it'll
-    be necessary to either share the mod file or have everyone export it themselves.
+  answer: Yes. As the exported game uses a startup mod setting, it is synced naturally
+    for multiplayer games and works like any other Factorio mod.
 ---

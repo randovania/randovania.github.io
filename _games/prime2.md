@@ -44,13 +44,13 @@ faq:
 - question: Why can't I use the Kinetic Orb Cannon in Sanctuary Entrance?
   answer: The morph cannon will only be active once the scan post has been scanned
     and the room has been reloaded.
-- question: How do I use the light beam transports?
-  answer: "To use a light beam transport, simply enter the light beams/holograms with
-    Light Suit. The following rooms behave differently and do not require Light Suit,
-    and may have additional requirements in order to use the transports:\n\n#### Energy
-    Controllers\nThe light beam transports that are unlocked upon returning the Sanctuary
-    Energy and going back to Main Energy Controller.\n\n#### Sky Temple Gateway (Sky
-    Temple Grounds)\n\nThe light beam transport unlocked when returning all the Sky
-    Temple Keys.\n\n#### Sky Temple Energy Controller (Sky Temple)\n\nTaking the transport
-    hologram at the center of this room."
+- question: How do I use the light energy transports?
+  answer: "To use a light energy transport, simply enter the light energy/holograms
+    with Light Suit. The following rooms behave differently and do not require Light
+    Suit, and may have additional requirements in order to use the transports:\n\n
+    #### Energy Controllers\nThe light energy transports that are unlocked upon returning
+    the Sanctuary Energy and going back to Main Energy Controller.\n\n#### Sky Temple
+    Gateway (Sky Temple Grounds)\n\nThe light energy transport unlocked when returning
+    all the Sky Temple Keys.\n\n#### Sky Temple Energy Controller (Sky Temple)\n\n
+    Taking the transport hologram at the center of this room."
 ---

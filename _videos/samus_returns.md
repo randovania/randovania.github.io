@@ -116,7 +116,7 @@ regions:
       - key: Door to Exterior Alpha Arena
         value:
         - {difficulty: Expert, start_time: 0, video_id: r8Pb-3bIPGc}
-        - {difficulty: Hypermode, start_time: 0, video_id: boCImRu4y2E}
+        - {difficulty: Ludicrous, start_time: 0, video_id: boCImRu4y2E}
   - key: Transport to Surface and Area 2
     value:
     - key: Chozo Seal
@@ -468,7 +468,7 @@ regions:
       value:
       - key: Door to Transport to Area 5
         value:
-        - {difficulty: Hypermode, start_time: 3988, video_id: rNv9nWRIwP8}
+        - {difficulty: Ludicrous, start_time: 3988, video_id: rNv9nWRIwP8}
 - key: Area 4 Crystal Mines
   value:
   - key: Gemstone Gorge
@@ -643,15 +643,7 @@ regions:
       - key: Pickup (Missile Tank)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: Kh03Ra2Qn7Q}
-    - key: Door to Interior Teleporter (Bottom)
-      value:
-      - key: Door to Plasma Beam Chamber
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: i9kuD1yPSSk}
-      - key: Pickup (Missile Tank)
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: wA-kNgVe_6c}
-    - key: Pickup (Missile Tank)
+    - key: Below Pickup
       value:
       - key: Above Pickup
         value:
@@ -661,6 +653,17 @@ regions:
         - {difficulty: Intermediate, start_time: 7, video_id: eI3DtHqx5dU}
         - {difficulty: Intermediate, start_time: 37, video_id: eI3DtHqx5dU}
         - {difficulty: Expert, start_time: 43, video_id: eI3DtHqx5dU}
+    - key: Door to Interior Teleporter (Bottom)
+      value:
+      - key: Above Pickup
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: l5mTl6UJoNY}
+      - key: Door to Plasma Beam Chamber
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: i9kuD1yPSSk}
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: wA-kNgVe_6c}
   - key: Gravity Suit Chamber Access
     value:
     - key: Door to Gravity Suit Chamber (Bottom)
@@ -817,7 +820,7 @@ regions:
       - key: Left of Bridge
         value:
         - {difficulty: Expert, start_time: 144, video_id: XS8pmmtEMBY}
-        - {difficulty: Hypermode, start_time: 120, video_id: q5720PA4DrE}
+        - {difficulty: Ludicrous, start_time: 120, video_id: q5720PA4DrE}
     - key: Door to Zeta Arena
       value:
       - key: Out of Bounds
@@ -830,7 +833,7 @@ regions:
       - key: Door to Chozo Seal East
         value:
         - {difficulty: Expert, start_time: 374, video_id: XS8pmmtEMBY}
-        - {difficulty: Hypermode, start_time: 8704, video_id: rNv9nWRIwP8}
+        - {difficulty: Ludicrous, start_time: 8704, video_id: rNv9nWRIwP8}
   - key: Crumbling Stairwell
     value:
     - key: Door from Teleporter South

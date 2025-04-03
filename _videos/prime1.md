@@ -58,6 +58,7 @@ regions:
       value:
       - key: Next to Half-Pipe
         value:
+        - {difficulty: Advanced, start_time: 0, video_id: ReRaTNh6ddE}
         - {difficulty: Advanced, start_time: 0, video_id: Dmr-ZAKVIgU}
         - {difficulty: Advanced, start_time: 0, video_id: M90MnyPhqLs}
         - {difficulty: Advanced, start_time: 33, video_id: ydDwBXvsHjs}
@@ -106,7 +107,7 @@ regions:
       - key: Event - Activate bomb slots
         value:
         - {difficulty: Beginner, start_time: 0, video_id: rbZwkpF8UIo}
-        - {difficulty: Hypermode, start_time: 0, video_id: I-8AVusWYYk}
+        - {difficulty: Ludicrous, start_time: 0, video_id: I-8AVusWYYk}
   - key: Hive Totem
     value:
     - key: Door to Totem Access
@@ -140,7 +141,7 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: 7y7ZLBz3B1s}
         - {difficulty: Beginner, start_time: 0, video_id: vk-C7kDPk10}
         - {difficulty: Intermediate, start_time: 0, video_id: ivVhW1cxIz8}
-        - {difficulty: Hypermode, start_time: 0, video_id: kuaxthAhm54}
+        - {difficulty: Ludicrous, start_time: 0, video_id: kuaxthAhm54}
     - key: Door to Ruins Entrance
       value:
       - key: Locked Door Ledge
@@ -226,21 +227,21 @@ regions:
       value:
       - key: Door to Transport to Tallon Overworld East
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: AFDSEx16464}
+        - {difficulty: Ludicrous, start_time: 0, video_id: AFDSEx16464}
   - key: Sun Tower
     value:
     - key: Door to Transport to Magmoor Caverns North
       value:
       - key: Door to Sun Tower Access
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: h2Ma9F4CYuA}
-        - {difficulty: Hypermode, start_time: 0, video_id: A1MgdWHbUZ8}
+        - {difficulty: Ludicrous, start_time: 0, video_id: h2Ma9F4CYuA}
+        - {difficulty: Ludicrous, start_time: 0, video_id: A1MgdWHbUZ8}
     - key: Event - Activate Sunchamber Ghosts From Top
       value:
       - key: Door to Sun Tower Access
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: spZZY6E95ZU}
-        - {difficulty: Hypermode, start_time: 0, video_id: pEruOGbEteI}
+        - {difficulty: Ludicrous, start_time: 0, video_id: pEruOGbEteI}
   - key: Tower of Light
     value:
     - key: Door to Tower of Light Access
@@ -262,7 +263,7 @@ regions:
       value:
       - key: Pickup (Energy Tank)
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: a9jqExemHx0}
+        - {difficulty: Ludicrous, start_time: 0, video_id: a9jqExemHx0}
   - key: Vault
     value:
     - key: Door to Vault Access
@@ -293,7 +294,7 @@ regions:
       value:
       - key: Door to Connection Elevator to Deck Alpha
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: 2eKsJHddYYo}
+        - {difficulty: Ludicrous, start_time: 0, video_id: 2eKsJHddYYo}
   - key: Reactor Core
     value:
     - key: Door from Reactor Core Entrance
@@ -310,8 +311,8 @@ regions:
       value:
       - key: Door to Crater Tunnel B
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: TMe76OuirzQ}
-        - {difficulty: Hypermode, start_time: 24117, video_id: bbYIFF00zYM}
+        - {difficulty: Ludicrous, start_time: 0, video_id: TMe76OuirzQ}
+        - {difficulty: Ludicrous, start_time: 24117, video_id: bbYIFF00zYM}
     - key: Door to Crater Tunnel A
       value:
       - key: Door to Crater Missile Station
@@ -520,7 +521,7 @@ regions:
       - key: Door to Ore Processing
         value:
         - {difficulty: Expert, start_time: 408, video_id: X-6LeSNC5LM}
-        - {difficulty: Hypermode, start_time: 0, video_id: PjXSkYQXDls}
+        - {difficulty: Ludicrous, start_time: 0, video_id: PjXSkYQXDls}
   - key: Elite Control
     value:
     - key: Bottom Floor Center
@@ -599,7 +600,7 @@ regions:
       value:
       - key: Door to Fungal Hall A
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: CeQFOSCvZPE}
+        - {difficulty: Ludicrous, start_time: 0, video_id: CeQFOSCvZPE}
   - key: Fungal Hall B
     value:
     - key: Door to Phazon Mining Tunnel
@@ -634,7 +635,7 @@ regions:
         - {difficulty: Expert, start_time: 0, video_id: w6UegkJsX2c}
       - key: Door to Save Station Mines A
         value:
-        - {difficulty: Disabled, start_time: 0, video_id: 8hDg9fJZH1c}
+        - {difficulty: Beginner, start_time: 0, video_id: 8hDg9fJZH1c}
   - key: Metroid Quarantine A
     value:
     - key: Door to Quarantine Access A
@@ -668,7 +669,7 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: h9of56WsG4s}
         - {difficulty: Advanced, start_time: 0, video_id: v3VMpJELp_4}
         - {difficulty: Expert, start_time: 62, video_id: wXxYBRIgDb4}
-        - {difficulty: Hypermode, start_time: 16, video_id: Ic3nXNhiUP8}
+        - {difficulty: Ludicrous, start_time: 16, video_id: Ic3nXNhiUP8}
     - key: Door to Save Station Mines C
       value:
       - key: Door to Elite Quarters Access
@@ -678,8 +679,8 @@ regions:
       - key: Door to Quarantine Access B
         value:
         - {difficulty: Advanced, start_time: 0, video_id: LE6qEadXPok}
-        - {difficulty: Hypermode, start_time: 83, video_id: LE6qEadXPok}
-        - {difficulty: Hypermode, start_time: 0, video_id: 6-zHtPHJgDA}
+        - {difficulty: Ludicrous, start_time: 83, video_id: LE6qEadXPok}
+        - {difficulty: Ludicrous, start_time: 0, video_id: 6-zHtPHJgDA}
   - key: Omega Research
     value:
     - key: Door to Dynamo Access
@@ -712,9 +713,9 @@ regions:
       value:
       - key: Door to Transport Access
         value:
-        - {difficulty: Disabled, start_time: 0, video_id: vOr2W2ut25k}
-        - {difficulty: Disabled, start_time: 0, video_id: gU2yAun0Zvg}
-        - {difficulty: Hypermode, start_time: 0, video_id: WffhSodKD4Y}
+        - {difficulty: Intermediate, start_time: 0, video_id: vOr2W2ut25k}
+        - {difficulty: Intermediate, start_time: 0, video_id: gU2yAun0Zvg}
+        - {difficulty: Ludicrous, start_time: 0, video_id: WffhSodKD4Y}
     - key: Door to Processing Center Access
       value:
       - key: Door to Maintenance Tunnel
@@ -818,7 +819,7 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: z_DxqQ66tQY}
         - {difficulty: Advanced, start_time: 20, video_id: z_DxqQ66tQY}
-        - {difficulty: Hypermode, start_time: 21, video_id: 2hgLI4z4X_Q}
+        - {difficulty: Ludicrous, start_time: 21, video_id: 2hgLI4z4X_Q}
     - key: Door to Pike Access
       value:
       - key: Door to Transport Access
@@ -827,7 +828,7 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: Xul1w1SsPew}
         - {difficulty: Advanced, start_time: 20, video_id: S4831hWNEfY}
         - {difficulty: Expert, start_time: 0, video_id: Nj0b89KIQVc}
-        - {difficulty: Hypermode, start_time: 0, video_id: gwyYmQAHyyc}
+        - {difficulty: Ludicrous, start_time: 0, video_id: gwyYmQAHyyc}
   - key: Gravity Chamber
     value:
     - key: Door to Chamber Access
@@ -836,8 +837,8 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 1-jXmt9cIzI}
         - {difficulty: Expert, start_time: 0, video_id: 6HGs473mXh8}
-        - {difficulty: Hypermode, start_time: 0, video_id: V_CBSW0l8Hs}
-        - {difficulty: Hypermode, start_time: 59, video_id: E65HYxLnOZQ}
+        - {difficulty: Ludicrous, start_time: 0, video_id: V_CBSW0l8Hs}
+        - {difficulty: Ludicrous, start_time: 59, video_id: E65HYxLnOZQ}
     - key: EventPickup - Gravity Chamber Item (Lower) + Pickup (Gravity Suit)
       value:
       - key: Door to Chamber Access
@@ -877,8 +878,8 @@ regions:
       - key: Pickup (Spider Track Missile Expansion)
         value:
         - {difficulty: Expert, start_time: 0, video_id: 5LUAYPIwSEA}
-        - {difficulty: Hypermode, start_time: 28, video_id: SJ-RMNbOLmo}
-        - {difficulty: Hypermode, start_time: 10, video_id: raoSUAIfIUk}
+        - {difficulty: Ludicrous, start_time: 28, video_id: SJ-RMNbOLmo}
+        - {difficulty: Ludicrous, start_time: 10, video_id: raoSUAIfIUk}
     - key: Door to Plaza Walkway
       value:
       - key: Pickup (Missile Expansion Behind Ice)
@@ -891,7 +892,7 @@ regions:
       - key: Middle-Left Rooftop
         value:
         - {difficulty: Advanced, start_time: 0, video_id: t4sqCBZvVDU}
-        - {difficulty: Hypermode, start_time: 0, video_id: ixDQnomYz9s}
+        - {difficulty: Ludicrous, start_time: 0, video_id: ixDQnomYz9s}
     - key: Door to Ruins Entryway
       value:
       - key: Door to Courtyard Entryway
@@ -904,7 +905,7 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: 0welXKqaL84}
         - {difficulty: Beginner, start_time: 0, video_id: zmfRbFW7iTs}
         - {difficulty: Intermediate, start_time: 0, video_id: C34D7YoR89s}
-        - {difficulty: Hypermode, start_time: 0, video_id: aEXs3IcpLY0}
+        - {difficulty: Ludicrous, start_time: 0, video_id: aEXs3IcpLY0}
     - key: Middle-Left Rooftop
       value:
       - key: Door to Courtyard Entryway
@@ -940,7 +941,7 @@ regions:
       - key: Pickup (Boost Ball)
         value:
         - {difficulty: Expert, start_time: 57, video_id: MARCa8m6ehQ}
-        - {difficulty: Hypermode, start_time: 0, video_id: hMCN5AwtLYw}
+        - {difficulty: Ludicrous, start_time: 0, video_id: hMCN5AwtLYw}
     - key: Pickup (Boost Ball)
       value:
       - key: Door to Canyon Entryway
@@ -982,7 +983,7 @@ regions:
       value:
       - key: Door to South Quarantine Tunnel
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: jePin3nMhZk}
+        - {difficulty: Ludicrous, start_time: 0, video_id: jePin3nMhZk}
       - key: Room Center
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: nRqjTUYEwIE}
@@ -1008,7 +1009,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: vm1iRJSc0mw}
         - {difficulty: Advanced, start_time: 0, video_id: O0i-qUDJ-Y0}
-        - {difficulty: Hypermode, start_time: 0, video_id: hXvb7HxVP2U}
+        - {difficulty: Ludicrous, start_time: 0, video_id: hXvb7HxVP2U}
       - key: Door to South Quarantine Tunnel
         value:
         - {difficulty: Advanced, start_time: 0, video_id: j1n_eD5X_sU}
@@ -1164,7 +1165,7 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: _r-Pu5wZAek}
       - key: Door to Life Grove Tunnel
         value:
-        - {difficulty: Disabled, start_time: 0, video_id: OtFv_-BEUfc}
+        - {difficulty: Beginner, start_time: 0, video_id: OtFv_-BEUfc}
         - {difficulty: Beginner, start_time: 0, video_id: Eeqt9aYPOX0}
       - key: Next to Spinner
         value:
@@ -1173,7 +1174,7 @@ regions:
       value:
       - key: Next to Spinner
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: QhCdABOjjhg}
+        - {difficulty: Ludicrous, start_time: 0, video_id: QhCdABOjjhg}
   - key: Gully
     value:
     - key: Door to Landing Site
@@ -1197,7 +1198,7 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: koDuUn-oyW0}
         - {difficulty: Intermediate, start_time: 0, video_id: CKdG2oDcI6w}
-        - {difficulty: Hypermode, start_time: 0, video_id: kiWuNkmQ_t8}
+        - {difficulty: Ludicrous, start_time: 0, video_id: kiWuNkmQ_t8}
       - key: Pickup (Missile Expansion)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: gY0SRbHkTqs}
@@ -1237,10 +1238,10 @@ regions:
       value:
       - key: Door to Great Tree Hall
         value:
-        - {difficulty: Hypermode, start_time: 16, video_id: e9LJa7G60yE}
+        - {difficulty: Ludicrous, start_time: 16, video_id: e9LJa7G60yE}
       - key: Morph Ball Door to Life Grove
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: e9LJa7G60yE}
+        - {difficulty: Ludicrous, start_time: 0, video_id: e9LJa7G60yE}
   - key: Main Ventilation Shaft Section C
     value:
     - key: Door to Main Ventilation Shaft Section B

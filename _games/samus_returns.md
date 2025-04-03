@@ -10,7 +10,8 @@ randomize:
 - A new goal has been added (DNA Hunt)
 need-to-play:
 - A modded 3DS with Luma3DS, or Citra
-- A dumped RomFS of your original game. Any region works.
+- A decrypted copy of your original game. Currently, only the NA and EU versions are
+  supported.
 multiworld: true
 development-state: stable
 faq:

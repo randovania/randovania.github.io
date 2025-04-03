@@ -2,6 +2,13 @@
 regions:
 - key: Artaria
   value:
+  - key: Chain Reaction Room
+    value:
+    - key: Event - Chain Reaction Device
+      value:
+      - key: Tunnel to Shutter Platform Puzzle
+        value:
+        - {difficulty: Disabled, start_time: 0, video_id: JjC5ph5SJW8}
   - key: EMMI Zone Hub
     value:
     - key: Door to EMMI Zone Ballspark Hallway
@@ -35,6 +42,7 @@ regions:
       - key: Near Missile Tank 1
         value:
         - {difficulty: Beginner, start_time: 0, video_id: m4FANVI7eOU}
+        - {difficulty: Intermediate, start_time: 0, video_id: R9VK5rfKMmg}
   - key: Proto EMMI Introduction
     value:
     - key: Door to Melee Tutorial Room (Upper)
@@ -42,6 +50,18 @@ regions:
       - key: Pickup (Missile Tank)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: AhrGDpzB3lI}
+  - key: Screw Attack Room
+    value:
+    - key: Door to Transport to Burenia
+      value:
+      - key: Next to Upper Tank
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: F2L7qs1uP90}
+        - {difficulty: Beginner, start_time: 0, video_id: QJuxx0SSQMI}
+      - key: Start Point 2
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: VgTURzSZz8I}
+        - {difficulty: Beginner, start_time: 0, video_id: T4hIL-R_0p0}
   - key: Speed Hallway
     value:
     - key: Tunnel to Cold Introduction
@@ -62,7 +82,7 @@ regions:
       value:
       - key: Event - EMMI Wide Beam Block
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: LAOKA3XPrTY}
+        - {difficulty: Ludicrous, start_time: 0, video_id: LAOKA3XPrTY}
 - key: Burenia
   value:
   - key: Gravity Suit Tower
@@ -169,6 +189,12 @@ regions:
       - key: Door to Z-57 Heat Room East
         value:
         - {difficulty: Beginner, start_time: 0, video_id: mRHB7DHbfbg}
+        - {difficulty: Intermediate, start_time: 0, video_id: vAEv8hhDYOE}
+    - key: Z-57 Room
+      value:
+      - key: Between Thermal Gates
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: vAEv8hhDYOE}
   - key: Dairon Transport Access
     value:
     - key: Dock to EMMI Zone Tower West
@@ -235,6 +261,15 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: Bt-sri9j5h8}
         - {difficulty: Beginner, start_time: 0, video_id: BLyFQ2vkVoM}
+- key: Elun
+  value:
+  - key: Fan Room
+    value:
+    - key: Room Bottom
+      value:
+      - key: Door to Gyroscope Room
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 8dIYiNq8clI}
 - key: Ferenia
   value:
   - key: Cold Room (Storm Missile Gate)
@@ -251,7 +286,7 @@ regions:
       - key: Dock to Path to Escue
         value:
         - {difficulty: Advanced, start_time: 0, video_id: AqlUANN4F_k}
-        - {difficulty: Hypermode, start_time: 0, video_id: ND5zby3zaz8}
+        - {difficulty: Ludicrous, start_time: 0, video_id: ND5zby3zaz8}
   - key: EMMI Zone Exit West
     value:
     - key: Center Platform
@@ -267,6 +302,13 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: VgEtgnUCvQE}
         - {difficulty: Advanced, start_time: 0, video_id: t9WtdoZ9oOA}
+  - key: Fan Room
+    value:
+    - key: Tunnel to Fan Room Access
+      value:
+      - key: Door to Cold Room (Small)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: XvvlF8H2qq4}
   - key: Pitfall Puzzle Room
     value:
     - key: Tunnel to Space Jump Room (Upper)

@@ -31,7 +31,7 @@ regions:
       value:
       - key: Vertical Dock to Laboratory Save Station Access
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: pek-zZsYFec}
+        - {difficulty: Ludicrous, start_time: 0, video_id: pek-zZsYFec}
 - key: Golden Temple
   value:
   - key: 1-Orb Hallway
@@ -65,7 +65,7 @@ regions:
       value:
       - key: Horizontal Dock to Exterior Alpha Nest
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: FZI6scXiurM}
+        - {difficulty: Ludicrous, start_time: 0, video_id: FZI6scXiurM}
   - key: Guardian Arena
     value:
     - key: Horizontal Dock to Needler Nation
@@ -116,14 +116,14 @@ regions:
       - key: Tunnel to Breeding Grounds Save Station
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: nw1Zhw0xxzM}
-        - {difficulty: Hypermode, start_time: 0, video_id: rQav7323XNk}
+        - {difficulty: Ludicrous, start_time: 0, video_id: rQav7323XNk}
   - key: Hydro Station Basement
     value:
     - key: Tunnel to Hi-Jump Chamber
       value:
       - key: Pickup (Right Missile Tank)
         value:
-        - {difficulty: Hypermode, start_time: 0, video_id: djxanKz5hi0}
+        - {difficulty: Ludicrous, start_time: 0, video_id: djxanKz5hi0}
   - key: Hydro Station Exterior
     value:
     - key: Middle Left
@@ -139,7 +139,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: -dcePWj-7jI}
         - {difficulty: Advanced, start_time: 0, video_id: mQahK4kIL3w}
-        - {difficulty: Hypermode, start_time: 0, video_id: qX1PhEM63N8}
+        - {difficulty: Ludicrous, start_time: 0, video_id: qX1PhEM63N8}
   - key: Speedboosting Challenge
     value:
     - key: Door to Breeding Grounds Entrance
@@ -206,7 +206,7 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: oH23Z6N2OSA}
         - {difficulty: Advanced, start_time: 0, video_id: 8dNToB3scAQ}
-        - {difficulty: Hypermode, start_time: 0, video_id: nbg7n5g1X8c}
+        - {difficulty: Ludicrous, start_time: 0, video_id: nbg7n5g1X8c}
   - key: The Pit
     value:
     - key: Horizontal Dock to Fat Crocomire Room
@@ -214,7 +214,7 @@ regions:
       - key: Horizontal Dock to Snaky Skorp Cavern
         value:
         - {difficulty: Beginner, start_time: 0, video_id: 1LWLu7JxS1k}
-        - {difficulty: Hypermode, start_time: 0, video_id: TrW9CmBHJSg}
+        - {difficulty: Ludicrous, start_time: 0, video_id: TrW9CmBHJSg}
   - key: Tsumuri Tunnel
     value:
     - key: Vertical Dock to Cavern Crossroads

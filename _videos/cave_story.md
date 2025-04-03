@@ -44,7 +44,7 @@ regions:
       - key: Top Level
         value:
         - {difficulty: Expert, start_time: 0, video_id: qWp-qmW6xb0}
-        - {difficulty: Hypermode, start_time: 0, video_id: StXuozoLRe4}
+        - {difficulty: Ludicrous, start_time: 0, video_id: StXuozoLRe4}
 - key: Ruined Egg Corridor
   value:
   - key: Egg Observation Room?
