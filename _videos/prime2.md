@@ -2,13 +2,6 @@
 regions:
 - key: Agon Wastes
   value:
-  - key: Battleground
-    value:
-    - key: Safe Zone (Double Path Side, Bottom)
-      value:
-      - key: Safe Zone (Double Path Side, Top)
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: ZBsoXsayArI}
   - key: Bioenergy Production
     value:
     - key: Door to Security Station A
@@ -27,13 +20,6 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: Pnm3-uD9BeM}
         - {difficulty: Advanced, start_time: 0, video_id: vScEQWXSHKw}
-  - key: Bitter Well
-    value:
-    - key: Door to Save Station 3
-      value:
-      - key: Door to Phazon Site
-        value:
-        - {difficulty: Ludicrous, start_time: 0, video_id: _HOE7J2Vt1o}
   - key: Central Mining Station
     value:
     - key: Center Platforms
@@ -70,6 +56,222 @@ regions:
       - key: Door to Agon Temple
         value:
         - {difficulty: Advanced, start_time: 0, video_id: -26zjhgXqWQ}
+  - key: Main Reactor
+    value:
+    - key: Bottom Floor (Center)
+      value:
+      - key: Door to Security Station B
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: 5oRhpi4sF8M}
+      - key: Next to Pickup
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: q_Dwaw9d8f8}
+        - {difficulty: Expert, start_time: 0, video_id: PHjXnyJA2is}
+    - key: Door to Security Station B
+      value:
+      - key: Next to Pickup
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: Ibb9XlRcAQE}
+        - {difficulty: Advanced, start_time: 0, video_id: X8Fe5va-ehc}
+        - {difficulty: Expert, start_time: 0, video_id: Yr-cCSIIWfM}
+    - key: Door to Storage D
+      value:
+      - key: Door to Ventilation Area A
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: KIP9PWtVt7o}
+    - key: Door to Ventilation Area A
+      value:
+      - key: Event - Dark Samus 1
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: ZcW-Ws9nA6Q}
+  - key: Mine Shaft
+    value:
+    - key: Door to Mining Station B
+      value:
+      - key: Door to Agon Temple
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: w0Sepfbbj5g}
+  - key: Mining Plaza
+    value:
+    - key: Door to Mining Station Access
+      value:
+      - key: Pickup (Energy Tank)
+        value:
+        - {difficulty: Ludicrous, start_time: 0, video_id: A9JXJVOykZU}
+    - key: Door to Plaza Access
+      value:
+      - key: Door to Mining Station Access
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: drldqXBvPLs}
+        - {difficulty: Intermediate, start_time: 0, video_id: 0BuPg72jQgI}
+  - key: Mining Station A
+    value:
+    - key: Door to Central Station Access
+      value:
+      - key: Room Center
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: aqyWUg1eiVI}
+        - {difficulty: Expert, start_time: 0, video_id: 4bzhMg0WwbQ}
+    - key: Front of Lore Scan
+      value:
+      - key: Door to Central Station Access
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: wlzNifVoqTI}
+    - key: Room Center
+      value:
+      - key: Door to Central Station Access
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: vJ_MaFqBo0E}
+      - key: Door to Temple Access
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: rWNazr6v578}
+        - {difficulty: Beginner, start_time: 0, video_id: Xlu62DIi4tY}
+        - {difficulty: Advanced, start_time: 0, video_id: ljIhZ5Ae6Lg}
+        - {difficulty: Advanced, start_time: 0, video_id: 5j4pWnuojmc}
+      - key: Front of Lore Scan
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: j_kCNsjwzgI}
+      - key: Pickup (Missile)
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: oXg5O2Oa01Q}
+        - {difficulty: Advanced, start_time: 0, video_id: Z17kkmEA-HE}
+  - key: Mining Station B
+    value:
+    - key: Door to Transit Station
+      value:
+      - key: Portal to Trial Grounds
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: RAVTrB3Mhrs}
+    - key: Room Center
+      value:
+      - key: Door to Mine Shaft
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: OOliuV6E6s4}
+      - key: Door to Transit Station
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: LUCs9Pn194o}
+        - {difficulty: Intermediate, start_time: 33, video_id: Dlrx1e4oE6c}
+        - {difficulty: Advanced, start_time: 0, video_id: G6Sq--yB5UY}
+        - {difficulty: Advanced, start_time: 17, video_id: Dlrx1e4oE6c}
+        - {difficulty: Advanced, start_time: 0, video_id: -Midfbv_BMU}
+        - {difficulty: Expert, start_time: 0, video_id: aNdF-X_OUH8}
+      - key: Event - Mining Station B Portal Opened
+        value:
+        - {difficulty: Ludicrous, start_time: 0, video_id: CvU0QLIgzms}
+      - key: Portal to Trial Grounds
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: SCqO5QVJHfE}
+  - key: Portal Terminal
+    value:
+    - key: Door to Transport Center
+      value:
+      - key: Room Center
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: kyb7lYUdc14&t=10s}
+        - {difficulty: Intermediate, start_time: 0, video_id: kyb7lYUdc14}
+    - key: Room Center
+      value:
+      - key: Portal to Portal Site
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: mTvERL0H_NI}
+        - {difficulty: Expert, start_time: 0, video_id: KKoOubP1P7g}
+  - key: Sand Processing
+    value:
+    - key: Bottom of Halfpipe
+      value:
+      - key: Door to Save Station C
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 0krWKUXX1AE}
+        - {difficulty: Advanced, start_time: 0, video_id: 1wn3oAxQg4I}
+      - key: Tunnel
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: CzhDj8MmERg}
+        - {difficulty: Expert, start_time: 35, video_id: cEghPZPy_AM}
+        - {difficulty: Expert, start_time: 0, video_id: 1Meg1C7X-1Q}
+    - key: Door to Main Reactor
+      value:
+      - key: Bottom of Halfpipe
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: C8Qaq6Qx1Ns}
+    - key: Event - Sand Processing Sand Drained
+      value:
+      - key: Tunnel
+        value:
+        - {difficulty: Expert, start_time: 95, video_id: cEghPZPy_AM}
+    - key: Tunnel
+      value:
+      - key: Event - Sand Processing Sand Drained
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: 9i3Tc8UlFts}
+        - {difficulty: Advanced, start_time: 81, video_id: cEghPZPy_AM}
+  - key: Sandcanyon
+    value:
+    - key: Center Platform
+      value:
+      - key: Door to Agon Temple
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: PWAG1cT-GLM}
+      - key: Door to Ventilation Area A
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: 1mbgP8epiQw}
+    - key: Door to Ventilation Area A
+      value:
+      - key: Center Platform
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: RbjGLyA2qAc}
+        - {difficulty: Expert, start_time: 0, video_id: KFsv-zg_w50}
+  - key: Security Station A
+    value:
+    - key: Door to Bioenergy Production
+      value:
+      - key: Door to Biostorage Station
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: D45mIwT082E}
+  - key: Transport Center
+    value:
+    - key: Bottom of Halfpipe
+      value:
+      - key: Door to Transport to Torvus Bog
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: QR7cK9gGVLY}
+        - {difficulty: Advanced, start_time: 0, video_id: dpwWRVCUBdY}
+      - key: Event - Transport Center Gate
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: kX1HXF_BCew}
+    - key: Door to Transport to Torvus Bog
+      value:
+      - key: Portal to Crossroads
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: Rp3OR7CoL5M}
+    - key: Portal to Crossroads
+      value:
+      - key: Door to Transport to Torvus Bog
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: fjjsnAXoaIc}
+        - {difficulty: Intermediate, start_time: 0, video_id: F1MFnqIj9gg}
+  - key: Ventilation Area B
+    value:
+    - key: Door to Bioenergy Production
+      value:
+      - key: Door to Save Station C
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: VzJDml0DK_Q}
+- key: Dark Agon Wastes
+  value:
+  - key: Battleground
+    value:
+    - key: Safe Zone (Double Path Side, Bottom)
+      value:
+      - key: Safe Zone (Double Path Side, Top)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: ZBsoXsayArI}
+  - key: Bitter Well
+    value:
+    - key: Door to Save Station 3
+      value:
+      - key: Door to Phazon Site
+        value:
+        - {difficulty: Ludicrous, start_time: 0, video_id: _HOE7J2Vt1o}
   - key: Crossroads
     value:
     - key: Central Safe Zone
@@ -182,111 +384,6 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: 9ldu-Rh8DOQ&t=32s}
         - {difficulty: Intermediate, start_time: 0, video_id: 9ldu-Rh8DOQ&t=26s}
-  - key: Main Reactor
-    value:
-    - key: Bottom Floor (Center)
-      value:
-      - key: Door to Security Station B
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: 5oRhpi4sF8M}
-      - key: Next to Pickup
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: q_Dwaw9d8f8}
-        - {difficulty: Expert, start_time: 0, video_id: PHjXnyJA2is}
-    - key: Door to Security Station B
-      value:
-      - key: Next to Pickup
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: Ibb9XlRcAQE}
-        - {difficulty: Advanced, start_time: 0, video_id: X8Fe5va-ehc}
-        - {difficulty: Expert, start_time: 0, video_id: Yr-cCSIIWfM}
-    - key: Door to Storage D
-      value:
-      - key: Door to Ventilation Area A
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: KIP9PWtVt7o}
-    - key: Door to Ventilation Area A
-      value:
-      - key: Event - Dark Samus 1
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: ZcW-Ws9nA6Q}
-  - key: Mine Shaft
-    value:
-    - key: Door to Mining Station B
-      value:
-      - key: Door to Agon Temple
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: w0Sepfbbj5g}
-  - key: Mining Plaza
-    value:
-    - key: Door to Mining Station Access
-      value:
-      - key: Pickup (Energy Tank)
-        value:
-        - {difficulty: Ludicrous, start_time: 0, video_id: A9JXJVOykZU}
-    - key: Door to Plaza Access
-      value:
-      - key: Door to Mining Station Access
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: drldqXBvPLs}
-        - {difficulty: Intermediate, start_time: 0, video_id: 0BuPg72jQgI}
-  - key: Mining Station A
-    value:
-    - key: Door to Central Station Access
-      value:
-      - key: Room Center
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: aqyWUg1eiVI}
-        - {difficulty: Expert, start_time: 0, video_id: 4bzhMg0WwbQ}
-    - key: Front of Lore Scan
-      value:
-      - key: Door to Central Station Access
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: wlzNifVoqTI}
-    - key: Room Center
-      value:
-      - key: Door to Central Station Access
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: vJ_MaFqBo0E}
-      - key: Door to Temple Access
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: rWNazr6v578}
-        - {difficulty: Beginner, start_time: 0, video_id: Xlu62DIi4tY}
-        - {difficulty: Advanced, start_time: 0, video_id: ljIhZ5Ae6Lg}
-        - {difficulty: Advanced, start_time: 0, video_id: 5j4pWnuojmc}
-      - key: Front of Lore Scan
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: j_kCNsjwzgI}
-      - key: Pickup (Missile)
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: oXg5O2Oa01Q}
-        - {difficulty: Advanced, start_time: 0, video_id: Z17kkmEA-HE}
-  - key: Mining Station B
-    value:
-    - key: Door to Transit Station
-      value:
-      - key: Portal to Trial Grounds
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: RAVTrB3Mhrs}
-    - key: Room Center
-      value:
-      - key: Door to Mine Shaft
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: OOliuV6E6s4}
-      - key: Door to Transit Station
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: LUCs9Pn194o}
-        - {difficulty: Intermediate, start_time: 33, video_id: Dlrx1e4oE6c}
-        - {difficulty: Advanced, start_time: 0, video_id: G6Sq--yB5UY}
-        - {difficulty: Advanced, start_time: 17, video_id: Dlrx1e4oE6c}
-        - {difficulty: Advanced, start_time: 0, video_id: -Midfbv_BMU}
-        - {difficulty: Expert, start_time: 0, video_id: aNdF-X_OUH8}
-      - key: Event - Mining Station B Portal Opened
-        value:
-        - {difficulty: Ludicrous, start_time: 0, video_id: CvU0QLIgzms}
-      - key: Portal to Trial Grounds
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: SCqO5QVJHfE}
   - key: Phazon Site
     value:
     - key: Safe Zone (Elevator)
@@ -338,94 +435,6 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: NbSjeK62Bfc}
         - {difficulty: Advanced, start_time: 0, video_id: NbSjeK62Bfc&t=12s}
-  - key: Portal Terminal
-    value:
-    - key: Door to Transport Center
-      value:
-      - key: Room Center
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: kyb7lYUdc14&t=10s}
-        - {difficulty: Intermediate, start_time: 0, video_id: kyb7lYUdc14}
-    - key: Room Center
-      value:
-      - key: Portal to Portal Site
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: mTvERL0H_NI}
-        - {difficulty: Expert, start_time: 0, video_id: KKoOubP1P7g}
-  - key: Sand Processing
-    value:
-    - key: Bottom of Halfpipe
-      value:
-      - key: Door to Save Station C
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 0krWKUXX1AE}
-        - {difficulty: Advanced, start_time: 0, video_id: 1wn3oAxQg4I}
-      - key: Tunnel
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: CzhDj8MmERg}
-        - {difficulty: Expert, start_time: 35, video_id: cEghPZPy_AM}
-        - {difficulty: Expert, start_time: 0, video_id: 1Meg1C7X-1Q}
-    - key: Door to Main Reactor
-      value:
-      - key: Bottom of Halfpipe
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: C8Qaq6Qx1Ns}
-    - key: Event - Sand Processing Sand Drained
-      value:
-      - key: Tunnel
-        value:
-        - {difficulty: Expert, start_time: 95, video_id: cEghPZPy_AM}
-    - key: Tunnel
-      value:
-      - key: Event - Sand Processing Sand Drained
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: 9i3Tc8UlFts}
-        - {difficulty: Advanced, start_time: 81, video_id: cEghPZPy_AM}
-  - key: Sandcanyon
-    value:
-    - key: Center Platform
-      value:
-      - key: Door to Agon Temple
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: PWAG1cT-GLM}
-      - key: Door to Ventilation Area A
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: 1mbgP8epiQw}
-    - key: Door to Ventilation Area A
-      value:
-      - key: Center Platform
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: RbjGLyA2qAc}
-        - {difficulty: Expert, start_time: 0, video_id: KFsv-zg_w50}
-  - key: Security Station A
-    value:
-    - key: Door to Bioenergy Production
-      value:
-      - key: Door to Biostorage Station
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: D45mIwT082E}
-  - key: Transport Center
-    value:
-    - key: Bottom of Halfpipe
-      value:
-      - key: Door to Transport to Torvus Bog
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: QR7cK9gGVLY}
-        - {difficulty: Advanced, start_time: 0, video_id: dpwWRVCUBdY}
-      - key: Event - Transport Center Gate
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: kX1HXF_BCew}
-    - key: Door to Transport to Torvus Bog
-      value:
-      - key: Portal to Crossroads
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: Rp3OR7CoL5M}
-    - key: Portal to Crossroads
-      value:
-      - key: Door to Transport to Torvus Bog
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: fjjsnAXoaIc}
-        - {difficulty: Intermediate, start_time: 0, video_id: F1MFnqIj9gg}
   - key: Trial Grounds
     value:
     - key: Safe Zone (Upper Ledge Crystal)
@@ -433,13 +442,6 @@ regions:
       - key: Door to Dark Transit Station
         value:
         - {difficulty: Advanced, start_time: 0, video_id: jaC_kKw7RSs}
-  - key: Ventilation Area B
-    value:
-    - key: Door to Bioenergy Production
-      value:
-      - key: Door to Save Station C
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: VzJDml0DK_Q}
   - key: Watering Hole
     value:
     - key: Door to Phazon Site
@@ -447,15 +449,134 @@ regions:
       - key: Door to Feeding Pit
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: VGNqDNlpiag}
+- key: Dark Torvus Bog
+  value:
+  - key: Crypt
+    value:
+    - key: Door to Undertransit One
+      value:
+      - key: Event - Crypt Barrier
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: EUJlm0lktkE}
+    - key: Laser Platform
+      value:
+      - key: Door to Crypt Tunnel
+        value:
+        - {difficulty: Ludicrous, start_time: 0, video_id: sXP6vYiec4s}
+    - key: Portal to Gathering Hall
+      value:
+      - key: Event - Crypt Barrier
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: EUJlm0lktkE}
+  - key: Dark Arena Tunnel
+    value:
+    - key: Door to Dark Forgotten Bridge
+      value:
+      - key: Door to Dark Torvus Arena
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: WYEyeXanSy0}
+    - key: Door to Dark Torvus Arena
+      value:
+      - key: Door to Dark Forgotten Bridge
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: snQDjN4Y7YY}
+  - key: Dark Controller Access
+    value:
+    - key: Door to Dark Torvus Energy Controller
+      value:
+      - key: Door to Dark Torvus Temple
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: rlYkwliHxQE}
+  - key: Dark Forgotten Bridge
+    value:
+    - key: Bridge Center
+      value:
+      - key: Door to Brooding Ground
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: fRwM33F0C5s}
+        - {difficulty: Intermediate, start_time: 0, video_id: Uv9du120y68}
+        - {difficulty: Expert, start_time: 0, video_id: tvc4XMSPWl4}
+      - key: Event - Dark Forgotten Bridge Rotated
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: TMTKSnUB-zE}
+  - key: Dark Torvus Arena
+    value:
+    - key: Central Safe Zone
+      value:
+      - key: Door to Dark Arena Tunnel
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: iD_vx63DDxM}
+    - key: Door to Dark Arena Tunnel
+      value:
+      - key: Pickup 2 (Dark Torvus Key 1)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 0k8JzNxnZLw}
+        - {difficulty: Ludicrous, start_time: 0, video_id: RlvAvH4_w1g}
+  - key: Dark Torvus Temple
+    value:
+    - key: Central Safe Zone (Top)
+      value:
+      - key: Door to Dark Controller Access
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: NOUYzcUQwSo}
+  - key: Dark Torvus Temple Access
+    value:
+    - key: Door to Dark Torvus Temple
+      value:
+      - key: Door to Venomous Pond
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: SOcGkOu7xlE&t=16s}
+    - key: Door to Venomous Pond
+      value:
+      - key: Door to Dark Torvus Temple
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: SOcGkOu7xlE}
+  - key: Polluted Mire
+    value:
+    - key: Door to Gloom Vista
+      value:
+      - key: Door to Dark Falls
+        value:
+        - {difficulty: Ludicrous, start_time: 0, video_id: kbCS_aLOOL4}
+  - key: Portal Chamber (Dark)
+    value:
+    - key: Door to Poisoned Bog
+      value:
+      - key: Door to Venomous Pond
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: 4Y7QgMoT2TE}
+      - key: Portal to Portal Chamber (Light)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: pEQt9C4c-EQ}
+  - key: Sacrificial Chamber
+    value:
+    - key: Top of Broken Statue
+      value:
+      - key: Door to Sacrificial Chamber Tunnel
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: NrwVzVqQWD8}
+  - key: Undertransit Two
+    value:
+    - key: Door to Dungeon
+      value:
+      - key: Door to Sacrificial Chamber
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 1qYBjig_jZA&t=23s}
+        - {difficulty: Intermediate, start_time: 0, video_id: -r5SIbRCY4c}
+    - key: Door to Sacrificial Chamber
+      value:
+      - key: Door to Dungeon
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 1qYBjig_jZA}
+  - key: Venomous Pond
+    value:
+    - key: Door to Brooding Ground
+      value:
+      - key: Pickup (Dark Torvus Key 3)
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: FN6HWNKMJKs}
 - key: Great Temple
   value:
-  - key: Sanctum Access
-    value:
-    - key: Door to Sky Temple Energy Controller
-      value:
-      - key: Door to Sanctum
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: KT5PE0xdq0Y}
   - key: Transport A Access
     value:
     - key: Door to Temple Sanctuary
@@ -477,7 +598,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: mwdZjDuRuGM}
         - {difficulty: Ludicrous, start_time: 0, video_id: F167mmNCEWc}
-- key: Sanctuary Fortress
+- key: Ing Hive
   value:
   - key: Aerial Training Site
     value:
@@ -502,27 +623,6 @@ regions:
       - key: Door to Temple Security Access
         value:
         - {difficulty: Ludicrous, start_time: 0, video_id: 0WqakSZF_mM}
-  - key: Aerie
-    value:
-    - key: Bottom Floor
-      value:
-      - key: Pickup (Echo Visor)
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: 29qB37vxSgY}
-    - key: Portal from Hive Summit
-      value:
-      - key: Event - Aerie Pickup
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: gt_lKlVVr28}
-        - {difficulty: Intermediate, start_time: 0, video_id: su_5kgsXU8Y}
-  - key: Controller Access
-    value:
-    - key: Door to Sanctuary Energy Controller
-      value:
-      - key: Door to Sanctuary Temple
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: -oxfsO9wVzs}
-        - {difficulty: Expert, start_time: 0, video_id: 3oJFz3WQH3Y}
   - key: Culling Chamber
     value:
     - key: Door to Central Hive East Transport
@@ -530,78 +630,6 @@ regions:
       - key: Pickup (Ing Hive Key 1)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: gSKWrUk5uM4}
-  - key: Dynamo Access
-    value:
-    - key: Door to Dynamo Works
-      value:
-      - key: Door to Main Gyro Chamber
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: w6OEyFUTUyw}
-  - key: Dynamo Works
-    value:
-    - key: Door to Central Area Transport East
-      value:
-      - key: Pickup 2 (Missile)
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: NoLi_i4zwuM}
-    - key: Event - Dynamo Works Quads Gone
-      value:
-      - key: Door to Central Area Transport East
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 12HEtxdV0b0}
-        - {difficulty: Intermediate, start_time: 0, video_id: 12HEtxdV0b0&t=12s}
-        - {difficulty: Expert, start_time: 0, video_id: yrXFvJcN308}
-  - key: Grand Abyss
-    value:
-    - key: Door to Watch Station
-      value:
-      - key: Event - Grand Abyss (Vault Side)
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: KSEnyKhKPfs}
-        - {difficulty: Advanced, start_time: 0, video_id: tyWptkkVeaM}
-        - {difficulty: Expert, start_time: 0, video_id: U9s1qZJqnl4}
-    - key: Event - Grand Abyss (Vault Side)
-      value:
-      - key: Event - Grand Abyss (Watch Station Side)
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: KSEnyKhKPfs&t=13s}
-        - {difficulty: Expert, start_time: 0, video_id: 4mjY6vPZHyE}
-        - {difficulty: Ludicrous, start_time: 0, video_id: j4zqFghBcfM}
-    - key: Event - Grand Abyss (Watch Station Side)
-      value:
-      - key: Event - Grand Abyss (Vault Side)
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: HFPeu4D8Yo0}
-    - key: Portal from Judgment Drop
-      value:
-      - key: Event - Grand Abyss (Vault Side)
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: GK3YgiXGNFk}
-  - key: Hall of Combat Mastery
-    value:
-    - key: Door to Central Area Transport East
-      value:
-      - key: Door to Minigyro Chamber
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: BnCRXrOvPGs&t=6s}
-        - {difficulty: Intermediate, start_time: 0, video_id: FtylAcZbKFA&t=8s}
-        - {difficulty: Advanced, start_time: 0, video_id: 9M2mgcDrb24}
-        - {difficulty: Advanced, start_time: 0, video_id: 1v1vgt6R-wI}
-    - key: Door to Minigyro Chamber
-      value:
-      - key: Door to Central Area Transport East
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: BnCRXrOvPGs}
-        - {difficulty: Intermediate, start_time: 0, video_id: FtylAcZbKFA}
-        - {difficulty: Advanced, start_time: 0, video_id: ycwAO4nX0dE}
-      - key: Next to Pickup
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: nVzQ88rAXTQ}
-    - key: Portal to Culling Chamber
-      value:
-      - key: Door to Minigyro Chamber
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: hfFI_kNqoYg}
   - key: Hive Controller Access
     value:
     - key: Door to Hive Energy Controller
@@ -712,6 +740,134 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: xjROhTAzEXk}
         - {difficulty: Advanced, start_time: 0, video_id: 2yDHWXXEXkk}
         - {difficulty: Expert, start_time: 0, video_id: mexrPUDwJUU}
+  - key: Temple Security Access
+    value:
+    - key: Central Safe Zone
+      value:
+      - key: Door to Aerial Training Site
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 2c9fDMqBWy8}
+        - {difficulty: Advanced, start_time: 0, video_id: oWT_41KIE0E}
+        - {difficulty: Expert, start_time: 0, video_id: sGIG5aaPkNM}
+  - key: Unseen Way
+    value:
+    - key: Door to Culling Chamber
+      value:
+      - key: Door to Hive Reactor
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 7Inlx2zKVpY}
+    - key: Door to Hive Reactor
+      value:
+      - key: Door to Culling Chamber
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 7Inlx2zKVpY&t=38s}
+  - key: Vault Attack Portal
+    value:
+    - key: Portal to Vault (Light)
+      value:
+      - key: Portal to Vault (Scan)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: K1JpFBIHOKA}
+    - key: Portal to Vault (Scan)
+      value:
+      - key: Portal to Vault (Light)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: K1JpFBIHOKA&t=17s}
+- key: Sanctuary Fortress
+  value:
+  - key: Aerie
+    value:
+    - key: Bottom Floor
+      value:
+      - key: Pickup (Echo Visor)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: 29qB37vxSgY}
+    - key: Portal from Hive Summit
+      value:
+      - key: Event - Aerie Pickup
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: gt_lKlVVr28}
+        - {difficulty: Intermediate, start_time: 0, video_id: su_5kgsXU8Y}
+  - key: Controller Access
+    value:
+    - key: Door to Sanctuary Energy Controller
+      value:
+      - key: Door to Sanctuary Temple
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: -oxfsO9wVzs}
+        - {difficulty: Expert, start_time: 0, video_id: 3oJFz3WQH3Y}
+  - key: Dynamo Access
+    value:
+    - key: Door to Dynamo Works
+      value:
+      - key: Door to Main Gyro Chamber
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: w6OEyFUTUyw}
+  - key: Dynamo Works
+    value:
+    - key: Door to Central Area Transport East
+      value:
+      - key: Pickup 2 (Missile)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: NoLi_i4zwuM}
+    - key: Event - Dynamo Works Quads Gone
+      value:
+      - key: Door to Central Area Transport East
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 12HEtxdV0b0}
+        - {difficulty: Intermediate, start_time: 0, video_id: 12HEtxdV0b0&t=12s}
+        - {difficulty: Expert, start_time: 0, video_id: yrXFvJcN308}
+  - key: Grand Abyss
+    value:
+    - key: Door to Watch Station
+      value:
+      - key: Event - Grand Abyss (Vault Side)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: KSEnyKhKPfs}
+        - {difficulty: Advanced, start_time: 0, video_id: tyWptkkVeaM}
+        - {difficulty: Expert, start_time: 0, video_id: U9s1qZJqnl4}
+    - key: Event - Grand Abyss (Vault Side)
+      value:
+      - key: Event - Grand Abyss (Watch Station Side)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: KSEnyKhKPfs&t=13s}
+        - {difficulty: Expert, start_time: 0, video_id: 4mjY6vPZHyE}
+        - {difficulty: Ludicrous, start_time: 0, video_id: j4zqFghBcfM}
+    - key: Event - Grand Abyss (Watch Station Side)
+      value:
+      - key: Event - Grand Abyss (Vault Side)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: HFPeu4D8Yo0}
+    - key: Portal from Judgment Drop
+      value:
+      - key: Event - Grand Abyss (Vault Side)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: GK3YgiXGNFk}
+  - key: Hall of Combat Mastery
+    value:
+    - key: Door to Central Area Transport East
+      value:
+      - key: Door to Minigyro Chamber
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: BnCRXrOvPGs&t=6s}
+        - {difficulty: Intermediate, start_time: 0, video_id: FtylAcZbKFA&t=8s}
+        - {difficulty: Advanced, start_time: 0, video_id: 9M2mgcDrb24}
+        - {difficulty: Advanced, start_time: 0, video_id: 1v1vgt6R-wI}
+    - key: Door to Minigyro Chamber
+      value:
+      - key: Door to Central Area Transport East
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: BnCRXrOvPGs}
+        - {difficulty: Intermediate, start_time: 0, video_id: FtylAcZbKFA}
+        - {difficulty: Advanced, start_time: 0, video_id: ycwAO4nX0dE}
+      - key: Next to Pickup
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: nVzQ88rAXTQ}
+    - key: Portal to Culling Chamber
+      value:
+      - key: Door to Minigyro Chamber
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: hfFI_kNqoYg}
   - key: Main Gyro Chamber
     value:
     - key: Door to Dynamo Access
@@ -848,15 +1004,6 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: OwfkdD8Eq5Y}
         - {difficulty: Advanced, start_time: 0, video_id: BDpZiXoh7To}
         - {difficulty: Expert, start_time: 0, video_id: QoXSNfUE7c0}
-  - key: Temple Security Access
-    value:
-    - key: Central Safe Zone
-      value:
-      - key: Door to Aerial Training Site
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 2c9fDMqBWy8}
-        - {difficulty: Advanced, start_time: 0, video_id: oWT_41KIE0E}
-        - {difficulty: Expert, start_time: 0, video_id: sGIG5aaPkNM}
   - key: Transit Station
     value:
     - key: Pickup (Power Bomb)
@@ -875,18 +1022,6 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: 4aYwB8NJnbM}
         - {difficulty: Advanced, start_time: 0, video_id: 5xM-JJK94PY}
-  - key: Unseen Way
-    value:
-    - key: Door to Culling Chamber
-      value:
-      - key: Door to Hive Reactor
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 7Inlx2zKVpY}
-    - key: Door to Hive Reactor
-      value:
-      - key: Door to Culling Chamber
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 7Inlx2zKVpY&t=38s}
   - key: Vault
     value:
     - key: Door to Grand Abyss
@@ -906,18 +1041,6 @@ regions:
       - key: Event - Vault Spinners
         value:
         - {difficulty: Ludicrous, start_time: 0, video_id: OaKQNlqWlNA}
-  - key: Vault Attack Portal
-    value:
-    - key: Portal to Vault (Light)
-      value:
-      - key: Portal to Vault (Scan)
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: K1JpFBIHOKA}
-    - key: Portal to Vault (Scan)
-      value:
-      - key: Portal to Vault (Light)
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: K1JpFBIHOKA&t=17s}
   - key: Watch Station
     value:
     - key: Door to Central Area Transport West
@@ -1000,7 +1123,16 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: _OKEYHWQQr0}
         - {difficulty: Advanced, start_time: 0, video_id: s2bGJML2QGo}
-- key: Temple Grounds
+- key: Sky Temple
+  value:
+  - key: Sanctum Access
+    value:
+    - key: Door to Sky Temple Energy Controller
+      value:
+      - key: Door to Sanctum
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: KT5PE0xdq0Y}
+- key: Sky Temple Grounds
   value:
   - key: Abandoned Base
     value:
@@ -1027,6 +1159,71 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: FD30PD2swEY}
         - {difficulty: Advanced, start_time: 0, video_id: 8uukqiYlYVE}
         - {difficulty: Advanced, start_time: 0, video_id: D0wVfhd1W-w}
+  - key: Defiled Shrine
+    value:
+    - key: Safe Zone (Ship Location)
+      value:
+      - key: Pickup (Sky Temple Key 8)
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: D5Kr5s22mFA}
+  - key: Ing Reliquary
+    value:
+    - key: Door to Reliquary Grounds
+      value:
+      - key: Pickup (Sky Temple Key 7)
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: FDgp_e_ZzHg}
+        - {difficulty: Intermediate, start_time: 0, video_id: FDgp_e_ZzHg&t=16s}
+        - {difficulty: Advanced, start_time: 0, video_id: RfWnxL7HI1Y}
+        - {difficulty: Advanced, start_time: 0, video_id: FDgp_e_ZzHg}
+        - {difficulty: Advanced, start_time: 0, video_id: FDgp_e_ZzHg&t=16s}
+  - key: Phazon Grounds
+    value:
+    - key: Door to Phazon Pit
+      value:
+      - key: Pickup (Missile)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: cUb73XA_w-A}
+        - {difficulty: Expert, start_time: 0, video_id: TLVEtDIZuOY}
+    - key: Door to Reliquary Access
+      value:
+      - key: Door to Phazon Pit
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: UIGRq3fHK0w}
+  - key: Phazon Pit
+    value:
+    - key: Door to Profane Path
+      value:
+      - key: Door to Phazon Grounds
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: FMIh3Dww4uw}
+        - {difficulty: Intermediate, start_time: 0, video_id: qfyPVFJU3fI}
+        - {difficulty: Expert, start_time: 0, video_id: zdUCjMKDNUo}
+  - key: Profane Path
+    value:
+    - key: Safe Zone (Front of Echo Gate)
+      value:
+      - key: Portal to Sacred Path
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: aKNRlZfSTfw}
+  - key: Reliquary Access
+    value:
+    - key: Door to Phazon Grounds
+      value:
+      - key: Door to Reliquary Grounds
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: RfWnxL7HI1Y}
+  - key: Reliquary Grounds
+    value:
+    - key: Door to Reliquary Access
+      value:
+      - key: Door to Ing Reliquary
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: FammuIjRJ9A}
+        - {difficulty: Advanced, start_time: 0, video_id: M0q0xotoaWI}
+        - {difficulty: Advanced, start_time: 0, video_id: RfWnxL7HI1Y}
+- key: Temple Grounds
+  value:
   - key: Communication Area
     value:
     - key: Door to Dynamo Chamber
@@ -1035,13 +1232,6 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: zgFMm9ywuX0}
         - {difficulty: Intermediate, start_time: 0, video_id: wamOGeIRec4}
-  - key: Defiled Shrine
-    value:
-    - key: Safe Zone (Ship Location)
-      value:
-      - key: Pickup (Sky Temple Key 8)
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: D5Kr5s22mFA}
   - key: Dynamo Chamber
     value:
     - key: Door to Communication Area
@@ -1119,17 +1309,6 @@ regions:
       - key: Event - Gate
         value:
         - {difficulty: Beginner, start_time: 0, video_id: ZdaarmDKjuA}
-  - key: Ing Reliquary
-    value:
-    - key: Door to Reliquary Grounds
-      value:
-      - key: Pickup (Sky Temple Key 7)
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: FDgp_e_ZzHg}
-        - {difficulty: Intermediate, start_time: 0, video_id: FDgp_e_ZzHg&t=16s}
-        - {difficulty: Advanced, start_time: 0, video_id: RfWnxL7HI1Y}
-        - {difficulty: Advanced, start_time: 0, video_id: FDgp_e_ZzHg}
-        - {difficulty: Advanced, start_time: 0, video_id: FDgp_e_ZzHg&t=16s}
   - key: Landing Site
     value:
     - key: Save Station
@@ -1167,51 +1346,6 @@ regions:
       - key: Door to Hall of Eyes
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: EgQDV6dbPu4}
-  - key: Phazon Grounds
-    value:
-    - key: Door to Phazon Pit
-      value:
-      - key: Pickup (Missile)
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: cUb73XA_w-A}
-        - {difficulty: Expert, start_time: 0, video_id: TLVEtDIZuOY}
-    - key: Door to Reliquary Access
-      value:
-      - key: Door to Phazon Pit
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: UIGRq3fHK0w}
-  - key: Phazon Pit
-    value:
-    - key: Door to Profane Path
-      value:
-      - key: Door to Phazon Grounds
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: FMIh3Dww4uw}
-        - {difficulty: Intermediate, start_time: 0, video_id: qfyPVFJU3fI}
-        - {difficulty: Expert, start_time: 0, video_id: zdUCjMKDNUo}
-  - key: Profane Path
-    value:
-    - key: Safe Zone (Front of Echo Gate)
-      value:
-      - key: Portal to Sacred Path
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: aKNRlZfSTfw}
-  - key: Reliquary Access
-    value:
-    - key: Door to Phazon Grounds
-      value:
-      - key: Door to Reliquary Grounds
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: RfWnxL7HI1Y}
-  - key: Reliquary Grounds
-    value:
-    - key: Door to Reliquary Access
-      value:
-      - key: Door to Ing Reliquary
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: FammuIjRJ9A}
-        - {difficulty: Advanced, start_time: 0, video_id: M0q0xotoaWI}
-        - {difficulty: Advanced, start_time: 0, video_id: RfWnxL7HI1Y}
   - key: Sacred Bridge
     value:
     - key: Door to GFMC Compound
@@ -1359,86 +1493,6 @@ regions:
       - key: Door to Torvus Temple
         value:
         - {difficulty: Advanced, start_time: 0, video_id: rlYkwliHxQE}
-  - key: Crypt
-    value:
-    - key: Door to Undertransit One
-      value:
-      - key: Event - Crypt Barrier
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: EUJlm0lktkE}
-    - key: Laser Platform
-      value:
-      - key: Door to Crypt Tunnel
-        value:
-        - {difficulty: Ludicrous, start_time: 0, video_id: sXP6vYiec4s}
-    - key: Portal to Gathering Hall
-      value:
-      - key: Event - Crypt Barrier
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: EUJlm0lktkE}
-  - key: Dark Arena Tunnel
-    value:
-    - key: Door to Dark Forgotten Bridge
-      value:
-      - key: Door to Dark Torvus Arena
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: WYEyeXanSy0}
-    - key: Door to Dark Torvus Arena
-      value:
-      - key: Door to Dark Forgotten Bridge
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: snQDjN4Y7YY}
-  - key: Dark Controller Access
-    value:
-    - key: Door to Dark Torvus Energy Controller
-      value:
-      - key: Door to Dark Torvus Temple
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: rlYkwliHxQE}
-  - key: Dark Forgotten Bridge
-    value:
-    - key: Bridge Center
-      value:
-      - key: Door to Brooding Ground
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: fRwM33F0C5s}
-        - {difficulty: Intermediate, start_time: 0, video_id: Uv9du120y68}
-        - {difficulty: Expert, start_time: 0, video_id: tvc4XMSPWl4}
-      - key: Event - Dark Forgotten Bridge Rotated
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: TMTKSnUB-zE}
-  - key: Dark Torvus Arena
-    value:
-    - key: Central Safe Zone
-      value:
-      - key: Door to Dark Arena Tunnel
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: iD_vx63DDxM}
-    - key: Door to Dark Arena Tunnel
-      value:
-      - key: Pickup 2 (Dark Torvus Key 1)
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 0k8JzNxnZLw}
-        - {difficulty: Ludicrous, start_time: 0, video_id: RlvAvH4_w1g}
-  - key: Dark Torvus Temple
-    value:
-    - key: Central Safe Zone (Top)
-      value:
-      - key: Door to Dark Controller Access
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: NOUYzcUQwSo}
-  - key: Dark Torvus Temple Access
-    value:
-    - key: Door to Dark Torvus Temple
-      value:
-      - key: Door to Venomous Pond
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: SOcGkOu7xlE&t=16s}
-    - key: Door to Venomous Pond
-      value:
-      - key: Door to Dark Torvus Temple
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: SOcGkOu7xlE}
   - key: Forgotten Bridge
     value:
     - key: Bridge Center
@@ -1595,23 +1649,6 @@ regions:
       - key: Pickup (Missile)
         value:
         - {difficulty: Expert, start_time: 0, video_id: 5PAqDbouU8M}
-  - key: Polluted Mire
-    value:
-    - key: Door to Gloom Vista
-      value:
-      - key: Door to Dark Falls
-        value:
-        - {difficulty: Ludicrous, start_time: 0, video_id: kbCS_aLOOL4}
-  - key: Portal Chamber (Dark)
-    value:
-    - key: Door to Poisoned Bog
-      value:
-      - key: Door to Venomous Pond
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: 4Y7QgMoT2TE}
-      - key: Portal to Portal Chamber (Light)
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: pEQt9C4c-EQ}
   - key: Portal Chamber (Light)
     value:
     - key: Door to Great Bridge
@@ -1627,13 +1664,6 @@ regions:
       - key: Portal to Portal Chamber (Dark)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: Ff2bv9IFo8Y&ab_channel=erinexplosives}
-  - key: Sacrificial Chamber
-    value:
-    - key: Top of Broken Statue
-      value:
-      - key: Door to Sacrificial Chamber Tunnel
-        value:
-        - {difficulty: Expert, start_time: 0, video_id: NrwVzVqQWD8}
   - key: Temple Access
     value:
     - key: Above Pickup
@@ -1729,24 +1759,4 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: IHkf9X3T9CQ}
         - {difficulty: Expert, start_time: 0, video_id: ZVYvCmgM82M}
         - {difficulty: Expert, start_time: 0, video_id: edit}
-  - key: Undertransit Two
-    value:
-    - key: Door to Dungeon
-      value:
-      - key: Door to Sacrificial Chamber
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 1qYBjig_jZA&t=23s}
-        - {difficulty: Intermediate, start_time: 0, video_id: -r5SIbRCY4c}
-    - key: Door to Sacrificial Chamber
-      value:
-      - key: Door to Dungeon
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 1qYBjig_jZA}
-  - key: Venomous Pond
-    value:
-    - key: Door to Brooding Ground
-      value:
-      - key: Pickup (Dark Torvus Key 3)
-        value:
-        - {difficulty: Advanced, start_time: 0, video_id: FN6HWNKMJKs}
 ---

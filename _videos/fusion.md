@@ -888,11 +888,24 @@ regions:
         - {difficulty: Expert, start_time: 0, video_id: CWyXKT_3JBE}
   - key: Cargo Hold to Sector 5 (ARC)
     value:
+    - key: Room Center
+      value:
+      - key: Door to Aquarium Shaft
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: f4waigffjDA}
+        - {difficulty: Beginner, start_time: 0, video_id: wHYSD-IN2aQ}
+      - key: Door to Pump Control Access
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: 1vroFFX0f8I}
+        - {difficulty: Beginner, start_time: 0, video_id: bcQWSb1OzSg}
     - key: Small Nook
       value:
       - key: Other to Aquarium Shaft
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: zyazrYLRuSk}
+      - key: Room Center
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: D3qLOYzJCI8}
   - key: Evir Enclosure
     value:
     - key: Door to Aquarium Pirate Tank
@@ -970,6 +983,10 @@ regions:
     value:
     - key: Bottom of Room
       value:
+      - key: Door to Pump Control Access
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: Uml2Ho_DIqE}
+        - {difficulty: Beginner, start_time: 0, video_id: YHSP9j7wIeE}
       - key: Other to Breeding Tank Access
         value:
         - {difficulty: Ludicrous, start_time: 0, video_id: TdPsN80nnxs}
@@ -1169,6 +1186,7 @@ regions:
       - key: Door to Training Aerie
         value:
         - {difficulty: Beginner, start_time: 0, video_id: XeE_DkCnuGI}
+        - {difficulty: Beginner, start_time: 0, video_id: c9ZXNaw35MA}
     - key: Door to Gerubus Gully
       value:
       - key: Door to Entrance Lobby

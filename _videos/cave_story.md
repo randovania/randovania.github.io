@@ -32,6 +32,15 @@ regions:
       - key: Pickup (West Grasstown Ceiling)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: e2Y-j0IV1Fs}
+- key: Outer Wall
+  value:
+  - key: Outer Wall
+    value:
+    - key: Outside Clock Room
+      value:
+      - key: Room Top
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: -hZwtVL18l0}
 - key: Plantation
   value:
   - key: Plantation
@@ -54,11 +63,4 @@ regions:
       - key: Door to Egg Corridor? (Eastern)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: jExjnf7aLRc}
-  - key: Outer Wall
-    value:
-    - key: Outside Clock Room
-      value:
-      - key: Room Top
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: -hZwtVL18l0}
 ---
