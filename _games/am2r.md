@@ -49,8 +49,8 @@ faq:
     you fight her before acquiring it.
 - question: Where can I find the Hints?
   answer: "There are eight hints in total, and the map will show an 'H' icon on places
-    where hints exist. They can can be found in:\n\n- Main Caves - Research Site Elevator\n
-    - Golden Temple - Breeding Grounds Hub\n- Hydro Station - Breeding Grounds Lobby\n
+    where hints exist. They can can be found in:\n\n- Main Caves - Research Site Elevator\n\
+    - Golden Temple - Breeding Grounds Hub\n- Hydro Station - Breeding Grounds Lobby\n\
     - Industrial Complex - Breeding Grounds Fly Stadium\n- The Tower - Tower Exterior
     North\n- Distribution Center - Distribution Facility Tower East\n- The Depths
     - Bubble Lair Shinespark Cave\n- Genetics Laboratory - Destroyed Chozo Memorial"

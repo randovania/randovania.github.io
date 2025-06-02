@@ -33,7 +33,7 @@ faq:
     of Prime are guaranteed to be logically completable when randomized.
 - question: Why do I not take heat damage in some rooms in Magmoor, despite not having
     Varia Suit?
-  answer: "Some rooms in Magmoor are not coded to be superheated. These include:\n
+  answer: "Some rooms in Magmoor are not coded to be superheated. These include:\n\
     - All Elevator Rooms\n- Burning Trail\n- Storage Cavern\n- Every room after Twin
     Fires Tunnel\n"
 ---

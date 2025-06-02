@@ -863,6 +863,7 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: ncBn4hyjC-A}
         - {difficulty: Intermediate, start_time: 0, video_id: AWajsYrYgbA}
+        - {difficulty: Ludicrous, start_time: 0, video_id: UEsvsxt9CgY}
   - key: Aquarium Pirate Tank
     value:
     - key: Pickup (Missile Tank)
@@ -879,6 +880,7 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: ncBn4hyjC-A}
         - {difficulty: Intermediate, start_time: 0, video_id: AWajsYrYgbA}
+        - {difficulty: Ludicrous, start_time: 0, video_id: UEsvsxt9CgY}
   - key: Broken Bridge
     value:
     - key: Door to Serris Arena
@@ -935,6 +937,14 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: cOAbWNOXHQY}
   - key: Powamp Shaft
     value:
+    - key: Door to Aquarium Speedway
+      value:
+      - key: Upper Ladder
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: zDXCR7HINss}
+        - {difficulty: Intermediate, start_time: 0, video_id: F6iQaCkrbV0}
+        - {difficulty: Intermediate, start_time: 0, video_id: 6iSEl5LF6aU}
+        - {difficulty: Intermediate, start_time: 0, video_id: eoniGf8_j70}
     - key: Top Alcove
       value:
       - key: Other to Hideout

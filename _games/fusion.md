@@ -27,7 +27,7 @@ faq:
 - question: How do the Missile Upgrades interact?
   answer: "The missile upgrades functions have been split, allowing unique combinations
     of effects and damage.\n- Missile Launcher Data - Allows Samus to fire missiles
-    causing 10 damage with no other upgrades\n- Super Missile Data - Adds 20 damage\n
+    causing 10 damage with no other upgrades\n- Super Missile Data - Adds 20 damage\n\
     - Ice Missile Data - Adds the ability to freeze enemies with direct hits and adds
     10 damage\n- Diffusion Missile Data - Adds the ability to charge a freezing blast
     and adds 5 damage"
@@ -36,7 +36,7 @@ faq:
     and damage.\n- Charge Beam - Adds the ability to charge Samus' beam and a minor
     damage increase\n- Wide Beam - Makes the beam fire 3 projectiles and a major increase
     to damage\n- Plasma Beam - Adds the ability to penetrate enemies and a minor damage
-    increase\n- Wave Beam - Makes the beam fire 2 projectiles and a major damage increase\n
+    increase\n- Wave Beam - Makes the beam fire 2 projectiles and a major damage increase\n\
     - Ice Beam - Adds the ability to freeze enemies with the beam and a minor damage
     increase"
 ---

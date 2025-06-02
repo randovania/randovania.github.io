@@ -29,8 +29,8 @@ faq:
     these models are not animated or have any additional effects.
 - question: Can I use other mods?
   answer: "Depending on which files the other mods change, it can go from simple to
-    impossible.\n\n* If a Lua file is modified, very likely it's not compatible.\n
-    * If a PKG file is modified, it'll have to be combined with the one from Randovania.\n
+    impossible.\n\n* If a Lua file is modified, very likely it's not compatible.\n\
+    * If a PKG file is modified, it'll have to be combined with the one from Randovania.\n\
     * Other mods likely work fine.\n\nWhen reporting issues, your first step is always
     to reproduce the issue without mods, **no matter how simple** the mod is."
 - question: I picked up the Speed Booster / Phantom Cloak / Storm Missile but can't
@@ -44,7 +44,7 @@ faq:
     Morph Ball Launcher to enter the arena."
 - question: I opened the Wide Beam door in Dairon's Teleport to Cataris, but it won't
     let me through!
-  answer: "Unlocking this door before turning on the power will render it unopenable.\n
+  answer: "Unlocking this door before turning on the power will render it unopenable.\n\
     \nTo fix this, simply save and reload the game."
 - question: I received a Beam/Missile upgrade from an E.M.M.I., and now my arm cannon
     doesn't work!

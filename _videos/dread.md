@@ -19,7 +19,7 @@ regions:
       - key: Pickup (Power Bomb Tank)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: gCCQn1jE08s}
-        - {difficulty: Advanced, start_time: 0, video_id: DXiz4wBXVFY}
+        - {difficulty: Expert, start_time: 0, video_id: DXiz4wBXVFY}
     - key: Door to Wide Beam Block Room (Lower)
       value:
       - key: Door to Wide Beam Block Room (Upper)
@@ -113,7 +113,7 @@ regions:
       value:
       - key: Door to Energy Recharge South
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: YkDT2IZG9p8}
+        - {difficulty: Advanced, start_time: 0, video_id: YkDT2IZG9p8}
     - key: Door to Storm Missile Gate Room
       value:
       - key: Inside Tunnel
@@ -222,8 +222,8 @@ regions:
       value:
       - key: Top Platform
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: eS4UULex4Vk}
         - {difficulty: Intermediate, start_time: 0, video_id: q4yodUPmfQU}
+        - {difficulty: Advanced, start_time: 0, video_id: eS4UULex4Vk}
     - key: Door to Artaria Transport Access
       value:
       - key: Event - East Blob, left
@@ -364,8 +364,8 @@ regions:
       value:
       - key: Door to EMMI Zone Exit Southeast
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: c12yQVQB2BY}
         - {difficulty: Intermediate, start_time: 0, video_id: aqBoiZywFr8}
+        - {difficulty: Advanced, start_time: 0, video_id: c12yQVQB2BY}
   - key: Energy Recharge Station
     value:
     - key: Left Water Ledge
@@ -425,11 +425,6 @@ regions:
     - key: Dock to Energy Recharge Station
       value:
       - key: Pickup (Missile Tank)
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 4YU9S5yxUXY}
-    - key: Pickup (Missile Tank)
-      value:
-      - key: Dock to Energy Recharge Station
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 4YU9S5yxUXY}
   - key: Total Recharge Station North

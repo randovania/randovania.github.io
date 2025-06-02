@@ -18,7 +18,7 @@ faq:
   answer: "The following rooms have surprising vanilla behaviour about their spider
     tracks:\n\n#### Main Reactor (Agon Wastes)\n\nThe spider tracks only works after
     you beat Dark Samus 1 and reload the room. When playing with no tricks, this means
-    you need Dark Beam to escape the room.\n\n#### Dynamo Works (Sanctuary Fortress)\n
+    you need Dark Beam to escape the room.\n\n#### Dynamo Works (Sanctuary Fortress)\n\
     \nThe spider tracks only works after you beat Spider Guardian. When playing with
     no tricks, you can't leave this way until you do that.\n\n#### Spider Guardian
     fight (Sanctuary Fortress)\n\nDuring the fight, the spider tracks only works in
@@ -47,10 +47,10 @@ faq:
 - question: How do I use the light energy transports?
   answer: "To use a light energy transport, simply enter the light energy/holograms
     with Light Suit. The following rooms behave differently and do not require Light
-    Suit, and may have additional requirements in order to use the transports:\n\n
+    Suit, and may have additional requirements in order to use the transports:\n\n\
     #### Energy Controllers\nThe light energy transports that are unlocked upon returning
     the Sanctuary Energy and going back to Main Energy Controller.\n\n#### Sky Temple
     Gateway (Sky Temple Grounds)\n\nThe light energy transport unlocked when returning
-    all the Sky Temple Keys.\n\n#### Sky Temple Energy Controller (Sky Temple)\n\n
+    all the Sky Temple Keys.\n\n#### Sky Temple Energy Controller (Sky Temple)\n\n\
     Taking the transport hologram at the center of this room."
 ---
