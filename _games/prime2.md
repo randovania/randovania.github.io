@@ -25,25 +25,27 @@ faq:
     the first and last phases. After the fight, they all work normally.\nThis means
     you need Boost Ball to fight Spider Guardian."
 - question: Where is the Flying Ing Cache inside Dark Oasis?
-  answer: The Flying Ing Cache in this room appears only after you collect the item
-    that appears after defeating Power Bomb Guardian.
+  answer: The Flying Ing Cache in this room appears only after you collect the 
+    item that appears after defeating Power Bomb Guardian.
 - question: What causes the Dark Missile Trooper to spawn?
   answer: Defeating the Bomb Guardian.
-- question: What causes the Missile Expansion on top of the GFMC Compound to spawn?
+- question: What causes the Missile Expansion on top of the GFMC Compound to 
+    spawn?
   answer: Collecting the item that appears after defeating the Jump Guardian.
 - question: Why isn't the elevator in Torvus Temple working?
-  answer: In order to open the elevator, you also need to pick the item in Torvus
-    Energy Controller.
-- question: Why can't I see the echo locks in Mining Plaza even when using the Echo
-    Visor?
-  answer: You need to beat Amorbis and then return the Agon Energy in order for these
-    echo locks to appear.
-- question: Why can't I cross the door between Underground Transport and Torvus Temple?
-  answer: The energy gate that disappears after the pirate fight in Torvus Temple
-    blocks this door.
+  answer: In order to open the elevator, you also need to pick the item in 
+    Torvus Energy Controller.
+- question: Why can't I see the echo locks in Mining Plaza even when using the 
+    Echo Visor?
+  answer: You need to beat Amorbis and then return the Agon Energy in order for 
+    these echo locks to appear.
+- question: Why can't I cross the door between Underground Transport and Torvus 
+    Temple?
+  answer: The energy gate that disappears after the pirate fight in Torvus 
+    Temple blocks this door.
 - question: Why can't I use the Kinetic Orb Cannon in Sanctuary Entrance?
-  answer: The morph cannon will only be active once the scan post has been scanned
-    and the room has been reloaded.
+  answer: The morph cannon will only be active once the scan post has been 
+    scanned and the room has been reloaded.
 - question: How do I use the light energy transports?
   answer: "To use a light energy transport, simply enter the light energy/holograms
     with Light Suit. The following rooms behave differently and do not require Light

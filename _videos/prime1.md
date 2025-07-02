@@ -1253,6 +1253,9 @@ regions:
     value:
     - key: Room Bottom
       value:
+      - key: Door to Main Ventilation Shaft Section A
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: g1jefLhAC2U}
       - key: Door to Reactor Access
         value:
         - {difficulty: Advanced, start_time: 0, video_id: FS571wDqNh4}

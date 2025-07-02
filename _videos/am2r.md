@@ -162,7 +162,7 @@ regions:
       value:
       - key: Above torizo
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 'youtube:'}
+        - {difficulty: Intermediate, start_time: 0, video_id: i0EBriIuCnI}
   - key: Lower Factory Hub
     value:
     - key: Door to Lower Factory Save Station

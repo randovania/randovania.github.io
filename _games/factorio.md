@@ -18,6 +18,6 @@ faq:
 - question: Are other mods supported?
   answer: Only mods that don't add new researches are compatible.
 - question: Is multiplayer supported?
-  answer: Yes. As the exported game uses a startup mod setting, it is synced naturally
-    for multiplayer games and works like any other Factorio mod.
+  answer: Yes. As the exported game uses a startup mod setting, it is synced 
+    naturally for multiplayer games and works like any other Factorio mod.
 ---
