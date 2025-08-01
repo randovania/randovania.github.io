@@ -235,6 +235,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: QR7cK9gGVLY}
         - {difficulty: Advanced, start_time: 0, video_id: dpwWRVCUBdY}
+        - {difficulty: Advanced, start_time: 0, video_id: LEipbQwmNaQ}
       - key: Event - Transport Center Gate
         value:
         - {difficulty: Advanced, start_time: 0, video_id: kX1HXF_BCew}

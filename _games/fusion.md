@@ -2,10 +2,15 @@
 game-id: fusion
 short-name: Fusion
 long-name: Metroid Fusion
-randomize: []
-need-to-play: []
+randomize:
+- All items including Security Keycards
+- Starting locations
+- A new goal has been added (Infant Metroid Hunt)
+need-to-play:
+- A ROM of Metroid Fusion (USA)
+- A Gameboy Advance Emulator (recommended mGBA or Bizhawk)
 multiworld: false
-development-state: staging
+development-state: stable
 faq:
 - question: What patcher does Randovania use?
   answer: Randovania supports the open source patcher MARS (Metroid Advance 
@@ -34,10 +39,15 @@ faq:
     and adds 5 damage"
 - question: How do the Beam Upgrades interact?
   answer: "The beam upgrades have been split, allowing unique combinations of effects
-    and damage.\n- Charge Beam - Adds the ability to charge Samus' beam and a minor
-    damage increase\n- Wide Beam - Makes the beam fire 3 projectiles and a major increase
-    to damage\n- Plasma Beam - Adds the ability to penetrate enemies and a minor damage
-    increase\n- Wave Beam - Makes the beam fire 2 projectiles and a major damage increase\n\
-    - Ice Beam - Adds the ability to freeze enemies with the beam and a minor damage
-    increase"
+    and damage.\n- Charge Beam - Adds the ability to charge Samus' beam\n- Wide Beam
+    - Makes the beam fire 3 projectiles\n- Plasma Beam - Adds the ability to penetrate
+    enemies\n- Wave Beam - Adds the ability to penetrate walls and makes the beam
+    fire at least 2 projectiles\n- Ice Beam - Adds the ability to freeze enemies\n\
+    \nEach beam collected adds to the total damage dealt per projectile."
+- question: How do the Suit Upgrades interact?
+  answer: "The suit upgrades have been split, allowing unique combinations of effects
+    and damage reduction.\n- Varia Suit - Adds protection from heated and cold rooms,
+    and the ability to absorb Blue-X\n- Gravity Suit - Adds the ability to freely
+    move in liquids\n\nEach suit collected provides additional damage reduction (amount
+    depending on enemy type).\nBoth suits are required for immunity to lava."
 ---
