@@ -85,6 +85,13 @@ regions:
         - {difficulty: Ludicrous, start_time: 0, video_id: LAOKA3XPrTY}
 - key: Burenia
   value:
+  - key: Burenia Hub to Dairon
+    value:
+    - key: Water Bottom
+      value:
+      - key: Event - Transport Blob from Below
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: 97wpf8CFLUo}
   - key: Gravity Suit Tower
     value:
     - key: Breakable Floor
@@ -239,6 +246,13 @@ regions:
       - key: Tunnel to Double Obsydomithon Room
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: j5l9mCXL-m8}
+  - key: Teleport to Dairon
+    value:
+    - key: Tunnel to Diffusion Beam Room
+      value:
+      - key: Event - Ledge Warp Setup
+        value:
+        - {difficulty: Disabled, start_time: 0, video_id: Y3wgVEtidi0}
   - key: Underlava Puzzle Room 2
     value:
     - key: Below Lava
@@ -341,6 +355,10 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: AaSlxp8GajA}
     - key: Underwater Bottom
       value:
+      - key: Door from Space Jump Room Access
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: iHFyp9ON-pM}
+        - {difficulty: Intermediate, start_time: 0, video_id: 3mfzhqqZBlc}
       - key: Underwater Ledge Left
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: tyQFmi8slA4}

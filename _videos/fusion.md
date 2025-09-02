@@ -175,11 +175,11 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: Mp9YwFW3dLM}
   - key: Atmospheric Stabilizer Northeast
     value:
-    - key: Room Center
+    - key: Door to Twin Junctions West
       value:
       - key: Event - Stabilizer 2 Online
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: I9YH_s989sQ}
+        - {difficulty: Expert, start_time: 0, video_id: I9YH_s989sQ}
   - key: Atmospheric Stabilizer Northwest
     value:
     - key: Door to Yameba Corridor
@@ -881,6 +881,20 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: ncBn4hyjC-A}
         - {difficulty: Intermediate, start_time: 0, video_id: AWajsYrYgbA}
         - {difficulty: Ludicrous, start_time: 0, video_id: UEsvsxt9CgY}
+  - key: Breeding Tank
+    value:
+    - key: Door to Breeding Tank Access
+      value:
+      - key: Door to Broken Bridge
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 0xdEARW5qvU}
+        - {difficulty: Advanced, start_time: 0, video_id: LFlbn5XPwCs}
+    - key: Door to Broken Bridge
+      value:
+      - key: Door to Breeding Tank Access
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: lig0PciKUNQ}
+        - {difficulty: Advanced, start_time: 0, video_id: Lb5C5ZyOh4A}
   - key: Broken Bridge
     value:
     - key: Door to Serris Arena
@@ -963,8 +977,8 @@ regions:
       value:
       - key: Pickup (Hidden Power Bomb Tank)
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: S05k8Y1aJTo}
-        - {difficulty: Advanced, start_time: 0, video_id: wKpeR_ap-E4}
+        - {difficulty: Beginner, start_time: 0, video_id: S05k8Y1aJTo}
+        - {difficulty: Intermediate, start_time: 0, video_id: wKpeR_ap-E4}
     - key: Room Center
       value:
       - key: Door to Sciser Stall
@@ -1018,8 +1032,8 @@ regions:
       value:
       - key: Door to Cheddar Bay
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: n9Z_Ywet4WE}
         - {difficulty: Beginner, start_time: 0, video_id: TDwTWYNa_F8}
+        - {difficulty: Ludicrous, start_time: 0, video_id: n9Z_Ywet4WE}
       - key: Other to Sciser Sanctuary
         value:
         - {difficulty: Advanced, start_time: 0, video_id: PtkMTguvNwE}

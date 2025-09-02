@@ -482,11 +482,13 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: TleaFWdVhUg}
         - {difficulty: Advanced, start_time: 0, video_id: OK3lSWvTKKU}
+        - {difficulty: Expert, start_time: 0, video_id: um_xIqYYM6U}
         - {difficulty: Expert, start_time: 0, video_id: Ue9T-9SY0o4}
     - key: Door to Twin Fires
       value:
       - key: Door to Transport to Tallon Overworld West
         value:
+        - {difficulty: Beginner, start_time: 0, video_id: DE3nIXkVvcc}
         - {difficulty: Expert, start_time: 0, video_id: 9jk5s2W6yhY}
 - key: Phazon Mines
   value:
@@ -1255,7 +1257,7 @@ regions:
       value:
       - key: Door to Main Ventilation Shaft Section A
         value:
-        - {difficulty: Expert, start_time: 0, video_id: g1jefLhAC2U}
+        - {difficulty: Ludicrous, start_time: 0, video_id: g1jefLhAC2U}
       - key: Door to Reactor Access
         value:
         - {difficulty: Advanced, start_time: 0, video_id: FS571wDqNh4}
