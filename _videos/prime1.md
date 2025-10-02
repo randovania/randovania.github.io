@@ -107,7 +107,7 @@ regions:
       - key: Event - Activate bomb slots
         value:
         - {difficulty: Beginner, start_time: 0, video_id: rbZwkpF8UIo}
-        - {difficulty: Ludicrous, start_time: 0, video_id: I-8AVusWYYk}
+        - {difficulty: Expert, start_time: 0, video_id: I-8AVusWYYk}
   - key: Hive Totem
     value:
     - key: Door to Totem Access
@@ -227,7 +227,7 @@ regions:
       value:
       - key: Door to Transport to Tallon Overworld East
         value:
-        - {difficulty: Ludicrous, start_time: 0, video_id: AFDSEx16464}
+        - {difficulty: Expert, start_time: 0, video_id: AFDSEx16464}
   - key: Sun Tower
     value:
     - key: Door to Transport to Magmoor Caverns North
@@ -830,7 +830,6 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: Xul1w1SsPew}
         - {difficulty: Advanced, start_time: 20, video_id: S4831hWNEfY}
         - {difficulty: Expert, start_time: 0, video_id: Nj0b89KIQVc}
-        - {difficulty: Ludicrous, start_time: 0, video_id: gwyYmQAHyyc}
   - key: Gravity Chamber
     value:
     - key: Door to Chamber Access
@@ -943,7 +942,7 @@ regions:
       - key: Pickup (Boost Ball)
         value:
         - {difficulty: Expert, start_time: 57, video_id: MARCa8m6ehQ}
-        - {difficulty: Ludicrous, start_time: 0, video_id: hMCN5AwtLYw}
+        - {difficulty: Expert, start_time: 0, video_id: HDUj0zQ9aX4}
     - key: Pickup (Boost Ball)
       value:
       - key: Door to Canyon Entryway
@@ -1240,10 +1239,10 @@ regions:
       value:
       - key: Door to Great Tree Hall
         value:
-        - {difficulty: Ludicrous, start_time: 16, video_id: e9LJa7G60yE}
+        - {difficulty: Expert, start_time: 16, video_id: e9LJa7G60yE}
       - key: Morph Ball Door to Life Grove
         value:
-        - {difficulty: Ludicrous, start_time: 0, video_id: e9LJa7G60yE}
+        - {difficulty: Expert, start_time: 0, video_id: e9LJa7G60yE}
   - key: Main Ventilation Shaft Section C
     value:
     - key: Door to Main Ventilation Shaft Section B

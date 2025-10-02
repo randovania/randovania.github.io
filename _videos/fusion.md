@@ -89,6 +89,7 @@ regions:
       - key: Beside Operations Room Hatch
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: GX6K70StdeY}
+        - {difficulty: Ludicrous, start_time: 0, video_id: 416jYaEuveg}
   - key: Operations Ventilation
     value:
     - key: Door to Crew Quarters West
@@ -271,6 +272,7 @@ regions:
       - key: Door to Ridley Arena Access
         value:
         - {difficulty: Advanced, start_time: 0, video_id: trYxYGq7PMs}
+        - {difficulty: Ludicrous, start_time: 0, video_id: 3rfQghnP54o}
   - key: Ridley Arena Access
     value:
     - key: Door to Ridley Arena
@@ -378,6 +380,7 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: l7ZIQt6lK2M}
         - {difficulty: Expert, start_time: 0, video_id: OCqWmh5SuGg}
         - {difficulty: Expert, start_time: 0, video_id: l0h-9oyqEsA}
+        - {difficulty: Expert, start_time: 0, video_id: 0vK7hC9qb0c}
   - key: Crumble City
     value:
     - key: Door to Level 1 Security Room
@@ -398,7 +401,7 @@ regions:
       value:
       - key: Door to Maintenance Wing
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: WSEOa-Ke16g}
+        - {difficulty: Intermediate, start_time: 0, video_id: gDFuo_4ODSo}
   - key: Data Courtyard
     value:
     - key: Door to Courtyard Access
@@ -410,7 +413,7 @@ regions:
       value:
       - key: Event - Bomb Block
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: Fs10I7_LjRY}
+        - {difficulty: Intermediate, start_time: 0, video_id: rBjunlUjoGI}
   - key: Dessgeega Dorm
     value:
     - key: Door to Reo Room
@@ -558,7 +561,7 @@ regions:
       - key: Door to Cultivation Station
         value:
         - {difficulty: Intermediate, start_time: 31, video_id: efHh9Hd00RQ}
-        - {difficulty: Expert, start_time: 0, video_id: xwUXVRBf3_4}
+        - {difficulty: Advanced, start_time: 0, video_id: xwUXVRBf3_4}
     - key: Door to Cultivation Station
       value:
       - key: Door to Cathedral
@@ -597,6 +600,9 @@ regions:
     value:
     - key: Arena Floor
       value:
+      - key: Door to Zazabi Arena Access
+        value:
+        - {difficulty: Ludicrous, start_time: 0, video_id: jcV-y3iVvPQ}
       - key: Door to Zazabi Speedway
         value:
         - {difficulty: Advanced, start_time: 0, video_id: GxPt-v_Kj_U}
@@ -623,7 +629,7 @@ regions:
       value:
       - key: Event - Break Bomb Blocks
         value:
-        - {difficulty: Ludicrous, start_time: 0, video_id: Cqf5mZg1NZc}
+        - {difficulty: Expert, start_time: 0, video_id: Cqf5mZg1NZc}
 - key: Sector 3 (PYR)
   value:
   - key: Alcove
@@ -733,7 +739,7 @@ regions:
       value:
       - key: Pickup (Hidden Power Bomb Tank)
         value:
-        - {difficulty: Expert, start_time: 0, video_id: xyR9PAwAMYM}
+        - {difficulty: Intermediate, start_time: 0, video_id: zAUo2uAluG0}
   - key: Lava Maze
     value:
     - key: Door to Lava Reservoirs
@@ -784,7 +790,12 @@ regions:
       value:
       - key: Pickup (Power Bomb Tank)
         value:
-        - {difficulty: Expert, start_time: 0, video_id: T8CZbxC6r6Y}
+        - {difficulty: Advanced, start_time: 0, video_id: T8CZbxC6r6Y}
+    - key: Pickup (Power Bomb Tank)
+      value:
+      - key: Door to Red Tower
+        value:
+        - {difficulty: Advanced, start_time: 79, video_id: T8CZbxC6r6Y}
   - key: Processing Access
     value:
     - key: Door to Red Tower
@@ -796,7 +807,7 @@ regions:
       value:
       - key: Door to Sova Processing (Upper)
         value:
-        - {difficulty: Expert, start_time: 0, video_id: o_0zrFKKkoo}
+        - {difficulty: Advanced, start_time: 0, video_id: o_0zrFKKkoo}
   - key: Pyrochamber
     value:
     - key: Door to Boiler Access
@@ -1042,6 +1053,14 @@ regions:
       - key: By Hole
         value:
         - {difficulty: Ludicrous, start_time: 0, video_id: BYdBjECAoAM}
+  - key: Security Bypass
+    value:
+    - key: Other to Security Access
+      value:
+      - key: Other to Cheddar Bay
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: _vQKLVtDxF4}
+        - {difficulty: Expert, start_time: 0, video_id: _vQKLVtDxF4}
   - key: Serris Arena
     value:
     - key: Arena
@@ -1085,8 +1104,8 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: JChKb_XpMlw}
         - {difficulty: Intermediate, start_time: 0, video_id: 8D8S1SwqZK8}
+        - {difficulty: Expert, start_time: 0, video_id: 154gQQseqvk}
         - {difficulty: Expert, start_time: 0, video_id: HSBkUTXnQC8}
-        - {difficulty: Ludicrous, start_time: 0, video_id: 154gQQseqvk}
   - key: Flooded Access
     value:
     - key: Door to Nightmare Hub
@@ -1283,9 +1302,9 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: PR0XnnUh-0A}
         - {difficulty: Intermediate, start_time: 0, video_id: iAHhW0NjQtk}
+        - {difficulty: Advanced, start_time: 0, video_id: mZe9Ht3o19w}
         - {difficulty: Advanced, start_time: 0, video_id: Mb5FyoDE9VM}
         - {difficulty: Advanced, start_time: 0, video_id: iu21O6E7tCQ}
-        - {difficulty: Expert, start_time: 0, video_id: mZe9Ht3o19w}
   - key: Forbidden Entrance
     value:
     - key: Door to Nocturnal Shaft
@@ -1404,7 +1423,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: JDSabpkP9qo&t=43}
         - {difficulty: Intermediate, start_time: 0, video_id: o3SWYYDnbe4}
-        - {difficulty: Expert, start_time: 0, video_id: M_bad6jxMRk}
+        - {difficulty: Advanced, start_time: 0, video_id: M_bad6jxMRk}
     - key: Door to Twin Caverns East (Lower)
       value:
       - key: Below Ledge
@@ -1488,5 +1507,5 @@ regions:
       - key: Pickup (Hidden Missile Tank)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: wu8pKLvrAMw}
-        - {difficulty: Expert, start_time: 0, video_id: oXu_rBiyO6E}
+        - {difficulty: Advanced, start_time: 0, video_id: oXu_rBiyO6E}
 ---
