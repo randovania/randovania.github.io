@@ -511,11 +511,11 @@ regions:
         - {difficulty: Expert, start_time: 0, video_id: GTSoLLbo2vk}
   - key: Dynamo Access
     value:
-    - key: Event - Elite Pirate Fight
+    - key: Fight Arena
       value:
-      - key: Door to Omega Research
+      - key: Event - Elite Pirate Fight
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: 20peXRPG-e0}
+        - {difficulty: Disabled, start_time: 0, video_id: 20peXRPG-e0}
   - key: Elevator Access A
     value:
     - key: Door to Elevator A
@@ -536,12 +536,15 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: VOesQWYfL-4}
       - key: Event - Elite Pirate Defeated
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: mx0rQa9ZAY4}
+        - {difficulty: Disabled, start_time: 0, video_id: mx0rQa9ZAY4}
     - key: Door to Elite Control Access
       value:
       - key: Bottom Floor Center
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 86eWOxO83Zk}
+      - key: Event - Elite Pirate Defeated
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: mx0rQa9ZAY4}
   - key: Elite Control Access
     value:
     - key: Door to Elevator A
@@ -766,6 +769,7 @@ regions:
       - key: Pickup (Artifact of Sun)
         value:
         - {difficulty: Advanced, start_time: 144, video_id: LoMIQJ7KCvM}
+        - {difficulty: Advanced, start_time: 0, video_id: -CRijFDCROQ}
   - key: Control Tower
     value:
     - key: Pickup (Artifact of Elder)

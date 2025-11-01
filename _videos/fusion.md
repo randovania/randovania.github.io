@@ -90,6 +90,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: GX6K70StdeY}
         - {difficulty: Ludicrous, start_time: 0, video_id: 416jYaEuveg}
+        - {difficulty: Ludicrous, start_time: 0, video_id: hbxt0FJyjWs}
   - key: Operations Ventilation
     value:
     - key: Door to Crew Quarters West
@@ -381,6 +382,7 @@ regions:
         - {difficulty: Expert, start_time: 0, video_id: OCqWmh5SuGg}
         - {difficulty: Expert, start_time: 0, video_id: l0h-9oyqEsA}
         - {difficulty: Expert, start_time: 0, video_id: 0vK7hC9qb0c}
+        - {difficulty: Ludicrous, start_time: 0, video_id: jryfI4EHDmM}
   - key: Crumble City
     value:
     - key: Door to Level 1 Security Room
@@ -464,6 +466,7 @@ regions:
       - key: Door to Crumble City
         value:
         - {difficulty: Expert, start_time: 0, video_id: A0e_o5otNC4}
+        - {difficulty: Ludicrous, start_time: 0, video_id: Gt3qi5ueffc}
   - key: Lobby Cache
     value:
     - key: Door to Entrance Lobby
@@ -538,6 +541,7 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: wMkvuz92ZwE}
         - {difficulty: Intermediate, start_time: 0, video_id: Zdyr1CPJCr4}
+        - {difficulty: Ludicrous, start_time: 0, video_id: jZdNjWwfv08}
   - key: Overgrown Spire
     value:
     - key: Door to Cloister
@@ -569,6 +573,11 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: efHh9Hd00RQ}
   - key: Puyo Palace
     value:
+    - key: Door to Cathedral
+      value:
+      - key: Door to Nettori Save Room
+        value:
+        - {difficulty: Ludicrous, start_time: 0, video_id: pWsLDYmU7qg}
     - key: Door to Nettori Save Room
       value:
       - key: Door to Cloister
@@ -651,6 +660,8 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: s6HpLtE82Ug}
         - {difficulty: Intermediate, start_time: 0, video_id: vIQJEjCc5n0}
         - {difficulty: Intermediate, start_time: 0, video_id: Ge8yZuaVguo&t=21}
+        - {difficulty: Advanced, start_time: 0, video_id: lG-_kouQp6c}
+        - {difficulty: Ludicrous, start_time: 0, video_id: YeWy3s8ma7E}
     - key: Door to Deserted Runway
       value:
       - key: Below E-Tank
@@ -791,11 +802,17 @@ regions:
       - key: Pickup (Power Bomb Tank)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: T8CZbxC6r6Y}
+    - key: Other to Checkpoint Crossing
+      value:
+      - key: Pickup (Power Bomb Tank)
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: 4LkNz-cjgUI}
     - key: Pickup (Power Bomb Tank)
       value:
       - key: Door to Red Tower
         value:
         - {difficulty: Advanced, start_time: 79, video_id: T8CZbxC6r6Y}
+        - {difficulty: Advanced, start_time: 18, video_id: sgPFgUr8pYI}
   - key: Processing Access
     value:
     - key: Door to Red Tower
@@ -982,6 +999,7 @@ regions:
       - key: Next to Pickup
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 5cASpPGdiig}
+        - {difficulty: Expert, start_time: 0, video_id: gcCHOiyA924}
   - key: Reservoir East
     value:
     - key: Door to Sciser Stall
@@ -999,6 +1017,7 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: h8Q6TKHg8kM}
         - {difficulty: Intermediate, start_time: 0, video_id: 6RhuTs1mD1c}
         - {difficulty: Advanced, start_time: 0, video_id: 97DOum62hkY}
+        - {difficulty: Expert, start_time: 0, video_id: Mw7bQw9vlrI}
   - key: Reservoir Vault
     value:
     - key: Door to Reservoir Save Room
@@ -1156,9 +1175,9 @@ regions:
       value:
       - key: Pickup (Hidden Missile Tank)
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: bh1TmgiSngk}
-        - {difficulty: Intermediate, start_time: 0, video_id: T-MYy-tZVU0}
-        - {difficulty: Intermediate, start_time: 0, video_id: 3PkI4SCSD3Q}
+        - {difficulty: Advanced, start_time: 0, video_id: T-MYy-tZVU0}
+        - {difficulty: Ludicrous, start_time: 0, video_id: bh1TmgiSngk}
+        - {difficulty: Ludicrous, start_time: 0, video_id: 3PkI4SCSD3Q}
   - key: Mini-Fridge
     value:
     - key: Other to Flooded Tower
@@ -1172,7 +1191,7 @@ regions:
       value:
       - key: Other to Ruined Break Room
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: lRKybDZdiA4}
+        - {difficulty: Advanced, start_time: 0, video_id: lRKybDZdiA4}
     - key: Door to Nightmare Save Room
       value:
       - key: Door to Nightmare Recharge Room

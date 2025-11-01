@@ -1748,6 +1748,10 @@ regions:
         - {difficulty: Expert, start_time: 0, video_id: LGgiOIFtmY4}
     - key: Front of Bomb Slot
       value:
+      - key: Door to Fortress Transport Access
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: wYw3txEyR3c}
+        - {difficulty: Intermediate, start_time: 0, video_id: 8teHXL6rX10}
       - key: Event - Training Chamber Statue
         value:
         - {difficulty: Ludicrous, start_time: 0, video_id: I7DVJ3KwI3w}

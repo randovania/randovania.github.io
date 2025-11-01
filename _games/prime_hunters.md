@@ -3,11 +3,12 @@ game-id: prime_hunters
 short-name: Hunters
 long-name: Metroid Prime Hunters
 randomize:
-- Everything
-- Nothing
+- All items, excluding Octoliths
+- Force Fields
+- Portals
 need-to-play:
-- A Nintendo Virtual Boy
-- Your original Virtual Boy Game Cartridge
+- A ROM of Metroid Prime Hunters
+- A Nintendo DS emulator or flashcart
 multiworld: false
 development-state: source
 faq: []

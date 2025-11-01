@@ -9,7 +9,7 @@ randomize:
 - Elevator destinations
 - A new goal has been added (DNA Hunt)
 need-to-play:
-- A modded 3DS with Luma3DS, or Citra
+- A modded 3DS with Luma3DS, or Azahar
 - A decrypted copy of your original game. Currently, only the NA and EU versions
   are supported.
 multiworld: true
