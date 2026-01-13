@@ -8,5 +8,5 @@ regions:
       value:
       - key: Door to Item Corridor (Varia)
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 'y4qCIB5QAL8?si'}
+        - {difficulty: Intermediate, start_time: 0, video_id: y4qCIB5QAL8?si}
 ---

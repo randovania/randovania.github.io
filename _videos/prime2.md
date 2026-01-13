@@ -357,7 +357,8 @@ regions:
       value:
       - key: Door to Save Station 3
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: '9YUW5K-nkGg?si=Om_MB9scqa2d5S98'}
+        - {difficulty: Advanced, start_time: 0, video_id: 
+            9YUW5K-nkGg?si=Om_MB9scqa2d5S98}
         - {difficulty: Advanced, start_time: 0, video_id: fnqMz66rGQY}
   - key: Judgment Pit
     value:
@@ -612,7 +613,8 @@ regions:
       value:
       - key: Door to Central Hive West Transport
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: 'wPLKS7hOhrE?si=ojCi7x8Vw6K49bUM&t=24'}
+        - {difficulty: Advanced, start_time: 0, video_id: 
+            wPLKS7hOhrE?si=ojCi7x8Vw6K49bUM&t=24}
       - key: Event - Aerial Training Site Barrier
         value:
         - {difficulty: Advanced, start_time: 0, video_id: wPLKS7hOhrE&t=23s}
@@ -890,7 +892,8 @@ regions:
       value:
       - key: Door to Checkpoint Station
         value:
-        - {difficulty: Ludicrous, start_time: 0, video_id: 'd-yq4nqriDo?si=pCKZzyH7Q8yg6MUH'}
+        - {difficulty: Ludicrous, start_time: 0, video_id: 
+            d-yq4nqriDo?si=pCKZzyH7Q8yg6MUH}
   - key: Main Research
     value:
     - key: Door to Torvus Transport Access
@@ -1011,7 +1014,8 @@ regions:
       value:
       - key: Room Center
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: 'XbJsYZe8rd0?list=PLx6vT1x-80zuA1vUepQUSqYOQeHiRNbt5&t=13'}
+        - {difficulty: Advanced, start_time: 0, video_id: 
+            XbJsYZe8rd0?list=PLx6vT1x-80zuA1vUepQUSqYOQeHiRNbt5&t=13}
     - key: Portal from Hive Portal Chamber (Second)
       value:
       - key: Pickup (Power Bomb)
@@ -1055,7 +1059,8 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 09eqchpgKXQ&t=34s}
         - {difficulty: Advanced, start_time: 0, video_id: 09eqchpgKXQ}
-        - {difficulty: Ludicrous, start_time: 0, video_id: '-jzu_Phf0lA?si=czd6_MNYjINbEBOV'}
+        - {difficulty: Ludicrous, start_time: 0, video_id: 
+            -jzu_Phf0lA?si=czd6_MNYjINbEBOV}
     - key: Door to Sentinel's Path
       value:
       - key: Door to Watch Station Access
@@ -1102,7 +1107,8 @@ regions:
       - key: Door to Main Gyro Chamber
         value:
         - {difficulty: Advanced, start_time: 0, video_id: RZF84ZLzefI}
-        - {difficulty: Advanced, start_time: 0, video_id: 'yEyxa-yLVFM?list=PLevfta9o_QKWuQNXAnmBXtzW4nmU5VLyN&t=11'}
+        - {difficulty: Advanced, start_time: 0, video_id: 
+            yEyxa-yLVFM?list=PLevfta9o_QKWuQNXAnmBXtzW4nmU5VLyN&t=11}
         - {difficulty: Advanced, start_time: 0, video_id: RZF84ZLzefI&t=11s}
         - {difficulty: Expert, start_time: 0, video_id: RZF84ZLzefI&t=25s}
       - key: Door to Watch Station
@@ -1434,8 +1440,10 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: AaQP8P6H440}
         - {difficulty: Intermediate, start_time: 0, video_id: AaQP8P6H440&t=9s}
-        - {difficulty: Intermediate, start_time: 0, video_id: 'fdeZP-g-VtI?list=PLevfta9o_QKWuQNXAnmBXtzW4nmU5VLyN&t=1'}
-        - {difficulty: Advanced, start_time: 0, video_id: 'fdeZP-g-VtI?list=PLevfta9o_QKWuQNXAnmBXtzW4nmU5VLyN&t=16'}
+        - {difficulty: Intermediate, start_time: 0, video_id: 
+            fdeZP-g-VtI?list=PLevfta9o_QKWuQNXAnmBXtzW4nmU5VLyN&t=1}
+        - {difficulty: Advanced, start_time: 0, video_id: 
+            fdeZP-g-VtI?list=PLevfta9o_QKWuQNXAnmBXtzW4nmU5VLyN&t=16}
         - {difficulty: Expert, start_time: 0, video_id: 9eih7bLQ6zs}
     - key: Pickup (Energy Tank)
       value:
@@ -1483,7 +1491,8 @@ regions:
       - key: Event - Catacombs Gate
         value:
         - {difficulty: Advanced, start_time: 0, video_id: bxc5m5UbrFI}
-        - {difficulty: Expert, start_time: 0, video_id: 'CsXAvL3jah4?list=PLevfta9o_QKWuQNXAnmBXtzW4nmU5VLyN&t=8'}
+        - {difficulty: Expert, start_time: 0, video_id: 
+            CsXAvL3jah4?list=PLevfta9o_QKWuQNXAnmBXtzW4nmU5VLyN&t=8}
       - key: Portal to Dungeon
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 2M7rPNLelJo}
@@ -1510,7 +1519,8 @@ regions:
       value:
       - key: Bridge Center
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: 'QKOaevks1mg?list=PLx6vT1x-80zuA1vUepQUSqYOQeHiRNbt5&t=13'}
+        - {difficulty: Advanced, start_time: 0, video_id: 
+            QKOaevks1mg?list=PLx6vT1x-80zuA1vUepQUSqYOQeHiRNbt5&t=13}
     - key: Door to Ruined Alcove
       value:
       - key: Bridge Center
@@ -1664,7 +1674,8 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: OclmhHImZpo&t=30s}
       - key: Portal to Portal Chamber (Dark)
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: Ff2bv9IFo8Y&ab_channel=erinexplosives}
+        - {difficulty: Advanced, start_time: 0, video_id: 
+            Ff2bv9IFo8Y&ab_channel=erinexplosives}
   - key: Temple Access
     value:
     - key: Above Pickup

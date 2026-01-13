@@ -8,12 +8,14 @@ regions:
       value:
       - key: Center
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: 'yDjHOQ-aG1w?si=PpW01Hv6797Savpq&t=9'}
+        - {difficulty: Advanced, start_time: 0, video_id: 
+            yDjHOQ-aG1w?si=PpW01Hv6797Savpq&t=9}
     - key: Event - EMP Slot
       value:
       - key: Door to Bullet Hell Room
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: 'yDjHOQ-aG1w?si=zPe36NJtWJCEMhPd'}
+        - {difficulty: Intermediate, start_time: 0, video_id: 
+            yDjHOQ-aG1w?si=zPe36NJtWJCEMhPd}
   - key: Spiky Spider Trial
     value:
     - key: Horizontal Dock to Serris Arena Access
@@ -49,7 +51,8 @@ regions:
         value:
         - {difficulty: Disabled, start_time: 0, video_id: zjSIvxyjc00}
         - {difficulty: Beginner, start_time: 0, video_id: 1T8X8W6G4-U}
-        - {difficulty: Beginner, start_time: 0, video_id: 'CCsGG55iT2w?si=QpcFt0IvayRhDNXG'}
+        - {difficulty: Beginner, start_time: 0, video_id: 
+            CCsGG55iT2w?si=QpcFt0IvayRhDNXG}
         - {difficulty: Beginner, start_time: 0, video_id: pQZt-9CaVSs}
         - {difficulty: Intermediate, start_time: 0, video_id: Z5j1qOOBOSk}
         - {difficulty: Expert, start_time: 0, video_id: Ttq2UmsIBJE}
