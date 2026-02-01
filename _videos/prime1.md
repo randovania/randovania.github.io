@@ -164,6 +164,7 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: NRtv6aOpssk}
         - {difficulty: Advanced, start_time: 0, video_id: rPgTD35efHo}
+        - {difficulty: Expert, start_time: 0, video_id: 035G9C-r2S8}
   - key: Ruined Fountain
     value:
     - key: Door to Meditation Fountain
@@ -185,37 +186,43 @@ regions:
       value:
       - key: Pickup (Missile Expansion)
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: GXPhNsNJG9E}
-        - {difficulty: Intermediate, start_time: 0, video_id: y1qS7oPqynY}
-        - {difficulty: Intermediate, start_time: 12, video_id: y1qS7oPqynY}
-        - {difficulty: Intermediate, start_time: 0, video_id: 0GiZ4ckMg7o}
+        - {difficulty: Advanced, start_time: 0, video_id: GXPhNsNJG9E}
+        - {difficulty: Advanced, start_time: 0, video_id: y1qS7oPqynY}
+        - {difficulty: Advanced, start_time: 0, video_id: 0GiZ4ckMg7o}
+        - {difficulty: Expert, start_time: 12, video_id: y1qS7oPqynY}
   - key: Ruined Shrine
     value:
     - key: Door to Ruined Shrine Access
       value:
       - key: Door to Tower of Light Access
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: 93RLiYdob9Q}
-        - {difficulty: Advanced, start_time: 0, video_id: lkdoZR7aZ5s}
-        - {difficulty: Advanced, start_time: 35, video_id: lkdoZR7aZ5s}
         - {difficulty: Expert, start_time: 0, video_id: 2YM21Ql50P0}
       - key: Event - Ruined Shrine Item (Morph Ball)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 3lkjUSO9tN4}
-      - key: Pickup (Missile Expansion Half Pipe)
+      - key: Top of Half Pipe near pickup
         value:
+        - {difficulty: Beginner, start_time: 0, video_id: 93RLiYdob9Q}
         - {difficulty: Advanced, start_time: 0, video_id: w0TIiZwv3Gk}
     - key: Door to Tower of Light Access
       value:
-      - key: Pickup (Missile Expansion Half Pipe)
+      - key: Top of Half Pipe near pickup
         value:
         - {difficulty: Beginner, start_time: 0, video_id: mmOJBhUouY4}
         - {difficulty: Intermediate, start_time: 27, video_id: lkdoZR7aZ5s}
+        - {difficulty: Expert, start_time: 26, video_id: 2YM21Ql50P0}
     - key: Pit
       value:
       - key: Door to Ruined Shrine Access
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: nJVx6BVzXNc}
+        - {difficulty: Advanced, start_time: 0, video_id: nJVx6BVzXNc}
+    - key: Top of Half Pipe near pickup
+      value:
+      - key: Door to Tower of Light Access
+        value:
+        - {difficulty: Beginner, start_time: 11, video_id: 93RLiYdob9Q}
+        - {difficulty: Intermediate, start_time: 16, video_id: lkdoZR7aZ5s}
+        - {difficulty: Intermediate, start_time: 35, video_id: lkdoZR7aZ5s}
   - key: Save Station 3
     value:
     - key: Door to Transport to Tallon Overworld East
@@ -253,8 +260,6 @@ regions:
       - key: Pickup (Wavebuster)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 2jyvwogPSDI}
-        - {difficulty: Intermediate, start_time: 0, video_id: nm2qvbKNAIw}
-        - {difficulty: Advanced, start_time: 0, video_id: bJHqj9OAxFo}
         - {difficulty: Advanced, start_time: 0, video_id: O_dTcT7p-fc}
         - {difficulty: Expert, start_time: 0, video_id: 3ZZH-1R4Cck}
   - key: Training Chamber
@@ -278,14 +283,14 @@ regions:
       value:
       - key: Door to Dynamo Access
         value:
-        - {difficulty: Expert, start_time: 0, video_id: bh18bp4makg}
+        - {difficulty: Expert, start_time: 47, video_id: bh18bp4makg}
         - {difficulty: Expert, start_time: 0, video_id: LdBFCaOFDE4}
     - key: Door to Watery Hall Access
       value:
       - key: Pickup (Missile Expansion)
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: HDYJkv3MUVI}
-        - {difficulty: Advanced, start_time: 0, video_id: Jla-gYSErGc}
+        - {difficulty: Advanced, start_time: 0, video_id: HDYJkv3MUVI}
+        - {difficulty: Expert, start_time: 0, video_id: MxHzwUaFvaY}
 - key: Frigate Orpheon
   value:
   - key: Biotech Research Area 2

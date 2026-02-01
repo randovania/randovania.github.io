@@ -1392,11 +1392,6 @@ regions:
         value:
         - {difficulty: Advanced, start_time: 0, video_id: aeXRjizm9fU}
         - {difficulty: Advanced, start_time: 0, video_id: NWXuyjskVKk}
-    - key: Door to Nocturnal Playground
-      value:
-      - key: Door to Nocturnal Access
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: o43xM3s5YdE}
     - key: Door to Pillar Highway
       value:
       - key: Door to Forbidden Entrance
@@ -1465,13 +1460,6 @@ regions:
       - key: Event - Varia Core-X
         value:
         - {difficulty: Ludicrous, start_time: 0, video_id: CfgKTcobo0s}
-  - key: Warehouse
-    value:
-    - key: Door to Data Access
-      value:
-      - key: Door to Warehouse Access
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: AiYGhtYXWGI}
   - key: Weapons Testing Grounds
     value:
     - key: Door to Warehouse Access
