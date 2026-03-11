@@ -57,7 +57,12 @@ regions:
         - {difficulty: Expert, start_time: 0, video_id: f6VfdRUSFVA}
   - key: Habitation Deck Entrance
     value:
-    - key: Door to Elevator to Central Nexus
+    - key: Door to Habitation Deck (Upper)
+      value:
+      - key: Door to Habitation Deck (Middle)
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: 1Vx2aVhG4W0}
+    - key: Door to Habitation Deck Elevator
       value:
       - key: Door to Habitation Deck (Middle)
         value:
@@ -65,11 +70,6 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: C56BsRG_eKY}
         - {difficulty: Advanced, start_time: 0, video_id: AUkhZE_5CbE}
         - {difficulty: Advanced, start_time: 0, video_id: H5AlKJwEuTU}
-    - key: Door to Habitation Deck (Upper)
-      value:
-      - key: Door to Habitation Deck (Middle)
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: 1Vx2aVhG4W0}
   - key: Nexus Storage
     value:
     - key: Pickup (Power Bomb Tank)
@@ -84,7 +84,7 @@ regions:
       - key: Event - SA-X
         value:
         - {difficulty: Ludicrous, start_time: 0, video_id: W5S4xK5cV-Q}
-    - key: Door to Elevator to Crew Quarters
+    - key: Door to Operations Deck Elevator
       value:
       - key: Beside Operations Room Hatch
         value:
@@ -266,24 +266,24 @@ regions:
       - key: Door to Entrance Lobby
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: pu2I2jaMrjI}
-  - key: Ridley Arena
+  - key: Neo-Ridley Arena
     value:
     - key: Arena
       value:
-      - key: Door to Ridley Arena Access
+      - key: Door to Neo-Ridley Arena Access
         value:
         - {difficulty: Advanced, start_time: 0, video_id: trYxYGq7PMs}
         - {difficulty: Ludicrous, start_time: 0, video_id: 3rfQghnP54o}
-  - key: Ridley Arena Access
+  - key: Neo-Ridley Arena Access
     value:
-    - key: Door to Ridley Arena
+    - key: Door to Neo-Ridley Arena
       value:
       - key: Door to Tourian Western Hub
         value:
         - {difficulty: Advanced, start_time: 0, video_id: eM3p0T3B9KE}
     - key: Door to Tourian Western Hub
       value:
-      - key: Door to Ridley Arena
+      - key: Door to Neo-Ridley Arena
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 6LnIEbN2deg}
   - key: Ripper Maze
@@ -478,7 +478,7 @@ regions:
     value:
     - key: Door to Cultivation Station
       value:
-      - key: Door to Zoro Zig-Zag
+      - key: Door to Zig-Zag-Zone
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 8gjeZTK98_8}
   - key: Nettori Arena
@@ -626,7 +626,7 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: IloQ-xd775I}
         - {difficulty: Beginner, start_time: 0, video_id: mRNkJZAJh84}
-  - key: Zoro Zig-Zag
+  - key: Zig-Zag-Zone
     value:
     - key: Door to Data Courtyard
       value:
@@ -711,7 +711,7 @@ regions:
     value:
     - key: Door to Alcove
       value:
-      - key: Door to Glass Tube to Sector 1 (SRX)
+      - key: Door to Sector 3 (PYR) Eastbound Glass Tube
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 7dIXfR4dkTA}
       - key: Other to B.O.X. Arena
@@ -744,13 +744,6 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: Pvv2dYRZAj4}
         - {difficulty: Advanced, start_time: 0, video_id: I5a5RUqrzn4}
         - {difficulty: Expert, start_time: 0, video_id: FJxCd30N2J4}
-  - key: Glass Tube to Sector 5 (ARC)
-    value:
-    - key: Door to Fiery Storage
-      value:
-      - key: Pickup (Hidden Power Bomb Tank)
-        value:
-        - {difficulty: Intermediate, start_time: 0, video_id: zAUo2uAluG0}
   - key: Lava Maze
     value:
     - key: Door to Lava Reservoirs
@@ -845,6 +838,13 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: vxQS1_ohmS4}
         - {difficulty: Expert, start_time: 0, video_id: oIyLsGRcNj4}
+  - key: Sector 3 (PYR) Westbound Glass Tube
+    value:
+    - key: Door to Fiery Storage
+      value:
+      - key: Pickup (Hidden Power Bomb Tank)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: zAUo2uAluG0}
   - key: Security Access
     value:
     - key: Behind Wall
@@ -930,7 +930,7 @@ regions:
       - key: Door to Breeding Tank
         value:
         - {difficulty: Expert, start_time: 0, video_id: CWyXKT_3JBE}
-  - key: Cargo Hold to Sector 5 (ARC)
+  - key: Cargo Hold
     value:
     - key: Room Center
       value:
@@ -1114,10 +1114,10 @@ regions:
     value:
     - key: Door to Arctic Containment
       value:
-      - key: Door to Glass Tube to Sector 3 (PYR)
+      - key: Door to Sector 5 (ARC) Eastbound Glass Tube
         value:
         - {difficulty: Beginner, start_time: 0, video_id: M4-1Hv2kVjI}
-    - key: Door to Glass Tube to Sector 3 (PYR)
+    - key: Door to Sector 5 (ARC) Eastbound Glass Tube
       value:
       - key: Pickup (Hidden Power Bomb Tank)
         value:
@@ -1137,7 +1137,7 @@ regions:
       - key: Door to Nightmare Hub
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: ApteCyerZVo}
-  - key: Flooded Airlock to Sector 4 (AQA)
+  - key: Flooded Airlock
     value:
     - key: Door to Zebesian Waters
       value:
@@ -1269,10 +1269,10 @@ regions:
     value:
     - key: Door to Flooded Access
       value:
-      - key: Door to Flooded Airlock to Sector 4 (AQA)
+      - key: Door to Flooded Airlock
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: uGBnSMt72Jc}
-    - key: Door to Flooded Airlock to Sector 4 (AQA)
+    - key: Door to Flooded Airlock
       value:
       - key: Door to Flooded Access
         value:
@@ -1282,7 +1282,7 @@ regions:
         - {difficulty: Ludicrous, start_time: 13, video_id: uGBnSMt72Jc}
     - key: Door to Flooded Tower
       value:
-      - key: Door to Flooded Airlock to Sector 4 (AQA)
+      - key: Door to Flooded Airlock
         value:
         - {difficulty: Ludicrous, start_time: 0, video_id: FdeET1OemYw}
 - key: Sector 6 (NOC)
@@ -1312,10 +1312,10 @@ regions:
     value:
     - key: Door to Entrance Recharge Room
       value:
-      - key: Door to Glass Tube to Sector 4 (AQA)
+      - key: Door to Sector 6 (NOC) Westbound Glass Tube
         value:
         - {difficulty: Advanced, start_time: 0, video_id: Ifde8nknvYk}
-    - key: Door to Glass Tube to Sector 4 (AQA)
+    - key: Door to Sector 6 (NOC) Westbound Glass Tube
       value:
       - key: Door to Entrance Recharge Room
         value:
@@ -1352,7 +1352,7 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: 2MqrUSwKQU0}
   - key: Neglected Shaft
     value:
-    - key: Door to Checkpoint to Restricted Zone
+    - key: Door to Authorization Checkpoint
       value:
       - key: Door to Bull Bend
         value:

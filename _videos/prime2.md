@@ -2,6 +2,14 @@
 regions:
 - key: Agon Wastes
   value:
+  - key: Agon Temple
+    value:
+    - key: Room Center
+      value:
+      - key: Event - Bomb Guardian
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: yaISvZXNLTw}
+        - {difficulty: Advanced, start_time: 0, video_id: 9W1__s4ABFw}
   - key: Bioenergy Production
     value:
     - key: Door to Security Station A
@@ -863,6 +871,7 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: BnCRXrOvPGs}
         - {difficulty: Intermediate, start_time: 0, video_id: FtylAcZbKFA}
         - {difficulty: Advanced, start_time: 0, video_id: ycwAO4nX0dE}
+        - {difficulty: Ludicrous, start_time: 0, video_id: PO2iuLTh2iw}
       - key: Next to Pickup
         value:
         - {difficulty: Advanced, start_time: 0, video_id: nVzQ88rAXTQ}
@@ -1361,6 +1370,11 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: GfRyq1ki6es}
         - {difficulty: Advanced, start_time: 0, video_id: GfRyq1ki6es&t=15s}
+    - key: Door to Sacred Path
+      value:
+      - key: Door to GFMC Compound
+        value:
+        - {difficulty: Ludicrous, start_time: 0, video_id: 1SGf1gyufXE}
   - key: Sacred Path
     value:
     - key: Door to Sacred Bridge
