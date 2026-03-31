@@ -777,6 +777,16 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: -CRijFDCROQ}
   - key: Control Tower
     value:
+    - key: Door to West Tower
+      value:
+      - key: Room Center
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: femXvPUNezk&t=24}
+    - key: Event - Tower (From Room Center)
+      value:
+      - key: Room Center
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: 1lpBLMGtWc8}
     - key: Pickup (Artifact of Elder)
       value:
       - key: Room Center
@@ -785,6 +795,9 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: NTcnaEYU9Ts}
     - key: Room Center
       value:
+      - key: Door to West Tower
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: femXvPUNezk}
       - key: Event - Tower (From Room Center)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: aRTUlWDOl84}
@@ -797,9 +810,18 @@ regions:
         - {difficulty: Advanced, start_time: 0, video_id: ANylQeC3en4}
     - key: Frost Cave Floor
       value:
+      - key: Door to Frost Cave Access
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: _3IcX2LT9wg}
+        - {difficulty: Advanced, start_time: 0, video_id: EnKrCllphjg}
+      - key: Door to Save Station C
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: l7vfXhZn0AY}
       - key: Door to Upper Edge Tunnel
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: 8y87p0uGneM}
+        - {difficulty: Intermediate, start_time: 0, video_id: 
+            8y87p0uGneM?si=KB8nhXGnTxIh76vV&t=10}
     - key: Pickup (Missile)
       value:
       - key: Frost Cave Floor
@@ -835,8 +857,9 @@ regions:
       value:
       - key: Door to Transport Access
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: S4831hWNEfY}
         - {difficulty: Intermediate, start_time: 0, video_id: Xul1w1SsPew}
+        - {difficulty: Intermediate, start_time: 0, video_id: XW3z8beA518}
+        - {difficulty: Intermediate, start_time: 0, video_id: S4831hWNEfY}
         - {difficulty: Advanced, start_time: 20, video_id: S4831hWNEfY}
         - {difficulty: Expert, start_time: 0, video_id: Nj0b89KIQVc}
   - key: Gravity Chamber
@@ -846,9 +869,9 @@ regions:
       - key: Pickup (Missile)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 1-jXmt9cIzI}
+        - {difficulty: Advanced, start_time: 0, video_id: rcdFTntLnqk}
         - {difficulty: Expert, start_time: 0, video_id: 6HGs473mXh8}
         - {difficulty: Ludicrous, start_time: 0, video_id: V_CBSW0l8Hs}
-        - {difficulty: Ludicrous, start_time: 59, video_id: E65HYxLnOZQ}
     - key: EventPickup - Gravity Chamber Item (Lower) + Pickup (Gravity Suit)
       value:
       - key: Door to Chamber Access
@@ -862,8 +885,9 @@ regions:
       value:
       - key: Door to Lower Edge Tunnel
         value:
-        - {difficulty: Intermediate, start_time: 0, video_id: wmwIhBC7OSQ}
         - {difficulty: Intermediate, start_time: 12, video_id: wmwIhBC7OSQ}
+        - {difficulty: Intermediate, start_time: 0, video_id: iPP7JdP8TJk}
+        - {difficulty: Advanced, start_time: 0, video_id: wmwIhBC7OSQ}
     - key: Door to Lake Tunnel
       value:
       - key: Door to Chamber Access
@@ -873,7 +897,7 @@ regions:
       value:
       - key: Door to Hunter Cave Access
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: QI_8AWgk6ts}
+        - {difficulty: Intermediate, start_time: 0, video_id: QI_8AWgk6ts}
         - {difficulty: Intermediate, start_time: 12, video_id: iYX3Bt8Vnnw}
         - {difficulty: Intermediate, start_time: 0, video_id: oPvUjPIBQQo}
         - {difficulty: Advanced, start_time: 2, video_id: iYX3Bt8Vnnw}
@@ -881,6 +905,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: Rw8w0ZSjeOc}
         - {difficulty: Advanced, start_time: 0, video_id: eUjS8NryIl8}
+        - {difficulty: Advanced, start_time: 21, video_id: Rw8w0ZSjeOc}
   - key: Ice Ruins East
     value:
     - key: Door to Ice Ruins Access
