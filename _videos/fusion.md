@@ -1503,7 +1503,8 @@ regions:
       value:
       - key: Pickup (Hidden Power Bomb Tank)
         value:
-        - {difficulty: Disabled, start_time: 0, video_id: 4y7ohyL0zkE&t=14s}
+        - {difficulty: Disabled, start_time: 0, video_id: 4y7ohyL0zkE&t=47}
+        - {difficulty: Advanced, start_time: 0, video_id: 6ESqvHw7Qyk}
         - {difficulty: Advanced, start_time: 0, video_id: 4y7ohyL0zkE&t=14}
         - {difficulty: Advanced, start_time: 0, video_id: 4y7ohyL0zkE&t=37}
         - {difficulty: Expert, start_time: 0, video_id: 4y7ohyL0zkE&t=24}

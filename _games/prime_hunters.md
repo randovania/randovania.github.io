@@ -10,6 +10,6 @@ need-to-play:
 - A ROM of Metroid Prime Hunters
 - A Nintendo DS emulator or flashcart
 multiworld: false
-development-state: source
+development-state: staging
 faq: []
 ---
