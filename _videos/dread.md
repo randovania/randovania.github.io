@@ -73,6 +73,11 @@ regions:
     value:
     - key: Door to Teleport to Dairon (Lower)
       value:
+      - key: Door to EMMI Zone First Entrance
+        value:
+        - {difficulty: Disabled, start_time: 0, video_id: sf4NY4i7loA}
+        - {difficulty: Intermediate, start_time: 0, video_id: 3k3ZBiam1l0}
+        - {difficulty: Advanced, start_time: 0, video_id: xlRsz1J4TWk}
       - key: Door to Teleport to Dairon (Thermal)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: DygpVK2XWJM}

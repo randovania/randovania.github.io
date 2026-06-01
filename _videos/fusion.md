@@ -68,8 +68,7 @@ regions:
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: o-DdSO4E3-M}
         - {difficulty: Advanced, start_time: 0, video_id: C56BsRG_eKY}
-        - {difficulty: Advanced, start_time: 0, video_id: AUkhZE_5CbE}
-        - {difficulty: Advanced, start_time: 0, video_id: H5AlKJwEuTU}
+        - {difficulty: Expert, start_time: 0, video_id: AUkhZE_5CbE}
   - key: Nexus Storage
     value:
     - key: Pickup (Power Bomb Tank)

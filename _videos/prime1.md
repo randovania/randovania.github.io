@@ -1122,8 +1122,10 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: 1eYUaaC5aPE}
         - {difficulty: Advanced, start_time: 0, video_id: APHumwVABLE}
+        - {difficulty: Advanced, start_time: 0, video_id: APHumwVABLE&t=16}
         - {difficulty: Expert, start_time: 0, video_id: fAqcenQwCSI}
         - {difficulty: Expert, start_time: 0, video_id: kpbBzBjYxJk}
+        - {difficulty: Expert, start_time: 0, video_id: kpbBzBjYxJk&t=5}
 - key: Tallon Overworld
   value:
   - key: Biotech Research Area 1
