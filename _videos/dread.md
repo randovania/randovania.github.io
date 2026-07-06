@@ -9,6 +9,46 @@ regions:
       - key: Tunnel to Shutter Platform Puzzle
         value:
         - {difficulty: Disabled, start_time: 0, video_id: JjC5ph5SJW8}
+  - key: Charge Beam Room
+    value:
+    - key: Start Point
+      value:
+      - key: Tunnel to Charge Beam Access
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: gW6Q8JEF5cI}
+  - key: EMMI First Chase End
+    value:
+    - key: Door to Teleport to Dairon (Middle)
+      value:
+      - key: Door to Teleport to Dairon (Top)
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: CbtL-2GGiuk}
+    - key: Door to Teleport to Dairon (Top)
+      value:
+      - key: Door to Teleport to Dairon (Middle)
+        value:
+        - {difficulty: Disabled, start_time: 0, video_id: Nj1UVWP0xzA}
+        - {difficulty: Intermediate, start_time: 0, video_id: CbtL-2GGiuk}
+  - key: EMMI Zone Dome
+    value:
+    - key: Dock to EMMI Zone Exit Northwest
+      value:
+      - key: Door to EMMI Zone Exit North
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: aNJ30_1OEGk}
+    - key: Door to EMMI Zone Exit North
+      value:
+      - key: Dock to EMMI Zone Exit Northwest
+        value:
+        - {difficulty: Disabled, start_time: 0, video_id: zLpd2INNBt0}
+        - {difficulty: Beginner, start_time: 0, video_id: OGcfk4kApbI}
+  - key: EMMI Zone Exit Northwest
+    value:
+    - key: Door to EMMI Zone Dome
+      value:
+      - key: Dock to EMMI Zone Dome
+        value:
+        - {difficulty: Advanced, start_time: 0, video_id: sFMKqRatCn8}
   - key: EMMI Zone Hub
     value:
     - key: Door to EMMI Zone Ballspark Hallway
@@ -25,6 +65,11 @@ regions:
       - key: Door to Wide Beam Block Room (Upper)
         value:
         - {difficulty: Intermediate, start_time: 0, video_id: bDwcjN4JTYQ}
+    - key: Tunnel to EMMI Zone Exit South
+      value:
+      - key: Pickup (Power Bomb Tank)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: fTvewcFs7a0}
   - key: EMMI Zone Spinner
     value:
     - key: Tunnel to White EMMI Arena
@@ -35,6 +80,13 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: OFHELQQbO4w}
         - {difficulty: Advanced, start_time: 0, video_id: RUvZaIl5vts}
         - {difficulty: Advanced, start_time: 0, video_id: otd7WX_dU_s}
+  - key: Hot Cataris Shortcut
+    value:
+    - key: Door to Hot Room Hub
+      value:
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: 3ykOYO65oKc}
   - key: Melee Tutorial Room
     value:
     - key: Tunnel to Melee Tutorial West
@@ -42,6 +94,7 @@ regions:
       - key: Near Missile Tank 1
         value:
         - {difficulty: Beginner, start_time: 0, video_id: m4FANVI7eOU}
+        - {difficulty: Intermediate, start_time: 0, video_id: Gwrbu5Usm2c}
         - {difficulty: Intermediate, start_time: 0, video_id: R9VK5rfKMmg}
   - key: Proto EMMI Introduction
     value:
@@ -50,6 +103,12 @@ regions:
       - key: Pickup (Missile Tank)
         value:
         - {difficulty: Beginner, start_time: 0, video_id: AhrGDpzB3lI}
+    - key: Door to Proto EMMI Battle
+      value:
+      - key: Pickup (Missile Tank)
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: Bz7lv6To7zI}
+        - {difficulty: Advanced, start_time: 0, video_id: Q8X1MC-bIeI}
   - key: Screw Attack Room
     value:
     - key: Door to Transport to Burenia
@@ -69,6 +128,29 @@ regions:
       - key: Door to Cold Introduction
         value:
         - {difficulty: Disabled, start_time: 0, video_id: r7pZrdDgi9Q}
+  - key: Teleport to Cataris
+    value:
+    - key: Teleporter to Cataris
+      value:
+      - key: Event - Early SA Shortcut Blob
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: hBPwFgzHPyo}
+  - key: Teleport to Dairon
+    value:
+    - key: Dock to Arbitrary Enky Room (Lower)
+      value:
+      - key: Dock to Arbitrary Enky Room (Upper)
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: ho7Zzb20Nns}
+  - key: White EMMI Arena
+    value:
+    - key: Door to Central Unit Access (Charge)
+      value:
+      - key: Door to EMMI Zone Spinner (Middle)
+        value:
+        - {difficulty: Disabled, start_time: 0, video_id: XpKJV5wCOCk}
+        - {difficulty: Disabled, start_time: 0, video_id: qgh7ei-vYGQ}
+        - {difficulty: Advanced, start_time: 0, video_id: PZXnNkGoTFU}
   - key: White EMMI Introduction
     value:
     - key: Door to Teleport to Dairon (Lower)

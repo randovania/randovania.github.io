@@ -183,6 +183,11 @@ regions:
         - {difficulty: Expert, start_time: 0, video_id: I9YH_s989sQ}
   - key: Atmospheric Stabilizer Northwest
     value:
+    - key: Door to Hornoad Hole
+      value:
+      - key: Event - Stabilizer 1 Online
+        value:
+        - {difficulty: Ludicrous, start_time: 0, video_id: aq0PQxbFJQk}
     - key: Door to Yameba Corridor
       value:
       - key: Event - Stabilizer 1 Online
@@ -341,6 +346,13 @@ regions:
         value:
         - {difficulty: Ludicrous, start_time: 0, video_id: 7CrmoeqlIUk}
         - {difficulty: Ludicrous, start_time: 0, video_id: QnQD7K9hcB8}
+  - key: Yameba Corridor
+    value:
+    - key: Door to Atmospheric Stabilizer Northwest
+      value:
+      - key: Event - Missile Geron
+        value:
+        - {difficulty: Ludicrous, start_time: 0, video_id: aq0PQxbFJQk}
   - key: Zebesian Zag
     value:
     - key: Door to Atmospheric Stabilizer Southeast
@@ -1513,6 +1525,7 @@ regions:
       value:
       - key: Pickup (Hidden Missile Tank)
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: wu8pKLvrAMw}
+        - {difficulty: Beginner, start_time: 0, video_id: DI1CTMTanWY}
         - {difficulty: Advanced, start_time: 0, video_id: oXu_rBiyO6E}
+        - {difficulty: Ludicrous, start_time: 0, video_id: DHgzHgNwSso}
 ---
