@@ -560,6 +560,13 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: pEQt9C4c-EQ}
   - key: Sacrificial Chamber
     value:
+    - key: Front of Broken Statue
+      value:
+      - key: Door to Sacrificial Chamber Tunnel
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: UgES-qkjLps}
+        - {difficulty: Intermediate, start_time: 0, video_id: rgoS_iOnz18}
+        - {difficulty: Advanced, start_time: 0, video_id: DqVJQsXlPxA}
     - key: Top of Broken Statue
       value:
       - key: Door to Sacrificial Chamber Tunnel

@@ -38,4 +38,8 @@ faq:
   answer: "Some rooms in Magmoor are not coded to be superheated. These include:\n\
     - All Elevator Rooms\n- Burning Trail\n- Storage Cavern\n- Every room after Twin
     Fires Tunnel\n"
+- question: I picked up Gravity Suit too early and it is inhibiting my ability 
+    to perform Gravityless Underwater Movement tricks. How do I proceed?
+  answer: "You can temporarily unequip Gravity Suit by performing the following:\n\
+    \n```\nStart Menu --> Options --> Visor / Suit --> Gravity Suit --> Off\n```"
 ---

@@ -37,7 +37,7 @@ regions:
       value:
       - key: Other to Silo Tunnel
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: vVG5YNwzGjw}
+        - {difficulty: Ludicrous, start_time: 0, video_id: vVG5YNwzGjw}
     - key: Door to Silo Entry
       value:
       - key: Door to Silo Catwalk
@@ -970,6 +970,7 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: mm0dFQdA1sM}
         - {difficulty: Beginner, start_time: 0, video_id: M6cyTUajA1s}
         - {difficulty: Intermediate, start_time: 0, video_id: -g0hi1wELtI}
+        - {difficulty: Advanced, start_time: 0, video_id: 3qng4CxLTEQ}
   - key: Powamp Playhouse
     value:
     - key: Door to Data Room
@@ -1339,12 +1340,12 @@ regions:
     value:
     - key: Door to Nocturnal Shaft
       value:
-      - key: Door to X-B.O.X. Arena Access
+      - key: Right of Power Bomb Wall
         value:
         - {difficulty: Advanced, start_time: 0, video_id: g_pKLsS1vos}
         - {difficulty: Advanced, start_time: 0, video_id: Anr2464Uz0w}
         - {difficulty: Advanced, start_time: 0, video_id: cIdt2h_VvhQ}
-    - key: Door to X-B.O.X. Arena Access
+    - key: Right of Power Bomb Wall
       value:
       - key: Door to Nocturnal Shaft
         value:

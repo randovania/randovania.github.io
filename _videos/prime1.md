@@ -503,8 +503,8 @@ regions:
       value:
       - key: Event - Security Drone
         value:
-        - {difficulty: Beginner, start_time: 0, video_id: 3Y2n-boOGUw}
-        - {difficulty: Beginner, start_time: 0, video_id: aprVv7pePYc}
+        - {difficulty: Disabled, start_time: 0, video_id: 3Y2n-boOGUw}
+        - {difficulty: Disabled, start_time: 0, video_id: aprVv7pePYc}
       - key: Pickup (Main Power Bombs)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: rDCTXaNmypI}
@@ -547,9 +547,6 @@ regions:
       - key: Bottom Floor Center
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 86eWOxO83Zk}
-      - key: Event - Elite Pirate Defeated
-        value:
-        - {difficulty: Beginner, start_time: 0, video_id: mx0rQa9ZAY4}
   - key: Elite Control Access
     value:
     - key: Door to Elevator A
@@ -676,7 +673,7 @@ regions:
       value:
       - key: Front of Barrier
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: h9of56WsG4s}
+        - {difficulty: Intermediate, start_time: 0, video_id: h9of56WsG4s}
         - {difficulty: Advanced, start_time: 0, video_id: v3VMpJELp_4}
         - {difficulty: Expert, start_time: 62, video_id: wXxYBRIgDb4}
         - {difficulty: Ludicrous, start_time: 16, video_id: Ic3nXNhiUP8}
@@ -710,7 +707,7 @@ regions:
       value:
       - key: Door to Elevator Access A
         value:
-        - {difficulty: Advanced, start_time: 0, video_id: gnqifLICKyo}
+        - {difficulty: Intermediate, start_time: 0, video_id: gnqifLICKyo}
     - key: Door to Storage Depot B
       value:
       - key: Door to Waste Disposal

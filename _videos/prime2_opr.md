@@ -560,11 +560,18 @@ regions:
         - {difficulty: Intermediate, start_time: 0, video_id: pEQt9C4c-EQ}
   - key: Sacrificial Chamber
     value:
-    - key: Top of Broken Statue
+    - key: Arena Platform
       value:
       - key: Door to Sacrificial Chamber Tunnel
         value:
-        - {difficulty: Expert, start_time: 0, video_id: NrwVzVqQWD8}
+        - {difficulty: Beginner, start_time: 0, video_id: ypM5qValiQc}
+    - key: Underneath Platform
+      value:
+      - key: Arena Platform
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: UgES-qkjLps}
+        - {difficulty: Intermediate, start_time: 0, video_id: rgoS_iOnz18}
+        - {difficulty: Advanced, start_time: 0, video_id: DqVJQsXlPxA}
   - key: Undertransit Two
     value:
     - key: Door to Dungeon
