@@ -19,6 +19,13 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: GgSowN-UNIM}
         - {difficulty: Beginner, start_time: 0, video_id: 6oJ6Kl0xAmY}
         - {difficulty: Intermediate, start_time: 0, video_id: y4qCIB5QAL8?si}
+  - key: Green Sanctuary E
+    value:
+    - key: Right Side
+      value:
+      - key: Left Side
+        value:
+        - {difficulty: Beginner, start_time: 0, video_id: ivMqYfDMlvQ}
   - key: Maru Mari Hall
     value:
     - key: Pickup (Morph Ball)

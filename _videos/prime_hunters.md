@@ -10,6 +10,16 @@ regions:
         value:
         - {difficulty: Beginner, start_time: 0, video_id: QRJ9q8txDS0}
         - {difficulty: Beginner, start_time: 0, video_id: dj9GjVGNYmE}
+  - key: Crash Site
+    value:
+    - key: Lower Area
+      value:
+      - key: Pickup (Cartograph Artifact)
+        value:
+        - {difficulty: Advanced, start_time: 4, video_id: XrlS91e24KM}
+      - key: Player Spawn
+        value:
+        - {difficulty: Expert, start_time: 0, video_id: tUDP7-cNlvU}
   - key: High Ground
     value:
     - key: Door to Elder Passage (Top)
@@ -48,6 +58,13 @@ regions:
         - {difficulty: Beginner, start_time: 0, video_id: 5KUL4LPvICI}
         - {difficulty: Intermediate, start_time: 0, video_id: B945yWa8vgA}
         - {difficulty: Intermediate, start_time: 0, video_id: T97P-ejpUXs}
+  - key: Sic Transit
+    value:
+    - key: Inner Room
+      value:
+      - key: Room Center
+        value:
+        - {difficulty: Advanced, start_time: 5, video_id: 3olw3CH3GQw}
 - key: Celestial Archives
   value:
   - key: Incubation Vault 01
@@ -83,4 +100,11 @@ regions:
       - key: Pickup (Attameter Artifact)
         value:
         - {difficulty: Advanced, start_time: 0, video_id: 9CPSPAU_Fjk}
+  - key: Weapons Complex
+    value:
+    - key: Psycho Bits Arena
+      value:
+      - key: Pickup (Attameter Artifact)
+        value:
+        - {difficulty: Advanced, start_time: 24, video_id: UGGMN4JHzSo}
 ---

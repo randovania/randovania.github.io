@@ -713,11 +713,16 @@ regions:
       value:
       - key: Portal to Aerie
         value:
+        - {difficulty: Beginner, start_time: 0, video_id: Lkzy0HJEO6k&t=33s}
         - {difficulty: Beginner, start_time: 0, video_id: Lkzy0HJEO6k}
-        - {difficulty: Intermediate, start_time: 0, video_id: Lkzy0HJEO6k&t=33s}
         - {difficulty: Intermediate, start_time: 0, video_id: Lkzy0HJEO6k&t=16s}
         - {difficulty: Advanced, start_time: 0, video_id: Lkzy0HJEO6k&t=60s}
         - {difficulty: Expert, start_time: 0, video_id: 4bPTa8JvBBA}
+    - key: Portal to Aerie
+      value:
+      - key: Portal from Aerie
+        value:
+        - {difficulty: Intermediate, start_time: 0, video_id: d0xdTa3WKP4}
   - key: Hive Temple
     value:
     - key: Door to Hive Controller Access

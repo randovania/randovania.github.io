@@ -8,7 +8,8 @@ randomize:
 - A new goal has been added (Infant Metroid Hunt)
 need-to-play:
 - A ROM of Metroid Fusion (USA)
-- A Gameboy Advance Emulator (recommended mGBA or Bizhawk)
+- A Gameboy Advance Emulator (recommended mGBA or Bizhawk) or something that can
+  run ROMs natively (flashcard, open_agb_firm, Game Boy Interface, etc.)
 multiworld: false
 development-state: stable
 faq:
